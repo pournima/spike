@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scrollbarEquipmentFitting"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="30dp" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        android:orientation="vertical" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/equipment_fitting"
+            android:textColor="@color/red_dark"
+            android:textSize="25dp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/imgVideoPuttingHelment"
+            android:layout_width="220dp"
+            android:layout_height="100dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/putting_helment"
+            android:clickable="true" />
+
+        <ImageView
+            android:id="@+id/imgVideoProperFit"
+            android:layout_width="220dp"
+            android:layout_height="110dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/proper_fit"
+            android:clickable="true" />
+
+        <ImageView
+            android:id="@+id/imgVideoTakingOffHelment"
+            android:layout_width="220dp"
+            android:layout_height="110dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/taking_off_helment"
+            android:clickable="true" />
+
+        <ImageView
+            android:id="@+id/imgVideoRiddell"
+            android:layout_width="220dp"
+            android:layout_height="110dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/riddell"
+            android:clickable="true" />
+    </LinearLayout>
+
+</ScrollView>

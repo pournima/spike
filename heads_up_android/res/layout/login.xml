@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/blue_bg"
+    android:orientation="vertical" >
+
+    <ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/scrollbarlogin"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <LinearLayout
+            android:id="@+id/loginForm"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/ImageViewSignInLogo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/headsup_logo"
+                android:contentDescription="@string/label" />
+
+            <TextView
+                android:id="@+id/loginMessage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="0dp"
+                android:text=""
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="@color/white"
+                android:textSize="6pt" >
+            </TextView>
+
+            <EditText
+                android:id="@+id/EditLoginEmail"
+                style="@style/inputText"
+                android:layout_marginTop="15dp"
+                android:hint="@string/login_email"
+                android:inputType="textEmailAddress" >
+            </EditText>
+
+            <EditText
+                android:id="@+id/EditLoginPassword"
+                style="@style/inputText"
+                android:hint="@string/login_password"
+                android:inputType="textPassword" >
+            </EditText>
+
+            <Button
+                android:id="@+id/ButtonSendFeedback"
+                style="@style/loginText"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="35dp"
+                android:layout_marginRight="35dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/btn_green"
+                android:onClick="login"
+                android:text="@string/login_sign" >
+            </Button>
+
+            <TextView
+                android:id="@+id/forgotPwd"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="20dp"
+                android:onClick="createNewTemplateforForgotPwd"
+                android:text="@string/login_forgot"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="@color/white"
+                android:textSize="8pt" >
+            </TextView>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

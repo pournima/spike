@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/lnrGridItem"
+    android:layout_width="150dp"
+    android:layout_height="190dp"
+    android:orientation="vertical"
+    android:paddingLeft="7dp"
+    android:weightSum="1" >
+    
+    <ImageView 
+        android:id="@+id/imgViewSignalCatagory"
+        android:layout_height="0dp"
+        android:layout_width="match_parent"
+        android:layout_weight=".65"
+        android:background="@drawable/image_border"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="5dp"/>
+
+    <TextView
+        android:id="@+id/txtSignalCatagory"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:paddingLeft="1dp"
+        android:paddingRight="1dp"
+        android:layout_weight="0.29"
+        android:background="@color/blue_dark"
+        android:gravity="center"
+        android:text="@string/signals_safety"
+        android:textColor="@color/white"
+        android:textSize="12dp" />
+ 
+    <ImageView
+            android:id="@+id/imageShadow"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal|top"
+        	android:layout_marginLeft="5dp"
+        	android:layout_marginRight="5dp"
+        	android:background="@drawable/signal_thumb_shadow">
+    </ImageView> 
+</LinearLayout>

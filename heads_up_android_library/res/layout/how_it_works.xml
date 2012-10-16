@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/mainbg" >
+
+    <TextView
+        android:id="@+id/txtHowItWorks"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:text="@string/how_it_works"
+        android:textColor="@color/red_dark"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:id="@+id/linearLHowIt"
+        android:layout_width="fill_parent"
+        android:layout_height="25dp"
+        android:layout_below="@id/txtHowItWorks"
+        android:layout_marginBottom="15dp"
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:id="@+id/img_hiw_slider_panel1"
+            android:layout_width="30dp"
+            android:layout_height="20dp"
+            android:layout_marginRight="15dp"
+            android:contentDescription="@string/hello"
+            android:gravity="center_horizontal"
+            android:paddingRight="3dp"
+            android:src="@drawable/videoiconselect" />
+
+        <ImageView
+            android:id="@+id/img_hiw_slider_panel2"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginRight="15dp"
+            android:contentDescription="@string/hello"
+            android:gravity="center_horizontal"
+            android:paddingRight="3dp"
+            android:src="@drawable/slideicon" />
+
+        <ImageView
+            android:id="@+id/img_hiw_slider_panel3"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginRight="15dp"
+            android:contentDescription="@string/hello"
+            android:gravity="center_horizontal"
+            android:paddingRight="3dp"
+            android:src="@drawable/slideicon" />
+
+        <ImageView
+            android:id="@+id/img_hiw_slider_panel4"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginRight="15dp"
+            android:contentDescription="@string/hello"
+            android:gravity="center_horizontal"
+            android:paddingRight="3dp"
+            android:src="@drawable/slideicon" />
+
+        <ImageView
+            android:id="@+id/img_hiw_slider_panel5"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginRight="15dp"
+            android:contentDescription="@string/hello"
+            android:gravity="center_horizontal"
+            android:paddingRight="3dp"
+            android:src="@drawable/slideicon" />
+
+        <ImageView
+            android:id="@+id/img_hiw_slider_panel6"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginRight="15dp"
+            android:contentDescription="@string/hello"
+            android:gravity="center_horizontal"
+            android:paddingRight="3dp"
+            android:src="@drawable/slideicon" />
+    </LinearLayout>
+
+    <ViewFlipper
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/flipper"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/linearLHowIt"
+        android:layout_marginBottom="20dp" >
+
+        <ScrollView
+            android:id="@+id/scripScroll0"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <LinearLayout style="@style/howItWorksButton" >
+
+                <TextView
+                    android:id="@+id/howItWorksPageDesc"
+                    style="@style/howItWorksText"
+                    android:layout_gravity="center_horizontal"
+                    android:gravity="center"
+                    android:text="@string/watch_video_overview"
+                    android:textColor="@color/blue_dark"
+                    android:textSize="18dp"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:id="@+id/imageViewVideo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="10dp"
+                    android:src="@drawable/about_usaf_video" >
+                </ImageView>
+            </LinearLayout>
+        </ScrollView>
+
+        <ScrollView
+            android:id="@+id/scripScroll1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <LinearLayout
+                style="@style/howItWorksLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <TextView
+                    style="@style/howItWorksText"
+                    android:layout_gravity="center_horizontal"
+                    android:gravity="center"
+                    android:text="@string/how_it_works_checkin"
+                    android:textColor="@color/blue_dark"
+                    android:textSize="18dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textBusinessTap"
+                    style="@style/howItWorksText"
+                    android:paddingTop="20dp"
+                    android:textColor="@color/black" />
+
+                <TextView
+                    style="@style/howItWorksText"
+                    android:paddingTop="18dp"
+                    android:text="@string/how_it_works_business_find"
+                    android:textColor="@color/black" />
+            </LinearLayout>
+        </ScrollView>
+
+        <ScrollView
+            android:id="@+id/scripScroll2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <LinearLayout
+                style="@style/howItWorksLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <TextView
+                    style="@style/howItWorksText"
+                    android:layout_gravity="center_horizontal"
+                    android:gravity="center"
+                    android:text="@string/how_it_works_qr"
+                    android:textColor="@color/blue_dark"
+                    android:textSize="18dp"
+                    android:textStyle="bold" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:weightSum="1.0" >
+
+                    <TextView
+                        style="@style/howItWorksText"
+                        android:layout_gravity="center_vertical"
+                        android:layout_weight="1"
+                        android:paddingTop="10dp"
+                        android:text="@string/how_it_works_snap_top"
+                        android:textColor="@color/black" />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:contentDescription="@string/how_it_works"
+                        android:paddingTop="20dp"
+                        android:src="@drawable/howitworks_qr" />
+                </LinearLayout>
+
+                <TextView
+                    style="@style/howItWorksText"
+                    android:text="@string/how_it_works_snap_bottom"
+                    android:textColor="@color/black" />
+            </LinearLayout>
+        </ScrollView>
+
+        <ScrollView
+            android:id="@+id/scripScroll3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <LinearLayout style="@style/howItWorksLayout" >
+
+                <TextView
+                    style="@style/howItWorksText"
+                    android:layout_gravity="center_horizontal"
+                    android:gravity="center"
+                    android:text="@string/how_it_works_share"
+                    android:textColor="@color/blue_dark"
+                    android:textSize="18dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    style="@style/howItWorksText"
+                    android:paddingTop="20dp"
+                    android:text="@string/how_it_works_sharing_settings" />
+
+                <TextView
+                    style="@style/howItWorksText"
+                    android:paddingTop="10dp"
+                    android:text="@string/how_it_works_sharing_settings_2" />
+
+                <Button
+                    android:id="@+id/btnSettingShare"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="20dp"
+                    android:background="@drawable/btn_setupsharing"
+                    android:text="@string/how_it_works_sharing_btn_text"
+                    android:textColor="@color/white"
+                    android:textSize="18dp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+        </ScrollView>
+
+        <ScrollView
+            android:id="@+id/scripScroll4"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <LinearLayout style="@style/howItWorksLayout" >
+
+                <TextView
+                    style="@style/howItWorksText"
+                    android:layout_gravity="center_horizontal"
+                    android:gravity="center"
+                    android:text="@string/how_it_works_rules"
+                    android:textColor="@color/blue_dark"
+                    android:textSize="18dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/txtHowItWorksRules"
+                    style="@style/howItWorksText"
+                    android:layout_marginTop="20dp" />
+            </LinearLayout>
+        </ScrollView>
+
+        <ScrollView
+            android:id="@+id/scripScroll5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <LinearLayout style="@style/howItWorksLayout" >
+
+                <TextView
+                    style="@style/howItWorksText"
+                    android:layout_gravity="center_horizontal"
+                    android:gravity="center"
+                    android:text="@string/how_it_works_safety_header"
+                    android:textColor="@color/blue_dark"
+                    android:textSize="18dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/txtHowItWorksSafety"
+                    style="@style/howItWorksText"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="20dp"
+                    android:textColor="@color/black" />
+            </LinearLayout>
+        </ScrollView>
+    </ViewFlipper>
+
+</RelativeLayout>

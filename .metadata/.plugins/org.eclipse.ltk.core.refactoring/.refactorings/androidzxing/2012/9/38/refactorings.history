@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;local.properties&apos; to &apos;heads_up_android&apos;&#x0A;- Original project: &apos;androidzxing&apos;&#x0A;- Destination element: &apos;heads_up_android&apos;&#x0A;- Original element: &apos;local.properties&apos;" description="Copy file" destination="=heads_up_android" element1="local.properties" files="1" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1348238231164" units="0" version="1.0"/>
+</session>

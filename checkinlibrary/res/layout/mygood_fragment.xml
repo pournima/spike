@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/mainbg"
+    android:orientation="vertical" >
+
+    <ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/scrollbarMyGood"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <LinearLayout
+            android:id="@+id/linearLtMyGood"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:paddingTop="25dp"
+                android:text="@string/my_good"
+                android:textColor="@color/orange"
+                android:textSize="9.5pt"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:paddingTop="5dp"
+                android:text="@string/you_raised_text"
+                android:textColor="@color/black"
+                android:textSize="5.5pt" />
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:gravity="top"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:text="$"
+                    android:textColor="@color/purple"
+                    android:textSize="14.5pt" />
+
+                <TextView
+                    android:id="@+id/txtYouRaised"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="15dp"
+                    android:text="0.00"
+                    android:textColor="@color/purple"
+                    android:textSize="22pt" />
+            </RelativeLayout>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="3dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/your_good_divider" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:paddingTop="5dp"
+                android:text="@string/your_checkin_text"
+                android:textColor="@color/black"
+                android:textSize="5.5pt" />
+
+            <TextView
+                android:id="@+id/txtTotalCheckins"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="22dp"
+                android:text="0"
+                android:textColor="@color/purple"
+                android:textSize="22pt" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="3dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/your_good_divider" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:paddingTop="5dp"
+                android:text="@string/causes_you_supporting"
+                android:textColor="@color/black"
+                android:textSize="5.5pt" />
+
+            <TextView
+                android:id="@+id/txtTotalCauseSupporting"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="22dp"
+                android:text="0"
+                android:textColor="@color/purple"
+                android:textSize="22pt" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:paddingTop="5dp"
+                android:text="@string/my_good_text"
+                android:textColor="@color/black"
+                android:textSize="5.5pt"
+                android:textStyle="bold" 
+                android:layout_marginBottom="20dp"
+                />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

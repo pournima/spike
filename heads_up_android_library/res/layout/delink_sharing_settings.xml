@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/linearShare"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+   <TextView  
+     android:id="@+id/testViewDelinkName"
+     android:layout_height="40dp"
+     android:layout_width="match_parent"
+     android:paddingLeft="40dp"
+    android:gravity="center_vertical"
+     android:background="@color/purple_transparent"
+     android:text="Facebook"
+     android:textColor="@color/black"
+     android:textStyle="bold"
+     />
+
+    <TextView
+        android:id="@+id/divider_bottom"
+        style="@style/listTextDivider" />
+    <Button
+        android:id="@+id/deLinkButton"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/btnpurplebtn"
+        android:text="@string/delink_text"
+        android:textColor="@color/white" />
+        
+</LinearLayout>

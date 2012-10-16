@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="signalTextDivider">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">0.1dp</item>
+        <item name="android:background">@drawable/signal_divider</item>
+        <item name="android:text"></item>
+    </style>
+    
+   <style name="listTextDivider">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">1px</item>
+        <item name="android:background">@color/light_gray</item>
+        <item name="android:text"></item>
+    </style>
+</resources>

@@ -1,0 +1,31 @@
+package com.checkinlibrary.ws.tasks;
+
+import android.os.AsyncTask;
+import android.util.Log;
+import com.checkinlibrary.CheckinLibraryActivity;
+import com.checkinlibrary.models.AppVersionResult;
+import com.checkinlibrary.ws.services.AppVersionWebService;
+
+public class AppVersionTask extends AsyncTask<String, Integer, AppVersionResult> {
+
+	private CheckinLibraryActivity context;
+	
+	@Override
+	protected AppVersionResult doInBackground(String... arg0) {
+		
+		return AppVersionWebService.setAppVersion(context, arg0);
+	}
+
+	protected void onPostExecute(AppVersionResult result) {
+		if(result != null){
+					
+			String version=result.getAndroid_current_version();
+			Log.e("app version call --", "success "+version);
+		}
+		else {
+			Log.e("app version call --", "fail");
+		}
+		
+	}
+
+}

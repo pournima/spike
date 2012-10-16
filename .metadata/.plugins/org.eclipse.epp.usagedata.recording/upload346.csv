@@ -1,0 +1,251 @@
+what,kind,bundleId,bundleVersion,description,time
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1348661233734
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1348661785806
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.file.properties",1348661785898
+activated,editor,org.eclipse.jdt.ui,3.7.2.v20120109-1427,"org.eclipse.jdt.ui.CompilationUnitEditor",1348661809779
+opened,editor,org.eclipse.jdt.ui,3.7.2.v20120109-1427,"org.eclipse.jdt.ui.CompilationUnitEditor",1348661827640
+activated,editor,org.eclipse.jdt.ui,3.7.2.v20120109-1427,"org.eclipse.jdt.ui.CompilationUnitEditor",1348661827678
+executed,command,,,"AUTOGEN:::org.eclipse.jdt.debug.CompilationUnitEditor.BreakpointRulerActions/org.eclipse.jdt.debug.ui.actions.ManageBreakpointRulerAction",1348661833635
+activated,view,org.eclipse.debug.ui,3.7.102.v20111129-1423_r372,"org.eclipse.debug.ui.DebugView",1348661838322
+executed,command,org.eclipse.debug.ui,3.7.102.v20111129-1423_r372,"org.eclipse.debug.ui.commands.StepOver",1348661840697
+executed,command,org.eclipse.debug.ui,3.7.102.v20111129-1423_r372,"org.eclipse.debug.ui.commands.Resume",1348661841217
+activated,editor,org.eclipse.jdt.ui,3.7.2.v20120109-1427,"org.eclipse.jdt.ui.CompilationUnitEditor",1348661842408
+executed,command,org.eclipse.debug.ui,3.7.102.v20111129-1423_r372,"org.eclipse.debug.ui.commands.StepOver",1348661843297
+executed,command,org.eclipse.debug.ui,3.7.102.v20111129-1423_r372,"org.eclipse.debug.ui.commands.StepOver",1348661843785
+executed,command,org.eclipse.debug.ui,3.7.102.v20111129-1423_r372,"org.eclipse.debug.ui.commands.StepOver",1348661851161
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1348661874615
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.copy",1348661876899
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1348661877854
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1348661879547
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1348661900670
+executed,command,org.eclipse.debug.ui,3.7.102.v20111129-1423_r372,"org.eclipse.debug.ui.commands.StepOver",1348661901744
+executed,command,org.eclipse.debug.ui,3.7.102.v20111129-1423_r372,"org.eclipse.debug.ui.commands.Resume",1348661902767
+activated,view,org.eclipse.debug.ui,3.7.102.v20111129-1423_r372,"org.eclipse.debug.ui.DebugView",1348661902910
+activated,editor,org.eclipse.jdt.ui,3.7.2.v20120109-1427,"org.eclipse.jdt.ui.CompilationUnitEditor",1348661903966
+executed,command,org.eclipse.debug.ui,3.7.102.v20111129-1423_r372,"org.eclipse.debug.ui.commands.Resume",1348661904168
+activated,editor,org.eclipse.jdt.ui,3.7.2.v20120109-1427,"org.eclipse.jdt.ui.CompilationUnitEditor",1348661976749
+executed,command,,,"AUTOGEN:::org.eclipse.jdt.debug.CompilationUnitEditor.BreakpointRulerActions/org.eclipse.jdt.debug.ui.actions.ManageBreakpointRulerAction",1348662011868
+activated,editor,org.eclipse.jdt.ui,3.7.2.v20120109-1427,"org.eclipse.jdt.ui.CompilationUnitEditor",1348662013692
+activated,editor,org.eclipse.jdt.ui,3.7.2.v20120109-1427,"org.eclipse.jdt.ui.CompilationUnitEditor",1348662014744
+activated,editor,org.eclipse.jdt.ui,3.7.2.v20120109-1427,"org.eclipse.jdt.ui.CompilationUnitEditor",1348662015422
+activated,editor,org.eclipse.jdt.ui,3.7.2.v20120109-1427,"org.eclipse.jdt.ui.CompilationUnitEditor",1348662016950
+closed,editor,org.eclipse.jdt.ui,3.7.2.v20120109-1427,"org.eclipse.jdt.ui.CompilationUnitEditor",1348662016950
+started,bundle,org.eclipse.wst.sse.ui,1.3.2.v201201041522,"org.eclipse.wst.sse.ui",1348662026802
+started,bundle,org.eclipse.wst.xml.ui,1.1.202.v201112071516,"org.eclipse.wst.xml.ui",1348662026805
+started,bundle,org.eclipse.wst.xsl.core,1.1.100.v201102270516,"org.eclipse.wst.xsl.core",1348662027289
+started,bundle,org.eclipse.wst.xsl.exslt.core,1.0.0.v201005240426,"org.eclipse.wst.xsl.exslt.core",1348662027300
+started,bundle,org.eclipse.wst.validation,1.2.303.v201202090300,"org.eclipse.wst.validation",1348662027459
+started,bundle,org.eclipse.wst.dtd.ui,1.0.600.v201103171359,"org.eclipse.wst.dtd.ui",1348662027542
+started,bundle,org.eclipse.emf.common,2.7.0.v20120127-1122,"org.eclipse.emf.common",1348662027566
+started,bundle,org.eclipse.wst.xsl.ui,1.1.200.v201103082057,"org.eclipse.wst.xsl.ui",1348662027608
+opened,editor,com.android.ide.eclipse.adt,20.0.3.v201208082019-427395,"com.android.ide.eclipse.editors.CommonXmlEditor",1348662027773
+activated,editor,com.android.ide.eclipse.adt,20.0.3.v201208082019-427395,"com.android.ide.eclipse.editors.CommonXmlEditor",1348662028000
+activated,view,org.eclipse.jdt.ui,3.7.2.v20120109-1427,"org.eclipse.jdt.ui.PackageExplorer",1348662028393
+activated,editor,org.eclipse.jdt.ui,3.7.2.v20120109-1427,"org.eclipse.jdt.ui.CompilationUnitEditor",1348662033543
+activated,editor,com.android.ide.eclipse.adt,20.0.3.v201208082019-427395,"com.android.ide.eclipse.editors.CommonXmlEditor",1348662036920
+activated,editor,org.eclipse.jdt.ui,3.7.2.v20120109-1427,"org.eclipse.jdt.ui.CompilationUnitEditor",1348662038205
+activated,editor,org.eclipse.jdt.ui,3.7.2.v20120109-1427,"org.eclipse.jdt.ui.CompilationUnitEditor",1348662038730
+executed,command,,,"AUTOGEN:::org.eclipse.jdt.debug.CompilationUnitEditor.BreakpointRulerActions/org.eclipse.jdt.debug.ui.actions.ManageBreakpointRulerAction",1348662048610
+activated,editor,org.eclipse.jdt.ui,3.7.2.v20120109-1427,"org.eclipse.jdt.ui.CompilationUnitEditor",1348662055564
+activated,editor,com.android.ide.eclipse.adt,20.0.3.v201208082019-427395,"com.android.ide.eclipse.editors.CommonXmlEditor",1348662058638
+error,log,,,"heat_preparedness.xml: Failed to find style 'scrollViewStyle' in current theme",1348662064188
+error,log,,,"heat_preparedness.xml: Failed to find style 'scrollViewStyle' in current theme",1348662064189
+error,log,,,"heat_preparedness.xml: Failed to find style 'scrollViewStyle' in current theme",1348662064191
+error,log,,,"heat_preparedness.xml: Failed to find style 'textViewStyle' in current theme",1348662064388
+error,log,,,"heat_preparedness.xml: Failed to find style 'textViewStyle' in current theme",1348662064392
+error,log,,,"heat_preparedness.xml: Failed to find style 'textViewStyle' in current theme",1348662064401
+error,log,,,"heat_preparedness.xml: Failed to find style 'textViewStyle' in current theme",1348662064424
+error,log,,,"heat_preparedness.xml: Failed to find style 'textViewStyle' in current theme",1348662064452
+error,log,,,"heat_preparedness.xml: android.content.res.Resources$NotFoundException",1348662064469
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1348662070654
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1348662114768
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1348662134413
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1348662185591
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1348662191755
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1348662208247
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1348662229866
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1348662261405
+activated,view,org.eclipse.jdt.ui,3.7.2.v20120109-1427,"org.eclipse.jdt.ui.PackageExplorer",1348662270155
+started,bundle,org.eclipse.emf.ecore,2.7.0.v20120127-1122,"org.eclipse.emf.ecore",1348662275999
+started,bundle,org.eclipse.emf.ecore.xmi,2.7.0.v20120127-1122,"org.eclipse.emf.ecore.xmi",1348662276000
+started,bundle,org.eclipse.wst.common.emf,1.2.100.v201101101900,"org.eclipse.wst.common.emf",1348662276005
+opened,editor,com.android.ide.eclipse.adt,20.0.3.v201208082019-427395,"com.android.ide.eclipse.editors.CommonXmlEditor",1348662279690
+activated,editor,com.android.ide.eclipse.adt,20.0.3.v201208082019-427395,"com.android.ide.eclipse.editors.CommonXmlEditor",1348662279769
+error,log,,,"business_list_item.xml: Failed to find style 'textViewStyle' in current theme",1348662280948
+error,log,,,"business_list_item.xml: Failed to find style 'textViewStyle' in current theme",1348662280949
+error,log,,,"business_list_item.xml: Failed to find style 'textViewStyle' in current theme",1348662280983
+error,log,,,"business_list_item.xml: Failed to find style 'textViewStyle' in current theme",1348662280984
+error,log,,,"business_list_item.xml: Failed to find style 'textViewStyle' in current theme",1348662280985
+error,log,,,"business_list_item.xml: Failed to find style 'textViewStyle' in current theme",1348662280986
+error,log,,,"business_list_item.xml: Failed to find style 'textViewStyle' in current theme",1348662280995
+error,log,,,"business_list_item.xml: Failed to find style 'textViewStyle' in current theme",1348662280996
+error,log,,,"business_list_item.xml: Failed to find style 'textViewStyle' in current theme",1348662280998
+error,log,,,"business_list_item.xml: Failed to find style 'textViewStyle' in current theme",1348662280999
+error,log,,,"business_list_item.xml: Failed to find style 'textViewStyle' in current theme",1348662281000
+error,log,,,"business_list_item.xml: Failed to find style 'textViewStyle' in current theme",1348662281002
+activated,editor,com.android.ide.eclipse.adt,20.0.3.v201208082019-427395,"com.android.ide.eclipse.editors.CommonXmlEditor",1348662285179
+closed,editor,com.android.ide.eclipse.adt,20.0.3.v201208082019-427395,"com.android.ide.eclipse.editors.CommonXmlEditor",1348662285180
+activated,view,org.eclipse.jdt.ui,3.7.2.v20120109-1427,"org.eclipse.jdt.ui.PackageExplorer",1348662286230
+opened,editor,com.android.ide.eclipse.adt,20.0.3.v201208082019-427395,"com.android.ide.eclipse.editors.CommonXmlEditor",1348662286783
+activated,editor,com.android.ide.eclipse.adt,20.0.3.v201208082019-427395,"com.android.ide.eclipse.editors.CommonXmlEditor",1348662286846
+started,bundle,org.eclipse.jst.jsp.ui,1.1.602.v201112071516,"org.eclipse.jst.jsp.ui",1348662300189
+started,bundle,org.eclipse.jst.jsp.core,1.2.402.v201112071853,"org.eclipse.jst.jsp.core",1348662300310
+started,bundle,org.eclipse.wst.html.ui,1.0.602.v201202091936,"org.eclipse.wst.html.ui",1348662300316
+opened,editor,com.android.ide.eclipse.adt,20.0.3.v201208082019-427395,"com.android.ide.eclipse.editors.CommonXmlEditor",1348662301012
+activated,editor,com.android.ide.eclipse.adt,20.0.3.v201208082019-427395,"com.android.ide.eclipse.editors.CommonXmlEditor",1348662301055
+activated,editor,com.android.ide.eclipse.adt,20.0.3.v201208082019-427395,"com.android.ide.eclipse.editors.CommonXmlEditor",1348662303125
+closed,editor,com.android.ide.eclipse.adt,20.0.3.v201208082019-427395,"com.android.ide.eclipse.editors.CommonXmlEditor",1348662303126
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.copy",1348662305816
+activated,editor,com.android.ide.eclipse.adt,20.0.3.v201208082019-427395,"com.android.ide.eclipse.editors.CommonXmlEditor",1348662307668
+closed,editor,com.android.ide.eclipse.adt,20.0.3.v201208082019-427395,"com.android.ide.eclipse.editors.CommonXmlEditor",1348662307668
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1348662548143
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1348662550510
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1348662852754
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1348662894997
+activated,view,org.eclipse.jdt.ui,3.7.2.v20120109-1427,"org.eclipse.jdt.ui.PackageExplorer",1348662905384
+opened,editor,org.eclipse.jdt.ui,3.7.2.v20120109-1427,"org.eclipse.jdt.ui.CompilationUnitEditor",1348662908610
+activated,editor,org.eclipse.jdt.ui,3.7.2.v20120109-1427,"org.eclipse.jdt.ui.CompilationUnitEditor",1348662908690
+started,bundle,org.eclipse.jdt.junit,3.7.0.v20110928-1453,"org.eclipse.jdt.junit",1348662911369
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.delete",1348662923578
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.delete",1348662925380
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.delete",1348662926708
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.delete",1348662928556
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.file.save",1348662931596
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.copy",1348662969613
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.paste",1348662973922
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.cut",1348662978441
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.paste",1348662983260
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.file.save",1348662985766
+activated,view,org.eclipse.jdt.ui,3.7.2.v20120109-1427,"org.eclipse.jdt.ui.PackageExplorer",1348662991648
+opened,editor,org.eclipse.jdt.ui,3.7.2.v20120109-1427,"org.eclipse.jdt.ui.CompilationUnitEditor",1348662992000
+activated,editor,org.eclipse.jdt.ui,3.7.2.v20120109-1427,"org.eclipse.jdt.ui.CompilationUnitEditor",1348662992043
+activated,editor,org.eclipse.jdt.ui,3.7.2.v20120109-1427,"org.eclipse.jdt.ui.CompilationUnitEditor",1348663021330
+activated,editor,org.eclipse.jdt.ui,3.7.2.v20120109-1427,"org.eclipse.jdt.ui.CompilationUnitEditor",1348663027425
+activated,editor,org.eclipse.jdt.ui,3.7.2.v20120109-1427,"org.eclipse.jdt.ui.CompilationUnitEditor",1348663028524
+closed,editor,org.eclipse.jdt.ui,3.7.2.v20120109-1427,"org.eclipse.jdt.ui.CompilationUnitEditor",1348663028524
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.delete",1348663031914
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.file.save",1348663032962
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.file.save",1348663034670
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1348663354510
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1348663470711
+activated,view,org.eclipse.jdt.ui,3.7.2.v20120109-1427,"org.eclipse.jdt.ui.PackageExplorer",1348663472819
+opened,editor,org.eclipse.jdt.ui,3.7.2.v20120109-1427,"org.eclipse.jdt.ui.CompilationUnitEditor",1348663475141
+activated,editor,org.eclipse.jdt.ui,3.7.2.v20120109-1427,"org.eclipse.jdt.ui.CompilationUnitEditor",1348663475183
+error,log,,,"settings.xml: Failed to find style 'listViewStyle' in current theme",1348663478704
+error,log,,,"settings.xml: Failed to find style 'listViewStyle' in current theme",1348663478705
+error,log,,,"settings.xml: Failed to find style 'listViewStyle' in current theme",1348663478705
+error,log,,,"settings.xml: Failed to find style 'textViewStyle' in current theme",1348663478707
+error,log,,,"settings.xml: Failed to find style 'textViewStyle' in current theme",1348663478708
+error,log,,,"settings.xml: Failed to find style 'textViewStyle' in current theme",1348663478710
+error,log,,,"settings.xml: Failed to find style 'textViewStyle' in current theme",1348663478711
+error,log,,,"settings.xml: Failed to find style 'textViewStyle' in current theme",1348663478711
+error,log,,,"settings.xml: Failed to find style 'textViewStyle' in current theme",1348663478712
+error,log,,,"settings.xml: Failed to find style 'textViewStyle' in current theme",1348663478714
+error,log,,,"settings.xml: Failed to find style 'textViewStyle' in current theme",1348663478715
+error,log,,,"settings.xml: Failed to find style 'textViewStyle' in current theme",1348663478716
+error,log,,,"settings.xml: Failed to find style 'textViewStyle' in current theme",1348663478716
+error,log,,,"settings.xml: Failed to find style 'textViewStyle' in current theme",1348663478717
+error,log,,,"settings.xml: Failed to find style 'textViewStyle' in current theme",1348663478718
+error,log,,,"settings.xml: Failed to find style 'textViewStyle' in current theme",1348663478720
+error,log,,,"settings.xml: Failed to find style 'textViewStyle' in current theme",1348663478720
+error,log,,,"settings.xml: Failed to find style 'textViewStyle' in current theme",1348663478721
+error,log,,,"settings.xml: Failed to find style 'textViewStyle' in current theme",1348663478722
+error,log,,,"settings.xml: Failed to find style 'textViewStyle' in current theme",1348663478723
+error,log,,,"settings.xml: Failed to find style 'textViewStyle' in current theme",1348663478725
+error,log,,,"settings.xml: Failed to find style 'textViewStyle' in current theme",1348663478728
+error,log,,,"settings.xml: Failed to find style 'textViewStyle' in current theme",1348663478729
+error,log,,,"settings.xml: Failed to find style 'textViewStyle' in current theme",1348663478731
+error,log,,,"settings.xml: Failed to find style 'textViewStyle' in current theme",1348663478731
+error,log,,,"settings.xml: Failed to find style 'textViewStyle' in current theme",1348663478732
+error,log,,,"settings.xml: Failed to find style 'textViewStyle' in current theme",1348663478734
+error,log,,,"settings.xml: Failed to find style 'textViewStyle' in current theme",1348663478737
+error,log,,,"settings.xml: Failed to find style 'textViewStyle' in current theme",1348663478738
+error,log,,,"settings.xml: Failed to find style 'textViewStyle' in current theme",1348663478739
+error,log,,,"settings.xml: Failed to find style 'textViewStyle' in current theme",1348663478740
+error,log,,,"settings.xml: Failed to find style 'textViewStyle' in current theme",1348663478741
+error,log,,,"settings.xml: Failed to find style 'textViewStyle' in current theme",1348663478742
+error,log,,,"settings.xml: Failed to find style 'textViewStyle' in current theme",1348663478744
+error,log,,,"settings.xml: Failed to find style 'textViewStyle' in current theme",1348663478745
+error,log,,,"settings.xml: Failed to find style 'textViewStyle' in current theme",1348663478746
+error,log,,,"settings.xml: Failed to find style 'textViewStyle' in current theme",1348663478746
+error,log,,,"settings.xml: Failed to find style 'textViewStyle' in current theme",1348663478747
+error,log,,,"settings.xml: Failed to find style 'textViewStyle' in current theme",1348663478748
+error,log,,,"settings.xml: Failed to find style 'textViewStyle' in current theme",1348663478751
+error,log,,,"settings.xml: Failed to find style 'textViewStyle' in current theme",1348663478752
+error,log,,,"settings.xml: Failed to find style 'textViewStyle' in current theme",1348663478753
+error,log,,,"settings.xml: Failed to find style 'textViewStyle' in current theme",1348663478754
+error,log,,,"settings.xml: Failed to find style 'textViewStyle' in current theme",1348663478755
+error,log,,,"settings.xml: Failed to find style 'textViewStyle' in current theme",1348663478756
+error,log,,,"settings.xml: Failed to find style 'textViewStyle' in current theme",1348663478758
+error,log,,,"settings.xml: Failed to find style 'textViewStyle' in current theme",1348663478759
+error,log,,,"settings.xml: Failed to find style 'textViewStyle' in current theme",1348663478760
+error,log,,,"settings.xml: Failed to find style 'textViewStyle' in current theme",1348663478760
+error,log,,,"settings.xml: Failed to find style 'textViewStyle' in current theme",1348663478761
+error,log,,,"settings.xml: Failed to find style 'textViewStyle' in current theme",1348663478762
+error,log,,,"settings.xml: Failed to find style 'textViewStyle' in current theme",1348663478764
+error,log,,,"settings.xml: Failed to find style 'textViewStyle' in current theme",1348663478802
+error,log,,,"settings.xml: Failed to find style 'textViewStyle' in current theme",1348663478804
+error,log,,,"settings.xml: Failed to find style 'textViewStyle' in current theme",1348663478804
+error,log,,,"settings.xml: Failed to find style 'textViewStyle' in current theme",1348663478805
+error,log,,,"settings.xml: Failed to find style 'textViewStyle' in current theme",1348663478810
+error,log,,,"settings.xml: Failed to find style 'textViewStyle' in current theme",1348663478819
+error,log,,,"settings.xml: Failed to find style 'textViewStyle' in current theme",1348663478821
+error,log,,,"settings.xml: Failed to find style 'textViewStyle' in current theme",1348663478830
+error,log,,,"settings.xml: Failed to find style 'textViewStyle' in current theme",1348663478833
+error,log,,,"settings.xml: Failed to find style 'textViewStyle' in current theme",1348663478834
+error,log,,,"settings.xml: Failed to find style 'textViewStyle' in current theme",1348663478838
+error,log,,,"settings.xml: Failed to find style 'textViewStyle' in current theme",1348663478842
+error,log,,,"settings.xml: Failed to find style 'textViewStyle' in current theme",1348663478842
+error,log,,,"settings.xml: Failed to find style 'textViewStyle' in current theme",1348663478843
+error,log,,,"settings.xml: Failed to find style 'textViewStyle' in current theme",1348663478844
+error,log,,,"settings.xml: Failed to find style 'textViewStyle' in current theme",1348663478845
+error,log,,,"settings.xml: Failed to find style 'textViewStyle' in current theme",1348663478848
+error,log,,,"settings.xml: Failed to find style 'textViewStyle' in current theme",1348663478852
+error,log,,,"settings.xml: Failed to find style 'textViewStyle' in current theme",1348663478863
+error,log,,,"settings.xml: Failed to find style 'textViewStyle' in current theme",1348663478865
+error,log,,,"settings.xml: Failed to find style 'textViewStyle' in current theme",1348663478865
+error,log,,,"settings.xml: Failed to find style 'textViewStyle' in current theme",1348663478866
+error,log,,,"settings.xml: Failed to find style 'textViewStyle' in current theme",1348663478870
+error,log,,,"settings.xml: Failed to find style 'textViewStyle' in current theme",1348663478874
+error,log,,,"settings.xml: Failed to find style 'textViewStyle' in current theme",1348663478875
+error,log,,,"settings.xml: Failed to find style 'textViewStyle' in current theme",1348663478876
+error,log,,,"settings.xml: Failed to find style 'textViewStyle' in current theme",1348663478877
+error,log,,,"settings.xml: Failed to find style 'textViewStyle' in current theme",1348663478877
+error,log,,,"settings.xml: Failed to find style 'textViewStyle' in current theme",1348663478883
+error,log,,,"settings.xml: Failed to find style 'textViewStyle' in current theme",1348663478886
+error,log,,,"settings.xml: Failed to find style 'textViewStyle' in current theme",1348663478886
+error,log,,,"settings.xml: Failed to find style 'textViewStyle' in current theme",1348663478888
+error,log,,,"settings.xml: Failed to find style 'textViewStyle' in current theme",1348663478888
+error,log,,,"settings.xml: Failed to find style 'textViewStyle' in current theme",1348663478888
+error,log,,,"settings.xml: Failed to find style 'textViewStyle' in current theme",1348663478890
+error,log,,,"settings.xml: Failed to find style 'textViewStyle' in current theme",1348663478893
+error,log,,,"settings.xml: Failed to find style 'textViewStyle' in current theme",1348663478893
+error,log,,,"settings.xml: Failed to find style 'textViewStyle' in current theme",1348663478894
+error,log,,,"settings.xml: Failed to find style 'textViewStyle' in current theme",1348663478895
+error,log,,,"settings.xml: Failed to find style 'textViewStyle' in current theme",1348663478896
+error,log,,,"settings.xml: Failed to find style 'textViewStyle' in current theme",1348663478900
+error,log,,,"settings.xml: Failed to find style 'textViewStyle' in current theme",1348663478903
+error,log,,,"settings.xml: Failed to find style 'textViewStyle' in current theme",1348663478904
+error,log,,,"settings.xml: Failed to find style 'textViewStyle' in current theme",1348663478906
+error,log,,,"settings.xml: Failed to find style 'textViewStyle' in current theme",1348663478907
+error,log,,,"settings.xml: Failed to find style 'textViewStyle' in current theme",1348663478907
+error,log,,,"settings.xml: Failed to find style 'textViewStyle' in current theme",1348663478912
+error,log,,,"settings.xml: Failed to find style 'textViewStyle' in current theme",1348663478915
+error,log,,,"settings.xml: Failed to find style 'textViewStyle' in current theme",1348663478915
+error,log,,,"settings.xml: Failed to find style 'textViewStyle' in current theme",1348663478917
+error,log,,,"settings.xml: Failed to find style 'textViewStyle' in current theme",1348663478918
+error,log,,,"settings.xml: Failed to find style 'textViewStyle' in current theme",1348663478919
+error,log,,,"settings.xml: Failed to find style 'textViewStyle' in current theme",1348663478922
+error,log,,,"settings.xml: Failed to find style 'textViewStyle' in current theme",1348663478924
+error,log,,,"settings.xml: Failed to find style 'textViewStyle' in current theme",1348663478947
+error,log,,,"settings.xml: Failed to find style 'textViewStyle' in current theme",1348663478948
+error,log,,,"settings.xml: Failed to find style 'textViewStyle' in current theme",1348663478949
+error,log,,,"settings.xml: Failed to find style 'textViewStyle' in current theme",1348663479054
+error,log,,,"settings.xml: Failed to find style 'textViewStyle' in current theme",1348663479055
+error,log,,,"settings.xml: Failed to find style 'textViewStyle' in current theme",1348663479057
+error,log,,,"settings.xml: Failed to find style 'textViewStyle' in current theme",1348663479058
+error,log,,,"settings.xml: Failed to find style 'textViewStyle' in current theme",1348663479059
+error,log,,,"settings.xml: Failed to find style 'textViewStyle' in current theme",1348663479059
+error,log,,,"settings.xml: Failed to find style 'textViewStyle' in current theme",1348663479060
+error,log,,,"settings.xml: Failed to find style 'textViewStyle' in current theme",1348663479061
+error,log,,,"settings.xml: Failed to find style 'textViewStyle' in current theme",1348663479063

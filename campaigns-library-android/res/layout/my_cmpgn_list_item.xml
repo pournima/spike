@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rltLMyCmpgn"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content" >
+
+    <ImageView
+        android:id="@+id/imgMyCmpgn"
+        android:layout_width="fill_parent"
+        android:layout_height="150dp"
+        android:src="@drawable/cause_profile" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/rltLMyCmpgn"
+        android:background="@color/black_shadow_dark" >
+
+        <TextView
+            android:id="@+id/txtMyCmpgnName"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:text="No Campaigns present"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/white" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/lnrLayout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imgMyCmpgn"
+        android:paddingBottom="15dp"
+        android:paddingTop="15dp" >
+
+        <TextView
+            android:id="@+id/txtRaisedSoFar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@id/progress_raised_money"
+            android:text="$498 Raised so far" />
+
+        <ProgressBar
+            android:id="@+id/progress_raised_money"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="150dp"
+            android:layout_height="12dp"
+            android:layout_below="@id/txtRaisedSoFar"
+            android:layout_marginLeft="35dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="5dp"
+            android:indeterminate="false"
+            android:max="15"
+            android:progressDrawable="@drawable/greenprogress" />
+
+        <Button
+            android:id="@+id/btnViewDetails"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/imgMyCmpgn"
+            android:layout_toRightOf="@id/progress_raised_money"
+            android:text="View Details" />
+    </RelativeLayout>
+
+</RelativeLayout>

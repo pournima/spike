@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" 
+    android:id="@+id/linearThankyou">
+
+    <ImageView
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:src="@drawable/checkedin" 
+		android:layout_gravity="center_horizontal"
+		android:layout_marginTop="30dp"
+		android:contentDescription="@string/thank_you" />
+    
+    <TextView
+        android:id="@+id/txtThankYou"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_horizontal"
+        android:text="@string/thank_you"
+        android:textColor="@color/blue"
+        android:textStyle="bold"
+        android:textSize="8.5pt"
+        android:layout_marginTop="25dp"
+        android:paddingLeft="30dp"
+        android:paddingRight="30dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_horizontal"        
+        android:text="@string/checkin_find"
+        android:textColor="@color/blue"
+        android:textSize="6.5pt"
+        android:textStyle="bold"
+        android:layout_marginTop="35dp"
+        android:paddingLeft="30dp"
+        android:paddingRight="30dp"/>
+
+  <Button
+        android:id="@+id/btnFindMoreBusinesses"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="25dp"
+        android:text="findmorebusinesses"
+        android:textColor="@color/white"
+        android:textSize="7.0pt"
+        android:textStyle="bold" />
+</LinearLayout>

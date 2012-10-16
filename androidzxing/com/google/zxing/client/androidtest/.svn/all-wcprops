@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/1795/trunk/androidtest/src/com/google/zxing/client/androidtest
+END
+BenchmarkThread.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/!svn/ver/1681/trunk/androidtest/src/com/google/zxing/client/androidtest/BenchmarkThread.java
+END
+CameraManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/1795/trunk/androidtest/src/com/google/zxing/client/androidtest/CameraManager.java
+END
+CameraTestActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/1681/trunk/androidtest/src/com/google/zxing/client/androidtest/CameraTestActivity.java
+END
+SaveThread.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/1681/trunk/androidtest/src/com/google/zxing/client/androidtest/SaveThread.java
+END
+RGBLuminanceSource.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/1795/trunk/androidtest/src/com/google/zxing/client/androidtest/RGBLuminanceSource.java
+END
+BenchmarkActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/1681/trunk/androidtest/src/com/google/zxing/client/androidtest/BenchmarkActivity.java
+END
+BenchmarkItem.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/966/trunk/androidtest/src/com/google/zxing/client/androidtest/BenchmarkItem.java
+END
+ZXingTestActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/1795/trunk/androidtest/src/com/google/zxing/client/androidtest/ZXingTestActivity.java
+END
+ViewfinderView.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/784/trunk/androidtest/src/com/google/zxing/client/androidtest/ViewfinderView.java
+END

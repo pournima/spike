@@ -1,0 +1,7 @@
+ul.icons li.fbIcon, ul.icons li.twitIcon, ul.icons li.pinIcon, ul.icons li.youtube, ul.icons li.gplus {
+    background-image:url('support_icons@2x.png');
+    -moz-background-size:20px 100px;
+    -o-background-size:20px 100px;
+    -webkit-background-size:20px 100px;
+    background-size:20px 100px;
+}

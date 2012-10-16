@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;loader_default.png&apos; to &apos;drawable-mdpi&apos;&#x0A;- Original project: &apos;campaigns-library-android&apos;&#x0A;- Destination element: &apos;drawable-mdpi&apos;&#x0A;- Original element: &apos;loader_default.png&apos;" description="Copy file" element1="res/drawable-mdpi/loader_default.png" files="1" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1348208466609" target="/checkinlibrary/res/drawable-mdpi" units="0" version="1.0"/>
+</session>

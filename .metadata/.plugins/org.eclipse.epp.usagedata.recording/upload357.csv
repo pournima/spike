@@ -1,0 +1,251 @@
+what,kind,bundleId,bundleVersion,description,time
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.undo",1348736251972
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.undo",1348736252817
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.file.save",1348736256035
+error,log,,,"official_signal_grid_item.xml: Failed to find style 'textViewStyle' in current theme",1348736262424
+error,log,,,"official_signal_grid_item.xml: Failed to find style 'textViewStyle' in current theme",1348736262425
+error,log,,,"official_signal_grid_item.xml: Failed to find style 'textViewStyle' in current theme",1348736262425
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.delete",1348736272150
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.selectAll",1348736273164
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.file.save",1348736273274
+error,log,,,"official_signal_grid_item.xml: Failed to find style 'textViewStyle' in current theme",1348736274744
+error,log,,,"official_signal_grid_item.xml: Failed to find style 'textViewStyle' in current theme",1348736274745
+error,log,,,"official_signal_grid_item.xml: Failed to find style 'textViewStyle' in current theme",1348736274745
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.copy",1348736309657
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.cut",1348736309957
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.file.save",1348736310761
+error,log,,,"official_signal_grid_item.xml: Failed to find style 'textViewStyle' in current theme",1348736311743
+error,log,,,"official_signal_grid_item.xml: Failed to find style 'textViewStyle' in current theme",1348736311744
+error,log,,,"official_signal_grid_item.xml: Failed to find style 'textViewStyle' in current theme",1348736311744
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.delete",1348736334821
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.delete",1348736336837
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.file.save",1348736338829
+error,log,,,"official_signal_grid_item.xml: Failed to find style 'textViewStyle' in current theme",1348736340776
+error,log,,,"official_signal_grid_item.xml: Failed to find style 'textViewStyle' in current theme",1348736340799
+error,log,,,"official_signal_grid_item.xml: Failed to find style 'textViewStyle' in current theme",1348736340799
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.undo",1348736344169
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.undo",1348736344575
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.undo",1348736345073
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.delete",1348736348308
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.file.save",1348736349532
+error,log,,,"official_signal_grid_item.xml: Failed to find style 'textViewStyle' in current theme",1348736350416
+error,log,,,"official_signal_grid_item.xml: Failed to find style 'textViewStyle' in current theme",1348736350417
+error,log,,,"official_signal_grid_item.xml: Failed to find style 'textViewStyle' in current theme",1348736350417
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.undo",1348736368145
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.copy",1348736379165
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.file.save",1348736388133
+error,log,,,"official_signal_grid_item.xml: Failed to find style 'textViewStyle' in current theme",1348736392781
+error,log,,,"official_signal_grid_item.xml: Failed to find style 'textViewStyle' in current theme",1348736392781
+error,log,,,"official_signal_grid_item.xml: Failed to find style 'textViewStyle' in current theme",1348736392782
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.delete",1348736431283
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.file.save",1348736441162
+error,log,,,"official_signal_grid_item.xml: Failed to find style 'textViewStyle' in current theme",1348736442666
+error,log,,,"official_signal_grid_item.xml: Failed to find style 'textViewStyle' in current theme",1348736442667
+error,log,,,"official_signal_grid_item.xml: Failed to find style 'textViewStyle' in current theme",1348736442667
+activated,view,org.eclipse.jdt.ui,3.7.2.v20120109-1427,"org.eclipse.jdt.ui.PackageExplorer",1348736484944
+opened,editor,org.eclipse.jdt.ui,3.7.2.v20120109-1427,"org.eclipse.jdt.ui.CompilationUnitEditor",1348736487845
+activated,editor,org.eclipse.jdt.ui,3.7.2.v20120109-1427,"org.eclipse.jdt.ui.CompilationUnitEditor",1348736487915
+activated,editor,com.android.ide.eclipse.adt,20.0.3.v201208082019-427395,"com.android.ide.eclipse.editors.CommonXmlEditor",1348736596147
+closed,editor,org.eclipse.jdt.ui,3.7.2.v20120109-1427,"org.eclipse.jdt.ui.CompilationUnitEditor",1348736596147
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.copy",1348736611691
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.text.contentAssist.proposals",1348736661885
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.undo",1348736664206
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.file.save",1348736667260
+activated,view,org.eclipse.ui.console,3.5.100.v20111007_r372,"org.eclipse.ui.console.ConsoleView",1348736669266
+no handler,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.undo",1348736669366
+activated,editor,com.android.ide.eclipse.adt,20.0.3.v201208082019-427395,"com.android.ide.eclipse.editors.CommonXmlEditor",1348736670300
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.delete",1348736672994
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.text.contentAssist.proposals",1348736678967
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.text.contentAssist.proposals",1348736680133
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.file.save",1348736683235
+error,log,,,"official_signal_grid_item.xml: Failed to find style 'textViewStyle' in current theme",1348736684498
+error,log,,,"official_signal_grid_item.xml: Failed to find style 'textViewStyle' in current theme",1348736684499
+error,log,,,"official_signal_grid_item.xml: Failed to find style 'textViewStyle' in current theme",1348736684499
+error,log,,,"official_signal_grid_item.xml: Failed to find style 'textViewStyle' in current theme",1348736684932
+error,log,,,"official_signal_grid_item.xml: Failed to find style 'textViewStyle' in current theme",1348736684932
+error,log,,,"official_signal_grid_item.xml: Failed to find style 'textViewStyle' in current theme",1348736684933
+error,log,,,"official_signal_grid_item.xml: Failed to find style 'textViewStyle' in current theme",1348736687863
+error,log,,,"official_signal_grid_item.xml: Failed to find style 'textViewStyle' in current theme",1348736687891
+error,log,,,"official_signal_grid_item.xml: Failed to find style 'textViewStyle' in current theme",1348736687929
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.delete",1348736699243
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.file.save",1348736700530
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.file.save",1348736708928
+error,log,,,"official_signal_grid_item.xml: Failed to find style 'textViewStyle' in current theme",1348736710132
+error,log,,,"official_signal_grid_item.xml: Failed to find style 'textViewStyle' in current theme",1348736710133
+error,log,,,"official_signal_grid_item.xml: Failed to find style 'textViewStyle' in current theme",1348736710134
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.file.save",1348736714593
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.text.contentAssist.proposals",1348736724750
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.file.save",1348736725605
+error,log,,,"official_signal_grid_item.xml: Failed to find style 'textViewStyle' in current theme",1348736727117
+error,log,,,"official_signal_grid_item.xml: Failed to find style 'textViewStyle' in current theme",1348736727126
+error,log,,,"official_signal_grid_item.xml: Failed to find style 'textViewStyle' in current theme",1348736727126
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.text.contentAssist.proposals",1348736740827
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.file.save",1348736741536
+error,log,,,"official_signal_grid_item.xml: Failed to find style 'textViewStyle' in current theme",1348736742704
+error,log,,,"official_signal_grid_item.xml: Failed to find style 'textViewStyle' in current theme",1348736742705
+error,log,,,"official_signal_grid_item.xml: Failed to find style 'textViewStyle' in current theme",1348736742705
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.undo",1348736747954
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.undo",1348736748657
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.undo",1348736749041
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.text.contentAssist.proposals",1348736751175
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.file.save",1348736751817
+error,log,,,"official_signal_grid_item.xml: Failed to find style 'textViewStyle' in current theme",1348736752970
+error,log,,,"official_signal_grid_item.xml: Failed to find style 'textViewStyle' in current theme",1348736752971
+error,log,,,"official_signal_grid_item.xml: Failed to find style 'textViewStyle' in current theme",1348736752971
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.undo",1348736756101
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.undo",1348736756319
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.undo",1348736756532
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.undo",1348736756754
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.undo",1348736756956
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.undo",1348736757165
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.undo",1348736757385
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.undo",1348736757606
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.undo",1348736757822
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.undo",1348736758208
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.undo",1348736758487
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.undo",1348736758704
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.undo",1348736758948
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.undo",1348736759215
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.undo",1348736759461
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.undo",1348736759716
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.undo",1348736759958
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.undo",1348736760405
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.undo",1348736760950
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.undo",1348736761597
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.undo",1348736762232
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.file.save",1348736763761
+error,log,,,"official_signal_grid_item.xml: Failed to find style 'textViewStyle' in current theme",1348736765298
+error,log,,,"official_signal_grid_item.xml: Failed to find style 'textViewStyle' in current theme",1348736765299
+error,log,,,"official_signal_grid_item.xml: Failed to find style 'textViewStyle' in current theme",1348736765299
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.delete",1348736777527
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.file.save",1348736777896
+error,log,,,"official_signal_grid_item.xml: Failed to find style 'textViewStyle' in current theme",1348736779026
+error,log,,,"official_signal_grid_item.xml: Failed to find style 'textViewStyle' in current theme",1348736779027
+error,log,,,"official_signal_grid_item.xml: Failed to find style 'textViewStyle' in current theme",1348736779027
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.text.contentAssist.proposals",1348736940567
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.file.save",1348736941571
+error,log,,,"official_signal_grid_item.xml: Failed to find style 'textViewStyle' in current theme",1348736942607
+error,log,,,"official_signal_grid_item.xml: Failed to find style 'textViewStyle' in current theme",1348736942608
+error,log,,,"official_signal_grid_item.xml: Failed to find style 'textViewStyle' in current theme",1348736942609
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.undo",1348736958231
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.undo",1348736958624
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.undo",1348736959039
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.file.save",1348736959768
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.file.save",1348736970834
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.copy",1348736982713
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.file.save",1348736983272
+error,log,,,"official_signal_grid_item.xml: Failed to find style 'textViewStyle' in current theme",1348736984220
+error,log,,,"official_signal_grid_item.xml: Failed to find style 'textViewStyle' in current theme",1348736984220
+error,log,,,"official_signal_grid_item.xml: Failed to find style 'textViewStyle' in current theme",1348736984221
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.paste",1348736990075
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.file.save",1348736990694
+error,log,,,"official_signal_grid_item.xml: Failed to find style 'textViewStyle' in current theme",1348736991634
+error,log,,,"official_signal_grid_item.xml: Failed to find style 'textViewStyle' in current theme",1348736991638
+error,log,,,"official_signal_grid_item.xml: Failed to find style 'textViewStyle' in current theme",1348736991639
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.undo",1348736996647
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.undo",1348736996927
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.undo",1348736997298
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.undo",1348736997704
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.undo",1348736998085
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.undo",1348736998966
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.file.save",1348737000562
+error,log,,,"official_signal_grid_item.xml: Failed to find style 'textViewStyle' in current theme",1348737001482
+error,log,,,"official_signal_grid_item.xml: Failed to find style 'textViewStyle' in current theme",1348737001483
+error,log,,,"official_signal_grid_item.xml: Failed to find style 'textViewStyle' in current theme",1348737001483
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1348737015932
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1348737020928
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.copy",1348737036359
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.cut",1348737036801
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.file.save",1348737037611
+error,log,,,"official_signal_grid_item.xml: Failed to find style 'textViewStyle' in current theme",1348737038506
+error,log,,,"official_signal_grid_item.xml: Failed to find style 'textViewStyle' in current theme",1348737038506
+error,log,,,"official_signal_grid_item.xml: Failed to find style 'textViewStyle' in current theme",1348737038540
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1348737048392
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1348737053639
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1348737055216
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1348737056239
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1348737058001
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1348737142844
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.file.save",1348737167429
+error,log,,,"official_signal_grid_item.xml: Failed to find style 'textViewStyle' in current theme",1348737173078
+error,log,,,"official_signal_grid_item.xml: Failed to find style 'textViewStyle' in current theme",1348737173078
+error,log,,,"official_signal_grid_item.xml: Failed to find style 'textViewStyle' in current theme",1348737173079
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.file.save",1348737179790
+error,log,,,"official_signal_grid_item.xml: Failed to find style 'textViewStyle' in current theme",1348737180767
+error,log,,,"official_signal_grid_item.xml: Failed to find style 'textViewStyle' in current theme",1348737180768
+error,log,,,"official_signal_grid_item.xml: Failed to find style 'textViewStyle' in current theme",1348737180768
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.file.save",1348737185045
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.file.save",1348737187676
+error,log,,,"official_signal_grid_item.xml: Failed to find style 'textViewStyle' in current theme",1348737188894
+error,log,,,"official_signal_grid_item.xml: Failed to find style 'textViewStyle' in current theme",1348737188895
+error,log,,,"official_signal_grid_item.xml: Failed to find style 'textViewStyle' in current theme",1348737188895
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.file.save",1348737197993
+error,log,,,"official_signal_grid_item.xml: Failed to find style 'textViewStyle' in current theme",1348737199287
+error,log,,,"official_signal_grid_item.xml: Failed to find style 'textViewStyle' in current theme",1348737199288
+error,log,,,"official_signal_grid_item.xml: Failed to find style 'textViewStyle' in current theme",1348737199288
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.file.save",1348737207677
+error,log,,,"official_signal_grid_item.xml: Failed to find style 'textViewStyle' in current theme",1348737209089
+error,log,,,"official_signal_grid_item.xml: Failed to find style 'textViewStyle' in current theme",1348737209089
+error,log,,,"official_signal_grid_item.xml: Failed to find style 'textViewStyle' in current theme",1348737209090
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.copy",1348737219718
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.undo",1348737223427
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.paste",1348737225483
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.file.save",1348737226196
+error,log,,,"official_signal_grid_item.xml: Failed to find style 'textViewStyle' in current theme",1348737226910
+error,log,,,"official_signal_grid_item.xml: Failed to find style 'textViewStyle' in current theme",1348737226911
+error,log,,,"official_signal_grid_item.xml: Failed to find style 'textViewStyle' in current theme",1348737226911
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.file.save",1348737233650
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.file.save",1348737241271
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.file.save",1348737244035
+error,log,,,"official_signal_grid_item.xml: Failed to find style 'textViewStyle' in current theme",1348737245105
+error,log,,,"official_signal_grid_item.xml: Failed to find style 'textViewStyle' in current theme",1348737245106
+error,log,,,"official_signal_grid_item.xml: Failed to find style 'textViewStyle' in current theme",1348737245106
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.delete",1348737249783
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.delete",1348737252481
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.file.save",1348737252883
+error,log,,,"official_signal_grid_item.xml: Failed to find style 'textViewStyle' in current theme",1348737256355
+error,log,,,"official_signal_grid_item.xml: Failed to find style 'textViewStyle' in current theme",1348737256355
+error,log,,,"official_signal_grid_item.xml: Failed to find style 'textViewStyle' in current theme",1348737256356
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.text.contentAssist.proposals",1348737315308
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.file.save",1348737317667
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.text.contentAssist.proposals",1348737324702
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.text.contentAssist.proposals",1348737333038
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.file.save",1348737336003
+error,log,,,"official_signal_grid_item.xml: Failed to find style 'textViewStyle' in current theme",1348737337467
+error,log,,,"official_signal_grid_item.xml: Failed to find style 'textViewStyle' in current theme",1348737337509
+error,log,,,"official_signal_grid_item.xml: Failed to find style 'textViewStyle' in current theme",1348737337510
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.text.contentAssist.proposals",1348737350130
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.undo",1348737357219
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.delete",1348737361257
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.file.save",1348737362601
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.undo",1348737368812
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.file.save",1348737369967
+error,log,,,"official_signal_grid_item.xml: Failed to find style 'textViewStyle' in current theme",1348737370907
+error,log,,,"official_signal_grid_item.xml: Failed to find style 'textViewStyle' in current theme",1348737370907
+error,log,,,"official_signal_grid_item.xml: Failed to find style 'textViewStyle' in current theme",1348737370908
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1348737392165
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1348737434709
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.delete",1348737447571
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.text.contentAssist.proposals",1348737448104
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.file.save",1348737452518
+error,log,,,"official_signal_grid_item.xml: Failed to find style 'textViewStyle' in current theme",1348737457801
+error,log,,,"official_signal_grid_item.xml: Failed to find style 'textViewStyle' in current theme",1348737457802
+error,log,,,"official_signal_grid_item.xml: Failed to find style 'textViewStyle' in current theme",1348737457802
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.text.contentAssist.proposals",1348737463520
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.undo",1348737475161
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.undo",1348737476514
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.undo",1348737476939
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.undo",1348737477530
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.text.contentAssist.proposals",1348737481474
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.file.save",1348737503582
+error,log,,,"official_signal_grid_item.xml: Failed to find style 'textViewStyle' in current theme",1348737504847
+error,log,,,"official_signal_grid_item.xml: Failed to find style 'textViewStyle' in current theme",1348737504848
+error,log,,,"official_signal_grid_item.xml: Failed to find style 'textViewStyle' in current theme",1348737504848
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.file.save",1348737523603
+error,log,,,"official_signal_grid_item.xml: Failed to find style 'textViewStyle' in current theme",1348737524870
+error,log,,,"official_signal_grid_item.xml: Failed to find style 'textViewStyle' in current theme",1348737524870
+error,log,,,"official_signal_grid_item.xml: Failed to find style 'textViewStyle' in current theme",1348737524871
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.copy",1348737546423
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.paste",1348737548580
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.file.save",1348737551809
+error,log,,,"official_signal_grid_item.xml: Failed to find style 'textViewStyle' in current theme",1348737553072

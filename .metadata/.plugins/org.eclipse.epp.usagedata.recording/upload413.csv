@@ -1,0 +1,251 @@
+what,kind,bundleId,bundleVersion,description,time
+opened,editor,com.android.ide.eclipse.adt,20.0.3.v201208082019-427395,"com.android.ide.eclipse.editors.CommonXmlEditor",1349701866613
+activated,editor,com.android.ide.eclipse.adt,20.0.3.v201208082019-427395,"com.android.ide.eclipse.editors.CommonXmlEditor",1349701866648
+activated,editor,com.android.ide.eclipse.adt,20.0.3.v201208082019-427395,"com.android.ide.eclipse.editors.CommonXmlEditor",1349701870451
+closed,editor,com.android.ide.eclipse.adt,20.0.3.v201208082019-427395,"com.android.ide.eclipse.editors.CommonXmlEditor",1349701870451
+activated,editor,com.android.ide.eclipse.adt,20.0.3.v201208082019-427395,"com.android.ide.eclipse.editors.CommonXmlEditor",1349701871406
+error,log,,,"share_list_item.xml: Failed to find style 'textViewStyle' in current theme",1349701874266
+error,log,,,"share_list_item.xml: Failed to find style 'textViewStyle' in current theme",1349701874267
+error,log,,,"share_list_item.xml: Failed to find style 'textViewStyle' in current theme",1349701874267
+error,log,,,"share_list_item.xml: Failed to find style 'buttonStyleToggle' in current theme",1349701874268
+error,log,,,"share_list_item.xml: Failed to find style 'buttonStyleToggle' in current theme",1349701874292
+error,log,,,"share_list_item.xml: Failed to find style 'buttonStyleToggle' in current theme",1349701874292
+error,log,,,"share_list_item.xml: Failed to find style 'buttonStyleToggle' in current theme",1349701874292
+error,log,,,"share_list_item.xml: Failed to find style 'buttonStyleToggle' in current theme",1349701874293
+activated,editor,com.android.ide.eclipse.adt,20.0.3.v201208082019-427395,"com.android.ide.eclipse.editors.CommonXmlEditor",1349701883189
+activated,editor,com.android.ide.eclipse.adt,20.0.3.v201208082019-427395,"com.android.ide.eclipse.editors.CommonXmlEditor",1349701885382
+activated,editor,com.android.ide.eclipse.adt,20.0.3.v201208082019-427395,"com.android.ide.eclipse.editors.CommonXmlEditor",1349701894239
+activated,editor,com.android.ide.eclipse.adt,20.0.3.v201208082019-427395,"com.android.ide.eclipse.editors.CommonXmlEditor",1349701905735
+activated,editor,com.android.ide.eclipse.adt,20.0.3.v201208082019-427395,"com.android.ide.eclipse.editors.CommonXmlEditor",1349701926278
+activated,editor,com.android.ide.eclipse.adt,20.0.3.v201208082019-427395,"com.android.ide.eclipse.editors.CommonXmlEditor",1349701931453
+activated,editor,com.android.ide.eclipse.adt,20.0.3.v201208082019-427395,"com.android.ide.eclipse.editors.CommonXmlEditor",1349701935335
+activated,editor,com.android.ide.eclipse.adt,20.0.3.v201208082019-427395,"com.android.ide.eclipse.editors.CommonXmlEditor",1349701940801
+activated,editor,com.android.ide.eclipse.adt,20.0.3.v201208082019-427395,"com.android.ide.eclipse.editors.CommonXmlEditor",1349701944936
+closed,editor,com.android.ide.eclipse.adt,20.0.3.v201208082019-427395,"com.android.ide.eclipse.editors.CommonXmlEditor",1349701944937
+activated,editor,com.android.ide.eclipse.adt,20.0.3.v201208082019-427395,"com.android.ide.eclipse.editors.CommonXmlEditor",1349701946534
+closed,editor,com.android.ide.eclipse.adt,20.0.3.v201208082019-427395,"com.android.ide.eclipse.editors.CommonXmlEditor",1349701946534
+activated,editor,com.android.ide.eclipse.adt,20.0.3.v201208082019-427395,"com.android.ide.eclipse.editors.CommonXmlEditor",1349701950032
+activated,editor,com.android.ide.eclipse.adt,20.0.3.v201208082019-427395,"com.android.ide.eclipse.editors.CommonXmlEditor",1349701955353
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.delete",1349701960711
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.file.save",1349701965331
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1349701984411
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1349701985811
+activated,view,org.eclipse.ui.console,3.5.100.v20111007_r372,"org.eclipse.ui.console.ConsoleView",1349702003548
+activated,editor,com.android.ide.eclipse.adt,20.0.3.v201208082019-427395,"com.android.ide.eclipse.editors.CommonXmlEditor",1349702004297
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1349702006620
+activated,view,org.eclipse.ui.console,3.5.100.v20111007_r372,"org.eclipse.ui.console.ConsoleView",1349702008889
+activated,view,com.android.ide.eclipse.ddms,20.0.3.v201208082019-427395,"com.android.ide.eclipse.ddms.views.LogCatView",1349702009433
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1349702026746
+activated,editor,com.android.ide.eclipse.adt,20.0.3.v201208082019-427395,"com.android.ide.eclipse.editors.CommonXmlEditor",1349702027258
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.file.save",1349702051292
+activated,editor,com.android.ide.eclipse.adt,20.0.3.v201208082019-427395,"com.android.ide.eclipse.editors.CommonXmlEditor",1349702061166
+activated,editor,com.android.ide.eclipse.adt,20.0.3.v201208082019-427395,"com.android.ide.eclipse.editors.CommonXmlEditor",1349702062675
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1349702065961
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1349702203095
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1349702228073
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1349702243600
+activated,editor,com.android.ide.eclipse.adt,20.0.3.v201208082019-427395,"com.android.ide.eclipse.editors.CommonXmlEditor",1349702244484
+opened,editor,com.android.ide.eclipse.adt,20.0.3.v201208082019-427395,"com.android.ide.eclipse.editors.CommonXmlEditor",1349702254050
+activated,editor,com.android.ide.eclipse.adt,20.0.3.v201208082019-427395,"com.android.ide.eclipse.editors.CommonXmlEditor",1349702254085
+activated,editor,com.android.ide.eclipse.adt,20.0.3.v201208082019-427395,"com.android.ide.eclipse.editors.CommonXmlEditor",1349702258593
+activated,view,org.eclipse.jdt.ui,3.7.2.v20120109-1427,"org.eclipse.jdt.ui.PackageExplorer",1349702260441
+opened,editor,com.android.ide.eclipse.adt,20.0.3.v201208082019-427395,"com.android.ide.eclipse.editors.CommonXmlEditor",1349702261300
+activated,editor,com.android.ide.eclipse.adt,20.0.3.v201208082019-427395,"com.android.ide.eclipse.editors.CommonXmlEditor",1349702261359
+opened,editor,com.android.ide.eclipse.adt,20.0.3.v201208082019-427395,"com.android.ide.eclipse.editors.CommonXmlEditor",1349702262923
+activated,editor,com.android.ide.eclipse.adt,20.0.3.v201208082019-427395,"com.android.ide.eclipse.editors.CommonXmlEditor",1349702262953
+activated,editor,com.android.ide.eclipse.adt,20.0.3.v201208082019-427395,"com.android.ide.eclipse.editors.CommonXmlEditor",1349702283546
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.cut",1349702297888
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.paste",1349702299263
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.file.save",1349702300293
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1349702305389
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1349702306651
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.file.save",1349702307093
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.copy",1349702315172
+activated,editor,com.android.ide.eclipse.adt,20.0.3.v201208082019-427395,"com.android.ide.eclipse.editors.CommonXmlEditor",1349702316166
+activated,editor,com.android.ide.eclipse.adt,20.0.3.v201208082019-427395,"com.android.ide.eclipse.editors.CommonXmlEditor",1349702322754
+activated,editor,com.android.ide.eclipse.adt,20.0.3.v201208082019-427395,"com.android.ide.eclipse.editors.CommonXmlEditor",1349702328918
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.text.contentAssist.proposals",1349702338910
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.text.contentAssist.proposals",1349702349519
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.undo",1349702354326
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.text.contentAssist.proposals",1349702359109
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.text.contentAssist.proposals",1349702371134
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1349702378333
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1349702379744
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1349702386870
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1349702412786
+activated,view,org.eclipse.ui.console,3.5.100.v20111007_r372,"org.eclipse.ui.console.ConsoleView",1349702438372
+activated,view,com.android.ide.eclipse.ddms,20.0.3.v201208082019-427395,"com.android.ide.eclipse.ddms.views.LogCatView",1349702438775
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1349702441989
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1349702480307
+activated,editor,com.android.ide.eclipse.adt,20.0.3.v201208082019-427395,"com.android.ide.eclipse.editors.CommonXmlEditor",1349702480672
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.undo",1349702497710
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.delete",1349702503681
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.delete",1349702505466
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.delete",1349702506565
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.file.save",1349702514592
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1349702527745
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1349702597310
+activated,editor,com.android.ide.eclipse.adt,20.0.3.v201208082019-427395,"com.android.ide.eclipse.editors.CommonXmlEditor",1349702604755
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1349702606753
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1349702610694
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1349702612124
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1349702619760
+activated,view,org.eclipse.ui.console,3.5.100.v20111007_r372,"org.eclipse.ui.console.ConsoleView",1349702620080
+activated,view,com.android.ide.eclipse.ddms,20.0.3.v201208082019-427395,"com.android.ide.eclipse.ddms.views.LogCatView",1349702620623
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1349702622876
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1349702627566
+activated,editor,com.android.ide.eclipse.adt,20.0.3.v201208082019-427395,"com.android.ide.eclipse.editors.CommonXmlEditor",1349702646276
+activated,editor,com.android.ide.eclipse.adt,20.0.3.v201208082019-427395,"com.android.ide.eclipse.editors.CommonXmlEditor",1349702648605
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.file.save",1349702656718
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1349702680411
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1349702681884
+activated,view,org.eclipse.ui.console,3.5.100.v20111007_r372,"org.eclipse.ui.console.ConsoleView",1349702704360
+activated,view,com.android.ide.eclipse.ddms,20.0.3.v201208082019-427395,"com.android.ide.eclipse.ddms.views.LogCatView",1349702704914
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1349702706162
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1349702827629
+activated,editor,com.android.ide.eclipse.adt,20.0.3.v201208082019-427395,"com.android.ide.eclipse.editors.CommonXmlEditor",1349702828307
+activated,editor,com.android.ide.eclipse.adt,20.0.3.v201208082019-427395,"com.android.ide.eclipse.editors.CommonXmlEditor",1349702831908
+activated,editor,com.android.ide.eclipse.adt,20.0.3.v201208082019-427395,"com.android.ide.eclipse.editors.CommonXmlEditor",1349702846659
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.file.save",1349702865643
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1349702868665
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1349702870399
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1349702871727
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1349702888928
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1349702893804
+activated,view,org.eclipse.ui.console,3.5.100.v20111007_r372,"org.eclipse.ui.console.ConsoleView",1349702913131
+activated,view,com.android.ide.eclipse.ddms,20.0.3.v201208082019-427395,"com.android.ide.eclipse.ddms.views.LogCatView",1349702913512
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1349702954791
+activated,editor,com.android.ide.eclipse.adt,20.0.3.v201208082019-427395,"com.android.ide.eclipse.editors.CommonXmlEditor",1349702955217
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.file.save",1349702962438
+error,log,,,"share_fragment.xml: Failed to find style 'scrollViewStyle' in current theme",1349702967867
+error,log,,,"share_fragment.xml: Failed to find style 'scrollViewStyle' in current theme",1349702967868
+error,log,,,"share_fragment.xml: Failed to find style 'scrollViewStyle' in current theme",1349702967868
+error,log,,,"share_fragment.xml: Failed to find style 'textViewStyle' in current theme",1349702967869
+error,log,,,"share_fragment.xml: Failed to find style 'textViewStyle' in current theme",1349702967869
+error,log,,,"share_fragment.xml: Failed to find style 'textViewStyle' in current theme",1349702967870
+error,log,,,"share_fragment.xml: Failed to find style 'textViewStyle' in current theme",1349702967870
+error,log,,,"share_fragment.xml: Failed to find style 'textViewStyle' in current theme",1349702967871
+error,log,,,"share_fragment.xml: Failed to find style 'textViewStyle' in current theme",1349702967896
+error,log,,,"share_fragment.xml: Failed to find style 'textViewStyle' in current theme",1349702967935
+error,log,,,"share_fragment.xml: Failed to find style 'textViewStyle' in current theme",1349702967935
+error,log,,,"share_fragment.xml: Failed to find style 'textViewStyle' in current theme",1349702967936
+error,log,,,"share_fragment.xml: Failed to find style 'textViewStyle' in current theme",1349702967936
+error,log,,,"share_fragment.xml: Failed to find style 'textViewStyle' in current theme",1349702967937
+error,log,,,"share_fragment.xml: Failed to find style 'textViewStyle' in current theme",1349702967937
+error,log,,,"share_fragment.xml: Failed to find style 'listViewStyle' in current theme",1349702967938
+error,log,,,"share_fragment.xml: Failed to find style 'listViewStyle' in current theme",1349702967938
+error,log,,,"share_fragment.xml: Failed to find style 'listViewStyle' in current theme",1349702967939
+error,log,,,"share_fragment.xml: Failed to find style 'textViewStyle' in current theme",1349702967939
+error,log,,,"share_fragment.xml: Failed to find style 'textViewStyle' in current theme",1349702967940
+error,log,,,"share_fragment.xml: Failed to find style 'textViewStyle' in current theme",1349702967941
+error,log,,,"share_fragment.xml: Failed to find style 'textViewStyle' in current theme",1349702967941
+error,log,,,"share_fragment.xml: Failed to find style 'textViewStyle' in current theme",1349702967941
+error,log,,,"share_fragment.xml: Failed to find style 'textViewStyle' in current theme",1349702967942
+error,log,,,"share_fragment.xml: Failed to find style 'editTextStyle' in current theme",1349702967943
+error,log,,,"share_fragment.xml: Failed to find style 'editTextStyle' in current theme",1349702967944
+error,log,,,"share_fragment.xml: Failed to find style 'editTextStyle' in current theme",1349702967945
+error,log,,,"share_fragment.xml: Failed to find style 'seekBarStyle' in current theme",1349702967946
+error,log,,,"share_fragment.xml: Failed to find style 'seekBarStyle' in current theme",1349702967946
+error,log,,,"share_fragment.xml: Failed to find style 'seekBarStyle' in current theme",1349702967986
+error,log,,,"share_fragment.xml: Failed to find style 'textViewStyle' in current theme",1349702968015
+error,log,,,"share_fragment.xml: Failed to find style 'textViewStyle' in current theme",1349702968016
+error,log,,,"share_fragment.xml: Failed to find style 'textViewStyle' in current theme",1349702968017
+error,log,,,"share_fragment.xml: Failed to find style 'textViewStyle' in current theme",1349702968018
+error,log,,,"share_fragment.xml: Failed to find style 'textViewStyle' in current theme",1349702968018
+error,log,,,"share_fragment.xml: Failed to find style 'textViewStyle' in current theme",1349702968019
+error,log,,,"share_fragment.xml: Failed to find style 'textViewStyle' in current theme",1349702968021
+error,log,,,"share_fragment.xml: Failed to find style 'textViewStyle' in current theme",1349702968021
+error,log,,,"share_fragment.xml: Failed to find style 'textViewStyle' in current theme",1349702968022
+error,log,,,"share_fragment.xml: Failed to find style 'textViewStyle' in current theme",1349702968022
+error,log,,,"share_fragment.xml: Failed to find style 'textViewStyle' in current theme",1349702968023
+error,log,,,"share_fragment.xml: Failed to find style 'textViewStyle' in current theme",1349702968024
+error,log,,,"share_fragment.xml: Failed to find style 'textViewStyle' in current theme",1349702968025
+error,log,,,"share_fragment.xml: Failed to find style 'textViewStyle' in current theme",1349702968026
+error,log,,,"share_fragment.xml: Failed to find style 'textViewStyle' in current theme",1349702968027
+error,log,,,"share_fragment.xml: Failed to find style 'textViewStyle' in current theme",1349702968027
+error,log,,,"share_fragment.xml: Failed to find style 'textViewStyle' in current theme",1349702968027
+error,log,,,"share_fragment.xml: Failed to find style 'textViewStyle' in current theme",1349702968028
+error,log,,,"share_fragment.xml: Failed to find style 'textViewStyle' in current theme",1349702968030
+error,log,,,"share_fragment.xml: Failed to find style 'textViewStyle' in current theme",1349702968031
+error,log,,,"share_fragment.xml: Failed to find style 'textViewStyle' in current theme",1349702968032
+error,log,,,"share_fragment.xml: Failed to find style 'textViewStyle' in current theme",1349702968032
+error,log,,,"share_fragment.xml: Failed to find style 'textViewStyle' in current theme",1349702968032
+error,log,,,"share_fragment.xml: Failed to find style 'textViewStyle' in current theme",1349702968033
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1349702983737
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1349703029741
+opened,editor,com.android.ide.eclipse.adt,20.0.3.v201208082019-427395,"com.android.ide.eclipse.editors.CommonXmlEditor",1349703041007
+activated,editor,com.android.ide.eclipse.adt,20.0.3.v201208082019-427395,"com.android.ide.eclipse.editors.CommonXmlEditor",1349703041035
+activated,editor,com.android.ide.eclipse.adt,20.0.3.v201208082019-427395,"com.android.ide.eclipse.editors.CommonXmlEditor",1349703059921
+activated,editor,com.android.ide.eclipse.adt,20.0.3.v201208082019-427395,"com.android.ide.eclipse.editors.CommonXmlEditor",1349703061748
+closed,editor,com.android.ide.eclipse.adt,20.0.3.v201208082019-427395,"com.android.ide.eclipse.editors.CommonXmlEditor",1349703061748
+activated,editor,com.android.ide.eclipse.adt,20.0.3.v201208082019-427395,"com.android.ide.eclipse.editors.CommonXmlEditor",1349703064170
+opened,editor,com.android.ide.eclipse.adt,20.0.3.v201208082019-427395,"com.android.ide.eclipse.editors.CommonXmlEditor",1349703067485
+activated,editor,com.android.ide.eclipse.adt,20.0.3.v201208082019-427395,"com.android.ide.eclipse.editors.CommonXmlEditor",1349703067511
+activated,editor,com.android.ide.eclipse.adt,20.0.3.v201208082019-427395,"com.android.ide.eclipse.editors.CommonXmlEditor",1349703071199
+closed,editor,com.android.ide.eclipse.adt,20.0.3.v201208082019-427395,"com.android.ide.eclipse.editors.CommonXmlEditor",1349703071199
+activated,editor,com.android.ide.eclipse.adt,20.0.3.v201208082019-427395,"com.android.ide.eclipse.editors.CommonXmlEditor",1349703073773
+closed,editor,com.android.ide.eclipse.adt,20.0.3.v201208082019-427395,"com.android.ide.eclipse.editors.CommonXmlEditor",1349703073773
+activated,editor,com.android.ide.eclipse.adt,20.0.3.v201208082019-427395,"com.android.ide.eclipse.editors.CommonXmlEditor",1349703075081
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.delete",1349703079568
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.file.save",1349703080605
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1349703084825
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1349703086528
+error,log,,,"share_fragment.xml: Failed to find style 'scrollViewStyle' in current theme",1349703090679
+error,log,,,"share_fragment.xml: Failed to find style 'scrollViewStyle' in current theme",1349703090680
+error,log,,,"share_fragment.xml: Failed to find style 'scrollViewStyle' in current theme",1349703090680
+error,log,,,"share_fragment.xml: Failed to find style 'textViewStyle' in current theme",1349703090681
+error,log,,,"share_fragment.xml: Failed to find style 'textViewStyle' in current theme",1349703090682
+error,log,,,"share_fragment.xml: Failed to find style 'textViewStyle' in current theme",1349703090682
+error,log,,,"share_fragment.xml: Failed to find style 'textViewStyle' in current theme",1349703090683
+error,log,,,"share_fragment.xml: Failed to find style 'textViewStyle' in current theme",1349703090684
+error,log,,,"share_fragment.xml: Failed to find style 'textViewStyle' in current theme",1349703090684
+error,log,,,"share_fragment.xml: Failed to find style 'textViewStyle' in current theme",1349703090687
+error,log,,,"share_fragment.xml: Failed to find style 'textViewStyle' in current theme",1349703090688
+error,log,,,"share_fragment.xml: Failed to find style 'textViewStyle' in current theme",1349703090688
+error,log,,,"share_fragment.xml: Failed to find style 'textViewStyle' in current theme",1349703090689
+error,log,,,"share_fragment.xml: Failed to find style 'textViewStyle' in current theme",1349703090690
+error,log,,,"share_fragment.xml: Failed to find style 'textViewStyle' in current theme",1349703090690
+error,log,,,"share_fragment.xml: Failed to find style 'listViewStyle' in current theme",1349703090691
+error,log,,,"share_fragment.xml: Failed to find style 'listViewStyle' in current theme",1349703090691
+error,log,,,"share_fragment.xml: Failed to find style 'listViewStyle' in current theme",1349703090692
+error,log,,,"share_fragment.xml: Failed to find style 'textViewStyle' in current theme",1349703090692
+error,log,,,"share_fragment.xml: Failed to find style 'textViewStyle' in current theme",1349703090693
+error,log,,,"share_fragment.xml: Failed to find style 'textViewStyle' in current theme",1349703090693
+error,log,,,"share_fragment.xml: Failed to find style 'textViewStyle' in current theme",1349703090694
+error,log,,,"share_fragment.xml: Failed to find style 'textViewStyle' in current theme",1349703090694
+error,log,,,"share_fragment.xml: Failed to find style 'textViewStyle' in current theme",1349703090695
+error,log,,,"share_fragment.xml: Failed to find style 'editTextStyle' in current theme",1349703090695
+error,log,,,"share_fragment.xml: Failed to find style 'editTextStyle' in current theme",1349703090696
+error,log,,,"share_fragment.xml: Failed to find style 'editTextStyle' in current theme",1349703090698
+error,log,,,"share_fragment.xml: Failed to find style 'seekBarStyle' in current theme",1349703090699
+error,log,,,"share_fragment.xml: Failed to find style 'seekBarStyle' in current theme",1349703090699
+error,log,,,"share_fragment.xml: Failed to find style 'seekBarStyle' in current theme",1349703090705
+error,log,,,"share_fragment.xml: Failed to find style 'textViewStyle' in current theme",1349703090710
+error,log,,,"share_fragment.xml: Failed to find style 'textViewStyle' in current theme",1349703090711
+error,log,,,"share_fragment.xml: Failed to find style 'textViewStyle' in current theme",1349703090712
+error,log,,,"share_fragment.xml: Failed to find style 'textViewStyle' in current theme",1349703090712
+error,log,,,"share_fragment.xml: Failed to find style 'textViewStyle' in current theme",1349703090712
+error,log,,,"share_fragment.xml: Failed to find style 'textViewStyle' in current theme",1349703090713
+error,log,,,"share_fragment.xml: Failed to find style 'textViewStyle' in current theme",1349703090715
+error,log,,,"share_fragment.xml: Failed to find style 'textViewStyle' in current theme",1349703090716
+error,log,,,"share_fragment.xml: Failed to find style 'textViewStyle' in current theme",1349703090716
+error,log,,,"share_fragment.xml: Failed to find style 'textViewStyle' in current theme",1349703090717
+error,log,,,"share_fragment.xml: Failed to find style 'textViewStyle' in current theme",1349703090717
+error,log,,,"share_fragment.xml: Failed to find style 'textViewStyle' in current theme",1349703090718
+error,log,,,"share_fragment.xml: Failed to find style 'textViewStyle' in current theme",1349703090720
+error,log,,,"share_fragment.xml: Failed to find style 'textViewStyle' in current theme",1349703090721
+error,log,,,"share_fragment.xml: Failed to find style 'textViewStyle' in current theme",1349703090722
+error,log,,,"share_fragment.xml: Failed to find style 'textViewStyle' in current theme",1349703090722
+error,log,,,"share_fragment.xml: Failed to find style 'textViewStyle' in current theme",1349703090723
+error,log,,,"share_fragment.xml: Failed to find style 'textViewStyle' in current theme",1349703090723
+error,log,,,"share_fragment.xml: Failed to find style 'textViewStyle' in current theme",1349703090725
+error,log,,,"share_fragment.xml: Failed to find style 'textViewStyle' in current theme",1349703090726
+error,log,,,"share_fragment.xml: Failed to find style 'textViewStyle' in current theme",1349703090726
+error,log,,,"share_fragment.xml: Failed to find style 'textViewStyle' in current theme",1349703090727
+error,log,,,"share_fragment.xml: Failed to find style 'textViewStyle' in current theme",1349703090727
+error,log,,,"share_fragment.xml: Failed to find style 'textViewStyle' in current theme",1349703090728
+error,log,,,"share_fragment.xml: Failed to find style 'scrollViewStyle' in current theme",1349703098364
+error,log,,,"share_fragment.xml: Failed to find style 'scrollViewStyle' in current theme",1349703098365
+error,log,,,"share_fragment.xml: Failed to find style 'scrollViewStyle' in current theme",1349703098365
+error,log,,,"share_fragment.xml: Failed to find style 'textViewStyle' in current theme",1349703098366
+error,log,,,"share_fragment.xml: Failed to find style 'textViewStyle' in current theme",1349703098367

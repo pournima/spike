@@ -1,0 +1,713 @@
+commit 27327debdb13fd8c532a71fee9273eef2f6d9504
+Merge: 0049880 ff8b219
+Author: Pradeep Patil <pradeep@weboniselab.com>
+Date:   Mon Aug 13 23:45:29 2012 +0530
+
+    Merge branch 'develop' of git.prometheussports.com:heads-up/heads_up_android into develop
+
+commit ff8b21949cbc86776316edf986122ad828c75333
+Merge: 6b0bf23 74784c9
+Author: Pallavi Kamat <pallavi@weboniselab.com>
+Date:   Mon Aug 13 23:42:17 2012 +0530
+
+    commit after pull and resolve conflictes
+
+commit 6b0bf236c84aa78f9c7f5c438fe3e4b2609e64f3
+Merge: 4ef761c 10e8d0a
+Author: Pallavi Kamat <pallavi@weboniselab.com>
+Date:   Mon Aug 13 23:33:12 2012 +0530
+
+    commit after adding app icon
+
+commit 0049880aca1c040944ad78d81afa294b11848ce8
+Author: Pradeep Patil <pradeep@weboniselab.com>
+Date:   Mon Aug 13 23:30:58 2012 +0530
+
+    solve snap screen UI issue
+
+commit 0c4e2e081da4bc25b2d3d03e3c14bb70b47fb7d9
+Merge: 538c0c2 10e8d0a
+Author: Pradeep Patil <pradeep@weboniselab.com>
+Date:   Mon Aug 13 22:42:00 2012 +0530
+
+    commit after solving UI issues on health and saftey tab
+
+commit 74784c9a23044afc90a0329f454427623711847c
+Merge: dbbbf8b 5846a3e
+Author: Abhishek <abhishe@weboniselab.com>
+Date:   Mon Aug 13 22:38:59 2012 +0530
+
+    Merge branch 'develop' of git.prometheussports.com:heads-up/heads_up_android into develop
+
+commit dbbbf8b755176e97bd6ddc52f50aec6902801972
+Author: Abhishek <abhishe@weboniselab.com>
+Date:   Mon Aug 13 22:38:36 2012 +0530
+
+    Offers tab UI issue resolved
+
+commit 5846a3e897db2c10a93c2b19d6a57c4e102a2a2f
+Merge: 038e370 10e8d0a
+Author: rsrahulee <rahul@weboniselab.com>
+Date:   Mon Aug 13 22:09:43 2012 +0530
+
+    commit after resolving conflicts
+
+commit 4ef761c839362aecce423e7abf80029d6d739bb5
+Author: Pallavi Kamat <pallavi@weboniselab.com>
+Date:   Mon Aug 13 20:54:21 2012 +0530
+
+    commit before pull
+
+commit e838666c4f241c00c6ba5375b5336b6e153fdf22
+Author: Pallavi Kamat <pallavi@weboniselab.com>
+Date:   Mon Aug 13 20:39:07 2012 +0530
+
+    commit before pull
+
+commit 038e370f29ed220f7c14573a9d14a5c1182b2088
+Author: rsrahulee <rahul@weboniselab.com>
+Date:   Mon Aug 13 20:30:33 2012 +0530
+
+    Done with graphics and text allignment for all screens
+
+commit 10e8d0affc4174fa5401f29e4a19a7461acb7f66
+Merge: 8629e34 6437bd9
+Author: pournima <pournima@weboniselab.com>
+Date:   Mon Aug 13 20:15:08 2012 +0530
+
+    commit after pull
+
+commit 538c0c2d356887a9ff04dcb7c392cea724dfb3ae
+Author: Pradeep Patil <pradeep@weboniselab.com>
+Date:   Mon Aug 13 20:10:12 2012 +0530
+
+    commit before pull
+
+commit 8629e34612e58008cff996aa912a64d34907c111
+Author: pournima <pournima@weboniselab.com>
+Date:   Mon Aug 13 20:08:23 2012 +0530
+
+    solve issue on xml description when internet not available and change text on safety checklist
+
+commit 6437bd9a48537907455b55757c00c30ff049e6e2
+Merge: 0e8b0eb 8da0f79
+Author: Nilesh Jinde <nilesh@weboniselab.com>
+Date:   Mon Aug 13 20:04:16 2012 +0530
+
+    Merge branch 'develop' of git.prometheussports.com:heads-up/heads_up_android into develop
+
+commit 0e8b0ebaafcda8c4a4e3898964dae5152ab772b9
+Author: Nilesh Jinde <nilesh@weboniselab.com>
+Date:   Mon Aug 13 20:03:26 2012 +0530
+
+    back btn issue on tabs resolved
+
+commit d095bc8f566a6483419ba432fbb2ccbb97ebc679
+Merge: 50fc518 8da0f79
+Author: rsrahulee <rahul@weboniselab.com>
+Date:   Mon Aug 13 19:29:35 2012 +0530
+
+    Merge branch 'develop' of git.prometheussports.com:heads-up/heads_up_android into develop
+
+commit 50fc518a7b897eb00df1bfa6a54b97bd0dbb26d2
+Author: rsrahulee <rahul@weboniselab.com>
+Date:   Mon Aug 13 19:25:40 2012 +0530
+
+    solved the issue of list view with video images and text,makes it density independent for Equipment screen,Concussion awareness screen and Heat prepardness screen
+
+commit 8da0f7900a5dafed5b907d13336040f220273e88
+Author: Abhishek <abhishe@weboniselab.com>
+Date:   Mon Aug 13 18:31:30 2012 +0530
+
+    heads up logo changed
+
+commit 69a89c3099c6495c729397c4db6ee54f165337ea
+Merge: e5fcced ab33ea6
+Author: Abhishek <abhishe@weboniselab.com>
+Date:   Mon Aug 13 17:42:27 2012 +0530
+
+    commit after resolving conflicts
+
+commit e5fcced50c9f2d50ca975bb0ec0b5510ba678438
+Author: Abhishek <abhishe@weboniselab.com>
+Date:   Mon Aug 13 16:46:08 2012 +0530
+
+    logo and app icons changes
+
+commit 68fe1d997e27d55252280bb80a5098c68e02e868
+Author: Abhishek <abhishe@weboniselab.com>
+Date:   Mon Aug 13 16:42:28 2012 +0530
+
+    parents tab on safety checklist done
+
+commit ab33ea66a53a9f63a22b86ce026c67734cb08186
+Merge: a931738 614542e
+Author: Pallavi Kamat <pallavi@weboniselab.com>
+Date:   Mon Aug 13 16:33:13 2012 +0530
+
+    commit after pull
+
+commit a93173818c9a0c58b17f41bed53ed5430b20fa17
+Author: Pallavi Kamat <pallavi@weboniselab.com>
+Date:   Mon Aug 13 16:21:49 2012 +0530
+
+    changed ui on Login activity
+
+commit 614542eeebcea608b2ca6119a1e67a67a2b72c59
+Merge: 4134783 c98481f
+Author: Pradeep Patil <pradeep@weboniselab.com>
+Date:   Mon Aug 13 16:14:33 2012 +0530
+
+    Merge branch 'develop' of git.prometheussports.com:heads-up/heads_up_android into develop
+
+commit 41347835a92dec0bf4f1ec87133dcdad38a377fc
+Author: Pradeep Patil <pradeep@weboniselab.com>
+Date:   Mon Aug 13 16:12:12 2012 +0530
+
+    commit after changing the header logo image and change the font type of powered by checkin for good
+
+commit c98481f2c0a531d26169a474f850e63a799ee8c7
+Merge: a3f5c67 b6ba289
+Author: pournima <pournima@weboniselab.com>
+Date:   Mon Aug 13 16:07:39 2012 +0530
+
+    commit after pull
+
+commit a3f5c6779c631a7bccf003e9dfb05d6453747af6
+Author: pournima <pournima@weboniselab.com>
+Date:   Mon Aug 13 15:58:52 2012 +0530
+
+    Changes done with text  change and proper layout
+
+commit b6ba28958d9b2e7c609a4e3802d725eb9c249d64
+Merge: 48941ab ca3d2f2
+Author: rsrahulee <rahul@weboniselab.com>
+Date:   Mon Aug 13 15:50:28 2012 +0530
+
+    commit after solving conflicts
+
+commit 48941ab2851cbda42cb0a329d47aaae888be1feb
+Author: rsrahulee <rahul@weboniselab.com>
+Date:   Mon Aug 13 15:47:04 2012 +0530
+
+    finalizing setting screen, how it works,about screen,how to tackle screen,about screen
+
+commit ca3d2f2b29fb9c07508ab6ace1165edfe5144569
+Author: Pradeep Patil <pradeep@weboniselab.com>
+Date:   Mon Aug 13 15:24:03 2012 +0530
+
+    commit after adding video on equipment fitting,concussion awareness,heat preparedness and adding images on it
+
+commit 1002d3291a6dbb9b415562d9340113b66092bb0a
+Author: Pallavi Kamat <pallavi@weboniselab.com>
+Date:   Mon Aug 13 12:40:44 2012 +0530
+
+    Added video link on text click, also added link checkinforgood.com
+
+commit 785d7e2313d2784f60c9b56655a024405f053109
+Merge: 66fbd4e b8fb233
+Author: Pradeep Patil <pradeep@weboniselab.com>
+Date:   Fri Aug 10 20:22:15 2012 +0530
+
+    commit after resolving conflicts
+
+commit 66fbd4ed7dcffb7ce9308d11ebae4ab239353649
+Author: Pradeep Patil <pradeep@weboniselab.com>
+Date:   Fri Aug 10 20:19:29 2012 +0530
+
+    kindle link added and concussion awareness issue resolved
+
+commit b8fb233ee08510cc7235aab65aa84d2bdc552df7
+Merge: 214ac96 17137a5
+Author: rsrahulee <rahul@weboniselab.com>
+Date:   Fri Aug 10 20:13:18 2012 +0530
+
+    commit after merge
+
+commit 214ac961671341f9f40a1d6ee23d66c111484270
+Author: rsrahulee <rahul@weboniselab.com>
+Date:   Fri Aug 10 20:10:57 2012 +0530
+
+    BAckButton issue,health & safety screen allignment,removed titles,image click issue,splash screen issue,concussion signs and symptoms issue,video background issue DONE
+
+commit ca784699d8076c1f976ad87063eb1349c744d708
+Merge: 184393c 17137a5
+Author: Pradeep Patil <pradeep@weboniselab.com>
+Date:   Fri Aug 10 17:56:39 2012 +0530
+
+    commit after pull
+
+commit 184393c73d3c64c8aafc3b93c48733d132d4d6ea
+Author: Pradeep Patil <pradeep@weboniselab.com>
+Date:   Fri Aug 10 17:49:39 2012 +0530
+
+    commit before pull
+
+commit 17137a566d40249098654577772fef704032345a
+Author: Abhishek <abhishe@weboniselab.com>
+Date:   Fri Aug 10 17:38:23 2012 +0530
+
+    offers tab Ui changes done, rules tab design integrated, and settings tab design integrated
+
+commit e484bc10465eaf5d99f0df0d529ae7435870da49
+Author: Pradeep Patil <pradeep@weboniselab.com>
+Date:   Fri Aug 10 16:54:24 2012 +0530
+
+    changed the checkin-in screen as per as design
+
+commit 9eb65c878db32460aab041bcc4e45ce04f520231
+Merge: ce946fc b95d20d
+Author: Abhishek <abhishe@weboniselab.com>
+Date:   Fri Aug 10 01:56:09 2012 +0530
+
+    all fuctionalities are done and all new screens are integrated except parents tab.. stable code
+
+commit b95d20d80613b8ddbe09774d506d32d7c55f4810
+Author: rsrahulee <rahul@weboniselab.com>
+Date:   Fri Aug 10 00:32:13 2012 +0530
+
+    removes the button from the checkin screen
+
+commit 3e0e600974fe05c50deb0080b64ce6364b0a0252
+Merge: 0ae67d0 7a79443
+Author: rsrahulee <rahul@weboniselab.com>
+Date:   Fri Aug 10 00:27:12 2012 +0530
+
+    resolved conflicts
+
+commit 0ae67d0f953bf2e5377bac1cffcf3b260c51df3a
+Author: rsrahulee <rahul@weboniselab.com>
+Date:   Fri Aug 10 00:23:07 2012 +0530
+
+    changes the Heading of the concussion awareness screen
+
+commit ce946fc2dda5288ac73e8761af8ccda287b0b9d5
+Author: Abhishek <abhishe@weboniselab.com>
+Date:   Fri Aug 10 00:22:14 2012 +0530
+
+    commit before merge
+
+commit 7a7944363a86dd354166899fee1c5203d897170a
+Merge: 76a7dfa a48d196
+Author: Pradeep Patil <pradeep@weboniselab.com>
+Date:   Fri Aug 10 00:21:17 2012 +0530
+
+    commit after resolving conflicts
+
+commit 76a7dfa958906d607a5cecf5d66d33ac8a38ff97
+Author: Pradeep Patil <pradeep@weboniselab.com>
+Date:   Fri Aug 10 00:13:33 2012 +0530
+
+    rule tab design integrated
+
+commit a48d1960da8d7fe4463365b45d611db644a629ca
+Merge: 68a1810 46c9b51
+Author: Nilesh Jinde <nilesh@weboniselab.com>
+Date:   Thu Aug 9 23:02:56 2012 +0530
+
+    resolved conflicts
+
+commit 68a1810ccf5b0ef1e5e79f0ee6f519766af060fa
+Author: Nilesh Jinde <nilesh@weboniselab.com>
+Date:   Thu Aug 9 22:42:05 2012 +0530
+
+    demo changed
+
+commit 46c9b51493188edce44331255e2a97e838820e32
+Merge: 93438d7 1a4de2e
+Author: rsrahulee <rahul@weboniselab.com>
+Date:   Thu Aug 9 22:28:55 2012 +0530
+
+    commit after merge
+
+commit 1a4de2ef2accac4d7f43cc0c998c9395765402e6
+Merge: 71985da a61de43
+Author: pournima <pournima@weboniselab.com>
+Date:   Thu Aug 9 21:49:09 2012 +0530
+
+    commit after merge
+
+commit 71985da665ac776083ab4cc3d9341437d328c09b
+Author: pournima <pournima@weboniselab.com>
+Date:   Thu Aug 9 21:09:21 2012 +0530
+
+    commit before merge
+
+commit 93438d7e1e8276de58523f5097e3f261d63a9482
+Author: rsrahulee <rahul@weboniselab.com>
+Date:   Thu Aug 9 20:33:25 2012 +0530
+
+    done with offers screen
+
+commit b1a647cd87fbdca05c4293f7395c08986f0cfe36
+Author: pournima <pournima@weboniselab.com>
+Date:   Thu Aug 9 20:31:57 2012 +0530
+
+    done changes in equipment fittig and heat preparedness
+
+commit e00374bc163c2bd1925558673b5180e9d5353677
+Author: Pradeep Patil <pradeep@weboniselab.com>
+Date:   Thu Aug 9 20:17:12 2012 +0530
+
+    changes done in thank you page, about us page, settings page
+
+commit a61de43853f56cfa04eb8762abd9009217c63347
+Merge: 11d158e 68e11b8
+Author: Abhishek <abhishe@weboniselab.com>
+Date:   Thu Aug 9 20:08:23 2012 +0530
+
+    safety checklist page ,added dynamic videos
+
+commit e950d37c76bbf50768e8018615bbf13f5037f802
+Author: Nilesh Jinde <nilesh@weboniselab.com>
+Date:   Thu Aug 9 17:49:19 2012 +0530
+
+    old images deleted
+
+commit d876ae739f547052bdef63833b82cc032ee093fd
+Author: Nilesh Jinde <nilesh@weboniselab.com>
+Date:   Thu Aug 9 17:47:07 2012 +0530
+
+    safety tab new design and about usa football new screen implemented
+
+commit ef53edcf84328714fcef16316b008f7887b71610
+Author: pournima <pournima@weboniselab.com>
+Date:   Thu Aug 9 17:06:52 2012 +0530
+
+    added html files in signs&symptoms,contactUs,privacyPolicy,termsOfUse. Also added text Articles in Injury_prevention.xml file
+
+commit 1fa277a053707a997008fee01d4830d892cc7ac0
+Author: rsrahulee <rahul@weboniselab.com>
+Date:   Thu Aug 9 15:40:37 2012 +0530
+
+    done with Facebook allow all issue
+
+commit 68e11b819e6c8ff850c10544d0e9b82c3f1fa169
+Merge: ef73253 83f6f48
+Author: Nilesh Jinde <nilesh@weboniselab.com>
+Date:   Thu Aug 9 12:50:12 2012 +0530
+
+    merge with develop
+
+commit 11d158e8f709ac466b0640919bdce1e1254e7a4b
+Author: Abhishek <abhishe@weboniselab.com>
+Date:   Tue Jul 31 17:34:32 2012 +0530
+
+    added images for safety checklist inner tabs
+
+commit 83f6f4851e2e33fb4adc1409a08293bf9b8247f6
+Author: Abhishek <abhishe@weboniselab.com>
+Date:   Mon Jul 30 21:39:51 2012 +0530
+
+    stable code-- functionality of parents tab completed, UI and video links are remaining
+
+commit 5a5974dffcea1d2203bc83a3b4df11959ad0a007
+Author: Abhishek <abhishe@weboniselab.com>
+Date:   Fri Jul 27 20:33:19 2012 +0530
+
+    stable code-- working on parents tab.
+
+commit ef73253a91011565fbb29f9eee482ac6cd53be60
+Author: rsrahulee <rahul@weboniselab.com>
+Date:   Fri Jul 27 20:00:23 2012 +0530
+
+    Heat prepardness,how to tackle screens done with functionalities and icons for about football and headsupFB added to safety screen
+
+commit 584942a9ce7bd7d1529f9f6561e3f8b20db25f3b
+Author: rsrahulee <rahul@weboniselab.com>
+Date:   Thu Jul 26 20:26:28 2012 +0530
+
+    added screens
+
+commit 69fb9ae62bd06dddc2a9de48ea80411a13fd57d1
+Author: Abhishek <abhishe@weboniselab.com>
+Date:   Thu Jul 26 15:05:06 2012 +0530
+
+    Health safety Ui changed
+
+commit 795cd3d15db3de91ea7ec36f22c1657c9eed23dc
+Author: Abhishek <abhishe@weboniselab.com>
+Date:   Mon Jul 23 20:28:05 2012 +0530
+
+    safety checklist UI done
+
+commit 84c461437444b7baa024b3f0044a2d46bbdde0af
+Author: Abhishek <abhishe@weboniselab.com>
+Date:   Mon Jul 23 18:00:54 2012 +0530
+
+    Conditioning, Hydration, Nutrition screen done, XML data parsed and displayed
+
+commit d1f5856bc2279a123a570e4f3f2bb0c4c743ac2f
+Author: Abhishek <abhishe@weboniselab.com>
+Date:   Thu Jul 19 20:38:25 2012 +0530
+
+    Rule Book Tab Flow Changed
+
+commit 2dfd518a4ae7c47b6033b4e4a96f67db42a42936
+Author: Abhishek <abhishe@weboniselab.com>
+Date:   Wed Jul 18 20:41:56 2012 +0530
+
+    Signin SignUp new screens integrated  with functionality
+
+commit b50f40fa3e83cea22cc1b2a986350776e0d76cf1
+Author: Abhishek <abhishe@weboniselab.com>
+Date:   Mon Jul 16 20:30:50 2012 +0530
+
+    UI issues on settings tab, Tab bar, Rules tab, and offers tab resolved
+
+commit 2d48a56c073c90bca02d077ae06cc67d6c3a457c
+Author: Abhishek <abhishe@weboniselab.com>
+Date:   Thu Jul 12 20:15:22 2012 +0530
+
+    Issues on offer tabs resolved
+
+commit 6f3a9c02da8f7d45872339a8cbb7fed0d3176f33
+Merge: 4d0a3f1 bcc04e7
+Author: Abhishek <abhishe@weboniselab.com>
+Date:   Wed Jul 11 20:15:07 2012 +0530
+
+    commit after resolving conflicts
+
+commit 4d0a3f1720fcbd2bc21660c6230da468c2cccd6e
+Author: Abhishek <abhishe@weboniselab.com>
+Date:   Wed Jul 11 20:10:11 2012 +0530
+
+    You have raised amount issue resolved
+
+commit bcc04e799debb897b4deb410cd9adefc7be305d7
+Author: pournima <pournima@webonise.com>
+Date:   Wed Jul 11 20:04:54 2012 +0530
+
+    done with injury prevention
+
+commit 41c468d4ade47bd37db0f50c1c5bb9dad2193c76
+Merge: b9632b6 8ad45c9
+Author: pournima <pournima@webonise.com>
+Date:   Wed Jul 11 16:34:25 2012 +0530
+
+    pull data before injury prevention
+
+commit b9632b671e6e4c0b82edbe02cd3f69c035c0ba8d
+Author: pournima <pournima@webonise.com>
+Date:   Wed Jul 11 16:08:30 2012 +0530
+
+    pull data before injury prevention
+
+commit 8ad45c9801f66be55316722870a4ffb2f5c129b0
+Author: Nilesh Jinde <nilesh@weboniselab.com>
+Date:   Tue Jul 10 20:26:44 2012 +0530
+
+    signin and signup implemented
+
+commit 45ad9fcd308aede0f70eeb78313afc58e04ad4c6
+Author: Nilesh Jinde <nilesh@weboniselab.com>
+Date:   Tue Jul 10 19:39:20 2012 +0530
+
+    search offer issues resolved
+
+commit ba6d9746de54174f975f96a57a4675c06660ddc0
+Author: Abhishek <abhishe@weboniselab.com>
+Date:   Tue Jul 10 18:11:17 2012 +0530
+
+    Search offer added in offersActivity
+
+commit 786f9f50fd1ee0d135c60a8d18af674931826ebd
+Merge: b64bbdb 9375391
+Author: pournima <pournima@webonise.com>
+Date:   Tue Jul 10 13:29:17 2012 +0530
+
+    pull data
+
+commit 9375391162dd887de5167af11cf821b200102149
+Author: Abhishek <abhishe@weboniselab.com>
+Date:   Mon Jul 9 20:27:19 2012 +0530
+
+    text on rulesTab list added in HTML form
+
+commit e4aeb55b5dbc55d33b3c3722f08db8c2a6404c31
+Merge: dcd90c5 1e11fe3
+Author: Abhishek <abhishe@weboniselab.com>
+Date:   Fri Jul 6 20:32:48 2012 +0530
+
+    Stable code.. Bottom Header Added on all screens
+
+commit 1e11fe3ca68507bb9f78ef00f4388cbd131546ab
+Author: Abhishek <abhishe@weboniselab.com>
+Date:   Fri Jul 6 18:09:38 2012 +0530
+
+    Icons and images added
+
+commit dcd90c5b16f54571f38538824e4d4649609fad50
+Author: Abhishek <abhishe@weboniselab.com>
+Date:   Thu Jul 5 22:51:38 2012 +0530
+
+    commit after merge
+
+commit fb1cf665f2af34f0964b53d58af14ff914f190f6
+Merge: 967336b ab4a1c4
+Author: Abhishek <abhishe@weboniselab.com>
+Date:   Thu Jul 5 22:48:17 2012 +0530
+
+    Merge branch 'develop' of git.prometheussports.com:heads_up_android/heads_up_android into develop
+
+commit 967336b7b3e583f3ee8207516685615ec9913546
+Author: Abhishek <abhishe@weboniselab.com>
+Date:   Thu Jul 5 22:45:42 2012 +0530
+
+    commit before merge
+
+commit b64bbdb00a4da17e26109d6ebcc20cd12983b337
+Author: Nilesh Jinde <nilesh@weboniselab.com>
+Date:   Thu Jul 5 19:40:31 2012 +0530
+
+    Social share integration is done and integrated in main project
+
+commit ab4a1c4bda119d0ab2b3fb2abbde17ee1893bfd7
+Merge: d258f0e 6f1a7d7
+Author: pournima <pournima@webonise.com>
+Date:   Thu Jul 5 18:45:50 2012 +0530
+
+    done with concussion awareness and its sign symptoms
+
+commit d258f0e3d5307cf8588b8aa5179a180a87c71e0e
+Author: pournima <pournima@webonise.com>
+Date:   Thu Jul 5 18:25:08 2012 +0530
+
+    pull before concussion awareness
+
+commit 6f1a7d727a53c676e55cdbb39f04c76ab55ba70e
+Author: Abhishek <abhishe@weboniselab.com>
+Date:   Thu Jul 5 18:00:08 2012 +0530
+
+    checkin with qrcode done
+
+commit 12438e0bf43fd101acaafa325358ed39bcddc26d
+Author: Abhishek <abhishe@weboniselab.com>
+Date:   Thu Jul 5 15:36:18 2012 +0530
+
+    direct checkin code added
+
+commit 5d21437f7cfbace41d7f88731760d5365bce67e1
+Merge: c6271b5 d8d0ee4
+Author: Abhishek <abhishe@weboniselab.com>
+Date:   Wed Jul 4 22:07:07 2012 +0530
+
+    code for Injury prevention and equipment fitting merged and integrated in main project
+
+commit c6271b56f25d574c6e50a5bd1d3a4afac08726c8
+Merge: 010f564 d32919f
+Author: Abhishek <abhishe@weboniselab.com>
+Date:   Wed Jul 4 21:42:51 2012 +0530
+
+    rules tab integrated
+
+commit d8d0ee45e31702f2781b6d30a8105cb86397d686
+Merge: 063202a d32919f
+Author: Pradeep Patil <pradeep@weboniselab.com>
+Date:   Wed Jul 4 21:34:16 2012 +0530
+
+    commit after resolvling conflicts
+
+commit 063202a572c9217a188dd3f5c82bb579cb56f660
+Author: Pradeep Patil <pradeep@weboniselab.com>
+Date:   Wed Jul 4 21:22:37 2012 +0530
+
+    injury prevention screen and equipment fitting screen in health and saftey tab done
+
+commit 010f5644408aed76d006c39f852f8b9c1a105b64
+Author: Abhishek <abhishe@weboniselab.com>
+Date:   Wed Jul 4 20:59:04 2012 +0530
+
+    commit before pull
+
+commit d32919f99d8d2efe15a141a475ce4a5d7d385d92
+Author: pournima <pournima@webonise.com>
+Date:   Wed Jul 4 20:39:10 2012 +0530
+
+    done with Rules list and Game element rule
+
+commit 715bd71bdbaafa1ad68cef89c83aa86bab9641ff
+Merge: bf723c7 e8b9ebd
+Author: Abhishek <abhishe@weboniselab.com>
+Date:   Wed Jul 4 18:56:40 2012 +0530
+
+    Merge branch 'develop' of git.prometheussports.com:heads_up_android/heads_up_android into develop
+
+commit bf723c7d784456af900cd4d0aea62920adc3cb07
+Author: Abhishek <abhishe@weboniselab.com>
+Date:   Wed Jul 4 18:56:18 2012 +0530
+
+    Health and safety Screen added
+
+commit e8b9ebdd37d122cde20784ddc7cf8016b64ddff0
+Author: Nilesh Jinde <nilesh@weboniselab.com>
+Date:   Wed Jul 4 18:17:25 2012 +0530
+
+    commit after pull
+
+commit 6642b6a945557994157d9653f2cdd0ea6d191cae
+Author: Abhishek <abhishe@weboniselab.com>
+Date:   Wed Jul 4 16:48:00 2012 +0530
+
+    unstable code--- UI for Health and Safety added and integrated
+
+commit 2bbdcae3a263ad77f30381fcaa6ccc6ea9af36f1
+Author: Abhishek <abhishe@weboniselab.com>
+Date:   Tue Jul 3 13:38:56 2012 +0530
+
+    done with bottomless pagination
+
+commit 9f7eeb4c633f793572835b4af3f75e5d5b8155c6
+Merge: d4203b4 4ef6024
+Author: Abhishek <abhishe@weboniselab.com>
+Date:   Fri Jun 29 20:47:18 2012 +0530
+
+    business list displayed and integrated in Heads up main project
+
+commit d4203b41d1be02e51782101f5d64cc2ed9641424
+Author: Abhishek <abhishe@weboniselab.com>
+Date:   Tue Jun 26 20:45:05 2012 +0530
+
+    no connectivity screen integrated from library
+
+commit 4ef60249b3dd60f687ea0dc6b2a1ae2b9c915f8a
+Author: Pradeep Patil <pradeep@weboniselab.com>
+Date:   Tue Jun 26 18:55:29 2012 +0530
+
+    commit after added Offers activity and designed it
+
+commit a0ec26e6fdbae6c223022ddaf4d2b2ab23ad6ee8
+Author: Abhishek <abhishe@weboniselab.com>
+Date:   Mon Jun 25 20:27:43 2012 +0530
+
+    forget password functionality added and integrated in Heads Up
+
+commit c833b9d339c92ca8317580dcfd11ffcf9bc0b7e7
+Author: Abhishek <abhishe@weboniselab.com>
+Date:   Mon Jun 25 19:58:39 2012 +0530
+
+    Account manager and splash activity integrated from checkin library
+
+commit 2833749f2bc643c9be4f7ca95681827c51532a00
+Author: Abhishek <abhishe@weboniselab.com>
+Date:   Thu Jun 21 17:47:49 2012 +0530
+
+    my good, about us and how it works screen integrated into base project
+
+commit 04df296bf94224ed540ba287d77d8d2c694db0b9
+Author: Abhishek <abhishe@weboniselab.com>
+Date:   Wed Jun 20 20:27:01 2012 +0530
+
+    tabgroupactivity moved to library project
+
+commit 683ce1827437f6fe5a15874d8fd770bc28965d89
+Author: Abhishek <abhishe@weboniselab.com>
+Date:   Wed Jun 20 15:05:34 2012 +0530
+
+    library project included in base project
+
+commit f8a4472f3e25e654c0776b0cbd1ff52b953c8a99
+Author: Abhishek <abhishe@weboniselab.com>
+Date:   Mon Jun 18 22:27:34 2012 +0530
+
+    Tab host implemented with 4 tabs for Heads up

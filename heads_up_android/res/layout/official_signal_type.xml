@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    
+    <TextView 
+            android:id="@+id/signalDivider"
+            android:layout_height="2dp"
+            android:layout_width="match_parent"
+            android:background="@color/white" />
+    
+    <LinearLayout
+            android:id="@+id/lnrOfficialSignalHeader"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/signalDivider"
+            android:background="@drawable/signal_divider_bg"
+            android:orientation="horizontal"
+            android:paddingBottom="10dp"
+            android:paddingTop="10dp" >
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:paddingLeft="10dp"
+                android:text="@string/signals_official_signal"
+                android:textColor="@color/white"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/btnSort"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:layout_marginLeft="60dp"
+                android:background="@drawable/btn_sort"
+                android:visibility="gone"/>
+        </LinearLayout>
+        
+    <LinearLayout
+            android:id="@+id/lnrOfficialSignalList"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/lnrOfficialSignalHeader"
+            android:background="@color/blue_pressed_darker"
+            android:orientation="vertical"
+            android:visibility="gone" >
+
+            <TextView style="@style/signalTextDivider" />
+
+            <Button
+                android:id="@+id/btnScoring"
+                style="@style/SignalsListText"
+                android:text="@string/signals_scoring" />
+
+            <TextView style="@style/signalTextDivider" />
+
+            <Button
+                android:id="@+id/btnDeadBall"
+                style="@style/SignalsListText"
+                android:text="@string/signals_dead_ball" />
+
+            <TextView style="@style/signalTextDivider" />
+
+            <Button
+                android:id="@+id/btnLiveBall"
+                style="@style/SignalsListText"
+                android:text="@string/signals_live_ball" />
+
+            <TextView style="@style/signalTextDivider" />
+
+            <Button
+                android:id="@+id/btnConduct"
+                style="@style/SignalsListText"
+                android:text="@string/signals_conduct" />
+        </LinearLayout>
+
+    <TextView
+        android:id="@+id/txtSignalTypeHeader"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_below="@id/lnrOfficialSignalHeader"
+        android:text="@string/signals_scoring"
+        android:textColor="@color/red_dark"
+        android:textSize="18dp"
+        android:textStyle="bold" />
+    
+    <GridView
+        android:id="@+id/signalGridView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/txtSignalTypeHeader"
+        android:horizontalSpacing="0dp"
+        android:numColumns="2"
+        android:verticalSpacing="-5dp"
+        android:listSelector="@color/transparent" >
+    </GridView>
+</RelativeLayout>

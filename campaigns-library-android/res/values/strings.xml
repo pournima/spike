@@ -1,0 +1,96 @@
+<resources>
+
+    <string name="app_name">CampaignsLibrary</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_campaigns_library">CampaignsLibraryActivity</string>
+    <string name="business_arrow">Arrow</string>
+     <string name="thank_you">Thank you</string>
+
+    <!-- Campaigns -->
+    <string name="start_own_campaigns">Start Your Own Campaign </string>
+    <string name="start_a_campaigns">Start a Campaign.</string>
+    <string name="campgn_oneE_top">Raise money for a</string>
+    <string name="campgn_oneE_mid">One Day Event</string>
+    <string name="campgn_oneE_bot">A wedding, a charity run or a special day.</string>
+    <string name="campgn_onAct_mid">Ongoing Activity</string>
+    <string name="campgn_onAct_bot">Memorial, building project or other positive act.</string>
+    <string name="campgn_raiseA_mid">Raise Awareness</string>
+    <string name="campgn_raiseA_bot">Pellentesque habitant morbie tristique</string>
+    <string name="your_campaigns">Your Campaign</string>
+    <string name="hint1_campaigns">Name of campaign</string>
+    <string name="hint2_campaigns">A short description of your campaign</string>
+    <string name="hint3_campaigns">What cuses do you want to support</string>
+    <string name="hint4_campaigns">Choose a category for your campaign</string>
+    <string name="hint5_campaigns">When will your campaign start?</string>
+    <string name="hint6_campaigns">When will your campaign end?</string>
+    <string name="hint7_campaigns">What is your goal</string>
+    <string name="hint8_campaigns">Link to your video</string>
+    <string name="hint9_campaigns">Link for facebook like</string>
+    <string name="btn_askfordonation_campaigns">Ask For Donation</string>
+    <string name="btn_askforpledge_campaigns">Ask For Pledges</string>
+    <string name="btn_mile_campaigns">Mile</string>
+    <string name="btn_day_campaigns">Day</string>
+    <string name="btn_hour_campaigns">Hour</string>
+    <string name="btn_minute_campaigns">Minute</string>
+    <string name="photos_campaigns">Photos</string>
+    <string name="pledge_per_campaigns">Pledge Per:</string>
+    <string name="btn_submit_campaigns">Submit</string>
+    <string name="cmpgn_featured_campaigns">Featured Campaigns</string>
+    <string name="cmpgn_ending_soons">Ending Soon</string>
+    <string name="cmpgn_dtls_make_pledge">Make a Pledge</string>
+    <string name="cmpgn_dtls_name">" is raising money for"</string>
+    <string name="cmpgn_dtls_like">Like</string>
+    <string name="cmpgn_dtls_tweet">Tweet</string>
+    <string name="cmpgn_dtls_share">Share</string>
+    <string name="campaigns_none">No campaigns found.</string>
+
+    <!-- One Day Events Campaigns -->
+    <string-array name="campgn_oneday_event_arr">
+        <item>Walk / Run / Ride</item>
+        <item>Birthday</item>
+        <item>Wedding</item>
+        <item>Holiday / Special Day</item>
+    </string-array>
+
+    <!-- Raise awareness Campaigns -->
+    <string-array name="campgn_raise_awareness_arr">
+        <item>Video</item>
+        <item>Facebook</item>
+    </string-array>
+
+    <!-- Ongoing Activity Campaigns -->
+    <string-array name="campgn_ongoing_arr">
+        <item>Capital</item>
+        <item>Memorial</item>
+        <item>Exercise</item>
+    </string-array>
+
+    <!-- Search Campaigns -->
+    <string-array name="search_campgn_arr">
+        <item>Campaigns connected to causes I\'m supporting</item>
+        <item>Most active</item>
+        <item>Most raised</item>
+    </string-array>
+
+    <string name="top_msg_campgn_cause_list">Choose a Cause to Support</string>
+    <string name="top_msg_campgn_cat_list">Choose a Category</string>
+    <string name="causeCatListMessage">fetch cause category list.</string>
+    <string name="myCampgnListMessage">fetch my campaigns list.</string>
+
+    <!-- campaign share fragment -->
+    <string name="tell_ur_frnd_share_frag">Tell your friends</string>
+    <string name="conect_fb_tw_share_frag">Connect your Facebook and Twitter accounts and spread the world about your campaign.</string>
+    <string name="start_camp_share_frag">Start your campaign with bang. We\'ll share a link on youe social networks you\'ve selected above and provide a web page for others to make pledges.</string>
+    <string name="start_campaigns_share_frag">Start Campaign</string>
+
+    <!-- Congratulation campaign page -->
+    <string name="top_msg_campaigns_congt_frag">Congrats! Your Campaign is live!</string>
+    <string name="pubLink_campaigns_congt_frag">"Public Link: "</string>
+    <string name="pubLink_campaigns_congt_frag_null">Not yet launched</string>
+    <string name="Add_photos_campaigns_congt_frag">Add Photos</string>
+    <string name="post_campaigns_congt_frag">Post a comment about your campaign</string>
+    
+     <string name="createCampgnProgressMessage">Creating campaign...</string>
+
+</resources>

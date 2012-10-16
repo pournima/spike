@@ -1,0 +1,51 @@
+package com.checkinlibrary.ws.tasks;
+
+import java.util.List;
+
+import android.content.pm.PackageInfo;
+import android.content.pm.PackageManager;
+import android.content.pm.PackageManager.NameNotFoundException;
+import android.os.AsyncTask;
+import android.util.Log;
+import android.widget.Toast;
+
+import com.checkinlibrary.CheckinLibraryActivity;
+import com.checkinlibrary.models.AppVersionResult;
+import com.checkinlibrary.ws.services.AppVersionWebService;
+
+public class AppVersionTask extends AsyncTask<String, Integer, AppVersionResult> {
+
+	private CheckinLibraryActivity context;
+	
+	@Override
+	protected AppVersionResult doInBackground(String... arg0) {
+		
+		return AppVersionWebService.setAppVersion(context, arg0);
+	}
+
+	protected void onPostExecute(AppVersionResult result) {
+		if(result != null){
+			String version1;
+			PackageManager manager = context.getPackageManager();
+			PackageInfo info;
+			try {
+				info = manager.getPackageInfo(
+				    context.getPackageName(), 0);
+				version1 = info.versionName;
+				Log.e("device version-- ", ""+version1);
+			} catch (NameNotFoundException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}
+			
+			
+			String version=result.getAndroid_current_version();
+			Log.e("app version call --", "success "+version);
+		}
+		else {
+			Log.e("app version call --", "fail");
+		}
+		
+	}
+
+}

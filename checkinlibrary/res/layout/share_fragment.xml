@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/linearShare"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        style="@style/topMsg"
+        android:text="@string/how_it_works_share" />
+
+    <ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/scrollbarShareFrg"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <LinearLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/linearShare"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical" >
+
+            <ListView
+                android:id="@android:id/list"
+                style="@style/list"
+                android:layout_height="110dp" />
+
+            <TextView
+                android:id="@+id/divider_bottom"
+                style="@style/listTextDivider" />
+
+            <TextView
+                style="@style/howItWorksText"
+                android:layout_marginLeft="20dp"
+                android:paddingTop="15dp"
+                android:text="@string/privacy_control"
+                android:textColor="@color/black"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:text="@string/privacy_control_details"
+                android:textColor="@color/black" />
+
+            <EditText
+                android:id="@+id/editText_delayed_hrs"
+                android:layout_width="80dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/edit_text_delayed_checkin"
+                android:enabled="false"
+                android:gravity="center"
+                android:textColor="@color/white" />
+
+            <SeekBar
+                android:id="@+id/seekbar_delayed_checkin"
+                style="@style/delayedCheckinSeekBar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="-10dp"
+                android:maxHeight="10dip"
+                android:minHeight="10dip"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp" 
+                />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

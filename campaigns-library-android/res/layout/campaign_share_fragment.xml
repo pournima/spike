@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" xmlns:tools="http://schemas.android.com/tools">
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout android:id="@+id/lnrLShareCampFrag"
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="15dp"
+                android:text="@string/tell_ur_frnd_share_frag"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/black"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="5dp"
+                android:gravity="left"
+                android:text="@string/conect_fb_tw_share_frag"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="@color/gray" />
+
+            <ListView
+                android:id="@android:id/list"
+                style="@style/list"
+                android:layout_height="110dp"
+                tools:ignore="NestedScrolling" />
+
+            <TextView style="@style/listTextDivider" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="5dp"
+                android:gravity="left"
+                android:text="@string/start_camp_share_frag"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="@color/gray" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLStartCampgn"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/lnrLShareCampFrag"
+            android:layout_alignParentBottom="true"
+            android:background="@color/gray"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:padding="10dp" 
+             android:layout_marginTop="52dp" >
+
+            <Button
+                android:id="@+id/btnStartCampgnShare"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/btn_checkin"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:text="@string/start_campaigns_share_frag"
+                android:textColor="@color/white"
+                android:textSize="7pt"
+                android:textStyle="bold" />
+        </LinearLayout>
+    </RelativeLayout>
+
+</ScrollView>

@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="10dp"
+    android:orientation="vertical" xmlns:tools="http://schemas.android.com/tools">
+
+    <LinearLayout
+        android:id="@+id/mainLayout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingBottom="10dp"
+        android:paddingTop="10dp"
+        tools:ignore="UselessParent" >
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" >
+
+            <ImageView
+                android:id="@+id/imgCheck"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/check_icon"
+                tools:ignore="ContentDescription" />
+
+            <TextView
+                android:id="@+id/txtHeader"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_toRightOf="@id/imgCheck"
+                android:text="@string/no_text"
+                android:textColor="@color/black"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txtContent"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@id/txtHeader"
+                android:layout_below="@id/txtHeader"
+                android:text="@string/no_text"
+                android:textColor="@color/black" />
+
+            <ImageView
+                android:id="@+id/imgBtnShowVideo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@id/txtHeader"
+                android:layout_below="@id/txtContent"
+                android:layout_marginTop="5dp"
+                android:src="@drawable/watch_more_video" />
+
+            <TextView
+                android:id="@+id/txtWatchVideos"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@id/imgBtnShowVideo"
+                android:layout_below="@id/txtContent"
+                android:layout_marginLeft="5dp"
+                android:layout_toRightOf="@id/imgBtnShowVideo"
+                android:text="@string/parents_tab_video_labels_1"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="@color/blue" />
+        </RelativeLayout>
+
+        <TableLayout
+            android:id="@+id/tableLayoutVideos"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="10dp" >
+
+            <TableRow
+                android:id="@+id/tableRow1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:weightSum="2" >
+
+                <ImageButton android:id="@+id/vid1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.0"
+                    android:background="@drawable/shoulder_pad_fitting" />
+
+                <ImageButton android:id="@+id/vid2"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.0"
+                    android:background="@drawable/shoulder_pad_fitting" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tableRow2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:weightSum="2" >
+
+                <ImageButton android:id="@+id/vid3"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.0"
+                    android:background="@drawable/shoulder_pad_fitting" />
+
+                <ImageButton android:id="@+id/vid4"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.0"
+                    android:background="@drawable/shoulder_pad_fitting" />
+            </TableRow>
+            
+            <TableRow
+                android:id="@+id/tableRow3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:weightSum="2" >
+
+                <ImageButton android:id="@+id/vid5"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.0"
+                    android:background="@drawable/shoulder_pad_fitting" />
+
+                <ImageButton android:id="@+id/vid6"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.0"
+                    android:background="@drawable/shoulder_pad_fitting" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tableRow4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:weightSum="2" >
+
+                <ImageButton android:id="@+id/vid7"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.0"
+                    android:background="@drawable/shoulder_pad_fitting" />
+            </TableRow>
+        </TableLayout>
+
+        <TextView
+            android:id="@+id/txtParentsTabDesc"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/no_text"
+            android:textColor="@color/black" />
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,865 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content" xmlns:tools="http://schemas.android.com/tools">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/mainbg"
+        android:orientation="vertical"
+        android:padding="10dp"
+        android:paddingBottom="-5dp" >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/safety_checklist"
+            android:textColor="@color/red_dark"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="@string/safety_checklist_text1"
+            android:textColor="@color/blue_dark"
+            android:textSize="15dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:text="@string/safety_checklist_text2"
+            android:textColor="@color/black"
+            android:textSize="12dp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal"
+            android:weightSum="1.0" >
+
+            <Button
+                android:id="@+id/btnParents"
+                android:layout_width="0dp"
+                android:layout_height="42dp"
+                android:layout_weight=".28"
+                android:background="@drawable/parents_hover_btn"               
+                android:text="@string/parents"
+                android:focusable="false"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:gravity="center" />
+			<!--  android:onClick="onParentsClick" -->
+            <Button
+                android:id="@+id/btnCoaches"
+                android:layout_width="0dp"
+                android:layout_height="42dp"
+                android:layout_weight=".28"
+                android:background="@drawable/coaches_btn"
+                android:text="@string/coaches"
+                android:textColor="@color/blue_dark"
+                android:textStyle="bold"
+                android:focusable="false"
+                android:gravity="center"/>
+            <!-- android:onClick="onCoachesClick" -->
+
+            <Button
+                android:id="@+id/btnCommissioners"
+                android:layout_width="0dp"
+                android:layout_height="42dp"
+                android:layout_weight=".44"
+                android:background="@drawable/commissioners_btn"
+                android:text="@string/commissioners"
+                android:textColor="@color/blue_dark"
+                android:textStyle="bold"
+                android:focusable="false"
+                android:gravity="center"/>
+            <!-- android:onClick="onCommissionerClick" -->
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLtParentsTab"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:orientation="vertical"
+            android:visibility="visible" >
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp" >
+
+                <ImageView
+                    android:id="@+id/imgCheckIcon1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:contentDescription="@string/check_icon"
+                    android:src="@drawable/check_icon" />
+
+                <TextView
+                    android:id="@+id/txtHeader1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_toRightOf="@id/imgCheckIcon1"
+                    android:text="@string/parents_tab_header_1"
+                    android:textColor="@color/black"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:id="@+id/imgOpenClose1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignLeft="@id/txtHeader1"
+                    android:layout_below="@id/txtHeader1"
+                    android:layout_marginTop="10dp"
+                    android:contentDescription="@string/watch_more"
+                    android:paddingBottom="10dp"
+                    android:src="@drawable/watch_more_video" />
+                <!-- android:onClick="openCloseitem1" -->
+	
+                <TextView
+                    android:id="@+id/txtOpenClose1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignTop="@id/imgOpenClose1"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginBottom="10dp"
+                    android:paddingTop="5dp"
+                    android:layout_toRightOf="@id/imgOpenClose1"
+                    android:clickable="true"
+                    android:text="@string/parents_tab_video_labels_1"
+                    android:textColor="@color/blue" />
+                <!--  android:onClick="openCloseitem1" -->
+
+                <LinearLayout
+                    android:id="@+id/itemContent1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/txtOpenClose1"
+                    android:layout_marginLeft="25dp"
+                    android:layout_marginTop="10dp"                    
+                    android:orientation="vertical"
+                    android:visibility="gone" >
+
+                    <TextView
+                        android:id="@+id/txtContnt1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:text="@string/parents_tab_content_1"
+                        android:textColor="@color/black" />
+
+                    <TextView
+                        android:id="@+id/txtContnt2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="10dp"
+                        android:text="@string/parents_tab_content_2"
+                        android:textColor="@color/black"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/txtContnt3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="10dp"
+                        android:text="@string/parents_tab_content_desc"
+                        android:textColor="@color/black" />
+                </LinearLayout>
+
+                <TextView
+                    style="@style/listTextDivider"
+                    android:layout_alignParentBottom="true"
+                    android:layout_below="@id/itemContent1"
+                    android:layout_marginTop="10dp" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp" >
+
+                <ImageView
+                    android:id="@+id/imgCheckIcon2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:contentDescription="@string/check_icon"
+                    android:src="@drawable/check_icon" />
+
+                <TextView
+                    android:id="@+id/txtHeader2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_toRightOf="@id/imgCheckIcon2"
+                    android:text="@string/parents_tab_header_2"
+                    android:textColor="@color/black"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:id="@+id/imgOpenClose2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignLeft="@id/txtHeader2"
+                    android:layout_below="@id/txtHeader2"
+                    android:layout_marginTop="10dp"
+                    android:contentDescription="@string/watch_more"
+                    android:paddingBottom="10dp"
+                    android:src="@drawable/watch_more_video" />
+                <!-- android:onClick="openCloseitem2" -->
+
+                <TextView
+                    android:id="@+id/txtOpenClose2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignTop="@id/imgOpenClose2"
+                    android:layout_marginLeft="5dp"
+                    android:layout_toRightOf="@id/imgOpenClose2"
+                    android:clickable="true"
+                    android:paddingTop="5dp"
+                    android:layout_marginBottom="10dp"
+                    android:text="@string/parents_tab_video_labels_2"
+                    android:textColor="@color/blue" />
+                <!-- android:onClick="openCloseitem2" -->
+
+                <LinearLayout
+                    android:id="@+id/itemContent2"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/txtOpenClose2"
+                    android:layout_marginTop="10dp"
+                    android:orientation="vertical"
+                    android:visibility="gone" >
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="20dp"
+                        android:orientation="horizontal"
+                        android:weightSum="2" >
+
+                        <ImageView
+                            android:id="@+id/imgVideo1"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="5dp"
+                            android:layout_marginRight="5dp"
+                            android:layout_weight="1"
+                            android:src="@drawable/video_what_is_concussion" />
+
+                        <ImageView
+                            android:id="@+id/imgVideo2"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="5dp"
+                            android:layout_marginRight="5dp"
+                            android:layout_weight="1"
+                            android:src="@drawable/video_what_are_symptoms_concussion" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginBottom="7dp"
+                        android:orientation="horizontal"
+                        android:weightSum="2" >
+
+                        <TextView
+                            android:id="@+id/txtWhatConcussion"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:layout_weight="1"
+                            android:text="@string/what_is_concussion"
+                            android:textColor="@color/black"
+                            android:textSize="13dp" />
+
+                        <TextView
+                            android:id="@+id/txtWhatSymptoms"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+							android:gravity="center"
+                            android:layout_weight="1"
+                            android:text="@string/what_are_symptoms"
+                            android:textColor="@color/black"
+                            android:textSize="13dp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="20dp"
+                        android:orientation="horizontal"
+                        android:weightSum="2" >
+
+                        <ImageView
+                            android:id="@+id/imgVideo3"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="5dp"
+                            android:layout_marginRight="5dp"
+                            android:layout_weight="1"
+                            android:src="@drawable/video_todo_if_concussion" />
+
+                        <ImageView
+                            android:id="@+id/imgVideo4"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="5dp"
+                            android:layout_marginRight="5dp"
+                            android:layout_weight="1"
+                            android:src="@drawable/video_when_can_player_comeback" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginBottom="7dp"
+                        android:orientation="horizontal"
+                        android:weightSum="2" >
+
+                        <TextView
+                            android:id="@+id/txtWhatdoyou"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_horizontal"
+                            android:gravity="center"
+                            android:layout_weight="1"
+                            android:text="@string/what_do_you"
+                            android:textColor="@color/black"
+                            android:textSize="13dp" />
+
+                        <TextView
+                            android:id="@+id/txtwhenCanPlayer"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_horizontal"
+                            android:gravity="center"
+                            android:layout_weight="1"
+                            android:text="@string/when_can_player"
+                            android:textColor="@color/black"
+                            android:textSize="13dp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="20dp"
+                        android:orientation="horizontal"
+                        android:weightSum="2" >
+
+                        <ImageView
+                            android:id="@+id/imgVideo5"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="5dp"
+                            android:layout_weight="1"
+                            android:paddingRight="7dp"
+                            android:src="@drawable/video_minimizing_concussion" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginBottom="10dp"
+                        android:orientation="horizontal"
+                        android:weightSum="2" >
+
+                        <TextView
+                            android:id="@+id/txtMinimizingConcussions"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:layout_weight="1"
+                            android:text="@string/minimizing_concussions"
+                            android:textColor="@color/black"
+                            android:textSize="13dp" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <TextView
+                    style="@style/listTextDivider"
+                    android:layout_alignParentBottom="true"
+                    android:layout_below="@id/itemContent1"
+                    android:layout_marginTop="10dp" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp" >
+
+                <ImageView
+                    android:id="@+id/imgCheckIcon3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:contentDescription="@string/check_icon"
+                    android:src="@drawable/check_icon" />
+
+                <TextView
+                    android:id="@+id/txtHeader3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_toRightOf="@id/imgCheckIcon3"
+                    android:text="@string/parents_tab_header_3"
+                    android:textColor="@color/black"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:id="@+id/imgOpenClose3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignLeft="@id/txtHeader3"
+                    android:layout_below="@id/txtHeader3"
+                    android:layout_marginTop="10dp"
+                    android:contentDescription="@string/watch_more"
+                    android:paddingBottom="10dp"
+                    android:src="@drawable/watch_more_video" />
+                <!-- android:onClick="openCloseitem3" -->
+
+                <TextView
+                    android:id="@+id/txtOpenClose3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignTop="@id/imgOpenClose3"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="1dp"
+                    android:layout_marginBottom="10dp"
+                    android:paddingTop="5dp"
+                    android:layout_toRightOf="@id/imgOpenClose3"
+                    android:clickable="true"
+                    android:contentDescription="@string/parents_tab_header_4"
+                    android:text="@string/parents_tab_video_labels_3"
+                    android:textColor="@color/blue" />
+                <!-- android:onClick="openCloseitem3" -->
+
+                <LinearLayout
+                    android:id="@+id/itemContent3"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/txtOpenClose3"
+                    android:layout_marginTop="10dp"
+                    android:orientation="vertical"
+                    android:visibility="gone" >
+
+                    <ImageView
+                        android:id="@+id/imgVideo6"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:src="@drawable/video_proper_helmet_fitting" />
+
+                    <TextView
+                        android:id="@+id/txtProperHelmetFit"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginBottom="10dp"
+                        android:text="@string/proper_helmet_fit"
+                        android:textColor="@color/black"
+                        android:textSize="13dp" />
+                </LinearLayout>
+
+                <TextView
+                    style="@style/listTextDivider"
+                    android:layout_alignParentBottom="true"
+                    android:layout_below="@id/itemContent1"
+                    android:layout_marginTop="10dp" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp" >
+
+                <ImageView
+                    android:id="@+id/imgCheckIcon4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:contentDescription="@string/check_icon"
+                    android:src="@drawable/check_icon" />
+
+                <TextView
+                    android:id="@+id/txtHeader4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_toRightOf="@id/imgCheckIcon4"
+                    android:contentDescription="@string/check_icon"
+                    android:text="@string/parents_tab_header_4"
+                    android:textColor="@color/black"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:id="@+id/imgOpenClose4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignLeft="@id/txtHeader4"
+                    android:layout_below="@id/txtHeader4"
+                    android:layout_marginTop="10dp"
+                    android:contentDescription="@string/watch_more"
+                    android:paddingBottom="10dp"
+                    android:src="@drawable/watch_more_video" />
+                <!--  android:onClick="openCloseitem4" -->
+
+                <TextView
+                    android:id="@+id/txtOpenClose4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignTop="@id/imgOpenClose4"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="1dp"
+                    android:layout_marginBottom="10dp"
+                    android:paddingTop="5dp"
+                    android:layout_toRightOf="@id/imgOpenClose4"
+                    android:clickable="true"
+                    android:text="@string/parents_tab_video_labels_4"
+                    android:textColor="@color/blue" />
+                <!-- android:onClick="openCloseitem4" -->
+
+                <LinearLayout
+                    android:id="@+id/itemContent4"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/txtOpenClose4"
+                    android:layout_marginTop="10dp"
+                    android:orientation="vertical"
+                    android:visibility="gone" >
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="2dp"
+                        android:layout_marginLeft="20dp"
+                        android:orientation="horizontal"
+                        android:weightSum="2" >
+
+                        <ImageView
+                            android:id="@+id/imgVideo7"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="5dp"
+                            android:layout_marginRight="5dp"
+                            android:layout_weight="1"
+                            android:src="@drawable/video_how_to_tackle" />
+
+                        <ImageView
+                            android:id="@+id/imgVideo8"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="5dp"
+                            android:layout_marginRight="5dp"
+                            android:layout_weight="1"
+                            android:src="@drawable/video_teaching_tackling" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="20dp"
+                        android:orientation="horizontal"
+                        android:layout_marginBottom="12dp"
+                        android:weightSum="2" >
+
+                        <TextView
+                            android:id="@+id/txtHowToTackle"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:layout_weight="1"
+                            android:text="@string/how_to_tackle"
+                            android:textColor="@color/black"
+                            android:textSize="13dp" />
+
+                        <TextView
+                            android:id="@+id/txtTeachingTackling"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:layout_weight="1"
+                            android:text="@string/tackle_teaching_tackling"
+                            android:textColor="@color/black"
+                            android:textSize="13dp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="2dp"
+                        android:layout_marginLeft="20dp"
+                        android:orientation="horizontal"
+                        android:weightSum="2" >
+
+                        <ImageView
+                            android:id="@+id/imgVideo9"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="5dp"
+                            android:layout_marginRight="5dp"
+                            android:layout_weight="1"
+                            android:src="@drawable/video_breakdown_position" />
+
+                        <ImageView
+                            android:id="@+id/imgVideo10"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="5dp"
+                            android:layout_marginRight="5dp"
+                            android:layout_weight="1"
+                            android:src="@drawable/video_hit_position" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="28dp"
+                        android:orientation="horizontal"
+                        android:weightSum="2" 
+                        android:layout_marginBottom="12dp" >
+
+                        <TextView
+                            android:id="@+id/txtBreakdown_Position"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:gravity="center"
+                            android:layout_weight="1"
+                            android:text="@string/tackle_breakdown_position"
+                            android:textColor="@color/black"
+                            android:textSize="13dp" />
+
+                        <TextView
+                            android:id="@+id/txtHitPosition"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"     
+                            android:gravity="center"                
+                            android:layout_weight="1"
+                            android:text="@string/tackle_hit_position"
+                            android:textColor="@color/black"
+                            android:textSize="13dp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="2dp"
+                        android:layout_marginLeft="20dp"
+                        android:orientation="horizontal"
+                        android:weightSum="2" >
+
+                        <ImageView
+                            android:id="@+id/imgVideo11"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="5dp"
+                            android:layout_marginRight="5dp"
+                            android:layout_weight="1"
+                            android:src="@drawable/video_buzz_to_hit" />
+
+                        <ImageView
+                            android:id="@+id/imgVideo12"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="5dp"
+                            android:layout_marginRight="5dp"
+                            android:layout_weight="1"
+                            android:src="@drawable/video_air_buddy" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="23dp"
+                        android:orientation="horizontal"
+                        android:weightSum="2"
+                        android:layout_marginBottom="12dp" >
+
+                        <TextView
+                            android:id="@+id/txtBuzzToHitDrill"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:layout_weight="1"
+                            android:text="@string/tackle_buzz_to_hit_drill"
+                            android:textColor="@color/black"
+                            android:textSize="13dp" />
+
+                        <TextView
+                            android:id="@+id/txtAirBuddyDrill"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:layout_weight="1"
+                            android:text="@string/tackle_air_buddy_drill"
+                            android:textColor="@color/black"
+                            android:textSize="13dp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="3dp"
+                        android:layout_marginLeft="20dp"
+                        android:orientation="horizontal"
+                        android:weightSum="2" >
+
+                        <ImageView
+                            android:id="@+id/imgVideo13"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="5dp"
+                            android:layout_weight="1"
+                            android:paddingRight="7dp"
+                            android:src="@drawable/video_rip_tackle_drill" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="20dp"
+                        android:orientation="horizontal"
+                        android:layout_marginBottom="12dp"
+                        android:weightSum="2" >
+
+                        <TextView
+                            android:id="@+id/txtRipTackleDrill"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:text="@string/tackle_rip_tackle_drill"
+                            android:textColor="@color/black"
+                            android:textSize="13dp"
+                            tools:ignore="TooManyViews" />
+
+                    </LinearLayout>
+                </LinearLayout>
+
+                <TextView
+                    style="@style/listTextDivider"
+                    android:layout_alignParentBottom="true"
+                    android:layout_below="@id/itemContent1"
+                    android:layout_marginTop="10dp" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp" >
+
+                <ImageView
+                    android:id="@+id/imgCheckIcon5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:contentDescription="@string/check_icon"
+                    android:src="@drawable/check_icon" />
+
+                <TextView
+                    android:id="@+id/txtHeader5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_toRightOf="@id/imgCheckIcon5"
+                    android:text="@string/parents_tab_header_5"
+                    android:textColor="@color/black"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:id="@+id/imgOpenClose5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignLeft="@id/txtHeader5"
+                    android:layout_below="@id/txtHeader5"
+                    android:layout_marginTop="10dp"
+                    android:contentDescription="@string/watch_more"
+                    android:paddingBottom="10dp"
+                    android:src="@drawable/watch_more_video" />
+                <!--  android:onClick="openCloseitem5" -->
+
+                <TextView
+                    android:id="@+id/txtOpenClose5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignTop="@id/imgOpenClose5"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginTop="1dp"
+                    android:paddingTop="5dp"
+                    android:layout_toRightOf="@id/imgOpenClose5"
+                    android:clickable="true"
+                    android:text="@string/parents_tab_video_labels_5"
+                    android:textColor="@color/blue" />
+                <!--  android:onClick="openCloseitem5" -->
+
+                <LinearLayout
+                    android:id="@+id/itemContent5"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/txtOpenClose5"
+                    android:layout_marginLeft="25dp"
+                    android:layout_marginTop="10dp"
+                    android:orientation="vertical"
+                    android:visibility="gone" >
+
+                    <TextView
+                        android:id="@+id/txtContnt4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:text="@string/parents_tab_content_3"
+                        android:textColor="@color/black"
+                        android:textStyle="bold" />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:src="@drawable/national_centre" />
+
+                    <TextView
+                        android:id="@+id/txtContnt5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="10dp"
+                        android:text="@string/parents_tab_content_4"
+                        android:textColor="@color/black" />
+
+                    <TextView
+                        android:id="@+id/txtContnt6"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="10dp"
+                        android:text="@string/parents_tab_content_5"
+                        android:textColor="@color/black" />
+                </LinearLayout>
+            </RelativeLayout>
+        </LinearLayout>
+
+        <ListView
+            android:id="@id/android:list"
+            style="@style/list"
+            android:layout_marginTop="10dp"
+            android:paddingLeft="10dp"
+            android:visibility="gone"
+            android:scrollbars="none" >
+        </ListView>
+    </LinearLayout>
+
+</ScrollView>

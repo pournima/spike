@@ -1,0 +1,17 @@
+package com.checkinlibrary.models;
+
+public class AppVersionResult {
+
+	String app_version;
+
+	public String getApp_version() {
+		return app_version;
+	}
+
+	public void setApp_version(String app_version) {
+		this.app_version = app_version;
+	}
+	
+	
+	
+}

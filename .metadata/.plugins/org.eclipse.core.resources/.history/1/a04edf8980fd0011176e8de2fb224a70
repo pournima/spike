@@ -1,0 +1,48 @@
+package com.headsup;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import org.apache.http.NameValuePair;
+import org.apache.http.message.BasicNameValuePair;
+import android.util.Log;
+import com.checkinlibrary.ws.services.WebService;
+import com.checkinlibrary.ws.services.WebServiceIface;
+import com.google.myjson.Gson;
+import com.headsup.rules.SignalsResult;
+
+
+public class SignalsWebService implements WebServiceIface {
+
+	public static SignalsResult getSignalsData() {
+		WebService webService = new WebService("http://192.168.0.180/catagories/get_data.json");
+		
+		String[] signals_parms = {"headsupsignalsapi", "1x"};
+		StringBuilder signed_value = new StringBuilder();
+
+		for (int i = 0; i < signals_parms.length; i++) {
+			signed_value.append(signals_parms[i]);
+		}
+		String encrypted_data = HmacSHAClass.hash_hmac(signed_value.toString());
+		Log.e("signed key", ""+encrypted_data);
+		List<NameValuePair> params = new ArrayList<NameValuePair>(3);
+
+		params.add(new BasicNameValuePair("api_key",signals_parms[0] ));
+		params.add(new BasicNameValuePair("device",signals_parms[1]));
+		params.add(new BasicNameValuePair("signed_key", encrypted_data));
+		
+		String response = webService.webPost("", params);
+		SignalsResult result=null;
+			
+		 if(response != null)
+	            Log.e("CHECKINFORGOOD", response.toString());
+
+	        try {
+	            result = new Gson().fromJson(response, SignalsResult.class);
+	            Log.e("CHECKINFORGOOD", result.toString());
+	        } catch (Exception e) {
+	            Log.e("CHECKINFORGOOD", "Signal Result Error: " + e.getMessage());
+	        }
+		return result;
+	}
+}

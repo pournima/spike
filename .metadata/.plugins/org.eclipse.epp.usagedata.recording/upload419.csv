@@ -1,0 +1,251 @@
+what,kind,bundleId,bundleVersion,description,time
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.paste",1349708721048
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.file.save",1349708721694
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1349708823494
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1349708828086
+activated,view,org.eclipse.ui.console,3.5.100.v20111007_r372,"org.eclipse.ui.console.ConsoleView",1349708858019
+activated,editor,com.android.ide.eclipse.adt,20.0.3.v201208082019-427395,"com.android.ide.eclipse.editors.CommonXmlEditor",1349708858874
+error,log,,,"safety_checklist.xml: Failed to find style 'scrollViewStyle' in current theme",1349708859801
+error,log,,,"safety_checklist.xml: Failed to find style 'scrollViewStyle' in current theme",1349708859801
+error,log,,,"safety_checklist.xml: Failed to find style 'scrollViewStyle' in current theme",1349708859801
+error,log,,,"safety_checklist.xml: Failed to find style 'textViewStyle' in current theme",1349708859821
+error,log,,,"safety_checklist.xml: Failed to find style 'textViewStyle' in current theme",1349708859821
+error,log,,,"safety_checklist.xml: Failed to find style 'textViewStyle' in current theme",1349708859821
+error,log,,,"safety_checklist.xml: Failed to find style 'textViewStyle' in current theme",1349708859822
+error,log,,,"safety_checklist.xml: Failed to find style 'textViewStyle' in current theme",1349708859822
+error,log,,,"safety_checklist.xml: Failed to find style 'textViewStyle' in current theme",1349708859823
+error,log,,,"safety_checklist.xml: Failed to find style 'textViewStyle' in current theme",1349708859823
+error,log,,,"safety_checklist.xml: Failed to find style 'textViewStyle' in current theme",1349708859824
+error,log,,,"safety_checklist.xml: Failed to find style 'textViewStyle' in current theme",1349708859824
+error,log,,,"safety_checklist.xml: Failed to find style 'buttonStyle' in current theme",1349708859825
+error,log,,,"safety_checklist.xml: Failed to find style 'buttonStyle' in current theme",1349708859826
+error,log,,,"safety_checklist.xml: Failed to find style 'buttonStyle' in current theme",1349708859827
+error,log,,,"safety_checklist.xml: Failed to find style 'buttonStyle' in current theme",1349708859828
+error,log,,,"safety_checklist.xml: Failed to find style 'buttonStyle' in current theme",1349708859829
+error,log,,,"safety_checklist.xml: Failed to find style 'buttonStyle' in current theme",1349708859830
+error,log,,,"safety_checklist.xml: Failed to find style 'buttonStyle' in current theme",1349708859830
+error,log,,,"safety_checklist.xml: Failed to find style 'buttonStyle' in current theme",1349708859832
+error,log,,,"safety_checklist.xml: Failed to find style 'buttonStyle' in current theme",1349708859833
+error,log,,,"safety_checklist.xml: Failed to find style 'textViewStyle' in current theme",1349708859835
+error,log,,,"safety_checklist.xml: Failed to find style 'textViewStyle' in current theme",1349708859836
+error,log,,,"safety_checklist.xml: Failed to find style 'textViewStyle' in current theme",1349708859836
+error,log,,,"safety_checklist.xml: Failed to find style 'textViewStyle' in current theme",1349708859839
+error,log,,,"safety_checklist.xml: Failed to find style 'textViewStyle' in current theme",1349708859840
+error,log,,,"safety_checklist.xml: Failed to find style 'textViewStyle' in current theme",1349708859840
+error,log,,,"safety_checklist.xml: Failed to find style 'textViewStyle' in current theme",1349708859842
+error,log,,,"safety_checklist.xml: Failed to find style 'textViewStyle' in current theme",1349708859843
+error,log,,,"safety_checklist.xml: Failed to find style 'textViewStyle' in current theme",1349708859843
+error,log,,,"safety_checklist.xml: Failed to find style 'textViewStyle' in current theme",1349708859844
+error,log,,,"safety_checklist.xml: Failed to find style 'textViewStyle' in current theme",1349708859844
+error,log,,,"safety_checklist.xml: Failed to find style 'textViewStyle' in current theme",1349708859845
+error,log,,,"safety_checklist.xml: Failed to find style 'textViewStyle' in current theme",1349708859846
+error,log,,,"safety_checklist.xml: Failed to find style 'textViewStyle' in current theme",1349708859847
+error,log,,,"safety_checklist.xml: Failed to find style 'textViewStyle' in current theme",1349708859847
+error,log,,,"safety_checklist.xml: Failed to find style 'textViewStyle' in current theme",1349708859848
+error,log,,,"safety_checklist.xml: Failed to find style 'textViewStyle' in current theme",1349708859849
+error,log,,,"safety_checklist.xml: Failed to find style 'textViewStyle' in current theme",1349708859849
+error,log,,,"safety_checklist.xml: Failed to find style 'textViewStyle' in current theme",1349708859850
+error,log,,,"safety_checklist.xml: Failed to find style 'textViewStyle' in current theme",1349708859851
+error,log,,,"safety_checklist.xml: Failed to find style 'textViewStyle' in current theme",1349708859852
+error,log,,,"safety_checklist.xml: Failed to find style 'textViewStyle' in current theme",1349708859853
+error,log,,,"safety_checklist.xml: Failed to find style 'textViewStyle' in current theme",1349708859854
+error,log,,,"safety_checklist.xml: Failed to find style 'textViewStyle' in current theme",1349708859854
+error,log,,,"safety_checklist.xml: Failed to find style 'textViewStyle' in current theme",1349708859866
+error,log,,,"safety_checklist.xml: Failed to find style 'textViewStyle' in current theme",1349708859866
+error,log,,,"safety_checklist.xml: Failed to find style 'textViewStyle' in current theme",1349708859867
+error,log,,,"safety_checklist.xml: Failed to find style 'textViewStyle' in current theme",1349708859868
+error,log,,,"safety_checklist.xml: Failed to find style 'textViewStyle' in current theme",1349708859868
+error,log,,,"safety_checklist.xml: Failed to find style 'textViewStyle' in current theme",1349708859869
+error,log,,,"safety_checklist.xml: Failed to find style 'textViewStyle' in current theme",1349708859880
+error,log,,,"safety_checklist.xml: Failed to find style 'textViewStyle' in current theme",1349708859881
+error,log,,,"safety_checklist.xml: Failed to find style 'textViewStyle' in current theme",1349708859881
+error,log,,,"safety_checklist.xml: Failed to find style 'textViewStyle' in current theme",1349708859882
+error,log,,,"safety_checklist.xml: Failed to find style 'textViewStyle' in current theme",1349708859883
+error,log,,,"safety_checklist.xml: Failed to find style 'textViewStyle' in current theme",1349708859883
+error,log,,,"safety_checklist.xml: Failed to find style 'textViewStyle' in current theme",1349708859889
+error,log,,,"safety_checklist.xml: Failed to find style 'textViewStyle' in current theme",1349708859890
+error,log,,,"safety_checklist.xml: Failed to find style 'textViewStyle' in current theme",1349708859890
+error,log,,,"safety_checklist.xml: Failed to find style 'textViewStyle' in current theme",1349708859891
+error,log,,,"safety_checklist.xml: Failed to find style 'textViewStyle' in current theme",1349708859892
+error,log,,,"safety_checklist.xml: Failed to find style 'textViewStyle' in current theme",1349708859892
+error,log,,,"safety_checklist.xml: Failed to find style 'textViewStyle' in current theme",1349708859894
+error,log,,,"safety_checklist.xml: Failed to find style 'textViewStyle' in current theme",1349708859894
+error,log,,,"safety_checklist.xml: Failed to find style 'textViewStyle' in current theme",1349708859895
+error,log,,,"safety_checklist.xml: Failed to find style 'textViewStyle' in current theme",1349708859896
+error,log,,,"safety_checklist.xml: Failed to find style 'textViewStyle' in current theme",1349708859896
+error,log,,,"safety_checklist.xml: Failed to find style 'textViewStyle' in current theme",1349708859897
+error,log,,,"safety_checklist.xml: Failed to find style 'textViewStyle' in current theme",1349708859906
+error,log,,,"safety_checklist.xml: Failed to find style 'textViewStyle' in current theme",1349708859907
+error,log,,,"safety_checklist.xml: Failed to find style 'textViewStyle' in current theme",1349708859907
+error,log,,,"safety_checklist.xml: Failed to find style 'textViewStyle' in current theme",1349708859908
+error,log,,,"safety_checklist.xml: Failed to find style 'textViewStyle' in current theme",1349708859909
+error,log,,,"safety_checklist.xml: Failed to find style 'textViewStyle' in current theme",1349708859909
+error,log,,,"safety_checklist.xml: Failed to find style 'textViewStyle' in current theme",1349708859910
+error,log,,,"safety_checklist.xml: Failed to find style 'textViewStyle' in current theme",1349708859911
+error,log,,,"safety_checklist.xml: Failed to find style 'textViewStyle' in current theme",1349708859911
+error,log,,,"safety_checklist.xml: Failed to find style 'textViewStyle' in current theme",1349708859913
+error,log,,,"safety_checklist.xml: Failed to find style 'textViewStyle' in current theme",1349708859913
+error,log,,,"safety_checklist.xml: Failed to find style 'textViewStyle' in current theme",1349708859913
+error,log,,,"safety_checklist.xml: Failed to find style 'textViewStyle' in current theme",1349708859941
+error,log,,,"safety_checklist.xml: Failed to find style 'textViewStyle' in current theme",1349708859942
+error,log,,,"safety_checklist.xml: Failed to find style 'textViewStyle' in current theme",1349708859942
+error,log,,,"safety_checklist.xml: Failed to find style 'textViewStyle' in current theme",1349708859943
+error,log,,,"safety_checklist.xml: Failed to find style 'textViewStyle' in current theme",1349708859944
+error,log,,,"safety_checklist.xml: Failed to find style 'textViewStyle' in current theme",1349708859944
+error,log,,,"safety_checklist.xml: Failed to find style 'textViewStyle' in current theme",1349708859962
+error,log,,,"safety_checklist.xml: Failed to find style 'textViewStyle' in current theme",1349708859963
+error,log,,,"safety_checklist.xml: Failed to find style 'textViewStyle' in current theme",1349708859964
+error,log,,,"safety_checklist.xml: Failed to find style 'textViewStyle' in current theme",1349708859966
+error,log,,,"safety_checklist.xml: Failed to find style 'textViewStyle' in current theme",1349708859966
+error,log,,,"safety_checklist.xml: Failed to find style 'textViewStyle' in current theme",1349708859967
+error,log,,,"safety_checklist.xml: Failed to find style 'textViewStyle' in current theme",1349708859982
+error,log,,,"safety_checklist.xml: Failed to find style 'textViewStyle' in current theme",1349708859983
+error,log,,,"safety_checklist.xml: Failed to find style 'textViewStyle' in current theme",1349708859984
+error,log,,,"safety_checklist.xml: Failed to find style 'textViewStyle' in current theme",1349708859986
+error,log,,,"safety_checklist.xml: Failed to find style 'textViewStyle' in current theme",1349708859987
+error,log,,,"safety_checklist.xml: Failed to find style 'textViewStyle' in current theme",1349708859988
+error,log,,,"safety_checklist.xml: Failed to find style 'textViewStyle' in current theme",1349708859997
+error,log,,,"safety_checklist.xml: Failed to find style 'textViewStyle' in current theme",1349708859998
+error,log,,,"safety_checklist.xml: Failed to find style 'textViewStyle' in current theme",1349708859999
+error,log,,,"safety_checklist.xml: Failed to find style 'textViewStyle' in current theme",1349708860000
+error,log,,,"safety_checklist.xml: Failed to find style 'textViewStyle' in current theme",1349708860001
+error,log,,,"safety_checklist.xml: Failed to find style 'textViewStyle' in current theme",1349708860001
+error,log,,,"safety_checklist.xml: Failed to find style 'textViewStyle' in current theme",1349708860002
+error,log,,,"safety_checklist.xml: Failed to find style 'textViewStyle' in current theme",1349708860003
+error,log,,,"safety_checklist.xml: Failed to find style 'textViewStyle' in current theme",1349708860004
+error,log,,,"safety_checklist.xml: Failed to find style 'textViewStyle' in current theme",1349708860005
+error,log,,,"safety_checklist.xml: Failed to find style 'textViewStyle' in current theme",1349708860006
+error,log,,,"safety_checklist.xml: Failed to find style 'textViewStyle' in current theme",1349708860006
+error,log,,,"safety_checklist.xml: Failed to find style 'textViewStyle' in current theme",1349708860008
+error,log,,,"safety_checklist.xml: Failed to find style 'textViewStyle' in current theme",1349708860009
+error,log,,,"safety_checklist.xml: Failed to find style 'textViewStyle' in current theme",1349708860009
+error,log,,,"safety_checklist.xml: Failed to find style 'textViewStyle' in current theme",1349708860013
+error,log,,,"safety_checklist.xml: Failed to find style 'textViewStyle' in current theme",1349708860013
+error,log,,,"safety_checklist.xml: Failed to find style 'textViewStyle' in current theme",1349708860014
+error,log,,,"safety_checklist.xml: Failed to find style 'textViewStyle' in current theme",1349708860015
+error,log,,,"safety_checklist.xml: Failed to find style 'textViewStyle' in current theme",1349708860015
+error,log,,,"safety_checklist.xml: Failed to find style 'textViewStyle' in current theme",1349708860015
+error,log,,,"safety_checklist.xml: Failed to find style 'listViewStyle' in current theme",1349708860017
+error,log,,,"safety_checklist.xml: Failed to find style 'listViewStyle' in current theme",1349708860017
+error,log,,,"safety_checklist.xml: Failed to find style 'listViewStyle' in current theme",1349708860018
+activated,view,com.android.ide.eclipse.ddms,20.0.3.v201208082019-427395,"com.android.ide.eclipse.ddms.views.LogCatView",1349708867110
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1349708898666
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1349708906191
+activated,editor,com.android.ide.eclipse.adt,20.0.3.v201208082019-427395,"com.android.ide.eclipse.editors.CommonXmlEditor",1349708906229
+activated,editor,org.eclipse.jdt.ui,3.7.2.v20120109-1427,"org.eclipse.jdt.ui.CompilationUnitEditor",1349708907019
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1349708910864
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1349708917594
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1349708923906
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1349708930711
+activated,editor,org.eclipse.jdt.ui,3.7.2.v20120109-1427,"org.eclipse.jdt.ui.CompilationUnitEditor",1349708942316
+activated,editor,com.android.ide.eclipse.adt,20.0.3.v201208082019-427395,"com.android.ide.eclipse.editors.CommonXmlEditor",1349708994239
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.text.contentAssist.proposals",1349709015201
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.text.contentAssist.proposals",1349709018051
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.file.save",1349709019496
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1349709044695
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1349709046655
+activated,view,org.eclipse.ui.console,3.5.100.v20111007_r372,"org.eclipse.ui.console.ConsoleView",1349709066358
+activated,editor,com.android.ide.eclipse.adt,20.0.3.v201208082019-427395,"com.android.ide.eclipse.editors.CommonXmlEditor",1349709067262
+activated,view,com.android.ide.eclipse.ddms,20.0.3.v201208082019-427395,"com.android.ide.eclipse.ddms.views.LogCatView",1349709075175
+activated,editor,com.android.ide.eclipse.adt,20.0.3.v201208082019-427395,"com.android.ide.eclipse.editors.CommonXmlEditor",1349709092755
+activated,editor,org.eclipse.jdt.ui,3.7.2.v20120109-1427,"org.eclipse.jdt.ui.CompilationUnitEditor",1349709092829
+activated,editor,org.eclipse.jdt.ui,3.7.2.v20120109-1427,"org.eclipse.jdt.ui.CompilationUnitEditor",1349709094417
+executed,command,org.eclipse.jdt.ui,3.7.2.v20120109-1427,"org.eclipse.jdt.ui.edit.text.java.toggle.comment",1349709118981
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.file.save",1349709124382
+activated,view,org.eclipse.jdt.ui,3.7.2.v20120109-1427,"org.eclipse.jdt.ui.PackageExplorer",1349709161140
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1349709166543
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1349709540547
+activated,editor,org.eclipse.jdt.ui,3.7.2.v20120109-1427,"org.eclipse.jdt.ui.CompilationUnitEditor",1349709541548
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1349709547873
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1349709564053
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1349709571555
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1349709736657
+activated,editor,org.eclipse.jdt.ui,3.7.2.v20120109-1427,"org.eclipse.jdt.ui.CompilationUnitEditor",1349709737906
+executed,command,,,"AUTOGEN:::org.eclipse.jdt.debug.CompilationUnitEditor.BreakpointRulerActions/org.eclipse.jdt.debug.ui.actions.ManageBreakpointRulerAction",1349709742366
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.copy",1349709753559
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1349709760839
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1349709778002
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1349709791143
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1349709797133
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1349709812047
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1349709816425
+activated,view,org.eclipse.jdt.ui,3.7.2.v20120109-1427,"org.eclipse.jdt.ui.PackageExplorer",1349709819498
+opened,editor,org.eclipse.jdt.ui,3.7.2.v20120109-1427,"org.eclipse.jdt.ui.CompilationUnitEditor",1349709820619
+activated,editor,org.eclipse.jdt.ui,3.7.2.v20120109-1427,"org.eclipse.jdt.ui.CompilationUnitEditor",1349709820664
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1349709833071
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1349709835044
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.paste",1349709840026
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.undo",1349709842881
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.paste",1349709848154
+executed,command,org.eclipse.jdt.ui,3.7.2.v20120109-1427,"org.eclipse.jdt.ui.edit.text.java.indent",1349709858859
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.undo",1349709863837
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.undo",1349709864061
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.copy",1349709874131
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.cut",1349709874386
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.paste",1349709876926
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1349709879225
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1349709887069
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.paste",1349709890515
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.undo",1349709892197
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.paste",1349709894615
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.delete",1349709898462
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.delete",1349709900478
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.delete",1349709901526
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.file.save",1349709902527
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1349709903914
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1349709939354
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1349709956732
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1349709961068
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.paste",1349709963088
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.file.save",1349709964722
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1349709986335
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1349709992447
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1349709993950
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1349709995238
+activated,editor,org.eclipse.jdt.ui,3.7.2.v20120109-1427,"org.eclipse.jdt.ui.CompilationUnitEditor",1349709997245
+activated,view,org.eclipse.ui.console,3.5.100.v20111007_r372,"org.eclipse.ui.console.ConsoleView",1349710014577
+activated,view,com.android.ide.eclipse.ddms,20.0.3.v201208082019-427395,"com.android.ide.eclipse.ddms.views.LogCatView",1349710015600
+activated,editor,org.eclipse.jdt.ui,3.7.2.v20120109-1427,"org.eclipse.jdt.ui.CompilationUnitEditor",1349710092926
+activated,editor,org.eclipse.jdt.ui,3.7.2.v20120109-1427,"org.eclipse.jdt.ui.CompilationUnitEditor",1349710092950
+activated,view,com.android.ide.eclipse.ddms,20.0.3.v201208082019-427395,"com.android.ide.eclipse.ddms.views.LogCatView",1349710099683
+activated,editor,org.eclipse.jdt.ui,3.7.2.v20120109-1427,"org.eclipse.jdt.ui.CompilationUnitEditor",1349710116507
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1349710128452
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1349710128750
+executed,command,,,"AUTOGEN:::org.eclipse.jdt.debug.CompilationUnitEditor.BreakpointRulerActions/org.eclipse.jdt.debug.ui.actions.ManageBreakpointRulerAction",1349710173577
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1349710177402
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1349710179760
+activated,view,org.eclipse.ui.console,3.5.100.v20111007_r372,"org.eclipse.ui.console.ConsoleView",1349710180957
+activated,view,com.android.ide.eclipse.ddms,20.0.3.v201208082019-427395,"com.android.ide.eclipse.ddms.views.LogCatView",1349710182000
+activated,editor,org.eclipse.jdt.ui,3.7.2.v20120109-1427,"org.eclipse.jdt.ui.CompilationUnitEditor",1349710263729
+activated,view,org.eclipse.debug.ui,3.7.102.v20111129-1423_r372,"org.eclipse.debug.ui.DebugView",1349710270832
+executed,command,org.eclipse.debug.ui,3.7.102.v20111129-1423_r372,"org.eclipse.debug.ui.commands.Resume",1349710273597
+activated,editor,org.eclipse.jdt.ui,3.7.2.v20120109-1427,"org.eclipse.jdt.ui.CompilationUnitEditor",1349710283613
+executed,command,,,"AUTOGEN:::org.eclipse.jdt.debug.CompilationUnitEditor.BreakpointRulerActions/org.eclipse.jdt.debug.ui.actions.ManageBreakpointRulerAction",1349710283827
+activated,view,org.eclipse.debug.ui,3.7.102.v20111129-1423_r372,"org.eclipse.debug.ui.DebugView",1349710290937
+executed,command,org.eclipse.debug.ui,3.7.102.v20111129-1423_r372,"org.eclipse.debug.ui.commands.StepOver",1349710293419
+executed,command,org.eclipse.debug.ui,3.7.102.v20111129-1423_r372,"org.eclipse.debug.ui.commands.StepOver",1349710306660
+executed,command,org.eclipse.debug.ui,3.7.102.v20111129-1423_r372,"org.eclipse.debug.ui.commands.StepReturn",1349710308530
+opened,editor,org.eclipse.jdt.ui,3.7.2.v20120109-1427,"org.eclipse.jdt.ui.CompilationUnitEditor",1349710308817
+executed,command,org.eclipse.debug.ui,3.7.102.v20111129-1423_r372,"org.eclipse.debug.ui.commands.Resume",1349710310628
+activated,editor,org.eclipse.jdt.ui,3.7.2.v20120109-1427,"org.eclipse.jdt.ui.CompilationUnitEditor",1349710313335
+activated,editor,org.eclipse.jdt.ui,3.7.2.v20120109-1427,"org.eclipse.jdt.ui.CompilationUnitEditor",1349710313444
+closed,editor,org.eclipse.jdt.ui,3.7.2.v20120109-1427,"org.eclipse.jdt.ui.CompilationUnitEditor",1349710313445
+activated,view,org.eclipse.debug.ui,3.7.102.v20111129-1423_r372,"org.eclipse.debug.ui.DebugView",1349710318763
+executed,command,org.eclipse.debug.ui,3.7.102.v20111129-1423_r372,"org.eclipse.debug.ui.commands.Resume",1349710320732
+activated,editor,org.eclipse.jdt.ui,3.7.2.v20120109-1427,"org.eclipse.jdt.ui.CompilationUnitEditor",1349710327095
+executed,command,,,"AUTOGEN:::org.eclipse.jdt.debug.CompilationUnitEditor.BreakpointRulerActions/org.eclipse.jdt.debug.ui.actions.ManageBreakpointRulerAction",1349710327352
+activated,view,org.eclipse.debug.ui,3.7.102.v20111129-1423_r372,"org.eclipse.debug.ui.DebugView",1349710340912
+executed,command,org.eclipse.debug.ui,3.7.102.v20111129-1423_r372,"org.eclipse.debug.ui.commands.StepOver",1349710346989
+executed,command,org.eclipse.debug.ui,3.7.102.v20111129-1423_r372,"org.eclipse.debug.ui.commands.StepOver",1349710348629
+executed,command,org.eclipse.debug.ui,3.7.102.v20111129-1423_r372,"org.eclipse.debug.ui.commands.StepOver",1349710349661
+activated,editor,org.eclipse.jdt.ui,3.7.2.v20120109-1427,"org.eclipse.jdt.ui.CompilationUnitEditor",1349710352739
+executed,command,org.eclipse.debug.ui,3.7.102.v20111129-1423_r372,"org.eclipse.debug.ui.commands.StepOver",1349710356765
+executed,command,org.eclipse.debug.ui,3.7.102.v20111129-1423_r372,"org.eclipse.debug.ui.commands.Resume",1349710362807
+activated,view,org.eclipse.debug.ui,3.7.102.v20111129-1423_r372,"org.eclipse.debug.ui.DebugView",1349710363993
+opened,editor,org.eclipse.jdt.ui,3.7.2.v20120109-1427,"org.eclipse.jdt.ui.ClassFileEditor",1349710364416
+executed,command,org.eclipse.debug.ui,3.7.102.v20111129-1423_r372,"org.eclipse.debug.ui.commands.Resume",1349710365461
+opened,editor,org.eclipse.debug.ui,3.7.102.v20111129-1423_r372,"org.eclipse.debug.ui.sourcelookup.CommonSourceNotFoundEditor",1349710365815
+closed,editor,org.eclipse.jdt.ui,3.7.2.v20120109-1427,"org.eclipse.jdt.ui.ClassFileEditor",1349710365844
+executed,command,org.eclipse.debug.ui,3.7.102.v20111129-1423_r372,"org.eclipse.debug.ui.commands.Resume",1349710365962
+closed,editor,org.eclipse.debug.ui,3.7.102.v20111129-1423_r372,"org.eclipse.debug.ui.sourcelookup.CommonSourceNotFoundEditor",1349710366389
+activated,editor,org.eclipse.jdt.ui,3.7.2.v20120109-1427,"org.eclipse.jdt.ui.CompilationUnitEditor",1349710367453

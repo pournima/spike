@@ -1,0 +1,600 @@
+package com.checkinlibrary.business;
+
+import java.io.Serializable;
+import java.io.UnsupportedEncodingException;
+import java.math.BigDecimal;
+import java.net.URLEncoder;
+import java.sql.Timestamp;
+import java.text.DecimalFormat;
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
+import java.util.Calendar;
+import java.util.Date;
+import java.util.List;
+
+import android.R.integer;
+import android.app.AlertDialog;
+import android.content.DialogInterface;
+import android.content.Intent;
+import android.database.Cursor;
+import android.graphics.Color;
+import android.net.Uri;
+import android.os.Bundle;
+import android.support.v4.app.Fragment;
+import android.text.Html;
+import android.text.Spannable;
+import android.text.SpannableStringBuilder;
+import android.text.style.ForegroundColorSpan;
+import android.text.style.StyleSpan;
+import android.util.Log;
+import android.view.KeyEvent;
+import android.view.LayoutInflater;
+import android.view.View;
+import android.view.ViewGroup;
+import android.widget.Button;
+import android.widget.EditText;
+import android.widget.ImageView;
+import android.widget.LinearLayout;
+import android.widget.RelativeLayout;
+import android.widget.ScrollView;
+import android.widget.TextView;
+import android.widget.Toast;
+import com.checkinlibrary.CheckinLibraryActivity;
+import com.checkinlibrary.NoConnectivityScreen;
+import com.checkinlibrary.R;
+import com.checkinlibrary.db.MyCheckinsDbAdapter;
+import com.checkinlibrary.helpers.AppStatus;
+import com.checkinlibrary.helpers.CheckinAlgorithm;
+import com.checkinlibrary.models.BusinessResult;
+import com.checkinlibrary.models.OrganizationResult;
+import com.checkinlibrary.models.BusinessResult.CheckinTimeResult;
+import com.checkinlibrary.settings.ShareFragment;
+import com.checkinlibrary.ws.tasks.DoCheckinTask;
+
+@SuppressWarnings("unused")
+public class BusinessCheckinFragment extends Fragment {
+
+	CheckinLibraryActivity context;
+	private TextView textViewName;
+	private TextView textViewAddress;
+	private TextView textViewOffer;
+	private TextView textViewDivider2;
+	private TextView textViewCheckinTimes;
+	private Button btnCheckin;
+	private Button btnPublic;
+	private Button btnPrivate;
+	private Button btnMap;
+	private Boolean bIsPublicCheckin;
+	private LinearLayout mlinearlayoutPubOrPri;
+	private CheckinAlgorithm mCheckinAlgorithm;
+	private BusinessResult mBusinessResult;
+	ThankyouFragment mThankyouFragment;
+	ShareFragment mShareFragment;
+	OrganizationResult mOrganizationResult;
+	private ScrollView mScrollView;
+	private ScrollView mScrollViewSnap;
+	private RelativeLayout mRelativeLayoutQRSnap;
+	private Button btnQRSnap;
+	private ImageView mImageViewSnapNow;
+	private TextView mTextViewSnap;
+	private TextView mTextViewSnap1;
+	private TextView mTextViewSnap2;
+	private TextView textPowerbyCheckin;
+	private TextView txtReservationURL;
+
+	@Override
+	public View onCreateView(LayoutInflater inflater, ViewGroup container,
+			Bundle savedInstanceState) {
+		context = (CheckinLibraryActivity) this.getActivity();
+		
+		View v;
+		v= inflater.inflate(R.layout.checkin_fragment, container, false);
+		
+		mOrganizationResult = (OrganizationResult) this.getArguments().getSerializable(
+				"selected_cause");
+		mBusinessResult = (BusinessResult) this.getArguments().getSerializable(
+				"selected_business");
+		initializePage(v);
+		
+		mScrollView.setVisibility(EditText.VISIBLE);
+		mScrollViewSnap.setVisibility(EditText.GONE);
+		mRelativeLayoutQRSnap.setVisibility(EditText.GONE);
+		mImageViewSnapNow.setVisibility(EditText.VISIBLE);
+		mTextViewSnap.setVisibility(EditText.VISIBLE);
+		mTextViewSnap1.setVisibility(EditText.VISIBLE);
+		mTextViewSnap2.setVisibility(EditText.GONE);
+		return v;
+
+	}
+
+	
+	@Override
+	public void onResume() {
+		super.onResume();
+
+		mOrganizationResult = (OrganizationResult) this.getArguments().getSerializable(
+				"selected_cause");
+		mBusinessResult = (BusinessResult) this.getArguments().getSerializable(
+				"selected_business");
+
+		if (mBusinessResult != null) {
+			textViewName.setText(mBusinessResult.getName());
+			textViewAddress.setText(mBusinessResult.getAddress() + "\n");
+			if (mBusinessResult.getPromotionalOffer().length() == 0) {
+				textViewOffer.setVisibility(EditText.GONE);
+				textViewDivider2.setVisibility(EditText.GONE);
+				textViewCheckinTimes.setVisibility(EditText.GONE);
+			} else {
+				textViewOffer.setVisibility(EditText.VISIBLE);
+				textViewDivider2.setVisibility(EditText.VISIBLE);
+				textViewCheckinTimes.setVisibility(EditText.VISIBLE);
+				textViewOffer.setText(mBusinessResult.getPromotionalOffer());
+
+				List<CheckinTimeResult> mCheckinTimes = mBusinessResult
+						.getCheckinTimes();
+				if (mCheckinTimes.size() > 0) {
+					String strCheckinTime = "";
+					for (CheckinTimeResult mCheckinResult : mCheckinTimes) {
+						strCheckinTime += getFormatedCheckinTime(mCheckinResult)
+								+ ", ";
+					}
+					strCheckinTime = strCheckinTime.substring(0,
+							strCheckinTime.length() - 2);
+					textViewCheckinTimes.setText(Html.fromHtml("<b>"
+							+ "Offer Valid:" + "</b>" + " " + strCheckinTime));
+				} else {
+					textViewCheckinTimes.setVisibility(EditText.GONE);
+				}
+			}
+
+			BigDecimal pub_amount = mBusinessResult.getCheckinAmounts().get(
+					"public_amount");
+			BigDecimal pri_amount = mBusinessResult.getCheckinAmounts().get(
+					"private_amount");
+
+			btnPublic.setText(Html.fromHtml("<b>" + "YES" + "</b>" + " | "
+					+ "Raise $"
+					+ new DecimalFormat("###.00").format(pub_amount)));
+			btnPrivate.setText(Html.fromHtml("<b>" + "NO" + "</b>" + " | "
+					+ "Raise $"
+					+ new DecimalFormat("###.00").format(pri_amount)));
+		}
+
+		// after Qrcode scanning go to direct do_chekin
+		if (CheckinLibraryActivity.appStatus.mFromQrCode) {
+			do_checkin();
+			// CheckinNativeActivity.appStatus.mFromQrCode = false;
+		}
+
+		mScrollView.setVisibility(EditText.VISIBLE);
+		mScrollViewSnap.setVisibility(EditText.GONE);
+		mRelativeLayoutQRSnap.setVisibility(EditText.GONE);
+		mImageViewSnapNow.setVisibility(EditText.VISIBLE);
+		mTextViewSnap.setVisibility(EditText.VISIBLE);
+		mTextViewSnap1.setVisibility(EditText.VISIBLE);
+		mTextViewSnap2.setVisibility(EditText.GONE);
+		context.isResuming = false;
+	}
+
+	void initializePage(View v) {
+
+		textViewName = (TextView) v.findViewById(R.id.textViewBusName);
+		textViewAddress = (TextView) v.findViewById(R.id.textViewBusAddress);
+		textViewOffer = (TextView) v.findViewById(R.id.textViewBusOffer);
+		textViewDivider2 = (TextView) v.findViewById(R.id.divider_bottom2);
+		textViewCheckinTimes = (TextView) v
+				.findViewById(R.id.textViewBusCheckinTimes);
+		btnCheckin = (Button) v.findViewById(R.id.btnBusCheckin);
+		btnPublic = (Button) v.findViewById(R.id.btnBusPublic);
+		btnPrivate = (Button) v.findViewById(R.id.btnBusPrivate);
+		btnMap = (Button) v.findViewById(R.id.btnBusMap);
+		mlinearlayoutPubOrPri = (LinearLayout) v
+				.findViewById(R.id.linearPubOrPri);
+		mImageViewSnapNow = (ImageView) v.findViewById(R.id.imgSnapnow);
+		mTextViewSnap = (TextView) v.findViewById(R.id.txtViewsnap);
+		mTextViewSnap1 = (TextView) v.findViewById(R.id.txtViewsnap1);
+		mTextViewSnap2 = (TextView) v.findViewById(R.id.txtViewsnap2);
+		bIsPublicCheckin = true;
+		btnPublic.setSelected(true);
+		mCheckinAlgorithm = CheckinAlgorithm.getInstance(context);
+		mScrollView = (ScrollView) v.findViewById(R.id.scrollbarVideo);
+		mScrollViewSnap=(ScrollView) v.findViewById(R.id.scrollbarSnap);
+		mRelativeLayoutQRSnap = (RelativeLayout) v
+				.findViewById(R.id.linearQRCodeSnap);
+		btnQRSnap = (Button) v.findViewById(R.id.btnSnap);
+		
+		txtReservationURL = (TextView) v.findViewById(R.id.txtReservatioURL);
+		
+		if (0 == (getString(R.string.app_name)).compareTo("USA Football")) {
+			if(mBusinessResult !=null && mBusinessResult.getReservationUrl().length() > 0 ) {
+				txtReservationURL.setVisibility(TextView.VISIBLE);
+				String strResURL = "Reservation URL: ";
+				strResURL = strResURL + mBusinessResult.getReservationUrl();
+
+				final SpannableStringBuilder sb = new SpannableStringBuilder(strResURL);
+
+				final StyleSpan bss = new StyleSpan(android.graphics.Typeface.BOLD); // Span to make text bold
+				sb.setSpan(bss, 0, 16, Spannable.SPAN_INCLUSIVE_INCLUSIVE); // make first 4 characters Bold 
+
+				final ForegroundColorSpan fcs = new ForegroundColorSpan(Color.rgb(57, 81, 143)); 
+				// Span to make text bold and set blue color
+				sb.setSpan(fcs, 0, 16, Spannable.SPAN_INCLUSIVE_INCLUSIVE); 
+				
+				txtReservationURL.setText(sb);
+			} 
+		}
+
+		if (0 == (getString(R.string.app_name)).compareTo("USA Football")) {
+			textPowerbyCheckin = (TextView) v.findViewById(R.id.txtPoweredBy);
+			textPowerbyCheckin.setVisibility(EditText.VISIBLE);
+		}
+		
+		btnMap.setOnClickListener(new View.OnClickListener() {
+			public void onClick(View v) {
+				mapBtnClicked();
+			}
+		});
+
+		btnCheckin.setOnClickListener(new View.OnClickListener() {
+			public void onClick(View v) {
+					checkinBtnClicked();
+			}
+		});
+
+		btnPublic.setOnClickListener(new View.OnClickListener() {
+			public void onClick(View v) {
+				publicCheckinBtnClicked();
+			}
+		});
+
+		btnPrivate.setOnClickListener(new View.OnClickListener() {
+			public void onClick(View v) {
+				privateCheckinBtnClicked();
+			}
+		});
+		btnQRSnap.setOnClickListener(new View.OnClickListener() {
+
+			public void onClick(View v) {
+				snapBtnClicked();
+
+			}
+		});
+	}
+
+	@Override
+	public void onPause() {
+		super.onPause();
+		// Don't react to gps updates when the tab isn't active.
+	}
+
+	public void do_checkin() {
+		if (CheckinLibraryActivity.appStatus.isOnline()) {
+
+			String args[] = new String[6];
+			args[0] = Integer.toString(mBusinessResult.getId());
+			args[1] = Integer.toString(mOrganizationResult.getOrganization().getId());
+			String checkin_time = getCurrentTimeStamp();
+			args[2] = checkin_time;
+			args[3] = Boolean.toString(bIsPublicCheckin);
+
+			if (CheckinLibraryActivity.appStatus.mFromQrCode) {
+				String scanResult = CheckinLibraryActivity.appStatus.mQrCodeResult;
+				Log.v("DoCheckin", scanResult);
+				args[4] = scanResult;
+			} else {
+				args[4] = "NULL"; // Added for qrcode not needed in
+									// do_checkin_simple api
+			}
+			if (AppStatus.getInstance(context).getSharedLongValue("DELAY_TIME") != null) {
+
+				args[5] = AppStatus.getInstance(context)
+						.getSharedLongValue("DELAY_TIME").toString();
+				Log.v("DoCheckin", args[5]);
+
+			} else {
+
+				args[5] = "0";
+			}
+			CheckinLibraryActivity.strProgressMessage=getString(R.string.checkinProgressMessage);
+			context.showDialog(0);
+			new DoCheckinTask(context, this, args).execute(args);
+		} else {
+			context.message("Check internet connectivity!");
+			Log.v("DoCheckin", "App is not online!");
+			Intent intent = new Intent(context, NoConnectivityScreen.class);
+			startActivity(intent);
+			context.finish();
+		}
+	}
+
+	public void onAuthenticationResult(Boolean success, Double checkinAmount,
+			String errorMsg, int checkinCount) {
+		Log.i("Checkin", "onAuthenticationResult(" + String.valueOf(success)
+				+ ")");
+
+		context.removeDialog(0);
+		if (success) {
+			InsertOrUpdateMyCheckin();
+			updateCheckinInfo(checkinAmount, checkinCount);
+			showThankyouPage();
+
+		} else {
+			if (CheckinLibraryActivity.appStatus.mFromQrCode) {
+				mScrollView.setVisibility(EditText.GONE);
+				mScrollViewSnap.setVisibility(EditText.VISIBLE);
+				mRelativeLayoutQRSnap.setVisibility(EditText.VISIBLE);
+				mImageViewSnapNow.setVisibility(EditText.GONE);
+				mTextViewSnap1.setVisibility(EditText.GONE);
+				mTextViewSnap.setVisibility(EditText.GONE);
+				mTextViewSnap2.setVisibility(EditText.VISIBLE);
+
+			} else {
+				DisplayToast(errorMsg);
+			}
+
+		}
+		CheckinLibraryActivity.appStatus.mFromQrCode = false;
+	}
+
+	public void DisplayToast(String msg) {
+		Toast.makeText(context, msg, Toast.LENGTH_SHORT).show();
+		context.removeDialog(0);
+	}
+
+	public String getCurrentTimeStamp() {
+		String strTimeStamp = null;
+		java.util.Date date = new java.util.Date();
+		strTimeStamp = (new Timestamp(date.getTime())).toString();
+		Log.i("TimeStamp", strTimeStamp);
+		return strTimeStamp;
+	}
+
+	public void checkinBtnClicked() {
+		Log.i("Checkin", "btn checkin clicked");
+		
+		if (mBusinessResult.needsSnap()) {
+			Log.i("CHECKINFORGOOD", "QRCODE");
+			if (mCheckinAlgorithm.checkCheckinAlgorithm(
+					mBusinessResult.getId(), bIsPublicCheckin,
+					mBusinessResult.getCheckinTimes())) {
+				mScrollView.setVisibility(EditText.GONE);
+				mScrollViewSnap.setVisibility(EditText.VISIBLE);
+				mRelativeLayoutQRSnap.setVisibility(EditText.VISIBLE);
+				/*
+				 * Intent intent = new Intent(context,
+				 * com.google.zxing.client.android.CaptureActivity.class);
+				 * intent.setPackage("com.google.zxing.client.android");
+				 * intent.addCategory(Intent.CATEGORY_DEFAULT);
+				 * context.startActivityForResult(intent,
+				 * CheckinNativeActivity.appStatus.REQUEST_CODE);
+				 */
+			} else {
+				if (mCheckinAlgorithm.IsFacbookOrTwitterSettingNeeded) {
+					ShowMessageBox("", mCheckinAlgorithm.mMessage, "SETTINGS");
+				} else {
+					ShowMessageBox("", mCheckinAlgorithm.mMessage, "OK");
+				}
+			}
+		} else { // direct checkin
+			if (mCheckinAlgorithm.checkCheckinAlgorithm(
+					mBusinessResult.getDistance(), mBusinessResult.getId(),
+					bIsPublicCheckin, mBusinessResult.getCheckinTimes())) {
+				Log.i("CHECKINFORGOOD", "Direct checkin");
+				do_checkin();
+			} else {
+				if (mCheckinAlgorithm.IsFacbookOrTwitterSettingNeeded) {
+					ShowMessageBox("", mCheckinAlgorithm.mMessage, "SETTINGS");
+				} else {
+					ShowMessageBox("", mCheckinAlgorithm.mMessage, "OK");
+				}
+			}
+		}
+	}
+
+	public void publicCheckinBtnClicked() {
+		Log.i("Checkin", "btn public checkin clicked");
+		bIsPublicCheckin = true;
+		btnPrivate.setSelected(false);
+		btnPublic.setSelected(true);
+
+	}
+
+	public void privateCheckinBtnClicked() {
+		Log.i("Checkin", "btn private checkin clicked");
+		bIsPublicCheckin = false;
+		btnPublic.setSelected(false);
+		btnPrivate.setSelected(true);
+	}
+
+	public void mapBtnClicked() {
+		Intent intent;
+
+		try {
+			Log.i("Checkin",
+					"map button clicked for google.navigation:"
+							+ URLEncoder.encode(
+									this.mBusinessResult.getAddress(), "UTF-8"));
+			Double[] latLng = mBusinessResult.getLatLng();
+			String latLngStr = latLng[0].toString() + ","
+					+ latLng[1].toString();
+			Uri uri = Uri.parse("http://maps.google.com/maps?saddr="
+					+ latLngStr + "&daddr=" + latLngStr);
+			intent = new Intent(android.content.Intent.ACTION_VIEW, uri);
+			intent.setClassName("com.google.android.apps.maps",
+					"com.google.android.maps.MapsActivity");
+			this.context.startActivity(intent);
+		} catch (UnsupportedEncodingException e) {
+			e.printStackTrace();
+		}
+	}
+
+	public void ShowMessageBox(String mTitle, String mMsg,
+			final String posivitiButtonText) {
+		AlertDialog.Builder mBuilder = new AlertDialog.Builder(context);
+		mBuilder.setTitle(mTitle);
+		mBuilder.setMessage(mMsg);
+
+		mBuilder.setPositiveButton(posivitiButtonText,
+				new DialogInterface.OnClickListener() {
+					@Override
+					public void onClick(DialogInterface dialog, int which) {
+						dialog.dismiss();
+						if (posivitiButtonText.compareTo("OK") == 0) {
+							/*context.mTabManager.onTabChanged(context.mTabHost
+									.getCurrentTabTag());*/
+							//	context.popFragmentFromStack();
+							
+						} else { // go to facebook or twitter setting
+							goToFacebookOrTwitterSettings();
+							mCheckinAlgorithm.IsFacbookOrTwitterSettingNeeded = false;
+						}
+					}
+				});
+	
+		if (mCheckinAlgorithm.IsFacbookOrTwitterSettingNeeded) {
+			mBuilder.setNegativeButton("NO THANKS",
+					new DialogInterface.OnClickListener() {
+						@Override
+						public void onClick(DialogInterface dialog, int which) {
+							dialog.dismiss();
+							mCheckinAlgorithm.IsFacbookOrTwitterSettingNeeded = false;
+							//privateCheckinBtnClicked();
+						}
+					});
+		}
+
+		AlertDialog mAlert = mBuilder.create();
+		mAlert.show();
+	}
+
+	public void showThankyouPage() {
+		if (mThankyouFragment == null) {
+			Bundle bundle = new Bundle();
+			bundle.putString("business_name", mBusinessResult.getName());
+			bundle.putString("organization_name", mOrganizationResult.getOrganization().getName());
+			bundle.putSerializable("selected_business", (Serializable) mBusinessResult);
+			bundle.putBoolean("IS_PUBLIC", bIsPublicCheckin);
+
+			mThankyouFragment = (ThankyouFragment) context.addFragment(
+					R.id.linearLayout2, ThankyouFragment.class.getName(),
+					"thankyou_fragment", bundle);
+		} else {
+			(context).attachFragment((Fragment) mThankyouFragment,"thankyou_fragment");
+		}
+	}
+
+	private void InsertOrUpdateMyCheckin() {
+		boolean Flag = mCheckinAlgorithm.IsUpdateReq;
+		MyCheckinsDbAdapter mycheckin_db = new MyCheckinsDbAdapter(context);
+		Calendar currentDate = Calendar.getInstance();
+		SimpleDateFormat formatter = new SimpleDateFormat("yyyy/MM/dd");
+		String strDate = formatter.format(currentDate.getTime());
+		 
+
+		if (Flag) { // update
+			Cursor mycheckinC = mycheckin_db.fetchAll(
+					"business_id=" + String.valueOf(mBusinessResult.getId()),
+					"1");
+			String my_checkin_rowId = null;
+			int checkinRowIdColumn = mycheckinC.getColumnIndex("_id");
+
+			if (mycheckinC.moveToFirst()) {
+				int checkin_rowId = mycheckinC.getInt(checkinRowIdColumn);
+				mycheckin_db.update(Long.valueOf(checkin_rowId),
+						mBusinessResult.getId(), strDate);
+			}
+		} else { // insert
+			mycheckin_db.create(mBusinessResult.getId(), strDate);
+		}
+	}
+
+	private void goToFacebookOrTwitterSettings() {
+		if (mShareFragment == null) {
+			//context.mTabHost.setCurrentTab(2);	
+			//FragmentTransaction ft = context.getSupportFragmentManager().beginTransaction();
+			//Fragment oldFragment = mTabManager.mLastTab.fragment;
+			//ft.remove(getFragmentManager().findFragmentByTag("setting_tab"));
+			//ft.detach();
+			mShareFragment = (ShareFragment) (context).addFragment(
+					R.id.linearLayout2, ShareFragment.class.getName(),
+					"share_fragment");
+		} else {
+			//context.mTabHost.setCurrentTab(2);
+			(context).attachFragment((Fragment) mShareFragment,"share_fragment");
+		}
+		
+	}
+
+	private void updateCheckinInfo(Double raisedMoney, int checkinCount) {
+		CheckinLibraryActivity.appStatus.saveSharedStringValue(
+				CheckinLibraryActivity.appStatus.CHECKIN_AMOUNT,
+				String.format("%.2f", raisedMoney));
+		context.setCheckinAmount();
+
+		CheckinLibraryActivity.appStatus.saveSharedStringValue(
+				CheckinLibraryActivity.appStatus.CHECKIN_COUNT,
+				String.valueOf(checkinCount));
+	}
+
+	private String getFormatedCheckinTime(CheckinTimeResult mCheckinResult) {
+		String strCheckinTime = "";
+		String strDay = mCheckinResult.day;
+		String strStartTime = mCheckinResult.start_time;
+		String strEndTime = mCheckinResult.end_time;
+
+		strStartTime = strStartTime.substring(0, strStartTime.length() - 1);
+		strEndTime = strEndTime.substring(0, strEndTime.length() - 1);
+
+		SimpleDateFormat d1 = new SimpleDateFormat("yyyy-MM-dd'T'HH:mm:ss");
+		try {
+			Date startDate = d1.parse(strStartTime);
+			Date endDate = d1.parse(strEndTime);
+
+			strStartTime = parseTime(startDate);
+			strEndTime = parseTime(endDate);
+
+			strCheckinTime = strDay + ": " + strStartTime + "-" + strEndTime;
+		} catch (ParseException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		return strCheckinTime;
+	}
+
+	private String parseTime(Date date) {
+		String strTime = "";
+		String strHour = String.valueOf(date.getHours());
+		String strMin = String.valueOf(date.getMinutes());
+
+		if (date.getHours() > 12) {
+			strTime += String.valueOf(date.getHours() - 12) + ":" + strMin
+					+ "pm";
+		} else {
+			strTime += String.valueOf(date.getHours()) + ":" + strMin + "am";
+		}
+		return strTime;
+	}
+
+	public void snapBtnClicked() {
+		Intent intent = new Intent(context,
+				com.google.zxing.client.android.CaptureActivity.class);
+		intent.setPackage("com.google.zxing.client.android");
+		intent.addCategory(Intent.CATEGORY_DEFAULT);
+		context.startActivityForResult(intent,
+				CheckinLibraryActivity.appStatus.REQUEST_CODE);
+
+	}
+
+/*
+	public boolean onKeyDown(int keyCode, KeyEvent event) 
+	{
+		if (keyCode == KeyEvent.KEYCODE_BACK) {
+			if (strDisplayedPage == 1){
+				mScrollView.setVisibility(EditText.VISIBLE);
+				mRelativeLayoutQRSnap.setVisibility(EditText.GONE);
+			}
+		}
+		return true;
+	}
+*/
+}

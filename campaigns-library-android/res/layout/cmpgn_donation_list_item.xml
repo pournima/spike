@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="10dp"
+    android:layout_marginTop="5dp" >
+
+    <RelativeLayout
+        android:id="@+id/lnrLayout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp" >
+
+        <ImageView
+            android:id="@+id/imgList"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/check_off" />
+
+        <TextView
+            android:id="@+id/txtDonateHeading"
+            android:layout_width="220dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_toRightOf="@+id/imgList"
+            android:ellipsize="end"
+            android:lines="1"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="@color/black"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txtDonateSubHeading"
+            android:layout_width="220dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txtDonateHeading"
+            android:layout_marginLeft="15dp"
+            android:layout_toRightOf="@+id/imgList"
+            android:ellipsize="end"
+            android:lines="2"
+            android:text="Use credit card or PayPal"
+            android:textColor="@color/gray_dark"
+            android:textSize="16dp" />
+
+        <ImageView
+            android:id="@+id/imgArrow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="5dp"
+            android:layout_toRightOf="@+id/txtDonateSubHeading"
+            android:paddingRight="5dp"
+            android:src="@drawable/nextarrow" >
+        </ImageView>
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/txtDesc"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/lnrLayout"
+        android:layout_marginLeft="15dp"
+        android:ellipsize="end"
+        android:lines="2"
+        android:paddingBottom="20dp"
+        android:text="Your donation will be applied to your carrier bill"
+        android:textColor="@color/gray_dark"
+        android:textSize="16dp" />
+
+</RelativeLayout>

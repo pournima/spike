@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+	<item android:id="@+id/businesses" android:title="Businesses" android:icon="@drawable/business"/>
+	<item android:id="@+id/causes" android:title="Causes" android:icon="@drawable/mycauses"/>
+	<item android:id="@+id/howItWorks" android:title="How it works" android:icon="@drawable/howitworks" />
+	<item android:id="@+id/settings" android:title="Settings" android:icon="@drawable/settings" />
+</menu>

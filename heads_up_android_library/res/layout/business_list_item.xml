@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout 
+    style="@style/listItem" 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/relativelayoutBusItemMain">
+
+    <LinearLayout
+        android:id="@+id/linearLayoutBusListItem1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <TextView
+            style="@style/listText"
+            android:id="@+id/businessName"
+            android:layout_width="200dp" />
+
+        <TextView
+            android:id="@+id/businessAddress"
+            android:layout_height="wrap_content"
+            android:layout_width="200dp"
+            android:ellipsize="end"
+            android:paddingLeft="15dp"
+            android:singleLine="true"
+            android:text="@string/business_list_address"
+            android:textColor="@color/gray"
+            android:textSize="5.5pt" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/relativeLayoutBusListItem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@+id/linearLayoutBusListItem1">
+        
+        <ImageView
+            android:id="@+id/imageViewNextArrow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="15dp"
+            android:contentDescription="@string/business_arrow"
+            android:background="@drawable/nextarrow" />
+
+        <TextView
+            android:id="@+id/businessDistMes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@+id/imageViewNextArrow"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:text="@string/business_list_miles"
+            android:textColor="@color/black"
+            android:textSize="5.5pt"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/businessDistance"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@+id/businessDistMes"
+            android:text="@string/business_list_distance"
+            android:textColor="@color/black"
+            android:textSize="7pt"
+            android:textStyle="bold" />
+        
+        <ImageView
+            android:layout_toLeftOf="@+id/businessDistance"
+            android:layout_width="1px"
+            android:layout_height="35dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="20dp"
+            android:contentDescription="@string/business_arrow"
+            android:background="@color/light_gray" />
+    </RelativeLayout>
+
+</RelativeLayout>

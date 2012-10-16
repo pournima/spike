@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/relativeLayoutBus"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/mainbg"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/txtConcussionTopMsg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="@string/concussion_awareness"
+        android:textColor="@color/red_dark"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:paddingLeft="-10dp" />
+
+    <TextView
+        android:id="@+id/divider_top"
+        style="@style/listTextDivider"
+        android:layout_below="@id/txtConcussionTopMsg" >
+    </TextView>
+
+    <ListView
+        android:id="@android:id/list"
+        style="@style/list"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/divider_top"
+        android:paddingBottom="10dp"
+        android:paddingTop="0dp" >
+    </ListView>
+
+    <TextView
+        android:id="@+id/divider_bottom"
+        style="@style/listTextDivider"
+        android:layout_below="@android:id/list" >
+    </TextView>
+
+    <TextView
+        android:id="@android:id/empty"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/divider_bottom"
+        android:padding="12dp"
+        android:text="@string/business_none"
+        android:textColor="@color/red" >
+    </TextView>
+
+</RelativeLayout>

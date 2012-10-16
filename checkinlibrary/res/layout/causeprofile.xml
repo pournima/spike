@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" 
+   >
+ 
+    <LinearLayout
+        style="@style/topMsg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+           
+            <ImageView
+                android:id="@+id/imgCausesProfile"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:maxWidth="90dp"
+                android:maxHeight="90dp"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="5dip"
+                android:layout_marginTop="10dp"
+				android:adjustViewBounds="true"
+				android:background="@drawable/cause_profile"
+                android:contentDescription="@string/thank_you"/>
+
+            <LinearLayout
+                android:id="@+id/linearLayout1"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/imgCausesProfile"
+                android:layout_marginLeft="10dip"
+                android:layout_toRightOf="@+id/imgCausesProfile"
+                android:orientation="vertical" >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical" >
+
+                    <TextView
+                        android:id="@+id/txtHeading"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="left"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:textColor="@color/black"
+                        android:textSize="18dp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:paddingTop="5dip" >
+
+                    <TextView
+                        android:id="@+id/txtSupporter"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="left"
+                        android:text="@string/supporters"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textColor="@color/purple"
+                        android:textSize="14dp"
+                        android:textStyle="bold" />
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_gravity="left"
+                        android:layout_marginRight="25dp"
+                        android:background="@drawable/your_good_divider" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:paddingTop="5dip" >
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="left"
+                        android:layout_weight="0.13"
+                        android:orientation="horizontal" >
+
+                        <TextView
+                            android:id="@+id/txtNoOfUsers"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textAppearance="?android:attr/textAppearanceSmall"
+                            android:textColor="@color/black"
+                            android:textSize="13dip"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/txtUsers"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:paddingLeft="3dip"
+                            android:text="@string/users"
+                            android:textAppearance="?android:attr/textAppearanceSmall"
+                            android:textColor="@color/black"
+                            android:textSize="13dip"
+                            android:visibility="gone" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="right"
+                        android:layout_weight="0.12"
+                        android:orientation="horizontal" >
+
+                        <TextView
+                            android:id="@+id/txtNoOfBusiness"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textAppearance="?android:attr/textAppearanceSmall"
+                            android:textColor="@color/black"
+                            android:textSize="13dip"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/txtBusiness"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:paddingLeft="3dip"
+                            android:text="@string/businesses"
+                            android:textAppearance="?android:attr/textAppearanceSmall"
+                            android:textColor="@color/black"
+                            android:textSize="13dip"
+                            android:visibility="gone" />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/btnSupport"
+                style="@style/support_text"
+                android:layout_below="@+id/linearLayout1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="30dp"
+                android:layout_marginBottom="2dp"
+                android:background="@drawable/btn_supporting"
+                android:textStyle="bold"/>
+            
+            <TextView
+            android:id="@+id/txtSupportMsg"
+             android:layout_below="@+id/btnSupport"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/tap_cause_msg"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:layout_centerHorizontal="true"
+            android:textColor="@color/black"
+            android:textSize="11dip"
+            android:layout_marginBottom="5dp" />
+            
+        </RelativeLayout>
+    </LinearLayout>
+    
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="6dp"
+        android:background="@drawable/drop_shadow_light" />
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="12dip" >
+
+        <TextView
+            android:id="@+id/txtTitleDescriptionCausesprofile"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="5dip"
+            android:text=""
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="@color/black"
+            android:textSize="18dip"
+            android:textStyle="bold" />
+        <TextView
+            android:id="@+id/txtContentDescriptionCausesprofile"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="5dip"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/black"
+            android:textSize="12dip" 
+           />
+        </LinearLayout>
+</LinearLayout>
+</ScrollView>

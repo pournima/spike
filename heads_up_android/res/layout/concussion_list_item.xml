@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/relativelayoutBusItemMain"
+    style="@style/listItem">
+
+    <ImageView
+        android:id="@+id/imageViewNextArrow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="15dp"
+        android:background="@drawable/nextarrow"
+        android:contentDescription="@string/business_arrow" />
+
+    <LinearLayout
+        android:id="@+id/linearLayoutListItem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/concussionName"
+            style="@style/listText"
+            android:layout_width="250dp"
+            android:textColor="#000000" />
+
+        <TextView
+            android:id="@+id/concussionData"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:paddingLeft="15dp"
+            android:singleLine="true"
+            android:text="@string/concussion_list_data"
+            android:textColor="@color/gray_dark"
+            android:textSize="5.5pt"/>
+    </LinearLayout>
+
+</RelativeLayout>

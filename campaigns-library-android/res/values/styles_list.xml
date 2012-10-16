@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="list">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingTop">10dp</item>
+        <item name="android:cacheColorHint">@color/transparent</item>
+        <item name="android:listSelector">@android:color/transparent</item>
+        <item name="android:divider">@color/light_gray</item>
+        <item name="android:dividerHeight">1px</item>
+    </style>
+</resources>

@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring comment="Copy 0 elements to &apos;layout&apos;&#x0A;- Destination element: &apos;layout&apos;" description="Copy compilation units" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1346662528170" target="/heads_up_android/res/layout" units="0" version="1.0"/>&#x0A;<refactoring comment="Copy 0 elements to &apos;layout&apos;&#x0A;- Destination element: &apos;layout&apos;" description="Copy compilation units" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1346662623305" target="/heads_up_android/res/layout" units="0" version="1.0"/>
+</session>

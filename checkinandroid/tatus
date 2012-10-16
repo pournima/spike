@@ -1,0 +1,4101 @@
+commit 737161937e51374460830945666b288e8e45b438
+Author: Nilesh Jinde <nilesh@weboniselab.com>
+Date:   Mon Jul 23 20:14:23 2012 +0530
+
+    next arrow added on causes list
+
+commit 5146d6ac5afb3d1db8e19adbdc262ee8d886d81a
+Author: Nilesh Jinde <nilesh@weboniselab.com>
+Date:   Mon Jul 23 15:08:54 2012 +0530
+
+    facebook waiting screen layout added
+
+commit bf689e3f93285cc7ffa8b589363d5e03a61bf244
+Author: Nilesh Jinde <nilesh@weboniselab.com>
+Date:   Mon Jul 23 14:04:01 2012 +0530
+
+    fixed issue email id not get displayed in settings page while login with facebook/twitter
+
+commit 067eb3ef18184ac55fe0047c3563b607e301d5dc
+Author: Nilesh Jinde <nilesh@weboniselab.com>
+Date:   Mon Jul 23 11:47:32 2012 +0530
+
+    description and mission title fetched from api and displayed
+
+commit e393091621421daedd3b36091b43ce0c25c48f06
+Author: Nilesh Jinde <nilesh@weboniselab.com>
+Date:   Fri Jul 20 19:43:03 2012 +0530
+
+    fixed issue check internet connectivity on how it works page
+
+commit d81cee1b87b319155991f8a1d0eb55f678c45625
+Author: Nilesh Jinde <nilesh@weboniselab.com>
+Date:   Fri Jul 20 17:58:04 2012 +0530
+
+    fixed issue should not automatically on facebook in sharing setting page while user selected allow none in signup page
+
+commit 4087ae1c051f93d77ec2d357b307a3ecfe0859ee
+Author: Nilesh Jinde <nilesh@weboniselab.com>
+Date:   Thu Jul 19 17:57:29 2012 +0530
+
+    fixed cancel on twitter issue
+
+commit ed86a927b9acfb1b7a74aad7ba74461cbc49058c
+Author: Nilesh Jinde <nilesh@weboniselab.com>
+Date:   Thu Jul 19 17:27:39 2012 +0530
+
+    removed social signup extra screen
+
+commit 6f44945a01f6dc6a13f773054f9e4401ea5adb22
+Author: Nilesh Jinde <nilesh@weboniselab.com>
+Date:   Thu Jul 19 17:25:15 2012 +0530
+
+    resolved cause profile scroll issue
+
+commit ccb140e14c7d488f12668c7c7fe89a4efd462d4c
+Author: Nilesh Jinde <nilesh@weboniselab.com>
+Date:   Thu Jul 19 16:03:13 2012 +0530
+
+    fixed issue blank screen when twitter is down and handled twitter timedout
+
+commit e05cf186e2501a768753865eeb9da1464167ada8
+Author: Nilesh Jinde <nilesh@weboniselab.com>
+Date:   Wed Jul 18 20:10:37 2012 +0530
+
+    timer on splash screen added
+
+commit b6c1cd5d53dd657955cc395238ac2a88a9f874b9
+Author: Nilesh Jinde <nilesh@weboniselab.com>
+Date:   Wed Jul 18 18:29:55 2012 +0530
+
+    fixed issue businesses not getiing asc order
+
+commit adfdfa4288300adc447ff1dc65f3de144589fb73
+Author: Nilesh Jinde <nilesh@weboniselab.com>
+Date:   Wed Jul 18 16:03:06 2012 +0530
+
+    fixed issue update cause profile on support or unsupport cause
+
+commit 2a526063a645ad0e9f96b3d7c47db5ab50c40dc2
+Author: Nilesh Jinde <nilesh@weboniselab.com>
+Date:   Wed Jul 18 12:04:23 2012 +0530
+
+    fixed fb crashed issue
+
+commit d3a6ade072282abc55c4519b0bbee9fc3d6c313f
+Author: Nilesh Jinde <nilesh@weboniselab.com>
+Date:   Tue Jul 17 18:16:02 2012 +0530
+
+    fixed issues
+
+commit 2fa4d1cc60aa61f577b2c7ac10faf8e2b3b9bfee
+Author: Nilesh Jinde <nilesh@weboniselab.com>
+Date:   Tue Jul 17 14:25:16 2012 +0530
+
+    fixed issue app crashed on cancel from facebook
+
+commit 45e6fee191f68c7954d60419bd1921e5a0a04613
+Author: Nilesh Jinde <nilesh@weboniselab.com>
+Date:   Tue Jul 17 12:21:47 2012 +0530
+
+    resolved issue shadow and font mismatched on cause profile page
+
+commit c2f96a68b8b76a7ab1cebed435f323616b9c9c6e
+Author: Nilesh Jinde <nilesh@weboniselab.com>
+Date:   Mon Jul 16 20:22:12 2012 +0530
+
+    changed users to user(s) on cause profile page
+
+commit 0686a1b10952552872f6bbdac1268065bb619e65
+Author: Nilesh Jinde <nilesh@weboniselab.com>
+Date:   Mon Jul 16 18:09:31 2012 +0530
+
+    fixed issue show progress dialog on static pages fetching from api
+
+commit e414fd2b8c910078eca4979692d75b80e8b5d39b
+Author: Nilesh Jinde <nilesh@weboniselab.com>
+Date:   Mon Jul 16 17:51:52 2012 +0530
+
+    fixed bugs by QA
+
+commit a3b00e739b45dffa7d1384af95c5d7cd92cbb8b6
+Author: Nilesh Jinde <nilesh@weboniselab.com>
+Date:   Mon Jul 16 15:01:16 2012 +0530
+
+    new cause profile screen integrated
+
+commit dd44c30351dd2e55d84d8c3ea091ef00b95fab5b
+Author: Nilesh Jinde <nilesh@weboniselab.com>
+Date:   Thu Jul 12 20:11:06 2012 +0530
+
+    new social signup screen integrated
+
+commit b94a5c18a26da1e664d38fd5dedf130e8e4ad671
+Author: Nilesh Jinde <nilesh@weboniselab.com>
+Date:   Wed Jul 11 15:40:08 2012 +0530
+
+    changed videolinks from site instead of static links on how it works
+
+commit 7e2fab95add3e804e695d8e1c2f1a8294a56e0d9
+Author: Nilesh Jinde <nilesh@weboniselab.com>
+Date:   Tue Jul 10 14:47:58 2012 +0530
+
+    changed static pages links from local to server urls
+
+commit a16ff0248806be8755c4eaf7a4f5fb83f7fc7221
+Author: Rich Davis <thurisaz@gmail.com>
+Date:   Mon Jul 9 21:28:48 2012 -0400
+
+    fix bad commit
+
+commit b09042ac6ac2d563f802dc4d041e43d3bd500d5a
+Merge: 11e81a6 bffeea5
+Author: Rich Davis <thurisaz@gmail.com>
+Date:   Mon Jul 9 21:18:45 2012 -0400
+
+    release merge
+
+commit 11e81a66b0f7b5ee911a9c051a3d2093c5b76b49
+Author: Rich Davis <thurisaz@gmail.com>
+Date:   Mon Jul 9 21:16:39 2012 -0400
+
+    latest apk
+
+commit bffeea522a874e98b52034eee01c9e8365f19743
+Author: Nilesh Jinde <nilesh@weboniselab.com>
+Date:   Mon Jul 9 19:07:10 2012 +0530
+
+    changed facebook app id and added extra email permission to fetch email
+
+commit a101c6363b49523c13f7df631c00cfafa6eca9e5
+Author: Nilesh Jinde <nilesh@weboniselab.com>
+Date:   Mon Jul 9 13:51:47 2012 +0530
+
+    cause profile xml changed
+
+commit ed04f3946fc1f7f28899708e8c44280f248875ab
+Author: Nilesh Jinde <nilesh@weboniselab.com>
+Date:   Fri Jul 6 20:33:10 2012 +0530
+
+    code added to remove imageview when there is no logo for cause profile
+
+commit 23a5b481da9090042b9eb0dddfd7fb2515d17413
+Author: Nilesh Jinde <nilesh@weboniselab.com>
+Date:   Fri Jul 6 16:48:34 2012 +0530
+
+    async task added to download image
+
+commit ebb0041e7d9c1e5cc0247ab0eb4c272432c2b7e5
+Author: Nilesh Jinde <nilesh@weboniselab.com>
+Date:   Fri Jul 6 15:46:07 2012 +0530
+
+    code added to fetch and display cause profile from api
+
+commit f9f1787b928ca15ba12e93710cd1a85c610b405a
+Merge: 8228dcc a27bc75
+Author: Rich Davis <thurisaz@gmail.com>
+Date:   Thu Jul 5 14:54:28 2012 -0400
+
+    Merge branch 'release1.0' of git.prometheussports.com:checkin/checkinandroid into release1.0
+
+commit a27bc75e7dff707255163719227bc211c23b7488
+Author: unknown <MotuDroid@.(none)>
+Date:   Fri Jul 6 00:18:34 2012 +0530
+
+    changed the FB app id
+
+commit 8228dcc88f0f948b101c2ef67f7888133e1eb92a
+Merge: 5606c61 68bc7b6
+Author: Rich Davis <thurisaz@gmail.com>
+Date:   Thu Jul 5 14:42:15 2012 -0400
+
+    Merge branch 'release1.0' of git.prometheussports.com:checkin/checkinandroid into release1.0
+
+commit 68bc7b6c976099458f29dbbc53829eb718b24967
+Author: Dillon Brouwer <dbrouwer1079@gmail.com>
+Date:   Thu Jul 5 14:34:33 2012 -0400
+
+    Word wrap cause list items
+
+commit 5606c6116a4cdf5b872d53f9c678de65097a6d9f
+Author: Rich Davis <thurisaz@gmail.com>
+Date:   Thu Jul 5 11:53:00 2012 -0400
+
+    fix manifest for open keyboard event
+
+commit c32369520dc2d9278d76beaa02a00960f34c3793
+Author: Nilesh Jinde <nilesh@weboniselab.com>
+Date:   Thu Jul 5 20:31:39 2012 +0530
+
+    commit after merge feature/social_login
+
+commit de83f8be429f52ea4067df601d90220675551e4c
+Merge: f7f9e94 38d5786
+Author: Nilesh Jinde <nilesh@weboniselab.com>
+Date:   Mon Jul 2 13:21:13 2012 +0530
+
+    commit after merge develope
+
+commit 55bf38e3e8a021b53ee569b0345ed65a23a10cb0
+Author: Rich Davis <thurisaz@gmail.com>
+Date:   Fri Jun 29 14:21:05 2012 -0400
+
+    update version code to push to app store
+
+commit 14b627246ce54e4fd5864608fb61690b8fc6670b
+Merge: 492c097 46e4054
+Author: Rich Davis <thurisaz@gmail.com>
+Date:   Thu Jun 28 15:44:25 2012 -0400
+
+    Merge branch 'release1.0' of git.prometheussports.com:checkin/checkinandroid into release1.0
+
+commit 492c0978d172fc872ec8d0af4d94792a19848a24
+Merge: 1774e41 9b4decc
+Author: Rich Davis <thurisaz@gmail.com>
+Date:   Thu Jun 28 15:43:42 2012 -0400
+
+    release branch merge
+
+commit 9b4decc979cc2859d473c02b56f16cb0ee648e9a
+Author: Rich Davis <thurisaz@gmail.com>
+Date:   Thu Jun 28 15:40:39 2012 -0400
+
+    merge
+
+commit 38d57864a629415d3e5b32ca037d248a9fd944c7
+Author: Nilesh Jinde <nilesh@weboniselab.com>
+Date:   Thu Jun 28 20:35:49 2012 +0530
+
+    fixed all remainning issues
+
+commit 87de41db6a08185393f5c189dabae7293b4deef5
+Merge: 6d2eed5 9038103
+Author: Rich Davis <thurisaz@gmail.com>
+Date:   Wed Jun 27 15:31:07 2012 -0400
+
+    merge
+
+commit 6d2eed5816607ace10b8b11ce5cf5b0c10074f9c
+Author: Rich Davis <thurisaz@gmail.com>
+Date:   Wed Jun 27 15:29:43 2012 -0400
+
+    add observer on refreshList() if location is not maximal
+
+commit 9038103bcb3942888aa1a20597e05ef3ff9b5d55
+Author: Nilesh Jinde <nilesh@weboniselab.com>
+Date:   Thu Jun 28 00:44:56 2012 +0530
+
+    removed gson jars
+
+commit 32a08aa02b3095f4eddd86dc622b1295cdfc6a42
+Author: Nilesh Jinde <nilesh@weboniselab.com>
+Date:   Thu Jun 28 00:43:43 2012 +0530
+
+    changed gson lib to run for HTC devices
+
+commit e3d34b9010e8c7c4d75b7529e7f65982c2285581
+Author: Nilesh Jinde <nilesh@weboniselab.com>
+Date:   Wed Jun 27 23:08:01 2012 +0530
+
+    set bestlocation methos changed with accuracy check
+
+commit cf49759beeedb0dab865f8ec3007546419c6193c
+Merge: 02513c7 cf1d91d
+Author: Nilesh Jinde <nilesh@weboniselab.com>
+Date:   Wed Jun 27 19:37:27 2012 +0530
+
+    Merge branch 'hotfix' into develope
+
+commit cf1d91d8c7d7f860c9e999198a111842e3d52aa8
+Author: Nilesh Jinde <nilesh@weboniselab.com>
+Date:   Wed Jun 27 19:09:00 2012 +0530
+
+    removed code for automatically should select No while try to check-in and click No thanks
+
+commit 0cf5b4568dd8c40e5b21624828a310b86df55957
+Author: Nilesh Jinde <nilesh@weboniselab.com>
+Date:   Wed Jun 27 19:02:55 2012 +0530
+
+    prompt dialog box getting twice while refresh in supporting my causes after pageination
+
+commit 2e849301698bf6af857cc6ff5241ff6d60dd3499
+Author: Nilesh Jinde <nilesh@weboniselab.com>
+Date:   Wed Jun 27 17:00:21 2012 +0530
+
+    fixed issue prompt progress dialog box getting twice while login
+
+commit e3f404086b6aba4f8fc27398097e9ffde4d01959
+Author: Nilesh Jinde <nilesh@weboniselab.com>
+Date:   Wed Jun 27 13:40:28 2012 +0530
+
+    resolved issue getting setting and no thanks buttonwhile getting message we're sorry, you are not allowed to check in at this location at this time of day
+
+commit d8e551487e963b32b101011a408e5f025dea3529
+Author: Nilesh Jinde <nilesh@weboniselab.com>
+Date:   Wed Jun 27 13:02:55 2012 +0530
+
+    resolved issue business list not get displayed asc in miles, in between getting lower miles businesses
+
+commit a49bc79aac5c268a720a43118b4dfce4c8538a28
+Author: Nilesh Jinde <nilesh@weboniselab.com>
+Date:   Wed Jun 27 12:05:04 2012 +0530
+
+    resolved issue business tab, pagination index not working, always moving top of the page
+
+commit 6f228e2c61abd2c9d308e84cbc55b2c4ebc272ab
+Author: Nilesh Jinde <nilesh@weboniselab.com>
+Date:   Tue Jun 26 20:32:38 2012 +0530
+
+    fixed issue when click no thanks on settings page while checkin ,select private checkin button
+
+commit 02513c713f45d6b89441727007fc132b2873fe8e
+Author: Rich Davis <thurisaz@gmail.com>
+Date:   Mon Jun 25 18:25:15 2012 -0400
+
+    try setting default locations before listening
+
+commit 46e40543058dc4b3a278b0eb47ace0dcceb9c76a
+Merge: c1378ed 1774e41
+Author: Nilesh Jinde <nilesh@weboniselab.com>
+Date:   Mon Jun 25 20:26:14 2012 +0530
+
+    Merge branch 'release1.0' of git.prometheussports.com:checkin/checkinandroid into release1.0
+
+commit c1378eddc722ca53961ffd42afdadfdcbd529111
+Author: Nilesh Jinde <nilesh@weboniselab.com>
+Date:   Mon Jun 25 20:20:50 2012 +0530
+
+    changed webcall timeout from 10000 to 20000
+
+commit a89b465fdd6b5340d990bb16e415b13f42cd1f7c
+Author: Nilesh Jinde <nilesh@weboniselab.com>
+Date:   Mon Jun 25 17:38:34 2012 +0530
+
+    resolved issue all causes shows many causes than my causes
+
+commit 1774e41b853309fb1c47f93d01158a7d3240648e
+Merge: 792f90d eb5805d
+Author: Rich Davis <thurisaz@gmail.com>
+Date:   Fri Jun 22 16:17:31 2012 -0400
+
+    Merge branch 'develope' into release1.0
+
+commit f7f9e942814dd63202463b99bcf0f769f8d59789
+Merge: 000e7ba eb5805d
+Author: Nilesh Jinde <nilesh@weboniselab.com>
+Date:   Thu Jun 21 18:03:43 2012 +0530
+
+    Merge branch 'develope' into feature/social_login
+
+commit eb5805d4e65b5eb8d89483bd04248609d9f403c3
+Author: Nilesh Jinde <nilesh@weboniselab.com>
+Date:   Thu Jun 21 17:59:45 2012 +0530
+
+    twitter loading screen logo stretched issue resolved
+
+commit 000e7ba8b466b57985eacf266d811d950af6750f
+Author: Nilesh Jinde <nilesh@weboniselab.com>
+Date:   Thu Jun 21 16:52:01 2012 +0530
+
+    FB and TW sign in and sign up code added
+
+commit 46743e1c207cd93759c652d17e37d91caedb94a0
+Author: Nilesh Jinde <nilesh@weboniselab.com>
+Date:   Thu Jun 21 11:26:07 2012 +0530
+
+    login layout changed
+
+commit 20a34e31e9a7e5da1be4e7871da4ff7520a76470
+Author: Nilesh Jinde <nilesh@weboniselab.com>
+Date:   Wed Jun 20 20:11:59 2012 +0530
+
+    code added for fb and tw signup
+
+commit 6baaa90c37ce9253d04eb78a2c99f995eca1c238
+Author: Nilesh Jinde <nilesh@weboniselab.com>
+Date:   Wed Jun 20 14:24:46 2012 +0530
+
+    deleted image
+
+commit 97d32db110747c4d851f5b9af6ce0ce29194389c
+Merge: 373109d 2bba6e1
+Author: Nilesh Jinde <nilesh@weboniselab.com>
+Date:   Wed Jun 20 14:23:53 2012 +0530
+
+    commit after merge develope
+
+commit 2bba6e1a5d42a21535d23d8d52ed0055c78104e6
+Merge: 7af130c 6281bd5
+Author: Nilesh Jinde <nilesh@weboniselab.com>
+Date:   Wed Jun 20 13:42:27 2012 +0530
+
+    Merge branch 'develope' of git.prometheussports.com:checkin/checkinandroid into develope
+
+commit 7af130c308952f85dbf5af929323fa9ad4fce6ec
+Author: Nilesh Jinde <nilesh@weboniselab.com>
+Date:   Wed Jun 20 13:42:04 2012 +0530
+
+    changed seekbar controll image and resolved issue
+
+commit 373109dc9932cb89704f81c8e00f285707cf19c5
+Author: Nilesh Jinde <nilesh@weboniselab.com>
+Date:   Wed Jun 20 13:02:50 2012 +0530
+
+    fb login code added but not yet stable code
+
+commit 6281bd58beeca108d5e2b93773429a07ba1ff2f8
+Author: Rich Davis <thurisaz@gmail.com>
+Date:   Tue Jun 19 16:16:22 2012 -0400
+
+    link to redirect to all causes if no causes found on supporting page
+
+commit 7270ca91ac97574026d7ed8aba3af9777bddf6cb
+Merge: 8bf41af 69c005e
+Author: Rich Davis <thurisaz@gmail.com>
+Date:   Tue Jun 19 15:07:33 2012 -0400
+
+    Merge branch 'develope' of git.prometheussports.com:checkin/checkinandroid into develope
+
+commit 8bf41afca607d87b609d42580e799c5e2a913656
+Author: Rich Davis <thurisaz@gmail.com>
+Date:   Tue Jun 19 15:06:49 2012 -0400
+
+    update causes db immediately when selected
+
+commit c3b57f0726cb4975d239736b7d23559f99ae6701
+Author: Nilesh Jinde <nilesh@weboniselab.com>
+Date:   Tue Jun 19 20:31:44 2012 +0530
+
+    code added for fb login
+
+commit 69c005e4b37cb949615c10458fd898dd636821b2
+Author: Nilesh Jinde <nilesh@weboniselab.com>
+Date:   Tue Jun 19 13:54:11 2012 +0530
+
+    changed progressdialog messages
+
+commit 374b59e2a10d173cd59deccc5c32007545468f0d
+Author: Nilesh Jinde <nilesh@weboniselab.com>
+Date:   Tue Jun 19 13:08:58 2012 +0530
+
+    no connected screen logo issue resolved
+
+commit 792f90dd83296127d400ba8adf27dc7ebb8b6424
+Author: Rich Davis <thurisaz@gmail.com>
+Date:   Mon Jun 18 11:05:17 2012 -0400
+
+    merge develope
+
+commit 4b3b68a0e9a1276430345d0b3d6f7f68bcee10f1
+Author: Rich Davis <thurisaz@gmail.com>
+Date:   Mon Jun 18 11:03:54 2012 -0400
+
+    Merge branch 'develope', remote-tracking branch 'origin' into release1.0
+
+commit 105889ee6b643ae3589c4be57589d7841476301a
+Author: Nilesh Jinde <nilesh@weboniselab.com>
+Date:   Mon Jun 18 19:16:25 2012 +0530
+
+    App name changed
+
+commit d65e6ddede030ec9e2f8d9b2a4517d9d32fcdcfb
+Author: Nilesh Jinde <nilesh@weboniselab.com>
+Date:   Mon Jun 18 14:41:31 2012 +0530
+
+    changed text from Yout to Your in GpsLocator file
+
+commit 70c27a8dd223df1662a2b01415b64a4a3b5b36f2
+Author: Nilesh Jinde <nilesh@weboniselab.com>
+Date:   Mon Jun 18 13:42:51 2012 +0530
+
+    progress dialog text changed from Finding great offers near you. to Finding participating businesses near you.
+
+commit fc05bc984b1daa16b74c41adfc44baa0938292bc
+Author: Nilesh Jinde <nilesh@weboniselab.com>
+Date:   Mon Jun 18 13:26:03 2012 +0530
+
+    Added scrollview on my good screen
+
+commit 39a4a39068830dcd9352f75f3286d1d4d68995be
+Author: Nilesh Jinde <nilesh@weboniselab.com>
+Date:   Fri Jun 15 20:30:29 2012 +0530
+
+    changed seekbar style
+
+commit 859a4176f8f3ba5895df0e32519bf23d87e88ce1
+Author: Nilesh Jinde <nilesh@weboniselab.com>
+Date:   Fri Jun 15 19:52:57 2012 +0530
+
+    scrollview added on sharing setting page
+
+commit 364926110b9aa4cee9340de4a30574569c58b8d7
+Merge: 9032f55 2968692
+Author: Nilesh Jinde <nilesh@weboniselab.com>
+Date:   Fri Jun 15 14:29:03 2012 +0530
+
+    Merge branch 'develope' of git.prometheussports.com:checkin/checkinandroid into develope
+
+commit 9032f5545c6095bbe9abb6e8ce9146e1a9d51f62
+Author: Nilesh Jinde <nilesh@weboniselab.com>
+Date:   Fri Jun 15 14:27:31 2012 +0530
+
+    fixed crash issue on GPS disabled
+
+commit 296869235a8bfb5eabd54e5112be9b5748239876
+Author: Abhishek <abhishe@weboniselab.com>
+Date:   Thu Jun 14 19:38:43 2012 +0530
+
+    code added to fetch UID's from facebook and twitter
+
+commit c6e7d278e80a2767af6b3dd2a47dc47a07832578
+Merge: c96f94b fe4672b
+Author: Dillon Brouwer <dbrouwer1079@gmail.com>
+Date:   Wed Jun 13 13:06:18 2012 -0400
+
+    Merge branch 'develope' of git://git.prometheussports.com/checkin/checkinandroid into develope
+
+commit c96f94b82385340407bb931f0e21720bc402bd9f
+Author: Dillon Brouwer <dbrouwer1079@gmail.com>
+Date:   Wed Jun 13 13:05:57 2012 -0400
+
+    Update seekbar graphics
+
+commit fe4672be4885a5bd60a9c68e48c34a206417ffb5
+Merge: 173b93c 2195dd6
+Author: Nilesh Jinde <nilesh@weboniselab.com>
+Date:   Wed Jun 13 19:19:54 2012 +0530
+
+    Merge branch 'develope' of git.prometheussports.com:checkin/checkinandroid into develope
+
+commit 173b93cc89d35ffb93a832f7cfcd0416f55b6fc8
+Author: Nilesh Jinde <nilesh@weboniselab.com>
+Date:   Wed Jun 13 19:19:03 2012 +0530
+
+    resolved issue crash on causes search on GPS disabled
+
+commit 2195dd6ecf7ffa14478ece4d217a272cc5f1e538
+Author: Dillon Brouwer <dbrouwer1079@gmail.com>
+Date:   Tue Jun 12 12:50:10 2012 -0400
+
+    Convert textsize units from dp to pt
+
+commit 4aab6d778453f96cc3e501b867ee58d4ec09a0da
+Author: Abhishek <abhishe@weboniselab.com>
+Date:   Tue Jun 12 16:08:05 2012 +0530
+
+    fixed back issue on no internet connectivity, redirecting to sharing page after delinking FB,TW from delink page
+
+commit 3a332cc680e970fbcd0ab6172f20efed2c9c6d89
+Author: Abhishek <abhishe@weboniselab.com>
+Date:   Tue Jun 12 14:09:54 2012 +0530
+
+    fixed issue crash on fb tab clicked when no internet
+
+commit bbbf26c9ad55e2615e00a30a56ffa461318e77b3
+Author: Abhishek <abhishe@weboniselab.com>
+Date:   Tue Jun 12 13:19:32 2012 +0530
+
+    resolved issue open FB or TW login page on row click first time on sharing settings page
+
+commit 108fe2cb48efa268ba3f54c1183cab748344cbb5
+Merge: 64d8589 0d7a445
+Author: Nilesh <nilesh@Nilesh-PC.(none)>
+Date:   Tue Jun 12 11:27:00 2012 +0530
+
+    commit after merge hotfix
+
+commit 64d8589014f764cc0728dccb31d383247cc52d94
+Author: Nilesh <nilesh@Nilesh-PC.(none)>
+Date:   Tue Jun 12 11:22:17 2012 +0530
+
+    changed project name in build.xml
+
+commit 0d7a445cf0c1ebe003e2a0914bdb47a9ce614d12
+Merge: dd80528 0c206fb
+Author: nilesh jinde <nilesh@weboniselab.com>
+Date:   Sat Jun 9 13:36:23 2012 +0530
+
+    commit after resolved conflicts
+
+commit dd80528158b1e42b8725c919f6b7988e20950d94
+Author: nilesh jinde <nilesh@weboniselab.com>
+Date:   Thu Jun 7 19:09:39 2012 +0530
+
+    changed layout from linear to relative on how it works screen to support small devices ..... still remainning on sharing settings, my good pages
+
+commit d6f15a5081049f1a44fdd78599c415fa9b19922a
+Author: nilesh jinde <nilesh@weboniselab.com>
+Date:   Thu Jun 7 16:50:08 2012 +0530
+
+    Added to scrollview on login and sign up page to support small size devices
+
+commit 047a0e984c8d4843178093d997780d0fd9533fae
+Author: nilesh jinde <nilesh@weboniselab.com>
+Date:   Thu Jun 7 11:25:29 2012 +0530
+
+    removed local.properties
+
+commit dc21d74f759b4dfde2dbb196192a41fd665e2fe1
+Merge: a374e12 ff7d8e6
+Author: Rich Davis <thurisaz@gmail.com>
+Date:   Wed Jun 6 13:25:09 2012 -0400
+
+    Merge branch 'develope' of able.unfuddle.com:able/checkinandroid into develope
+
+commit a374e12faecd068514a5daeb16bc1d895230a14c
+Author: Rich Davis <thurisaz@gmail.com>
+Date:   Wed Jun 6 13:24:53 2012 -0400
+
+    increase allowed accuracy
+
+commit 0c206fb90ed60d24f3f479a1ed34aa4fc06fbadf
+Author: nilesh jinde <nilesh@weboniselab.com>
+Date:   Wed Jun 6 16:24:24 2012 +0530
+
+    privacy polocy and terms of use pages changed
+
+commit 3fa9bb63fbfcbda8876241ad62ef0f540f2f3c6f
+Author: nilesh jinde <nilesh@weboniselab.com>
+Date:   Wed Jun 6 16:24:24 2012 +0530
+
+    privacy polocy and terms of use pages changed
+
+commit d773bc510a93e8dacf5f8da3f47bfab50cb71d97
+Author: nilesh jinde <nilesh@weboniselab.com>
+Date:   Wed Jun 6 14:27:48 2012 +0530
+
+    fixed issue multiple time dialog on no location on causes
+
+commit c2a63bd612d075e57c3816a54276eb6c2478d89e
+Author: nilesh jinde <nilesh@weboniselab.com>
+Date:   Wed Jun 6 14:27:48 2012 +0530
+
+    fixed issue multiple time dialog on no location on causes
+
+commit 36ae245b6cba2e3b7219c6bb7a1702f80238595d
+Author: nilesh jinde <nilesh@weboniselab.com>
+Date:   Tue Jun 5 20:31:30 2012 +0530
+
+    fixed twitter tab not get updated after successful login
+
+commit ca644881380e5b045198dc4341e6faba364025fe
+Author: nilesh jinde <nilesh@weboniselab.com>
+Date:   Tue Jun 5 20:31:30 2012 +0530
+
+    fixed twitter tab not get updated after successful login
+
+commit 5f2b98d6497c9738b276722f3293857053b3542e
+Author: nilesh jinde <nilesh@weboniselab.com>
+Date:   Tue Jun 5 16:31:25 2012 +0530
+
+    fixed issue on seekbar as 0hrs and 1hrs changed to hr
+
+commit 7597f5608d20256c1aa940c3c830d3a9f1554aff
+Author: nilesh jinde <nilesh@weboniselab.com>
+Date:   Tue Jun 5 16:31:25 2012 +0530
+
+    fixed issue on seekbar as 0hrs and 1hrs changed to hr
+
+commit 5a03174f7d19871985ae1d0f10ffcfed29f726ab
+Author: Rich Davis <thurisaz@gmail.com>
+Date:   Mon Jun 4 15:00:08 2012 -0400
+
+    change significantly newer/older to 15 seconds, which should put much greater emphasis on how long ago a checkin happened vs its accuracy
+
+commit ff7d8e681c19d6c607918090b41e7587ce485bd8
+Author: Abhishek <abhishe@weboniselab.com>
+Date:   Mon Jun 4 21:46:14 2012 +0530
+
+    changing back Base Url to config.WEB_SERVICE_BASE
+
+commit 917075a81b50f52c0cd1be98d950391ee1f223a1
+Author: Abhishek <abhishe@weboniselab.com>
+Date:   Mon Jun 4 21:46:14 2012 +0530
+
+    changing back Base Url to config.WEB_SERVICE_BASE
+
+commit 7adf73d664d3153c2f3eb52e5ced291239d4e0f2
+Author: nilesh jinde <nilesh@weboniselab.com>
+Date:   Mon Jun 4 20:26:42 2012 +0530
+
+    removed delink_list_item.xml
+
+commit 0483f2e35f4660578d20f20e951a136f37e2f39d
+Author: nilesh jinde <nilesh@weboniselab.com>
+Date:   Mon Jun 4 20:26:42 2012 +0530
+
+    removed delink_list_item.xml
+
+commit 13ea3fc013cfa703e68d8f32ccf3ab334117db52
+Author: nilesh jinde <nilesh@weboniselab.com>
+Date:   Mon Jun 4 20:25:39 2012 +0530
+
+    code added to resolved how it works videoes issue
+
+commit 9c230f8015eecff15319dfc87ed4607ba0f1da75
+Author: nilesh jinde <nilesh@weboniselab.com>
+Date:   Mon Jun 4 20:25:39 2012 +0530
+
+    code added to resolved how it works videoes issue
+
+commit 7f0c2cb10e5c0b585ebd30fc72a6c314c133439e
+Merge: 1aa4b59 1a252f9
+Author: nilesh jinde <nilesh@weboniselab.com>
+Date:   Mon Jun 4 16:32:55 2012 +0530
+
+    Merge branch 'hotfix' into develope
+
+commit 4683ce4454b6f50a4fc5a8d8a4594705d1733f15
+Merge: b0af7da e37d023
+Author: nilesh jinde <nilesh@weboniselab.com>
+Date:   Mon Jun 4 16:32:55 2012 +0530
+
+    Merge branch 'hotfix' into develope
+
+commit 1aa4b594a05fccfa76fdcf3b9f021a93c95f0acc
+Author: nilesh jinde <nilesh@weboniselab.com>
+Date:   Mon Jun 4 16:24:32 2012 +0530
+
+    video issue resolved
+
+commit b0af7daee04a00ad795f2e68286dc2a9ee585f07
+Author: nilesh jinde <nilesh@weboniselab.com>
+Date:   Mon Jun 4 16:24:32 2012 +0530
+
+    video issue resolved
+
+commit fdff9cddcc3830ce1686703c786f215c3494ed4f
+Merge: ea4a7f4 b563a34
+Author: Rich Davis <thurisaz@gmail.com>
+Date:   Fri Jun 1 17:21:10 2012 -0400
+
+    Merge branch 'develope' of able.unfuddle.com:able/checkinandroid into develope
+
+commit 5c317db5ac6ae220c99afd73f49abdbcc5a843cc
+Merge: 6165683 1f20870
+Author: Rich Davis <thurisaz@gmail.com>
+Date:   Fri Jun 1 17:21:10 2012 -0400
+
+    Merge branch 'develope' of able.unfuddle.com:able/checkinandroid into develope
+
+commit ea4a7f4be5f80c9daf3b0a53d052dcedb9f9766b
+Author: Rich Davis <thurisaz@gmail.com>
+Date:   Fri Jun 1 17:20:51 2012 -0400
+
+    fix classpath
+
+commit 6165683a5cdd5db1ae18b3a667e8476616f27cd3
+Author: Rich Davis <thurisaz@gmail.com>
+Date:   Fri Jun 1 17:20:51 2012 -0400
+
+    fix classpath
+
+commit b563a34a5a43299fed7980089c24d1d70b0af959
+Author: unknown <MotuDroid@.(none)>
+Date:   Sat Jun 2 01:44:21 2012 +0530
+
+    removed the hs_err_pid5523.log file
+
+commit 1f20870f4743cb79094cbfcec5cd93a62ac85938
+Author: unknown <MotuDroid@.(none)>
+Date:   Sat Jun 2 01:44:21 2012 +0530
+
+    removed the hs_err_pid5523.log file
+
+commit 9db0ecc0d02802666fcdd9af9d8b7bd2a6d46faf
+Merge: 08acee8 a35fb3a
+Author: unknown <MotuDroid@.(none)>
+Date:   Sat Jun 2 01:42:25 2012 +0530
+
+    Merge branch 'develope' of able.unfuddle.com:able/checkinandroid into develope
+
+commit e7c21a1d91102ce61a37a2ad6cfa04703a73c39c
+Merge: 45c99cc 339a6ec
+Author: unknown <MotuDroid@.(none)>
+Date:   Sat Jun 2 01:42:25 2012 +0530
+
+    Merge branch 'develope' of able.unfuddle.com:able/checkinandroid into develope
+
+commit 08acee88b83a5f27d0b8cde3fdc83118fe1533c3
+Author: unknown <MotuDroid@.(none)>
+Date:   Sat Jun 2 00:51:16 2012 +0530
+
+    commit before pulling release1 branch
+
+commit 45c99ccb2d044d963b055e358cc0739d52c96e26
+Author: unknown <MotuDroid@.(none)>
+Date:   Sat Jun 2 00:51:16 2012 +0530
+
+    commit before pulling release1 branch
+
+commit a35fb3a9be0ee6f74bcd778e6057cd443fb544a8
+Author: Rich Davis <thurisaz@gmail.com>
+Date:   Fri Jun 1 14:34:29 2012 -0400
+
+    use config url path
+
+commit 339a6ec94e5e3ea5b9e94a0bc11b99f6bf001d63
+Author: Rich Davis <thurisaz@gmail.com>
+Date:   Fri Jun 1 14:34:29 2012 -0400
+
+    use config url path
+
+commit 1a252f9b9f45bb03a0573d47cee5e4f054c3ddc4
+Author: Pradeep Patil <pradeep@weboniselab.com>
+Date:   Thu May 31 18:23:15 2012 +0530
+
+    commit after useralert message and progress dialog message changed
+
+commit e37d02388e56b190147e5998aa0a2de2655f9eb4
+Author: Pradeep Patil <pradeep@weboniselab.com>
+Date:   Thu May 31 18:23:15 2012 +0530
+
+    commit after useralert message and progress dialog message changed
+
+commit f5e774ff009d93664accfcef210b30ead6dd4e2d
+Author: Pradeep Patil <pradeep@weboniselab.com>
+Date:   Wed May 30 22:16:34 2012 +0530
+
+    commit after twitter page back issue solved and validation message failed when webservice failed
+
+commit 3bb0907f6d22df0e77b325edb77beb8ca9536900
+Author: Pradeep Patil <pradeep@weboniselab.com>
+Date:   Wed May 30 22:16:34 2012 +0530
+
+    commit after twitter page back issue solved and validation message failed when webservice failed
+
+commit 89076573b92ca030e373e7877d541da0591cb5f3
+Author: Rich Davis <thurisaz@gmail.com>
+Date:   Wed May 30 10:48:04 2012 -0400
+
+    keystore moved into project
+
+commit f21b83f1eed880f11b8234e7a6d18a308bd21f53
+Author: Rich Davis <thurisaz@gmail.com>
+Date:   Wed May 30 10:48:04 2012 -0400
+
+    keystore moved into project
+
+commit 5b9fbc685f82fc47fd40c174934f0e10d5e689f6
+Author: Rich Davis <thurisaz@gmail.com>
+Date:   Tue May 29 23:10:08 2012 -0400
+
+    key values
+
+commit 148fe8d65d806cecd790e053302f81c5dad00691
+Author: Rich Davis <thurisaz@gmail.com>
+Date:   Tue May 29 23:10:08 2012 -0400
+
+    key values
+
+commit 7ee921edaecdc2efab0aee78c66fabbb45495c11
+Author: Rich Davis <thurisaz@gmail.com>
+Date:   Tue May 29 22:49:29 2012 -0400
+
+    ant
+
+commit eb052203e45712eb2966ad820c17251130d93b3a
+Author: Rich Davis <thurisaz@gmail.com>
+Date:   Tue May 29 22:49:29 2012 -0400
+
+    ant
+
+commit 3de17cdd4ece6e23115d1305b3edba16ef27765e
+Author: Abhishek <abhishe@weboniselab.com>
+Date:   Tue May 29 18:29:52 2012 +0530
+
+    commit after changing twitter label on contactus screen and terms of service on settings screen
+
+commit 9122341c5113655e560d50c8b28d11abcc61022a
+Author: Abhishek <abhishe@weboniselab.com>
+Date:   Tue May 29 18:29:52 2012 +0530
+
+    commit after changing twitter label on contactus screen and terms of service on settings screen
+
+commit ccf261f914cabd9bd04b6d1fd9efa00a106110f8
+Merge: ba3976f 995a8d7
+Author: Rich Davis <thurisaz@gmail.com>
+Date:   Fri May 25 13:20:15 2012 -0400
+
+    merge
+
+commit 93a0ab4952b038a360cdb1cdec0f58b8436ed646
+Merge: 91ae507 32ccc07
+Author: Rich Davis <thurisaz@gmail.com>
+Date:   Fri May 25 13:20:15 2012 -0400
+
+    merge
+
+commit ba3976f5186e0ea3bee2f2c5950f0c92965f15f0
+Author: Rich Davis <thurisaz@gmail.com>
+Date:   Fri May 25 13:18:30 2012 -0400
+
+    ant build
+
+commit 91ae5071e7b8f73edb62be372627b5d7e72e8cc1
+Author: Rich Davis <thurisaz@gmail.com>
+Date:   Fri May 25 13:18:30 2012 -0400
+
+    ant build
+
+commit 995a8d778522792242960943c0ee919c3dd651b7
+Author: Abhishek Parihar <abhishek@weboniselab.com>
+Date:   Thu May 24 16:38:09 2012 +0530
+
+    Screen added  to delink facebook and twitter acct.
+
+commit 32ccc076762e7875d79b52f14e111b373ba42fb7
+Author: Abhishek Parihar <abhishek@weboniselab.com>
+Date:   Thu May 24 16:38:09 2012 +0530
+
+    Screen added  to delink facebook and twitter acct.
+
+commit 384995273aa933a6482f5df00233029d85988acb
+Author: Abhishek Parihar <abhishek@weboniselab.com>
+Date:   Thu May 24 13:13:33 2012 +0530
+
+    Ui issues on QR snap screen resolved
+
+commit df3a60e3c79bfb1b742b8366ab96e99f1551f123
+Author: Abhishek Parihar <abhishek@weboniselab.com>
+Date:   Thu May 24 13:13:33 2012 +0530
+
+    Ui issues on QR snap screen resolved
+
+commit 767afb45c838f490440e3929aa1b20ea6eb9450b
+Author: nilesh jinde <nilesh@weboniselab.com>
+Date:   Tue May 22 18:16:55 2012 +0530
+
+    How it works screen modified with new images
+
+commit 83d333888eb04b2431667c021b83438efee2cbb9
+Author: nilesh jinde <nilesh@weboniselab.com>
+Date:   Tue May 22 18:16:55 2012 +0530
+
+    How it works screen modified with new images
+
+commit e6b40a00c7ee6b1cd3d260f823c63578d8bbdae9
+Author: nilesh jinde <nilesh@weboniselab.com>
+Date:   Tue May 22 12:34:22 2012 +0530
+
+    How it works screen done with all the video links are working fine
+
+commit dcc743c2ff8b502fbc0aab8300dd3e7f5f56243c
+Author: nilesh jinde <nilesh@weboniselab.com>
+Date:   Tue May 22 12:34:22 2012 +0530
+
+    How it works screen done with all the video links are working fine
+
+commit c5d81eeb55cc0e56a1c796352aac6e5ab6c60a77
+Merge: 77f3a31 d82dbd0
+Author: Abhishek <abhishek@weboniselab.com>
+Date:   Mon May 21 20:59:16 2012 +0530
+
+    commit after resolving conflicts
+
+commit bcb58e0de6ae1469132d7f49e15e206cb8b85132
+Merge: 0617207 8e7c43a
+Author: Abhishek <abhishek@weboniselab.com>
+Date:   Mon May 21 20:59:16 2012 +0530
+
+    commit after resolving conflicts
+
+commit 77f3a314b7d86d437cd889a10c84796fd3eb5453
+Author: Abhishek <abhishek@weboniselab.com>
+Date:   Mon May 21 20:55:59 2012 +0530
+
+    Stable code, work in progress on how it works screen- basic functionality and Ui is done, still working on opening video links on last screen
+
+commit 06172076d2ade360db4732eab71a8ab139c8939b
+Author: Abhishek <abhishek@weboniselab.com>
+Date:   Mon May 21 20:55:59 2012 +0530
+
+    Stable code, work in progress on how it works screen- basic functionality and Ui is done, still working on opening video links on last screen
+
+commit 7f0dc41f1111a6e383f6b04b8cfe03a05b24509b
+Author: Abhishek <abhishek@weboniselab.com>
+Date:   Mon May 21 20:55:08 2012 +0530
+
+    Stable code, work in progress on how it works screen- basic functionality and Ui is done, still working on opening video links on last screen
+
+commit 64ebd56c465a5521ec734f1635250186da393beb
+Author: Abhishek <abhishek@weboniselab.com>
+Date:   Mon May 21 20:55:08 2012 +0530
+
+    Stable code, work in progress on how it works screen- basic functionality and Ui is done, still working on opening video links on last screen
+
+commit d82dbd0e34210bcc19363e4a7df69e2da810ed2c
+Author: nilesh jinde <nilesh@weboniselab.com>
+Date:   Mon May 21 17:49:40 2012 +0530
+
+    code added to clear FB and twitter credentials
+
+commit 8e7c43a2d21e16862f9a459decbae6d24676fe9b
+Author: nilesh jinde <nilesh@weboniselab.com>
+Date:   Mon May 21 17:49:40 2012 +0530
+
+    code added to clear FB and twitter credentials
+
+commit 6260bfe053645c1f51bc5352512213e2946205b0
+Author: nilesh jinde <nilesh@weboniselab.com>
+Date:   Mon May 21 13:00:24 2012 +0530
+
+    Crashing on causes page on multiple selection issue resolved
+
+commit c5cf516b15406518b13b89efa9a33b0371c44ce3
+Author: nilesh jinde <nilesh@weboniselab.com>
+Date:   Mon May 21 13:00:24 2012 +0530
+
+    Crashing on causes page on multiple selection issue resolved
+
+commit 1bb445b650c2543f3ece585a6bf2d2906e3c70a0
+Author: Abhishek <abhishek@weboniselab.com>
+Date:   Fri May 18 19:10:03 2012 +0530
+
+    terms of use, privacy pages updated and video bug on how it works screen fixed
+
+commit ef12ef6b7b0b0edf1c97e0de27115c867a918c01
+Author: Abhishek <abhishek@weboniselab.com>
+Date:   Fri May 18 19:10:03 2012 +0530
+
+    terms of use, privacy pages updated and video bug on how it works screen fixed
+
+commit 0c9d105caa1b0f3a0c7142dcd95a10bb44ed5601
+Author: Abhishek <abhishek@weboniselab.com>
+Date:   Thu May 17 17:00:45 2012 +0530
+
+    Confirmation box removed from causes tab, Endless pagination issue resolved and app crashing on null response in causes tab  issue resolved
+
+commit e012eb479581ef8693ed0ba5f9c6574a18d92882
+Author: Abhishek <abhishek@weboniselab.com>
+Date:   Thu May 17 17:00:45 2012 +0530
+
+    Confirmation box removed from causes tab, Endless pagination issue resolved and app crashing on null response in causes tab  issue resolved
+
+commit 309d6d1b75cbc499c5f6b5887b914c567a7634a4
+Author: Abhishek <abhishek@weboniselab.com>
+Date:   Tue May 15 20:06:23 2012 +0530
+
+    Stable build-- Twitter blank screen issue resolved
+
+commit 4bc792db15a9045ecd78cb87eb3350658c144a78
+Author: Abhishek <abhishek@weboniselab.com>
+Date:   Tue May 15 20:06:23 2012 +0530
+
+    Stable build-- Twitter blank screen issue resolved
+
+commit 04dc0fa683238d2daed69e742a9e92fe974cb2a4
+Author: Abhishek <abhishek@weboniselab.com>
+Date:   Mon May 14 21:53:05 2012 +0530
+
+    Stable code.. Twitter blank screen on back button press issue resolved.... work in progress
+
+commit 78c2dadf76d78b7917496588829a181c182ac62d
+Author: Abhishek <abhishek@weboniselab.com>
+Date:   Mon May 14 21:53:05 2012 +0530
+
+    Stable code.. Twitter blank screen on back button press issue resolved.... work in progress
+
+commit bc54fb155e6fd5edce81b799c4ab476c206a9949
+Merge: 0bbbf70 03d1709
+Author: unknown <MotuDroid@.(none)>
+Date:   Fri May 11 16:50:56 2012 +0530
+
+    removed conflicts in twitter api creds
+
+commit e8f967877fbe09fcf99cec85a9bbfdb718b0a691
+Merge: 4040b1d ff0f3a4
+Author: unknown <MotuDroid@.(none)>
+Date:   Fri May 11 16:50:56 2012 +0530
+
+    removed conflicts in twitter api creds
+
+commit 0bbbf70d5246acc4b120d6f4de5283e15b2350a9
+Author: unknown <MotuDroid@.(none)>
+Date:   Fri May 11 16:48:46 2012 +0530
+
+    changed twitter api credentials
+
+commit 4040b1d5f96a1f7742cb64626496dcd280fc2a71
+Author: unknown <MotuDroid@.(none)>
+Date:   Fri May 11 16:48:46 2012 +0530
+
+    changed twitter api credentials
+
+commit 03d1709936bae6663727c60131f4fdd9fbeaff2a
+Author: Abhishek Parihar <abhishek@weboniselab.com>
+Date:   Mon May 7 17:48:26 2012 +0530
+
+    Facebook blank screen on back button press issue solved and Delayed checkin text bar editable issue solved
+
+commit ff0f3a4d908586b570521138f80a690c1652d1c6
+Author: Abhishek Parihar <abhishek@weboniselab.com>
+Date:   Mon May 7 17:48:26 2012 +0530
+
+    Facebook blank screen on back button press issue solved and Delayed checkin text bar editable issue solved
+
+commit a533195c2362a4b38f84ed4547e9230b4bd3746d
+Merge: b1553d0 30df001
+Author: unknown <MotuDroid@.(none)>
+Date:   Mon May 7 10:32:23 2012 +0530
+
+    Merge branch 'develope' of able.unfuddle.com:able/checkinandroid into develope
+
+commit 9e4cb1fdaf433c3a278d2a871039c71a1b1cc34a
+Merge: 1fe75dc de594d0
+Author: unknown <MotuDroid@.(none)>
+Date:   Mon May 7 10:32:23 2012 +0530
+
+    Merge branch 'develope' of able.unfuddle.com:able/checkinandroid into develope
+
+commit b1553d0a924042663394f0924363e4ad9a0dabab
+Author: unknown <MotuDroid@.(none)>
+Date:   Mon May 7 10:31:34 2012 +0530
+
+    commit before pull for build to QA
+
+commit 1fe75dc8349add84703078aa8f4a14a2865cd6e4
+Author: unknown <MotuDroid@.(none)>
+Date:   Mon May 7 10:31:34 2012 +0530
+
+    commit before pull for build to QA
+
+commit 30df001974afff765ade242840a058796a0edf33
+Author: Abhishek Parihar <abhishek@weboniselab.com>
+Date:   Wed May 2 19:42:13 2012 +0530
+
+    delayed checkin done with UI .... My good screen is completed with reordering of settings tab, icons on menu items done
+
+commit de594d0f083be78af348ad568e4d9db92508f684
+Author: Abhishek Parihar <abhishek@weboniselab.com>
+Date:   Wed May 2 19:42:13 2012 +0530
+
+    delayed checkin done with UI .... My good screen is completed with reordering of settings tab, icons on menu items done
+
+commit a7c7dac2c00f334bc339e2dd44e2d59a59758fd3
+Merge: ce3b4fd 233d711
+Author: unknown <MotuDroid@.(none)>
+Date:   Wed Apr 25 20:51:19 2012 +0530
+
+    Merge branch 'develope' of able.unfuddle.com:able/checkinandroid into develope
+
+commit 2899ad106abae0744f1e7992d549f88f1fc7799c
+Merge: 61d3d3e 07d5e32
+Author: unknown <MotuDroid@.(none)>
+Date:   Wed Apr 25 20:51:19 2012 +0530
+
+    Merge branch 'develope' of able.unfuddle.com:able/checkinandroid into develope
+
+commit ce3b4fd204ca4afcb41609e1d1771fde76ec1dfd
+Author: unknown <MotuDroid@.(none)>
+Date:   Wed Apr 25 20:49:04 2012 +0530
+
+    resolved the amount raised null issue and the gps dialog cancel issue
+
+commit 61d3d3e973d84b615b355b5500017c974ac4ac7c
+Author: unknown <MotuDroid@.(none)>
+Date:   Wed Apr 25 20:49:04 2012 +0530
+
+    resolved the amount raised null issue and the gps dialog cancel issue
+
+commit 233d711b4aaa37fcf46069c30de57b721e2e48db
+Author: Rich Davis <thurisaz@gmail.com>
+Date:   Tue Apr 24 14:43:58 2012 -0400
+
+    make our queue synchronous
+
+commit 07d5e3282a868bdd10a378c8c2d96d55c18e08ea
+Author: Rich Davis <thurisaz@gmail.com>
+Date:   Tue Apr 24 14:43:58 2012 -0400
+
+    make our queue synchronous
+
+commit 60fff6f6cc21dfc94f401283216536220c7b37a8
+Author: unknown <MotuDroid@.(none)>
+Date:   Wed Apr 18 04:25:39 2012 +0530
+
+    testing geofix code removed
+
+commit 5a3d61e9691c0f28d9c01efa7cd928e41a73aa31
+Author: unknown <MotuDroid@.(none)>
+Date:   Wed Apr 18 04:25:39 2012 +0530
+
+    testing geofix code removed
+
+commit b0109ecd9c1732e9ffbb509d1e7b9bf020abb33c
+Author: unknown <MotuDroid@.(none)>
+Date:   Wed Apr 18 04:23:32 2012 +0530
+
+    delayed checkins functionality added without proper UI
+
+commit e8e8289aba34d257894f19c4910a7cec9d297542
+Author: unknown <MotuDroid@.(none)>
+Date:   Wed Apr 18 04:23:32 2012 +0530
+
+    delayed checkins functionality added without proper UI
+
+commit b6fcc94c5c1d69d1310333242f550c2be0531e87
+Merge: 0303817 8b00d4f
+Author: unknown <MotuDroid@.(none)>
+Date:   Mon Apr 16 18:14:17 2012 +0530
+
+    distances showing 0 distances issue resolved, it was due to a geo fix inside the code, left over from the testing. Sorry :(
+
+commit b300d7692e8190f468c19e2a55299960e0988c0c
+Merge: f327016 3fbf74c
+Author: unknown <MotuDroid@.(none)>
+Date:   Mon Apr 16 18:14:17 2012 +0530
+
+    distances showing 0 distances issue resolved, it was due to a geo fix inside the code, left over from the testing. Sorry :(
+
+commit 8b00d4f14cc77a312930d3c740ac5417dcd23775
+Merge: 1528078 5b9e1d6
+Author: Rich Davis <thurisaz@gmail.com>
+Date:   Wed Apr 11 16:46:37 2012 -0400
+
+    merge
+
+commit 3fbf74c4ce2520c0701404b34dbd1f39858d8daf
+Merge: d349e0e 8abf2e3
+Author: Rich Davis <thurisaz@gmail.com>
+Date:   Wed Apr 11 16:46:37 2012 -0400
+
+    merge
+
+commit 1528078d4ffb1f98a9896032af98a9186f72272b
+Author: Rich Davis <thurisaz@gmail.com>
+Date:   Wed Apr 11 16:45:04 2012 -0400
+
+    queue implementation
+
+commit d349e0e96d98db8e33d8b93ee98f9601f62c2e08
+Author: Rich Davis <thurisaz@gmail.com>
+Date:   Wed Apr 11 16:45:04 2012 -0400
+
+    queue implementation
+
+commit 5b9e1d6bb9591ba1b18a170f6d3c7cf93e4a84ca
+Author: Abhishek Parihar <abhishek@weboniselab.com>
+Date:   Wed Apr 11 22:32:11 2012 +0530
+
+    All causes issue resolved
+
+commit 8abf2e395d6730a6b297c2b85287d3eb53178601
+Author: Abhishek Parihar <abhishek@weboniselab.com>
+Date:   Wed Apr 11 22:32:11 2012 +0530
+
+    All causes issue resolved
+
+commit 03038171fc162e23ca0b51b8674583dc1ef7b820
+Author: unknown <MotuDroid@.(none)>
+Date:   Wed Apr 11 22:10:45 2012 +0530
+
+    commit before pull
+
+commit f3270166bf9db93d296cf9c8d25a86e265b94b8a
+Author: unknown <MotuDroid@.(none)>
+Date:   Wed Apr 11 22:10:45 2012 +0530
+
+    commit before pull
+
+commit 881eed722aef2f4e7a121a95e500655f71888f68
+Author: Abhishek Parihar <abhishek@weboniselab.com>
+Date:   Wed Apr 11 21:59:44 2012 +0530
+
+    Stable Build isuues fixed
+
+commit 3771b7a0cdc1160c9bc46d1f220c728238d9898e
+Author: Abhishek Parihar <abhishek@weboniselab.com>
+Date:   Wed Apr 11 21:59:44 2012 +0530
+
+    Stable Build isuues fixed
+
+commit 8262b56f4bd8d092c9d722358254b19631e043fb
+Author: Rich Davis <thurisaz@gmail.com>
+Date:   Tue Apr 10 13:09:13 2012 -0400
+
+    fix simulator location validity
+
+commit cfcd56fc1d252aa21560f6c5bd81846877247c79
+Author: Rich Davis <thurisaz@gmail.com>
+Date:   Tue Apr 10 13:09:13 2012 -0400
+
+    fix simulator location validity
+
+commit 4188fd5f8c378a59ecf0a1c05b7489f0919d728b
+Author: Abhishek <abhishek@weboniselab.com>
+Date:   Tue Apr 3 20:25:05 2012 +0530
+
+    new support screen added
+
+commit 4173793942a964c9ddebcbdefda24d33503b18f0
+Author: Abhishek <abhishek@weboniselab.com>
+Date:   Tue Apr 3 20:25:05 2012 +0530
+
+    new support screen added
+
+commit c1a2763080388f2d585ed290e499c2b58b482e14
+Author: Abhishek <abhishek@weboniselab.com>
+Date:   Tue Apr 3 20:22:57 2012 +0530
+
+    new support screen added
+
+commit c7c8f6240763dd58de3699c85971544a811a0b01
+Author: Abhishek <abhishek@weboniselab.com>
+Date:   Tue Apr 3 20:22:57 2012 +0530
+
+    new support screen added
+
+commit a190c4ae8be59737219266ac2e1c7d7c94689e1e
+Author: Abhishek <abhishek@weboniselab.com>
+Date:   Mon Apr 2 22:28:37 2012 +0530
+
+    Stable code, Endless pagination is done with adding 10 items  every time user reach the bottom and Screen is added for no connectivity which bring up when app has no internet service
+
+commit 79bbc0237cf2fd0ad71ef65082f1ed818033230e
+Author: Abhishek <abhishek@weboniselab.com>
+Date:   Mon Apr 2 22:28:37 2012 +0530
+
+    Stable code, Endless pagination is done with adding 10 items  every time user reach the bottom and Screen is added for no connectivity which bring up when app has no internet service
+
+commit 0974a628163bb4ee3bf35bb5b06030d802c222a0
+Author: Christopher Dean <ChristopherDean@Christophers-MacBook-Air.local>
+Date:   Mon Mar 26 14:03:54 2012 -0400
+
+    fix accuracy problem
+
+commit bbc81c7eb502ad38922bfff3b99c664ee6f8dccb
+Author: Christopher Dean <ChristopherDean@Christophers-MacBook-Air.local>
+Date:   Mon Mar 26 14:03:54 2012 -0400
+
+    fix accuracy problem
+
+commit 1c4cad35875d780ee2f0c0abb9d597859f8864ec
+Author: Rich Davis <thurisaz@gmail.com>
+Date:   Fri Mar 16 16:03:33 2012 -0400
+
+    update debug code to show in business fragment
+
+commit 659c2f12813741a53680a9b180e35e049de69539
+Author: Rich Davis <thurisaz@gmail.com>
+Date:   Fri Mar 16 16:03:33 2012 -0400
+
+    update debug code to show in business fragment
+
+commit 1a3bc8d5bd1c7b808776b1ebc2b960a8711885b6
+Merge: 1e1f56b 634bd3d
+Author: unknown <MotuDroid@.(none)>
+Date:   Fri Mar 16 23:21:44 2012 +0530
+
+    Merge branch 'develope' of able.unfuddle.com:able/checkinandroid into develope
+
+commit 5e1e5698be47231af3f6476af237de326bdd1830
+Merge: 5e7917f 45ecf6b
+Author: unknown <MotuDroid@.(none)>
+Date:   Fri Mar 16 23:21:44 2012 +0530
+
+    Merge branch 'develope' of able.unfuddle.com:able/checkinandroid into develope
+
+commit 1e1f56b2b18b1b886ba3cf58f42ecc535a12cb53
+Author: unknown <MotuDroid@.(none)>
+Date:   Fri Mar 16 23:19:00 2012 +0530
+
+    alert box with user location data added
+
+commit 5e7917f1afeb2f4c0cba652035761eaf2153e844
+Author: unknown <MotuDroid@.(none)>
+Date:   Fri Mar 16 23:19:00 2012 +0530
+
+    alert box with user location data added
+
+commit 6f7a456b4d3e9f8f3c5765de7275c90e085ed649
+Author: unknown <MotuDroid@.(none)>
+Date:   Fri Mar 16 17:05:09 2012 +0530
+
+    BASE_URL changed for local testing, do NOT use this for a build
+
+commit dce9dd2e4c249c454305b0071e9a6cfaf3279dbd
+Author: unknown <MotuDroid@.(none)>
+Date:   Fri Mar 16 17:05:09 2012 +0530
+
+    BASE_URL changed for local testing, do NOT use this for a build
+
+commit 634bd3dca47cd78bf52d00e54cbe5d4c0c37d3d5
+Author: Abhishek <abhishek@weboniselab.com>
+Date:   Wed Mar 14 18:23:13 2012 +0530
+
+    direct Checkin for single cause in a business issue resolved
+
+commit 45ecf6bb491408a3d685c8dbd33ee7882080de9a
+Author: Abhishek <abhishek@weboniselab.com>
+Date:   Wed Mar 14 18:23:13 2012 +0530
+
+    direct Checkin for single cause in a business issue resolved
+
+commit ba2cc2ca14583537b6864767a552a06b2d61c76d
+Author: Abhishek <abhishek@weboniselab.com>
+Date:   Wed Mar 7 21:54:12 2012 +0530
+
+    1.Fixed Checkins valid distance issue, now checkin can be done from location_accuracy +500 mts   2.Fixed Business supporting my causes not pulled on first app load issue, Checking if DB list is empty, is yes then refreshList function is called
+
+commit abf6ebccdfa2299766126ca0e8e2e32cb1bfaff4
+Author: Abhishek <abhishek@weboniselab.com>
+Date:   Wed Mar 7 21:54:12 2012 +0530
+
+    1.Fixed Checkins valid distance issue, now checkin can be done from location_accuracy +500 mts   2.Fixed Business supporting my causes not pulled on first app load issue, Checking if DB list is empty, is yes then refreshList function is called
+
+commit d11a0704b71c30815b7a0acbdf917565a67b9b29
+Merge: 9516093 5d9136c
+Author: Abhishek <abhishek@weboniselab.com>
+Date:   Thu Mar 1 17:51:15 2012 +0530
+
+    Merge branch 'develope' of able.unfuddle.com:able/checkinandroid into develope
+
+commit cec844f6aac87001eb5606dd4a470789bd0083e8
+Merge: 3c7b7b6 4d2d259
+Author: Abhishek <abhishek@weboniselab.com>
+Date:   Thu Mar 1 17:51:15 2012 +0530
+
+    Merge branch 'develope' of able.unfuddle.com:able/checkinandroid into develope
+
+commit 9516093406f31e4cdb1fce71d1ce0b280655c64a
+Author: Abhishek <abhishek@weboniselab.com>
+Date:   Thu Mar 1 17:50:42 2012 +0530
+
+    Checkin time issue resolved
+
+commit 3c7b7b6730dafb7565120b345ff8579f72d135c7
+Author: Abhishek <abhishek@weboniselab.com>
+Date:   Thu Mar 1 17:50:42 2012 +0530
+
+    Checkin time issue resolved
+
+commit 5d9136c0759200829288031f42dde066947727ef
+Author: Dillon Brouwer <dbrouwer1079@gmail.com>
+Date:   Mon Feb 27 13:54:51 2012 -0500
+
+    Fixed slide animations for How it Works
+
+commit 4d2d25925f1674b48123004eb8055a4ca15912ef
+Author: Dillon Brouwer <dbrouwer1079@gmail.com>
+Date:   Mon Feb 27 13:54:51 2012 -0500
+
+    Fixed slide animations for How it Works
+
+commit 11d7513eb56108599755f0397670e92f012dec14
+Author: Abhishek <abhishek@weboniselab.com>
+Date:   Thu Feb 23 19:33:24 2012 +0530
+
+    Causes instant update issue resolved
+
+commit 91223d902b2624cbc78aabcff607fac1a2bec45f
+Author: Abhishek <abhishek@weboniselab.com>
+Date:   Thu Feb 23 19:33:24 2012 +0530
+
+    Causes instant update issue resolved
+
+commit 33118698d8c55f0a1dd3923e33df453acec90730
+Author: Abhishek <abhishek@weboniselab.com>
+Date:   Wed Feb 22 23:54:53 2012 +0530
+
+    Unstable code, will be working from home
+
+commit a677870d14bf73033313ffadc96486816f5c0058
+Author: Abhishek <abhishek@weboniselab.com>
+Date:   Wed Feb 22 23:54:53 2012 +0530
+
+    Unstable code, will be working from home
+
+commit f96c7e504dcf5fcd711e1b4062f1d446c5b9cd54
+Author: Abhishek <abhishek@weboniselab.com>
+Date:   Wed Feb 22 22:17:17 2012 +0530
+
+    QR Code UX modification
+
+commit d7c29611e418afb473a146901e93d251d3330d3e
+Author: Abhishek <abhishek@weboniselab.com>
+Date:   Wed Feb 22 22:17:17 2012 +0530
+
+    QR Code UX modification
+
+commit 80222cbf31235548175729530225e3cf24fa5d28
+Author: Abhishek <abhishek@weboniselab.com>
+Date:   Tue Feb 21 20:10:24 2012 +0530
+
+    Flush dirty data after every 12 hours
+
+commit 4cd93fe78b009c51914e833196bc20c0c15e8ab1
+Author: Abhishek <abhishek@weboniselab.com>
+Date:   Tue Feb 21 20:10:24 2012 +0530
+
+    Flush dirty data after every 12 hours
+
+commit df459d7f4ecf65cf0656cf9ff5c02c26c9225326
+Merge: d9d71be 3242725
+Author: Abhishek <abhishek@weboniselab.com>
+Date:   Mon Feb 20 12:00:50 2012 +0530
+
+    Merge branch 'develope' of able.unfuddle.com:able/checkinandroid into develope
+
+commit 4d4a6f2e147357b4bea7ad1d20cc7488639ca5e9
+Merge: a817a95 d783455
+Author: Abhishek <abhishek@weboniselab.com>
+Date:   Mon Feb 20 12:00:50 2012 +0530
+
+    Merge branch 'develope' of able.unfuddle.com:able/checkinandroid into develope
+
+commit d9d71bee50bdd74b6b00b8ad04bbdce753957493
+Author: Abhishek <abhishek@weboniselab.com>
+Date:   Mon Feb 20 12:00:05 2012 +0530
+
+    Async task crashing issue resolved, posting on twitter and facebook from mobile stopped
+
+commit a817a95a3d68aa45e01a836dcf181ea7744adf55
+Author: Abhishek <abhishek@weboniselab.com>
+Date:   Mon Feb 20 12:00:05 2012 +0530
+
+    Async task crashing issue resolved, posting on twitter and facebook from mobile stopped
+
+commit 3242725f400af5197231b7d0ed9afa9fd441ae15
+Author: Dillon Brouwer <dbrouwer1079@gmail.com>
+Date:   Sun Feb 19 23:09:27 2012 -0500
+
+    Fix no scrol issue with How it Works fragment
+
+commit d78345511c7c59ff5509e07916af6fdf873b1b3d
+Author: Dillon Brouwer <dbrouwer1079@gmail.com>
+Date:   Sun Feb 19 23:09:27 2012 -0500
+
+    Fix no scrol issue with How it Works fragment
+
+commit 6792061b7b8c2e8f41242178b555160f6362cfd4
+Author: Dillon Brouwer <dbrouwer1079@gmail.com>
+Date:   Sun Feb 19 20:45:34 2012 -0500
+
+    New How it Works screen
+
+commit 3f15747bad135f6fef1a73fc4e3aac4b6ad7f90b
+Author: Dillon Brouwer <dbrouwer1079@gmail.com>
+Date:   Sun Feb 19 20:45:34 2012 -0500
+
+    New How it Works screen
+
+commit 38568e6953bc568a5124b89514d53034e0f1c1b6
+Author: Dillon Brouwer <dbrouwer1079@gmail.com>
+Date:   Thu Feb 16 11:15:13 2012 -0500
+
+    Finished pressed states for check boxes
+
+commit 6792ebec6b149fad56f3f9bfffd77bb9ca88df97
+Author: Dillon Brouwer <dbrouwer1079@gmail.com>
+Date:   Thu Feb 16 11:15:13 2012 -0500
+
+    Finished pressed states for check boxes
+
+commit 8f5f9a4b5a85291a9ec7254c4508f7ee4df21678
+Author: Dillon Brouwer <dbrouwer1079@gmail.com>
+Date:   Wed Feb 15 13:58:38 2012 -0500
+
+    Add pressed state to buttons
+
+commit 107aed37fd2e35574b9b955ca36efa4bfecfc693
+Author: Dillon Brouwer <dbrouwer1079@gmail.com>
+Date:   Wed Feb 15 13:58:38 2012 -0500
+
+    Add pressed state to buttons
+
+commit 4c43b2dcdb66b096a9ab48ea16afe3b797e66d8d
+Merge: 06b4d29 7e81172
+Author: Abhishek <abhishek@weboniselab.com>
+Date:   Tue Feb 14 17:57:33 2012 +0530
+
+    Merge branch 'develope' of able.unfuddle.com:able/checkinandroid into develope
+
+commit 9bcba547287675d1c5c9154e2ba6e2917a96dd26
+Merge: 2a38d75 867c123
+Author: Abhishek <abhishek@weboniselab.com>
+Date:   Tue Feb 14 17:57:33 2012 +0530
+
+    Merge branch 'develope' of able.unfuddle.com:able/checkinandroid into develope
+
+commit 7e81172957c457b69f3ea6e98d8f76b07c9a2517
+Merge: 8b79de7 8872469
+Author: nilesh jinde <nilesh@weboniselab.com>
+Date:   Tue Feb 14 17:51:14 2012 +0530
+
+    Merge branch 'BizOrgBugfix' into develope
+
+commit 867c123a87d36cdf171cf83be4848934957a28c2
+Merge: 984ca3f e4ddc4f
+Author: nilesh jinde <nilesh@weboniselab.com>
+Date:   Tue Feb 14 17:51:14 2012 +0530
+
+    Merge branch 'BizOrgBugfix' into develope
+
+commit 06b4d294590292a97dd92ce2599999550d9fe263
+Author: Abhishek <abhishek@weboniselab.com>
+Date:   Tue Feb 14 17:18:26 2012 +0530
+
+    When first time logged in user should go to settings-> how it works
+
+commit 2a38d7558719faea2b52138c8e36de1c2837a1d6
+Author: Abhishek <abhishek@weboniselab.com>
+Date:   Tue Feb 14 17:18:26 2012 +0530
+
+    When first time logged in user should go to settings-> how it works
+
+commit 88724697b3df7b8d677c139ac8e434047ad9e435
+Author: nilesh jinde <nilesh@weboniselab.com>
+Date:   Mon Feb 13 20:29:13 2012 +0530
+
+    changed zxing scanner to portrait view
+
+commit e4ddc4fbb00bbf202711063e08c732187dc73887
+Author: nilesh jinde <nilesh@weboniselab.com>
+Date:   Mon Feb 13 20:29:13 2012 +0530
+
+    changed zxing scanner to portrait view
+
+commit 8b79de7820bfc14062fcb62e80940df7247e3bf3
+Merge: 075eea9 4d6b084
+Author: Rich Davis <rich@prometheussports.com>
+Date:   Mon Feb 13 07:44:24 2012 -0500
+
+    Merge branch 'develope' of able.unfuddle.com:able/checkinandroid into develope
+
+commit 984ca3fb65d7d36985020f915378d0fd8b284010
+Merge: 1d8951e 8606178
+Author: Rich Davis <rich@prometheussports.com>
+Date:   Mon Feb 13 07:44:24 2012 -0500
+
+    Merge branch 'develope' of able.unfuddle.com:able/checkinandroid into develope
+
+commit 075eea987b7f9d2bddcc45b68cb4e828e2ded5e8
+Author: Rich Davis <rich@prometheussports.com>
+Date:   Mon Feb 13 07:43:50 2012 -0500
+
+    crash fix
+
+commit 1d8951edc596c275187f29a2ed9e24cf5768a9f3
+Author: Rich Davis <rich@prometheussports.com>
+Date:   Mon Feb 13 07:43:50 2012 -0500
+
+    crash fix
+
+commit 4d6b0847a70d11f61a531d5f41deea4890af6ce2
+Author: Dillon Brouwer <dbrouwer1079@gmail.com>
+Date:   Sat Feb 11 16:49:09 2012 -0500
+
+    Update text on login screen
+
+commit 8606178def656cd13ae7fa3519e60e3b40b0058e
+Author: Dillon Brouwer <dbrouwer1079@gmail.com>
+Date:   Sat Feb 11 16:49:09 2012 -0500
+
+    Update text on login screen
+
+commit 0f288ccc456ecfb833b5d76c919d14255020e166
+Author: Rich Davis <rich@prometheussports.com>
+Date:   Fri Feb 10 16:48:23 2012 -0500
+
+    keep pulling all cache if its empty
+
+commit 0a64d52ed05ad92a115617b02f46f090b1a75233
+Author: Rich Davis <rich@prometheussports.com>
+Date:   Fri Feb 10 16:48:23 2012 -0500
+
+    keep pulling all cache if its empty
+
+commit 01bc9efd28794db6430397d9cb1bfffc9a3432ce
+Author: Rich Davis <rich@prometheussports.com>
+Date:   Fri Feb 10 12:40:51 2012 -0500
+
+    Add log shipping button when compiled in debug mode
+
+commit 85379ad42f84f6fbfc60a9926d7e3ee734180ee9
+Author: Rich Davis <rich@prometheussports.com>
+Date:   Fri Feb 10 12:40:51 2012 -0500
+
+    Add log shipping button when compiled in debug mode
+
+commit 7375b2b78a1894055dc7d38435a6f423c3e3db00
+Author: nilesh jinde <nilesh@weboniselab.com>
+Date:   Thu Feb 9 20:22:15 2012 +0530
+
+    code added to refresh businesses supporting my causes list after cause checked and unchecked and saved current latitude and longitude for the situation when location timer expires
+
+commit be22b94dd7c83d6f60ed9e2f712e6fb53fbdd9da
+Author: nilesh jinde <nilesh@weboniselab.com>
+Date:   Thu Feb 9 20:22:15 2012 +0530
+
+    code added to refresh businesses supporting my causes list after cause checked and unchecked and saved current latitude and longitude for the situation when location timer expires
+
+commit 8e38b4474dddc720c1974cdacb58647ba1cb2dca
+Author: nilesh jinde <nilesh@weboniselab.com>
+Date:   Thu Feb 9 16:34:45 2012 +0530
+
+    code added for passing businesses and orgs using bundle to next fragment for checkin and also resolved issue for checkin to searched business if that business is not in All and Businesses supporting my causes list
+
+commit 67799ba5bb0d357fd03ab99df276b2a7d41c8c97
+Author: nilesh jinde <nilesh@weboniselab.com>
+Date:   Thu Feb 9 16:34:45 2012 +0530
+
+    code added for passing businesses and orgs using bundle to next fragment for checkin and also resolved issue for checkin to searched business if that business is not in All and Businesses supporting my causes list
+
+commit e78333166c4492988d2ca0cffb04355d46b37bf3
+Author: nilesh jinde <nilesh@weboniselab.com>
+Date:   Thu Feb 9 13:19:36 2012 +0530
+
+    code for update sharing preferences added and resolved bug pointed by Rich
+
+commit a4b939d62d0fcc50e0b09563c3bd28f21f5644fb
+Author: nilesh jinde <nilesh@weboniselab.com>
+Date:   Thu Feb 9 13:19:36 2012 +0530
+
+    code for update sharing preferences added and resolved bug pointed by Rich
+
+commit 10f91c12333e0449c231089b6494d29be5f48cac
+Author: Rich Davis <rich@prometheussports.com>
+Date:   Wed Feb 8 10:52:58 2012 -0500
+
+    merge latest zxing code
+
+commit 18e47c88471c9268c3825d6b3756f4a50f5cbfbb
+Author: Rich Davis <rich@prometheussports.com>
+Date:   Wed Feb 8 10:52:58 2012 -0500
+
+    merge latest zxing code
+
+commit 007cbe5a5c0b80462427aad135a60a3fb1c58494
+Merge: 851c7aa 0f471c9
+Author: Rich Davis <rich@prometheussports.com>
+Date:   Wed Feb 8 10:25:34 2012 -0500
+
+    Merge branch 'feature/zxingIntegration' into develope
+
+commit 56dfbf93e34acde4ae9c06cd995501ef8a56a34b
+Merge: 1644238 56b37a1
+Author: Rich Davis <rich@prometheussports.com>
+Date:   Wed Feb 8 10:25:34 2012 -0500
+
+    Merge branch 'feature/zxingIntegration' into develope
+
+commit 0f471c9fb0096fa5b9d0950f84fbf8b59110f2ef
+Author: nilesh jinde <nilesh@weboniselab.com>
+Date:   Wed Feb 8 20:13:05 2012 +0530
+
+    code for creating new tables for Bus supported my causes added and updated messages for facebook and twitter while posting and twitting
+
+commit 56b37a12155ae7c8f903b08f4f539b62925f519b
+Author: nilesh jinde <nilesh@weboniselab.com>
+Date:   Wed Feb 8 20:13:05 2012 +0530
+
+    code for creating new tables for Bus supported my causes added and updated messages for facebook and twitter while posting and twitting
+
+commit 2e9ab0da4e04a6b573ce7daa447d86cf5caf6ada
+Author: nilesh jinde <nilesh@weboniselab.com>
+Date:   Wed Feb 8 12:50:41 2012 +0530
+
+    code for getSharedPreferences added
+
+commit f180992c5eba6e0c682866f8b914143b24c0b760
+Author: nilesh jinde <nilesh@weboniselab.com>
+Date:   Wed Feb 8 12:50:41 2012 +0530
+
+    code for getSharedPreferences added
+
+commit 851c7aa33ae4a6e72f4b8d2aec6c0ec7c9008670
+Author: Dillon Brouwer <dbrouwer1079@gmail.com>
+Date:   Tue Feb 7 12:20:48 2012 -0500
+
+    Change cache color hint for lists
+
+commit 16442381e9ab0fc977af2d1eeaf758965b28ef60
+Author: Dillon Brouwer <dbrouwer1079@gmail.com>
+Date:   Tue Feb 7 12:20:48 2012 -0500
+
+    Change cache color hint for lists
+
+commit daef991b216f0f6d76d40a6f9e7dc6efd8d0c05e
+Author: nilesh jinde <nilesh@weboniselab.com>
+Date:   Tue Feb 7 16:07:07 2012 +0530
+
+    code added to check null for gps and removed extra activity (barcodeActivity) while calling zxing code
+
+commit 06fd5a6d95de2966112e0fa297b8fa289d1a4e5e
+Author: nilesh jinde <nilesh@weboniselab.com>
+Date:   Tue Feb 7 16:07:07 2012 +0530
+
+    code added to check null for gps and removed extra activity (barcodeActivity) while calling zxing code
+
+commit 54e0a3ed569e5176e74fe6e62553a5cba463d601
+Author: Dillon Brouwer <dbrouwer1079@gmail.com>
+Date:   Sat Feb 4 16:00:32 2012 -0500
+
+    Add new social toggle buttons
+
+commit 5a1fa88dc3cd44cf997aaf8ca2965884f45eb6b7
+Author: Dillon Brouwer <dbrouwer1079@gmail.com>
+Date:   Sat Feb 4 16:00:32 2012 -0500
+
+    Add new social toggle buttons
+
+commit 4de4edb3470782c507d41c68b9b7fe7ceee6f7b0
+Merge: 4bb9fcb 6cfca7c
+Author: Rich Davis <rich@prometheussports.com>
+Date:   Fri Feb 3 11:48:46 2012 -0500
+
+    Merge branch 'develope' of able.unfuddle.com:able/checkinandroid into develope
+
+commit d1eb4fd959a2e47ae42ad44c187f2e6b2a6b8393
+Merge: 04d75f7 b91a86a
+Author: Rich Davis <rich@prometheussports.com>
+Date:   Fri Feb 3 11:48:46 2012 -0500
+
+    Merge branch 'develope' of able.unfuddle.com:able/checkinandroid into develope
+
+commit 4bb9fcb9aa52f5114bbbd57100dc2f00e6993b99
+Author: Rich Davis <rich@prometheussports.com>
+Date:   Fri Feb 3 10:57:15 2012 -0500
+
+    fix meters vs km bug
+
+commit 04d75f7537619f03d73321cd2a990f566a15de14
+Author: Rich Davis <rich@prometheussports.com>
+Date:   Fri Feb 3 10:57:15 2012 -0500
+
+    fix meters vs km bug
+
+commit 6cfca7cfba761bf861feb7d7505e68cd0eb85569
+Author: Dillon Brouwer <dbrouwer1079@gmail.com>
+Date:   Fri Feb 3 10:47:06 2012 -0500
+
+    Add scrollview to business checkin page
+
+commit b91a86a95c8461441f2977fb3a55ce91bf9f825a
+Author: Dillon Brouwer <dbrouwer1079@gmail.com>
+Date:   Fri Feb 3 10:47:06 2012 -0500
+
+    Add scrollview to business checkin page
+
+commit 62c7b999707adec667384333a4a7eba8df28cd19
+Author: Rich Davis <rich@prometheussports.com>
+Date:   Thu Feb 2 14:23:26 2012 -0500
+
+    change project path to match source control project name
+
+commit dbc4a03f8affe62066cf4e5796733db64da13f77
+Author: Rich Davis <rich@prometheussports.com>
+Date:   Thu Feb 2 14:23:26 2012 -0500
+
+    change project path to match source control project name
+
+commit 153e76e15807a558c88c1fc87568901de0461478
+Author: Dillon Brouwer <dbrouwer1079@gmail.com>
+Date:   Thu Feb 2 12:06:44 2012 -0500
+
+    Fixed button text alignment issues
+
+commit c1993250f54e47008ecb12923d80b14f74f9419f
+Author: Dillon Brouwer <dbrouwer1079@gmail.com>
+Date:   Thu Feb 2 12:06:44 2012 -0500
+
+    Fixed button text alignment issues
+
+commit f5540ebad8d2bb469997dba8800b72fd8e9a6a9f
+Merge: 16c976e b654325
+Author: nilesh jinde <nilesh@weboniselab.com>
+Date:   Thu Feb 2 15:44:02 2012 +0530
+
+    Merge branch 'develope' into feature/zxingIntegration
+
+commit aa4351d49c9f8912f56469422e5af03ee5632840
+Merge: 008a179 d1a1181
+Author: nilesh jinde <nilesh@weboniselab.com>
+Date:   Thu Feb 2 15:44:02 2012 +0530
+
+    Merge branch 'develope' into feature/zxingIntegration
+
+commit 16c976efb30071b48b01ca68b970a9f15f3250f1
+Author: nilesh jinde <nilesh@weboniselab.com>
+Date:   Thu Feb 2 15:40:15 2012 +0530
+
+    added checkinResult class to handle response from do_checkin_simple api and snap verification code added
+
+commit 008a179eeff0a8b423e8ab3d94104a071703bbac
+Author: nilesh jinde <nilesh@weboniselab.com>
+Date:   Thu Feb 2 15:40:15 2012 +0530
+
+    added checkinResult class to handle response from do_checkin_simple api and snap verification code added
+
+commit 95b18c2f794b8ccc6abfe9f3ce4aa040f4d7e981
+Author: nilesh jinde <nilesh@weboniselab.com>
+Date:   Wed Feb 1 20:34:22 2012 +0530
+
+    code for snap verification added
+
+commit e4a35cf58c651a805de41276cf5e3ab73e134119
+Author: nilesh jinde <nilesh@weboniselab.com>
+Date:   Wed Feb 1 20:34:22 2012 +0530
+
+    code for snap verification added
+
+commit b654325c9f2abbedb73c39afc3611058d3522b38
+Author: Rich Davis <rich@prometheussports.com>
+Date:   Wed Feb 1 09:47:08 2012 -0500
+
+    refresh
+
+commit d1a11818cb3eb4a1032a7ebb53b2cec500548b55
+Author: Rich Davis <rich@prometheussports.com>
+Date:   Wed Feb 1 09:47:08 2012 -0500
+
+    refresh
+
+commit d2a62c38b4bf79345989c80d8ac95c8ef9c69997
+Merge: 5dbc586 5f1032e
+Author: Rich Davis <rich@prometheussports.com>
+Date:   Wed Feb 1 08:15:26 2012 -0500
+
+    Merge branch 'develope' of able.unfuddle.com:able/checkinandroid into develope
+
+commit 829d3292b0ac5c288662fd26dd17a3bd441d0ff5
+Merge: 0c5156b 585c1af
+Author: Rich Davis <rich@prometheussports.com>
+Date:   Wed Feb 1 08:15:26 2012 -0500
+
+    Merge branch 'develope' of able.unfuddle.com:able/checkinandroid into develope
+
+commit c597ac9dc31667f88f71d6e266ef681ecbe8863a
+Merge: 156a3b2 5f1032e
+Author: nilesh jinde <nilesh@weboniselab.com>
+Date:   Wed Feb 1 11:36:39 2012 +0530
+
+    merged develope into feature/zxingIntegration
+
+commit 83c1d1cd8cb6e963bd8e3ace964d97a8275e20b5
+Merge: 85c173a 585c1af
+Author: nilesh jinde <nilesh@weboniselab.com>
+Date:   Wed Feb 1 11:36:39 2012 +0530
+
+    merged develope into feature/zxingIntegration
+
+commit 5dbc58689a1c67798f377c2d00939b6d3fd0fade
+Author: Rich Davis <rich@prometheussports.com>
+Date:   Tue Jan 31 17:47:56 2012 -0500
+
+    limit business polling
+
+commit 0c5156b0d9386d6ae98ca58f3fc5128a1bd2472d
+Author: Rich Davis <rich@prometheussports.com>
+Date:   Tue Jan 31 17:47:56 2012 -0500
+
+    limit business polling
+
+commit 5f1032e88ef0f284ec17834420bd9ab3a5c93b78
+Author: Dillon Brouwer <dbrouwer1079@gmail.com>
+Date:   Tue Jan 31 16:45:35 2012 -0500
+
+    Add refresh button to business list
+
+commit 585c1afa8b7a98665b5abeb4d8063e81ddd30244
+Author: Dillon Brouwer <dbrouwer1079@gmail.com>
+Date:   Tue Jan 31 16:45:35 2012 -0500
+
+    Add refresh button to business list
+
+commit 156a3b2963fbac6f44ad549a0cc7d76e39b985b6
+Merge: 58c0aac cbdfc00
+Author: nilesh jinde <nilesh@weboniselab.com>
+Date:   Tue Jan 31 20:32:53 2012 +0530
+
+    merged develope and resolved conflicts
+
+commit 85c173adc0d364184454896055c802ce2e41496c
+Merge: 31b35db adb7bcf
+Author: nilesh jinde <nilesh@weboniselab.com>
+Date:   Tue Jan 31 20:32:53 2012 +0530
+
+    merged develope and resolved conflicts
+
+commit cbdfc0003bc518637e70cd065846224a4592fc88
+Merge: ff3b259 a25bd20
+Author: Rich Davis <rich@prometheussports.com>
+Date:   Tue Jan 31 09:16:14 2012 -0500
+
+    merge
+
+commit adb7bcfb8cde48b60e084e6d62668f29a7d55ed5
+Merge: 3430010 a9ae8c8
+Author: Rich Davis <rich@prometheussports.com>
+Date:   Tue Jan 31 09:16:14 2012 -0500
+
+    merge
+
+commit 58c0aac793ee254b5c118b3f0e8b7b78741d34b6
+Merge: 48697d5 a25bd20
+Author: nilesh jinde <nilesh@weboniselab.com>
+Date:   Tue Jan 31 12:11:06 2012 +0530
+
+    merged develope into feature/zxingIntegration and resolved conflicts
+
+commit 31b35dba198d7627d5531198d9511165ae71a9f5
+Merge: 5627c74 a9ae8c8
+Author: nilesh jinde <nilesh@weboniselab.com>
+Date:   Tue Jan 31 12:11:06 2012 +0530
+
+    merged develope into feature/zxingIntegration and resolved conflicts
+
+commit ff3b2598668829d430862fa3088624f8612ea1ce
+Author: Rich Davis <rich@prometheussports.com>
+Date:   Mon Jan 30 16:38:50 2012 -0500
+
+    add qr codes to db/business result
+
+commit 3430010d93096c38ed3609a7ea6e4a54f9df0340
+Author: Rich Davis <rich@prometheussports.com>
+Date:   Mon Jan 30 16:38:50 2012 -0500
+
+    add qr codes to db/business result
+
+commit a25bd20b8028e94e9cb2687239e579abac43868c
+Author: Dillon Brouwer <dbrouwer1079@gmail.com>
+Date:   Mon Jan 30 12:35:08 2012 -0500
+
+    Cleanup drawable, replace checkbox images
+
+commit a9ae8c8c931189942d3123e2122bad56df1b11fe
+Author: Dillon Brouwer <dbrouwer1079@gmail.com>
+Date:   Mon Jan 30 12:35:08 2012 -0500
+
+    Cleanup drawable, replace checkbox images
+
+commit 61ac516424ddf6a5dfd7afe1d5bc5e98c6cb031d
+Author: Dillon Brouwer <dbrouwer1079@gmail.com>
+Date:   Mon Jan 30 11:41:20 2012 -0500
+
+    Cleanup splash
+
+commit 4ab01395906355d01ae4c426ae176a1b72c453b4
+Author: Dillon Brouwer <dbrouwer1079@gmail.com>
+Date:   Mon Jan 30 11:41:20 2012 -0500
+
+    Cleanup splash
+
+commit d5ed8edca51c1af83a5e9348ffbe98ca2d37cd80
+Author: Dillon Brouwer <dbrouwer1079@gmail.com>
+Date:   Mon Jan 30 11:34:11 2012 -0500
+
+    Cleanup search and checkin thank you screens
+
+commit 5d6197d70af04cb503da271def45fc90862cbd13
+Author: Dillon Brouwer <dbrouwer1079@gmail.com>
+Date:   Mon Jan 30 11:34:11 2012 -0500
+
+    Cleanup search and checkin thank you screens
+
+commit 48697d52a2452585a9b3dc0eece5a2dd5959b32c
+Author: nilesh jinde <nilesh@weboniselab.com>
+Date:   Mon Jan 30 20:07:58 2012 +0530
+
+    code for zxing integration added
+
+commit 5627c745df3285321716a22747341cdff0a89820
+Author: nilesh jinde <nilesh@weboniselab.com>
+Date:   Mon Jan 30 20:07:58 2012 +0530
+
+    code for zxing integration added
+
+commit e28c4a39bb28242eb3ffd65ddfc3cc6246b9d53b
+Author: Dillon Brouwer <dbrouwer1079@gmail.com>
+Date:   Sat Jan 28 18:23:46 2012 -0500
+
+    Cleanup login screens
+
+commit f37da8e6b4815573f7fe77103bbce20f6ded926c
+Author: Dillon Brouwer <dbrouwer1079@gmail.com>
+Date:   Sat Jan 28 18:23:46 2012 -0500
+
+    Cleanup login screens
+
+commit 013120ade64f8be70dd5d26d9be7de4d49dd2b21
+Author: Dillon Brouwer <dbrouwer1079@gmail.com>
+Date:   Fri Jan 27 12:36:27 2012 -0500
+
+    UI cleanup, add 'shadows' to buttons
+
+commit db6728ba02ec543b989fefb7a48b968a06ed32e7
+Author: Dillon Brouwer <dbrouwer1079@gmail.com>
+Date:   Fri Jan 27 12:36:27 2012 -0500
+
+    UI cleanup, add 'shadows' to buttons
+
+commit 8fbef6c2132cfd37ca839283a31ad6388156d5b4
+Author: Dillon Brouwer <dbrouwer1079@gmail.com>
+Date:   Wed Jan 25 13:44:54 2012 -0500
+
+    UI updates
+
+commit bb4224cb50357e1396d4df80c555285a08bb0ff6
+Author: Dillon Brouwer <dbrouwer1079@gmail.com>
+Date:   Wed Jan 25 13:44:54 2012 -0500
+
+    UI updates
+
+commit ccecad0e7237d3364d51969af4850a74541154fb
+Merge: 2ec82db 3de39ec
+Author: nilesh jinde <nilesh@weboniselab.com>
+Date:   Wed Jan 25 12:45:26 2012 +0530
+
+    pulled code from develope and resolved conflicts
+
+commit b778ad58e38b6756806180a3ed91c5561e992e6d
+Merge: 6fef968 46f2798
+Author: nilesh jinde <nilesh@weboniselab.com>
+Date:   Wed Jan 25 12:45:26 2012 +0530
+
+    pulled code from develope and resolved conflicts
+
+commit 2ec82dbb5d38cff25788602003651d36e2442fd4
+Author: nilesh jinde <nilesh@weboniselab.com>
+Date:   Wed Jan 25 12:02:50 2012 +0530
+
+    code added for parsing date and displaying checkin hours and day on checkin page
+
+commit 6fef96870a7fafc383e0471d37f85fa3fea9f909
+Author: nilesh jinde <nilesh@weboniselab.com>
+Date:   Wed Jan 25 12:02:50 2012 +0530
+
+    code added for parsing date and displaying checkin hours and day on checkin page
+
+commit 3de39ec0faa4339c2608b14f502645b0e9ec5579
+Author: Rich Davis <rich@prometheussports.com>
+Date:   Tue Jan 24 15:32:17 2012 -0500
+
+    map button
+
+commit 46f279835d111c374c465cc1afa51555d24bb0d3
+Author: Rich Davis <rich@prometheussports.com>
+Date:   Tue Jan 24 15:32:17 2012 -0500
+
+    map button
+
+commit c81ad747a726413f2b6f5824884dc7585a6cf39d
+Author: Dillon Brouwer <dbrouwer1079@gmail.com>
+Date:   Mon Jan 23 18:07:00 2012 -0500
+
+    Add map button to business checkin
+
+commit 7d9e2969088e692977e87bbeab85d9965255b893
+Author: Dillon Brouwer <dbrouwer1079@gmail.com>
+Date:   Mon Jan 23 18:07:00 2012 -0500
+
+    Add map button to business checkin
+
+commit 050ed0e630058755f99df3275b39e4d5cb94d797
+Author: nilesh jinde <nilesh@weboniselab.com>
+Date:   Mon Jan 23 17:19:43 2012 +0530
+
+    code added for displaying raised money from do_checkin_simple api response after checkin
+
+commit f8a2161274ba7df5c4d75bd1390e88c169db6f08
+Author: nilesh jinde <nilesh@weboniselab.com>
+Date:   Mon Jan 23 17:19:43 2012 +0530
+
+    code added for displaying raised money from do_checkin_simple api response after checkin
+
+commit 5173afe13c5d361f6aa8faebb5d62affde504cea
+Merge: 3fc1736 d7d2b73
+Author: Dillon Brouwer <dbrouwer1079@gmail.com>
+Date:   Sun Jan 22 19:17:25 2012 -0500
+
+    Merge branch 'develope' of able.unfuddle.com:able/checkinandroid into develope
+
+commit 05ca62d5a23d515a057d8a6fdea5b91a24f0cb27
+Merge: 686ea43 d4a0825
+Author: Dillon Brouwer <dbrouwer1079@gmail.com>
+Date:   Sun Jan 22 19:17:25 2012 -0500
+
+    Merge branch 'develope' of able.unfuddle.com:able/checkinandroid into develope
+
+commit 3fc1736e32dacfecb053dd5838a8fd689a153d99
+Author: Dillon Brouwer <dbrouwer1079@gmail.com>
+Date:   Sun Jan 22 19:17:01 2012 -0500
+
+    UI work on business checkin screen
+
+commit 686ea4314d7c2f2e733baecbedd71c5408c6ea2d
+Author: Dillon Brouwer <dbrouwer1079@gmail.com>
+Date:   Sun Jan 22 19:17:01 2012 -0500
+
+    UI work on business checkin screen
+
+commit d7d2b7322f2013b2845e03d8c134c3e387bb5db4
+Author: Nilesh <nilesh@Nilesh-PC.(none)>
+Date:   Fri Jan 20 20:13:14 2012 +0530
+
+    Added alertbox on businessList, converted meters into miles and fetched organization name from business_orgs table
+
+commit d4a0825b4aaec7bcbe75fa807b08637dc7b9693e
+Author: Nilesh <nilesh@Nilesh-PC.(none)>
+Date:   Fri Jan 20 20:13:14 2012 +0530
+
+    Added alertbox on businessList, converted meters into miles and fetched organization name from business_orgs table
+
+commit 3be4a808586d2766d600e21ed49d4ef08323adf5
+Author: Dillon Brouwer <dbrouwer1079@gmail.com>
+Date:   Thu Jan 19 19:20:28 2012 -0500
+
+    UI work for business list scren
+
+commit 4d4dc18518754a3673cd7a6adab0e47a9a8a0355
+Author: Dillon Brouwer <dbrouwer1079@gmail.com>
+Date:   Thu Jan 19 19:20:28 2012 -0500
+
+    UI work for business list scren
+
+commit d1a80528b5805762b25d16bdaaf5d752192628c2
+Author: Dillon Brouwer <dbrouwer1079@gmail.com>
+Date:   Wed Jan 18 19:21:05 2012 -0500
+
+    List themes
+
+commit 5f4c1e6a25e79c52f6b248291e5f5c7a66bbfe54
+Author: Dillon Brouwer <dbrouwer1079@gmail.com>
+Date:   Wed Jan 18 19:21:05 2012 -0500
+
+    List themes
+
+commit e7382ce0dd119534337a6e6219a79026823643d7
+Author: Nilesh Jinde <nilesh@weboniselab.com>
+Date:   Tue Jan 17 18:45:06 2012 +0530
+
+    textview added on causes i'm supporting fragment for no supported causes found
+
+commit d30963ba246c4173010c0446759fe1db4c258a62
+Author: Nilesh Jinde <nilesh@weboniselab.com>
+Date:   Tue Jan 17 18:45:06 2012 +0530
+
+    textview added on causes i'm supporting fragment for no supported causes found
+
+commit 6b491b877982154f3e757779fbaefb9f0fa5faae
+Author: Dillon Brouwer <dbrouwer1079@gmail.com>
+Date:   Wed Jan 11 14:01:36 2012 -0500
+
+    UI work for list views
+
+commit f0e48822a4d530412dc2ef5e906a832932b9226d
+Author: Dillon Brouwer <dbrouwer1079@gmail.com>
+Date:   Wed Jan 11 14:01:36 2012 -0500
+
+    UI work for list views
+
+commit 608205a559f6f2f2a940b067981a58e1f22cf49d
+Merge: 03189b1 f3ba58e
+Author: Rich Davis <rich@prometheussports.com>
+Date:   Wed Jan 11 08:59:55 2012 -0500
+
+    do merge
+
+commit 904503557fa01280e4d8eac7cffef3f77f6d4f70
+Merge: c67a786 6e2c657
+Author: Rich Davis <rich@prometheussports.com>
+Date:   Wed Jan 11 08:59:55 2012 -0500
+
+    do merge
+
+commit 03189b1df21350ae980edb9521c310d69b77f06f
+Author: Rich Davis <rich@prometheussports.com>
+Date:   Wed Jan 11 08:56:11 2012 -0500
+
+    add back in accidentally removed conditional
+
+commit c67a786bf509496aa5fe3a4802e1b51690c2cad1
+Author: Rich Davis <rich@prometheussports.com>
+Date:   Wed Jan 11 08:56:11 2012 -0500
+
+    add back in accidentally removed conditional
+
+commit f3ba58e46cf827686d4879247a1f3ee408595b33
+Author: Dillon Brouwer <dbrouwer1079@gmail.com>
+Date:   Tue Jan 10 14:15:30 2012 -0500
+
+    Cleanup
+
+commit 6e2c657eefbf994642587a2bf7eb5db18820901c
+Author: Dillon Brouwer <dbrouwer1079@gmail.com>
+Date:   Tue Jan 10 14:15:30 2012 -0500
+
+    Cleanup
+
+commit cecb84f42b3c7c4d8e1e66790814a88c1758903a
+Author: Dillon Brouwer <dbrouwer1079@gmail.com>
+Date:   Mon Jan 9 21:02:24 2012 -0500
+
+    Add title bar, update how it works videos
+
+commit 7cdd8a52761373d47de31f5ab424c1360421fb38
+Author: Dillon Brouwer <dbrouwer1079@gmail.com>
+Date:   Mon Jan 9 21:02:24 2012 -0500
+
+    Add title bar, update how it works videos
+
+commit c9291bcc148f12aa32fc844a0f336eca938acc38
+Merge: ada0731 1f3f361
+Author: Rich Davis <rich@prometheussports.com>
+Date:   Mon Jan 9 19:32:14 2012 -0500
+
+    git madness
+
+commit 8d2731516d865260c43c35fd48b34d393bc1d53b
+Merge: 5823d4f b9f98ab
+Author: Rich Davis <rich@prometheussports.com>
+Date:   Mon Jan 9 19:32:14 2012 -0500
+
+    git madness
+
+commit ada07317b91cacd4339fd96edcd2bb11ebb4f7f2
+Author: Rich Davis <rich@prometheussports.com>
+Date:   Mon Jan 9 19:25:48 2012 -0500
+
+    checkout head
+
+commit 5823d4fc2ddaeb60760da4750d4d86fd3a64e64b
+Author: Rich Davis <rich@prometheussports.com>
+Date:   Mon Jan 9 19:25:48 2012 -0500
+
+    checkout head
+
+commit 85bcda30afe83cd0bfb4bc79f99d4d5bac2412ec
+Author: Rich Davis <rich@prometheussports.com>
+Date:   Mon Jan 9 19:24:55 2012 -0500
+
+    Revert "fix prefs saving crash"
+    
+    This reverts commit 26ef046465e30b229bda2ebd5f64920879d9c780.
+
+commit 5e234f4da7b64397826c995ff963d63dbb3e4417
+Author: Rich Davis <rich@prometheussports.com>
+Date:   Mon Jan 9 19:24:55 2012 -0500
+
+    Revert "fix prefs saving crash"
+    
+    This reverts commit 26ef046465e30b229bda2ebd5f64920879d9c780.
+
+commit 1f3f361ae230f9a0d914ad10453db3a57594ae3d
+Author: Dillon Brouwer <dbrouwer1079@gmail.com>
+Date:   Mon Jan 9 17:44:03 2012 -0500
+
+    Update How it Works images
+
+commit b9f98abac82d08d26de3feea1b5901b75a9934f2
+Author: Dillon Brouwer <dbrouwer1079@gmail.com>
+Date:   Mon Jan 9 17:44:03 2012 -0500
+
+    Update How it Works images
+
+commit d6996e3a56b082b139bbd96736ccf15c3a8c4d10
+Author: Dillon Brouwer <dbrouwer1079@gmail.com>
+Date:   Mon Jan 9 11:04:36 2012 -0500
+
+    How it Works changes
+
+commit a9d5d3f4c11e4dff164c7419948c6352dfc56a09
+Author: Dillon Brouwer <dbrouwer1079@gmail.com>
+Date:   Mon Jan 9 11:04:36 2012 -0500
+
+    How it Works changes
+
+commit 47657f47c065644c936add0ed5b2bcdc232569f2
+Author: Dillon Brouwer <dbrouwer1079@gmail.com>
+Date:   Sun Jan 8 14:17:13 2012 -0500
+
+    Restyle tabs
+
+commit 899bb092a9a0fa69f095b4ff5f397b62cc6776d1
+Author: Dillon Brouwer <dbrouwer1079@gmail.com>
+Date:   Sun Jan 8 14:17:13 2012 -0500
+
+    Restyle tabs
+
+commit a311390c14c5c4eb474131e2461e06caa1bc81cf
+Author: Rich Davis <rich@prometheussports.com>
+Date:   Wed Jan 4 14:51:26 2012 -0500
+
+    fix prefs saving crash
+
+commit 26ef046465e30b229bda2ebd5f64920879d9c780
+Author: Rich Davis <rich@prometheussports.com>
+Date:   Wed Jan 4 14:51:26 2012 -0500
+
+    fix prefs saving crash
+
+commit 245d01b5da5e12e4d221091ace3b0cc82278419a
+Merge: 425db55 850bc60
+Author: Rich Davis <rich@prometheussports.com>
+Date:   Wed Jan 4 13:40:09 2012 -0500
+
+    merge, make variable camel-case, fix number formatting bug
+
+commit 104aaa54358e8e51d0efc95f85ddfdb433d707a0
+Merge: b169c15 e0490bc
+Author: Rich Davis <rich@prometheussports.com>
+Date:   Wed Jan 4 13:40:09 2012 -0500
+
+    merge, make variable camel-case, fix number formatting bug
+
+commit 425db55ff0f63c4d489d0835dcca37c8b4b14935
+Merge: da9d898 ff49222
+Author: Rich Davis <rich@prometheussports.com>
+Date:   Wed Jan 4 12:06:21 2012 -0500
+
+    commit before merge
+
+commit b169c15dd59594aa929e6dd13ff44a2d27b642f0
+Merge: efe5b1a beed602
+Author: Rich Davis <rich@prometheussports.com>
+Date:   Wed Jan 4 12:06:21 2012 -0500
+
+    commit before merge
+
+commit 850bc60cb682147aebd36a6e19aa240b3a810d4b
+Author: Nilesh Jinde <nilesh@weboniselab.com>
+Date:   Wed Jan 4 18:51:54 2012 +0530
+
+    resolved all bugs
+
+commit e0490bcb6f144a45ea4c3e365b5e1b44b5372f6b
+Author: Nilesh Jinde <nilesh@weboniselab.com>
+Date:   Wed Jan 4 18:51:54 2012 +0530
+
+    resolved all bugs
+
+commit 7f9b67ca548174c54b4d8216ca374bea65f83bdd
+Author: Nilesh Jinde <nilesh@weboniselab.com>
+Date:   Wed Jan 4 15:23:33 2012 +0530
+
+    resolved issues
+
+commit 5a6cc392ca2c28cc4813ae691882da5e291169c7
+Author: Nilesh Jinde <nilesh@weboniselab.com>
+Date:   Wed Jan 4 15:23:33 2012 +0530
+
+    resolved issues
+
+commit 4305c0293b0b1b0b943bfadd7e65cd547bdd561d
+Author: Nilesh Jinde <nilesh@weboniselab.com>
+Date:   Wed Jan 4 12:39:12 2012 +0530
+
+    code added for li tag formatting in settings html pages
+
+commit b57e1d3d4d5a2dd0e37944bc542293cee60bf758
+Author: Nilesh Jinde <nilesh@weboniselab.com>
+Date:   Wed Jan 4 12:39:12 2012 +0530
+
+    code added for li tag formatting in settings html pages
+
+commit da9d898412a2242f5950adc58451dbbab8d2016f
+Author: Rich Davis <rich@prometheussports.com>
+Date:   Tue Jan 3 13:15:55 2012 -0500
+
+    fix code not conforming to conventions
+
+commit efe5b1a76c3847b64a2999d89b13ce0d332e16ba
+Author: Rich Davis <rich@prometheussports.com>
+Date:   Tue Jan 3 13:15:55 2012 -0500
+
+    fix code not conforming to conventions
+
+commit fb446966dd13777e9a9b4e81b19073bc850b78e0
+Author: Nilesh Jinde <nilesh@weboniselab.com>
+Date:   Tue Jan 3 19:23:03 2012 +0530
+
+    resolved bugs pointed by QA
+
+commit b2dc32cc847831dc44045acfe2a993d1d8f3bacd
+Author: Nilesh Jinde <nilesh@weboniselab.com>
+Date:   Tue Jan 3 19:23:03 2012 +0530
+
+    resolved bugs pointed by QA
+
+commit eb0cab13ebda76098b89aa446d12b9baa9139b9a
+Author: Rich Davis <rich@prometheussports.com>
+Date:   Mon Jan 2 14:05:23 2012 -0500
+
+    fix exception thrown on causes onpause
+
+commit 6aacb11489c48e0f4f930236e145f07927d784c5
+Author: Rich Davis <rich@prometheussports.com>
+Date:   Mon Jan 2 14:05:23 2012 -0500
+
+    fix exception thrown on causes onpause
+
+commit 1310530263c420033ec9af34a9e665118c10f5d1
+Author: Nilesh Jinde <nilesh@weboniselab.com>
+Date:   Mon Jan 2 19:21:23 2012 +0530
+
+    resolved issue
+
+commit a2a6b3dd7d04b0ec292b1fc9234dc7b459002ed0
+Author: Nilesh Jinde <nilesh@weboniselab.com>
+Date:   Mon Jan 2 19:21:23 2012 +0530
+
+    resolved issue
+
+commit 67bd2c1468ce431dd913343485489e9ed4ef3d6e
+Author: Nilesh Jinde <nilesh@weboniselab.com>
+Date:   Mon Jan 2 14:33:51 2012 +0530
+
+    code added in thankyou page for public checkin flag
+
+commit 08630d702f7c679bbdb6565b599c41ed46252417
+Author: Nilesh Jinde <nilesh@weboniselab.com>
+Date:   Mon Jan 2 14:33:51 2012 +0530
+
+    code added in thankyou page for public checkin flag
+
+commit 15d6b8f3f2f494a757109d8cb2c2c192c48c6bb7
+Author: Nilesh Jinde <nilesh@weboniselab.com>
+Date:   Fri Dec 30 19:05:26 2011 +0530
+
+    code added for storing my causes into seperate table in database
+
+commit 5f996b76623ebfff89035bf357b5dd341ee3ad06
+Author: Nilesh Jinde <nilesh@weboniselab.com>
+Date:   Fri Dec 30 19:05:26 2011 +0530
+
+    code added for storing my causes into seperate table in database
+
+commit 1e7f782d454acb28158700b6b76c8f300e2dd1df
+Author: Nilesh Jinde <nilesh@weboniselab.com>
+Date:   Thu Dec 29 19:13:52 2011 +0530
+
+    code added to call sharing_preferences webservice and added asyncTask for the same
+
+commit 67a31c635aea63f6d9a7a814d94147e786644a1b
+Author: Nilesh Jinde <nilesh@weboniselab.com>
+Date:   Thu Dec 29 19:13:52 2011 +0530
+
+    code added to call sharing_preferences webservice and added asyncTask for the same
+
+commit ff492228e45902bfaf9638fa89a83704178dbc31
+Merge: 83455c9 a8c893e
+Author: Nilesh Jinde <nilesh@weboniselab.com>
+Date:   Thu Dec 29 11:14:36 2011 +0530
+
+    merged develope into bugfix and resolved conflicts
+
+commit beed602db55884a4179e783e28f79f7a2711aa58
+Merge: 61b15a9 9a17b65
+Author: Nilesh Jinde <nilesh@weboniselab.com>
+Date:   Thu Dec 29 11:14:36 2011 +0530
+
+    merged develope into bugfix and resolved conflicts
+
+commit 83455c955336e336d4b1e32b7ec2a932eba3b33e
+Author: Nilesh Jinde <nilesh@weboniselab.com>
+Date:   Thu Dec 29 10:52:46 2011 +0530
+
+    created database table for my causes
+
+commit 61b15a9ac99c6c033f7966e9bef0e8a5fbc89d58
+Author: Nilesh Jinde <nilesh@weboniselab.com>
+Date:   Thu Dec 29 10:52:46 2011 +0530
+
+    created database table for my causes
+
+commit a8c893efbddfbfeaecc04df164bab4bc9be77f23
+Author: Rich Davis <rich@prometheussports.com>
+Date:   Wed Dec 28 16:50:20 2011 -0500
+
+    causes search if cant find location
+
+commit 9a17b65f40d0aeac380d20f8f68849f08db7236b
+Author: Rich Davis <rich@prometheussports.com>
+Date:   Wed Dec 28 16:50:20 2011 -0500
+
+    causes search if cant find location
+
+commit 2b6ff2b3f2e3484d7e1746f1f18be390c262484c
+Author: Nilesh Jinde <nilesh@weboniselab.com>
+Date:   Wed Dec 28 19:00:27 2011 +0530
+
+    Added code to update sharepreferences when radio button disabled in sharelistAdapter
+
+commit bbfcd01ea589e56647a3fddfc15f3273e7c37dd0
+Author: Nilesh Jinde <nilesh@weboniselab.com>
+Date:   Wed Dec 28 19:00:27 2011 +0530
+
+    Added code to update sharepreferences when radio button disabled in sharelistAdapter
+
+commit e380aab586bc9162de9a811401bde6b10a5d0b31
+Author: Nilesh Jinde <nilesh@weboniselab.com>
+Date:   Tue Dec 27 19:04:05 2011 +0530
+
+    code added to update money raised after checkin
+
+commit dd3d417f198c089e11d9384cf5317a7e913c5d16
+Author: Nilesh Jinde <nilesh@weboniselab.com>
+Date:   Tue Dec 27 19:04:05 2011 +0530
+
+    code added to update money raised after checkin
+
+commit 441820d1171f17b56b57530e98c2eb55b085acdc
+Author: Nilesh Jinde <nilesh@weboniselab.com>
+Date:   Mon Dec 26 13:46:40 2011 +0530
+
+    added code to get friends count from facebook and followers count from twitter
+
+commit 22ac19dcd09c62c6aa2dcfda7d2f5b71b1ee4cb7
+Author: Nilesh Jinde <nilesh@weboniselab.com>
+Date:   Mon Dec 26 13:46:40 2011 +0530
+
+    added code to get friends count from facebook and followers count from twitter
+
+commit 20c999083a2fff02b3bff9ede4bf9267c2780f1d
+Author: Nilesh Jinde <nilesh@weboniselab.com>
+Date:   Mon Dec 26 11:53:36 2011 +0530
+
+    round a checkin amount to 2 significant figures after decimal point
+
+commit caf68e2a7a5c7fb95d7f5edcd00938f1103989b4
+Author: Nilesh Jinde <nilesh@weboniselab.com>
+Date:   Mon Dec 26 11:53:36 2011 +0530
+
+    round a checkin amount to 2 significant figures after decimal point
+
+commit a3d7e150b0c0ce46ce66f141011849b822852a98
+Author: Rich Davis <rich@prometheussports.com>
+Date:   Fri Dec 23 20:09:56 2011 -0500
+
+    timed dialog fragment view replaced with standard progress dialog
+
+commit 9e7e2b8d41aa4d90dab930fcea79ca1beaabefb1
+Author: Rich Davis <rich@prometheussports.com>
+Date:   Fri Dec 23 20:09:56 2011 -0500
+
+    timed dialog fragment view replaced with standard progress dialog
+
+commit 0402d788681c68ec17b5f1d5e89a0bb9059189e4
+Author: Rich Davis <rich@prometheussports.com>
+Date:   Fri Dec 23 16:44:34 2011 -0500
+
+    Move files into packages, start work on timed dialog with handler
+
+commit 36297c7abb693a977e81c569f19bc57bc7daa714
+Author: Rich Davis <rich@prometheussports.com>
+Date:   Fri Dec 23 16:44:34 2011 -0500
+
+    Move files into packages, start work on timed dialog with handler
+
+commit 55977782af619ae0e594171da13021ecaa797e40
+Author: Nilesh Jinde <nilesh@weboniselab.com>
+Date:   Fri Dec 23 16:20:29 2011 +0530
+
+    added code for swipe on video screen and added mp4 format video
+
+commit 2eb9f6209e86654b7eda8ec32fb799ae2322133e
+Author: Nilesh Jinde <nilesh@weboniselab.com>
+Date:   Fri Dec 23 16:20:29 2011 +0530
+
+    added code for swipe on video screen and added mp4 format video
+
+commit d63e44169096cc88ab75ada3b1370e2837a032d7
+Author: Nilesh Jinde <nilesh@weboniselab.com>
+Date:   Fri Dec 23 12:32:20 2011 +0530
+
+    Created Appstatus module, Added splash Screen and refactor sharepreference code to Appstatus file
+
+commit 19ffb6b4b57421a19800a4e4d4893edfbb5d294d
+Author: Nilesh Jinde <nilesh@weboniselab.com>
+Date:   Fri Dec 23 12:32:20 2011 +0530
+
+    Created Appstatus module, Added splash Screen and refactor sharepreference code to Appstatus file
+
+commit 6098a602aed74bbee0e127f416247413015cce60
+Author: Nilesh Jinde <nilesh@weboniselab.com>
+Date:   Wed Dec 21 18:04:59 2011 +0530
+
+    modified storeBusinessResultIntoDB function
+
+commit cd6fb038125feb11330a2b0a54826a9fb18e9c23
+Author: Nilesh Jinde <nilesh@weboniselab.com>
+Date:   Wed Dec 21 18:04:59 2011 +0530
+
+    modified storeBusinessResultIntoDB function
+
+commit dbf4f6f38539215b3f73e5481618432d5a49a939
+Author: Nilesh Jinde <nilesh@weboniselab.com>
+Date:   Wed Dec 21 13:12:31 2011 +0530
+
+    fixed ui issues
+
+commit 352d21b90f4deb1b77a293a5e9354989ad3a35f8
+Author: Nilesh Jinde <nilesh@weboniselab.com>
+Date:   Wed Dec 21 13:12:31 2011 +0530
+
+    fixed ui issues
+
+commit 4181e73a94adedf6b4f8297f5dddb35ab2cb6579
+Merge: 7faabd9 bcf938a
+Author: Nilesh Jinde <nilesh@weboniselab.com>
+Date:   Wed Dec 21 11:38:08 2011 +0530
+
+    merged develope to bugfix
+
+commit aa42b2334a6b45769ac1c9e97f5612a4c04662f4
+Merge: 2adf057 1e6dc2a
+Author: Nilesh Jinde <nilesh@weboniselab.com>
+Date:   Wed Dec 21 11:38:08 2011 +0530
+
+    merged develope to bugfix
+
+commit bcf938a09312197b947035b70dfe7e5961d0fc40
+Author: Rich Davis <rich@prometheussports.com>
+Date:   Mon Dec 19 12:47:37 2011 -0500
+
+    remove param from web service to make ios calls easier
+
+commit 1e6dc2ae904070355c09608fe433449c6fa3d314
+Author: Rich Davis <rich@prometheussports.com>
+Date:   Mon Dec 19 12:47:37 2011 -0500
+
+    remove param from web service to make ios calls easier
+
+commit 7faabd97c496d84f0c98762cf8be85acf94f1054
+Author: Nilesh Jinde <nilesh@weboniselab.com>
+Date:   Fri Dec 16 20:34:22 2011 +0530
+
+    added images to buttons on business tab
+
+commit 2adf057cca46c5200fa58f554e9f6f2c3daf5ed9
+Author: Nilesh Jinde <nilesh@weboniselab.com>
+Date:   Fri Dec 16 20:34:22 2011 +0530
+
+    added images to buttons on business tab
+
+commit 82ae82ba958b8ac8e25824bce154c4786598a871
+Author: Nilesh Jinde <nilesh@weboniselab.com>
+Date:   Fri Dec 16 16:37:16 2011 +0530
+
+    fixed facebook issue
+
+commit a6a7aa1423c3ad60526259ccd99208795d25eb2d
+Author: Nilesh Jinde <nilesh@weboniselab.com>
+Date:   Fri Dec 16 16:37:16 2011 +0530
+
+    fixed facebook issue
+
+commit 28af52756daf3c99d1e452b4ecc27ce9cab64815
+Author: Nilesh Jinde <nilesh@weboniselab.com>
+Date:   Fri Dec 16 16:36:06 2011 +0530
+
+    fixed facebook issue
+
+commit 112887540017568af22bb4715d360970decf58e7
+Author: Nilesh Jinde <nilesh@weboniselab.com>
+Date:   Fri Dec 16 16:36:06 2011 +0530
+
+    fixed facebook issue
+
+commit 06760229f0e69fb6f1c4fbda747c0a0af6854188
+Author: Nilesh Jinde <nilesh@weboniselab.com>
+Date:   Fri Dec 16 13:25:03 2011 +0530
+
+    modified business buttons
+
+commit 3969ee2746bc25d393781ef2de2d65569ed6e5c3
+Author: Nilesh Jinde <nilesh@weboniselab.com>
+Date:   Fri Dec 16 13:25:03 2011 +0530
+
+    modified business buttons
+
+commit 984ea51ca440439ae8a0654bf962fd0359161ee1
+Merge: 8c6ce9a 172d18d
+Author: Nilesh Jinde <nilesh@weboniselab.com>
+Date:   Fri Dec 16 11:50:03 2011 +0530
+
+    merged develope into bugfix
+
+commit 49ed8e1d430466928fcc14ca9e482164891ab9cd
+Merge: bbf3a20 b2332a1
+Author: Nilesh Jinde <nilesh@weboniselab.com>
+Date:   Fri Dec 16 11:50:03 2011 +0530
+
+    merged develope into bugfix
+
+commit 172d18ddf6c2baf431b3698a88e5893ea8edf035
+Author: Rich Davis <rich@prometheussports.com>
+Date:   Thu Dec 15 18:20:14 2011 -0500
+
+    tabs to spaces
+
+commit b2332a1bb4d2b81106c314281ff40686bddce255
+Author: Rich Davis <rich@prometheussports.com>
+Date:   Thu Dec 15 18:20:14 2011 -0500
+
+    tabs to spaces
+
+commit 6f3adf9b56d0d57f21d02d963d939275fde560c9
+Author: Rich Davis <rich@prometheussports.com>
+Date:   Thu Dec 15 16:07:26 2011 -0500
+
+    Updates for all vs my businesses
+
+commit 20b99c7d8f58a98a0eee64907b106bd24d6852dc
+Author: Rich Davis <rich@prometheussports.com>
+Date:   Thu Dec 15 16:07:26 2011 -0500
+
+    Updates for all vs my businesses
+
+commit 8c6ce9aa5d51045a0e59b9f51b06525e01e5f6b5
+Author: Nilesh Jinde <nilesh@weboniselab.com>
+Date:   Thu Dec 15 17:42:36 2011 +0530
+
+    working code for video play
+
+commit bbf3a20610872ff6e8e61091d4a520dd8edc790b
+Author: Nilesh Jinde <nilesh@weboniselab.com>
+Date:   Thu Dec 15 17:42:36 2011 +0530
+
+    working code for video play
+
+commit fe33c21a19f8481c4b3fb4e679ed25a2838062b8
+Author: Nilesh Jinde <nilesh@weboniselab.com>
+Date:   Thu Dec 15 16:54:58 2011 +0530
+
+    code added for video page in how it works fragment
+
+commit eb68ee93fb59a6d63a33f11c7cad2d25f6a617df
+Author: Nilesh Jinde <nilesh@weboniselab.com>
+Date:   Thu Dec 15 16:54:58 2011 +0530
+
+    code added for video page in how it works fragment
+
+commit 5d89d2bc13302b2ec0113987d097c1e57a2be68d
+Merge: 5392ec5 3bbda8b
+Author: Nilesh Jinde <nilesh@weboniselab.com>
+Date:   Thu Dec 15 11:11:06 2011 +0530
+
+    Merge branch 'develope' into bugfix
+
+commit 4a2d8e6af2eaadb5a08a7cfdcfce36017060df6e
+Merge: d3f4532 070af06
+Author: Nilesh Jinde <nilesh@weboniselab.com>
+Date:   Thu Dec 15 11:11:06 2011 +0530
+
+    Merge branch 'develope' into bugfix
+
+commit 5392ec58eba50b13a0471ab201e1c27efb48fd21
+Author: Nilesh Jinde <nilesh@weboniselab.com>
+Date:   Thu Dec 15 11:08:53 2011 +0530
+
+    commit before merge develope
+
+commit d3f4532cbb387b32788320596162631293f7b4c8
+Author: Nilesh Jinde <nilesh@weboniselab.com>
+Date:   Thu Dec 15 11:08:53 2011 +0530
+
+    commit before merge develope
+
+commit 3bbda8b7e9fcf1b37b942ce68ca6508ddc3d25ce
+Merge: 5396f48 8799f29
+Author: Rich Davis <rich@prometheussports.com>
+Date:   Wed Dec 14 18:16:34 2011 -0500
+
+    clean up database handling and marge
+
+commit 070af06c2bda239cd57c55da8546c91777930e0b
+Merge: ac85211 3cf5e8b
+Author: Rich Davis <rich@prometheussports.com>
+Date:   Wed Dec 14 18:16:34 2011 -0500
+
+    clean up database handling and marge
+
+commit 5396f48efe1012a5c695102afd09d8f9049f5a83
+Author: Rich Davis <rich@prometheussports.com>
+Date:   Wed Dec 14 15:29:58 2011 -0500
+
+    change timeout durations
+
+commit ac8521161315c5e3453d49670e48b6db41614abd
+Author: Rich Davis <rich@prometheussports.com>
+Date:   Wed Dec 14 15:29:58 2011 -0500
+
+    change timeout durations
+
+commit 329591b70d9e699a68ecbe83c8e20729f296748a
+Author: Rich Davis <rich@prometheussports.com>
+Date:   Wed Dec 14 11:32:21 2011 -0500
+
+    update supported checkbox immediately
+
+commit 6d1e168535f06416b6ede9dd0aa29d346a4c25c1
+Author: Rich Davis <rich@prometheussports.com>
+Date:   Wed Dec 14 11:32:21 2011 -0500
+
+    update supported checkbox immediately
+
+commit 8799f29ec9a7de475116afef21b7b34c8da6333c
+Author: Nilesh Jinde <nilesh@weboniselab.com>
+Date:   Wed Dec 14 16:21:17 2011 +0530
+
+    unstable code
+
+commit 3cf5e8bfce5c31accbc208525ff3988c5a6dacad
+Author: Nilesh Jinde <nilesh@weboniselab.com>
+Date:   Wed Dec 14 16:21:17 2011 +0530
+
+    unstable code
+
+commit aca07b10f4a5d51f6a5be38ecc3f73763056dd26
+Merge: 99e3230 eba0bf9
+Author: Nilesh Jinde <nilesh@weboniselab.com>
+Date:   Wed Dec 14 10:59:49 2011 +0530
+
+    merged develope into bugfix
+
+commit afd0d2a542d83c70671f7300f45eb39c3db382f5
+Merge: beaecc0 4355ad0
+Author: Nilesh Jinde <nilesh@weboniselab.com>
+Date:   Wed Dec 14 10:59:49 2011 +0530
+
+    merged develope into bugfix
+
+commit eba0bf9d84e884286f05636c5f21cb7003734da2
+Author: Rich Davis <rich@prometheussports.com>
+Date:   Tue Dec 13 15:05:03 2011 -0500
+
+    tabs to spaces and tab refresh
+
+commit 4355ad046182aa40f2e8e78a886379f941b0ecfa
+Author: Rich Davis <rich@prometheussports.com>
+Date:   Tue Dec 13 15:05:03 2011 -0500
+
+    tabs to spaces and tab refresh
+
+commit 99e3230957484833c4885ff95beff12dc3b4cf0f
+Author: Nilesh Jinde <nilesh@weboniselab.com>
+Date:   Tue Dec 13 19:15:35 2011 +0530
+
+    resolved bugs and create business_list_item xml layout file for business list item and removed BusinessListLayout.java
+
+commit beaecc0d9674a870b0e9218a9de89c8d7f780c5e
+Author: Nilesh Jinde <nilesh@weboniselab.com>
+Date:   Tue Dec 13 19:15:35 2011 +0530
+
+    resolved bugs and create business_list_item xml layout file for business list item and removed BusinessListLayout.java
+
+commit 8993e01e84585201b3911d232321e1129defc969
+Author: Nilesh Jinde <nilesh@weboniselab.com>
+Date:   Mon Dec 12 20:29:32 2011 +0530
+
+    resolved ui issues and added menu items on menu button click
+
+commit 007df67aaded52afdc0f9ae645418ace45cfb09e
+Author: Nilesh Jinde <nilesh@weboniselab.com>
+Date:   Mon Dec 12 20:29:32 2011 +0530
+
+    resolved ui issues and added menu items on menu button click
+
+commit efd1bba2317921476b21922ec038aeea7c03e76c
+Author: Nilesh Jinde <nilesh@weboniselab.com>
+Date:   Mon Dec 12 13:33:59 2011 +0530
+
+    fixed some design issues and commiting before creating branch bugfix
+
+commit 283db5d466e68a8bfbb1df64a9befa518f6bb066
+Author: Nilesh Jinde <nilesh@weboniselab.com>
+Date:   Mon Dec 12 13:33:59 2011 +0530
+
+    fixed some design issues and commiting before creating branch bugfix
+
+commit cf6d113750048caafc59d46b3dca75ab3b169f86
+Author: Rich Davis <rich@prometheussports.com>
+Date:   Sun Dec 11 14:25:48 2011 -0500
+
+    try to fix app crash on locations
+
+commit 8d13ad3055a702dac07d068a5081ac3c05a641a9
+Author: Rich Davis <rich@prometheussports.com>
+Date:   Sun Dec 11 14:25:48 2011 -0500
+
+    try to fix app crash on locations
+
+commit eff402dd842f8cb4cb9041d1c9f31f0f54ee3759
+Merge: 14240ad 898954f
+Author: Rich Davis <rich@prometheussports.com>
+Date:   Fri Dec 9 13:40:55 2011 -0500
+
+    Merge branch 'develope' of able.unfuddle.com:able/checkinandroid into develope
+
+commit 34e6cdbd2692a8360e31370fe9c10437b7ba5ee8
+Merge: 8a20f1d c3696a0
+Author: Rich Davis <rich@prometheussports.com>
+Date:   Fri Dec 9 13:40:55 2011 -0500
+
+    Merge branch 'develope' of able.unfuddle.com:able/checkinandroid into develope
+
+commit 898954f33b693e2f4b460afc15d49e3228c4601e
+Author: Nilesh Jinde <nilesh@weboniselab.com>
+Date:   Fri Dec 9 19:58:50 2011 +0530
+
+    fixed few layout issues and displaying business list from database when no location change
+
+commit c3696a0b279aee47d29d481cf69e0b511ad373be
+Author: Nilesh Jinde <nilesh@weboniselab.com>
+Date:   Fri Dec 9 19:58:50 2011 +0530
+
+    fixed few layout issues and displaying business list from database when no location change
+
+commit 14240adc52181c3bd04c69ca90961b5247140857
+Merge: 206a6eb 4d90df0
+Author: Rich Davis <rich@prometheussports.com>
+Date:   Thu Dec 8 08:10:15 2011 -0500
+
+    Merge branch 'develope' of able.unfuddle.com:able/checkinandroid into develope
+
+commit 8a20f1d1ea0f7cc16df17d10306bf90cce4ff45b
+Merge: f27ffec 3e0af09
+Author: Rich Davis <rich@prometheussports.com>
+Date:   Thu Dec 8 08:10:15 2011 -0500
+
+    Merge branch 'develope' of able.unfuddle.com:able/checkinandroid into develope
+
+commit 206a6eb63bf91ee9b681b6a3f949496e0733ad64
+Author: Rich Davis <rich@prometheussports.com>
+Date:   Thu Dec 8 08:10:01 2011 -0500
+
+    remove double fragment add
+
+commit f27ffec3abad33942d9f8f0653a6d0c099e89593
+Author: Rich Davis <rich@prometheussports.com>
+Date:   Thu Dec 8 08:10:01 2011 -0500
+
+    remove double fragment add
+
+commit 4d90df02d115c9039b43a9bdbc73622007264a4a
+Author: Nilesh Jinde <nilesh@weboniselab.com>
+Date:   Thu Dec 8 12:28:59 2011 +0530
+
+    font size and style changed
+
+commit 3e0af09ab0664d9902768e5eef58175d847e25bd
+Author: Nilesh Jinde <nilesh@weboniselab.com>
+Date:   Thu Dec 8 12:28:59 2011 +0530
+
+    font size and style changed
+
+commit de050ae6a14433ee0fe1da1a4975c5bfb42003c8
+Author: Nilesh Jinde <nilesh@weboniselab.com>
+Date:   Wed Dec 7 17:58:52 2011 +0530
+
+    size of checkbox increases on causes list
+
+commit ac9ff2fc8a7b1f836f27a67914cedfe2738749ea
+Author: Nilesh Jinde <nilesh@weboniselab.com>
+Date:   Wed Dec 7 17:58:52 2011 +0530
+
+    size of checkbox increases on causes list
+
+commit 4ee456ae3873cf2767685f0064ac30424e8a5cbb
+Author: Nilesh Jinde <nilesh@weboniselab.com>
+Date:   Tue Dec 6 18:50:31 2011 +0530
+
+    added new twitter code and libs, removed unused imports , fixed few bugs
+
+commit 98f0d7b3dfe34d52aafd57290f6bf0f2e5943d65
+Author: Nilesh Jinde <nilesh@weboniselab.com>
+Date:   Tue Dec 6 18:50:31 2011 +0530
+
+    added new twitter code and libs, removed unused imports , fixed few bugs
+
+commit c04cbe841ff773f9ab80a124ff4fbbad6a75717e
+Author: Nilesh Jinde <nilesh@weboniselab.com>
+Date:   Tue Dec 6 16:40:32 2011 +0530
+
+    Bugs pointed by QA and Design issues resolves
+
+commit e6a264484f62a9b54908e4741a31d166e1e27102
+Author: Nilesh Jinde <nilesh@weboniselab.com>
+Date:   Tue Dec 6 16:40:32 2011 +0530
+
+    Bugs pointed by QA and Design issues resolves
+
+commit b2252516aa4c2870578dafc885ab9b7bc4f9fbaa
+Author: Nilesh Jinde <nilesh@weboniselab.com>
+Date:   Mon Dec 5 18:24:43 2011 +0530
+
+    Removed organizationListFragment ,Resolved parcel exception issue and modified addFragToBackStack function to only adding fragment to backstack
+
+commit 93ea431214db46354bc3625e18e7216ecab459f9
+Author: Nilesh Jinde <nilesh@weboniselab.com>
+Date:   Mon Dec 5 18:24:43 2011 +0530
+
+    Removed organizationListFragment ,Resolved parcel exception issue and modified addFragToBackStack function to only adding fragment to backstack
+
+commit cc3390383b363df2715ea441d5a3647414e1e637
+Merge: 3dcd13b d9c13a5
+Author: Nilesh Jinde <nilesh@weboniselab.com>
+Date:   Mon Dec 5 10:40:07 2011 +0530
+
+    merged develope into feature/businesses
+
+commit 21dc9ce58843e091e9dea19047ce2eb3c9e0de86
+Merge: 51eeeef 771acc8
+Author: Nilesh Jinde <nilesh@weboniselab.com>
+Date:   Mon Dec 5 10:40:07 2011 +0530
+
+    merged develope into feature/businesses
+
+commit d9c13a5710471655c09d0654145e88ded6ff01d4
+Author: Rich Davis <rich@prometheussports.com>
+Date:   Fri Dec 2 16:42:34 2011 -0500
+
+    try to fix things on merge, so they compile
+
+commit 771acc8ab97b8acc83931eaad72f7dee02f647db
+Author: Rich Davis <rich@prometheussports.com>
+Date:   Fri Dec 2 16:42:34 2011 -0500
+
+    try to fix things on merge, so they compile
+
+commit 4983e52e3aa187c6d4862da48b78ce45e470f649
+Merge: 05d6ec2 6a27b0f
+Author: Rich Davis <rich@prometheussports.com>
+Date:   Fri Dec 2 16:38:02 2011 -0500
+
+    attempt to merge
+
+commit 1d19e4110585b7ee89c8b18f5b138a7be6863f9c
+Merge: 03be2a1 b7ba212
+Author: Rich Davis <rich@prometheussports.com>
+Date:   Fri Dec 2 16:38:02 2011 -0500
+
+    attempt to merge
+
+commit 05d6ec244ff04f425eded41fd7eac012a39fde95
+Author: Rich Davis <rich@prometheussports.com>
+Date:   Fri Dec 2 16:32:08 2011 -0500
+
+    Sync MyCauses on login.  Start fixing account creation
+
+commit 03be2a152cfaf42037fcb406d1a6add2993b305a
+Author: Rich Davis <rich@prometheussports.com>
+Date:   Fri Dec 2 16:32:08 2011 -0500
+
+    Sync MyCauses on login.  Start fixing account creation
+
+commit 3dcd13bd50abd5b29d6815da264d323c507dda95
+Author: Nilesh Jinde <nilesh@weboniselab.com>
+Date:   Fri Dec 2 20:14:54 2011 +0530
+
+    code for adding checkboxes to causes list added
+
+commit 51eeeeffa1343d800c36103c0a795ab4ef61de0a
+Author: Nilesh Jinde <nilesh@weboniselab.com>
+Date:   Fri Dec 2 20:14:54 2011 +0530
+
+    code for adding checkboxes to causes list added
+
+commit 6a27b0f7827b94e1e16c889b9bb5ddd25f211a5b
+Merge: 4bbbce1 829499c
+Author: Nilesh Jinde <nilesh@weboniselab.com>
+Date:   Fri Dec 2 11:36:46 2011 +0530
+
+    merged develope inti feature/businesses
+
+commit b7ba21299457a955d70842ab306b0821dfaa8c01
+Merge: cb60f04 8122884
+Author: Nilesh Jinde <nilesh@weboniselab.com>
+Date:   Fri Dec 2 11:36:46 2011 +0530
+
+    merged develope inti feature/businesses
+
+commit 829499cea7fe3737a0981c7b8266db361f259183
+Author: Rich Davis <rich@prometheussports.com>
+Date:   Thu Dec 1 18:04:38 2011 -0500
+
+    make searched businesslist ok for checkin
+
+commit 81228840f3d89e17cb010d5bcefe3dd0999d4fd5
+Author: Rich Davis <rich@prometheussports.com>
+Date:   Thu Dec 1 18:04:38 2011 -0500
+
+    make searched businesslist ok for checkin
+
+commit 22fa14b713beef55766822e5c0f0670eb447955c
+Author: Rich Davis <rich@prometheussports.com>
+Date:   Thu Dec 1 17:30:48 2011 -0500
+
+    Standardize code formatting
+
+commit 20d643f341d39e68c7b52760b44f88467ec1ea56
+Author: Rich Davis <rich@prometheussports.com>
+Date:   Thu Dec 1 17:30:48 2011 -0500
+
+    Standardize code formatting
+
+commit 1b433a3c9a1af732eacfdc9181d35a0609a9bd6a
+Author: Rich Davis <rich@prometheussports.com>
+Date:   Thu Dec 1 16:30:34 2011 -0500
+
+    Fix distance display bug
+
+commit d234d59ae4d71df98a9b62663d1dbcca97596140
+Author: Rich Davis <rich@prometheussports.com>
+Date:   Thu Dec 1 16:30:34 2011 -0500
+
+    Fix distance display bug
+
+commit b24cea062708fc763f002eab22c63b43ff62bc82
+Author: Rich Davis <rich@prometheussports.com>
+Date:   Thu Dec 1 15:40:15 2011 -0500
+
+    Centralize fragment creation, detachment, and backstack logic.  Seems to work.
+
+commit b9264c8e6cda0751d16a30061da0a05539db4735
+Author: Rich Davis <rich@prometheussports.com>
+Date:   Thu Dec 1 15:40:15 2011 -0500
+
+    Centralize fragment creation, detachment, and backstack logic.  Seems to work.
+
+commit 4bbbce1afd086002c473b3b522bb872920265d83
+Author: Nilesh Jinde <nilesh@weboniselab.com>
+Date:   Thu Dec 1 20:35:19 2011 +0530
+
+    code for userpreferences active count added
+
+commit cb60f04f37cfa08e8f3449dabe0b35fc0e627996
+Author: Nilesh Jinde <nilesh@weboniselab.com>
+Date:   Thu Dec 1 20:35:19 2011 +0530
+
+    code for userpreferences active count added
+
+commit 57225c81eb0ecae04d079b9353688467a2f7398d
+Author: Rich Davis <rich@prometheussports.com>
+Date:   Thu Dec 1 08:38:20 2011 -0500
+
+    Fix broken adapters
+
+commit 3f2d8a7944305e4d8c45f445e3eedfcd8d038c06
+Author: Rich Davis <rich@prometheussports.com>
+Date:   Thu Dec 1 08:38:20 2011 -0500
+
+    Fix broken adapters
+
+commit 9ca54a8e7bbf985d9936e22955063db8c4bb8d01
+Author: Rich Davis <rich@prometheussports.com>
+Date:   Thu Dec 1 08:34:53 2011 -0500
+
+    merge
+
+commit b427a61898f287da4900b98b760588f12567dd48
+Author: Rich Davis <rich@prometheussports.com>
+Date:   Thu Dec 1 08:34:53 2011 -0500
+
+    merge
+
+commit dde7d3fe9da1a8e9b47a80bc4d0a33272af4522f
+Merge: 3cd095a 39ebeac
+Author: Rich Davis <rich@prometheussports.com>
+Date:   Thu Dec 1 08:34:41 2011 -0500
+
+    Merge branch 'develope' of able.unfuddle.com:able/checkinandroid into develope
+
+commit 1a7af1b206f741339f41b4191160fd94594fcf7b
+Merge: f5df875 e1a8c87
+Author: Rich Davis <rich@prometheussports.com>
+Date:   Thu Dec 1 08:34:41 2011 -0500
+
+    Merge branch 'develope' of able.unfuddle.com:able/checkinandroid into develope
+
+commit 3cd095a4d56d4839488c108e3ad8e8c4da9925e9
+Author: Rich Davis <rich@prometheussports.com>
+Date:   Thu Dec 1 08:31:25 2011 -0500
+
+    Open db in constructor if not opened
+
+commit f5df8757f38f7f9387c7e9f100ea372e4aa8e12c
+Author: Rich Davis <rich@prometheussports.com>
+Date:   Thu Dec 1 08:31:25 2011 -0500
+
+    Open db in constructor if not opened
+
+commit 39ebeace2f6b733564238cff12ec02560ff8a448
+Merge: 74692d2 d29688c
+Author: Nilesh Jinde <nilesh@weboniselab.com>
+Date:   Thu Dec 1 11:23:08 2011 +0530
+
+    merged develope into feature/businesses and removed conflicts
+
+commit e1a8c87836d4c451a430a59d964e10f79eb4bb93
+Merge: 64fc766 47bead6
+Author: Nilesh Jinde <nilesh@weboniselab.com>
+Date:   Thu Dec 1 11:23:08 2011 +0530
+
+    merged develope into feature/businesses and removed conflicts
+
+commit d29688ca7685d410ad6fa93cbc6dcc2a19a8595c
+Author: Rich Davis <rich@prometheussports.com>
+Date:   Wed Nov 30 21:10:52 2011 -0500
+
+    More search mods and db fixes
+
+commit 47bead6cc3e746ca41776e4c61d41fe2a288d90f
+Author: Rich Davis <rich@prometheussports.com>
+Date:   Wed Nov 30 21:10:52 2011 -0500
+
+    More search mods and db fixes
+
+commit 950ca36d4fc6cd44bde8d1c7667dad3355410c5e
+Author: Rich Davis <rich@prometheussports.com>
+Date:   Wed Nov 30 13:17:08 2011 -0500
+
+    fix db open/close madness with static db object
+
+commit 5391e4c03b6caebccb5c3c8532dd607d9ddebbf9
+Author: Rich Davis <rich@prometheussports.com>
+Date:   Wed Nov 30 13:17:08 2011 -0500
+
+    fix db open/close madness with static db object
+
+commit 4a6e5f1ed50da5117aa436d95e40d0e54ef345d9
+Merge: 4a476d3 dcec638
+Author: Rich Davis <rich@prometheussports.com>
+Date:   Wed Nov 30 09:57:58 2011 -0500
+
+    Remove unused imports
+
+commit 4da7ce88283c0f7030a2c46d001562775a9c9713
+Merge: 98feb33 55066d8
+Author: Rich Davis <rich@prometheussports.com>
+Date:   Wed Nov 30 09:57:58 2011 -0500
+
+    Remove unused imports
+
+commit 4a476d3a06d8d774bd1d66aca5d5d3b87cd8ce85
+Author: Rich Davis <rich@prometheussports.com>
+Date:   Wed Nov 30 09:22:09 2011 -0500
+
+    Commit before merge
+
+commit 98feb33a8575a59b306e40f36ea7776e29cf1f43
+Author: Rich Davis <rich@prometheussports.com>
+Date:   Wed Nov 30 09:22:09 2011 -0500
+
+    Commit before merge
+
+commit 74692d21144ee8d4700b5c11772bc455ffe774ea
+Author: Nilesh Jinde <nilesh@weboniselab.com>
+Date:   Wed Nov 30 19:18:23 2011 +0530
+
+    changed intent.action.search into seperate intent-filter and created local database table for maintaining todays checkin count
+
+commit 64fc7667d1a29fd3e702566151abcafc2631de72
+Author: Nilesh Jinde <nilesh@weboniselab.com>
+Date:   Wed Nov 30 19:18:23 2011 +0530
+
+    changed intent.action.search into seperate intent-filter and created local database table for maintaining todays checkin count
+
+commit dcec63828b5d0c1f7321d14a9b42a02ad26e7103
+Merge: b405022 c12b795
+Author: Nilesh Jinde <nilesh@weboniselab.com>
+Date:   Wed Nov 30 11:03:17 2011 +0530
+
+    merged develope into feature/businesses
+
+commit 55066d85826fc54541ec2df7ef6b37fa1950c96a
+Merge: cf9a5ab 8f09c50
+Author: Nilesh Jinde <nilesh@weboniselab.com>
+Date:   Wed Nov 30 11:03:17 2011 +0530
+
+    merged develope into feature/businesses
+
+commit c12b7950594a2eabfefa737a4e6d282fcceae9d2
+Author: Rich Davis <rich@prometheussports.com>
+Date:   Tue Nov 29 17:46:35 2011 -0500
+
+    Search skeleton
+
+commit 8f09c504c52cd840bc798ae7ef8acbdb2164560e
+Author: Rich Davis <rich@prometheussports.com>
+Date:   Tue Nov 29 17:46:35 2011 -0500
+
+    Search skeleton
+
+commit b40502296248f4b2515bb9c056c0bd59b9c0eff6
+Author: Nilesh Jinde <nilesh@weboniselab.com>
+Date:   Tue Nov 29 20:15:29 2011 +0530
+
+    code for causes main page and thank you page added
+
+commit cf9a5ab175b4e670c591a29cde3e4b3a7d6b853f
+Author: Nilesh Jinde <nilesh@weboniselab.com>
+Date:   Tue Nov 29 20:15:29 2011 +0530
+
+    code for causes main page and thank you page added
+
+commit 804a1e9b6ec8aa76e6df677a01f4206b50921bf8
+Author: Nilesh Jinde <nilesh@weboniselab.com>
+Date:   Mon Nov 28 19:16:50 2011 +0530
+
+    fragment backstack issue resolved
+
+commit 3bf649d3fe79cff7afff37ce03d37c50a364e738
+Author: Nilesh Jinde <nilesh@weboniselab.com>
+Date:   Mon Nov 28 19:16:50 2011 +0530
+
+    fragment backstack issue resolved
+
+commit 2c5e3f2036054a7ceed458280ee55c565af6dc04
+Author: Nilesh Jinde <nilesh@weboniselab.com>
+Date:   Fri Nov 25 20:12:08 2011 +0530
+
+    Added code for do_checkin api
+
+commit ba51a235ca5ddc342ea3eb017f91d670edef6cc4
+Author: Nilesh Jinde <nilesh@weboniselab.com>
+Date:   Fri Nov 25 20:12:08 2011 +0530
+
+    Added code for do_checkin api
+
+commit 0cb3ae228383180d95c9ae18b5ff7d4aede07ac1
+Merge: 044b7b0 b5f9273
+Author: Nilesh Jinde <nilesh@weboniselab.com>
+Date:   Thu Nov 24 12:14:33 2011 +0530
+
+    resolved conflicts while merging develope
+
+commit 56f21042ac54f976f4db4a045f179156e714db05
+Merge: 4bdf741 9ed15d1
+Author: Nilesh Jinde <nilesh@weboniselab.com>
+Date:   Thu Nov 24 12:14:33 2011 +0530
+
+    resolved conflicts while merging develope
+
+commit b5f92739df1b888cbe948f672aa5c0127d1d293b
+Author: Rich Davis <rich@prometheussports.com>
+Date:   Wed Nov 23 18:00:50 2011 -0500
+
+    improve cache handling between app instances
+
+commit 9ed15d12b724df423129351e0d0ecef6d7175f43
+Author: Rich Davis <rich@prometheussports.com>
+Date:   Wed Nov 23 18:00:50 2011 -0500
+
+    improve cache handling between app instances
+
+commit 044b7b0ab61098be381b6a212103d776ef44b649
+Author: Nilesh Jinde <nilesh@weboniselab.com>
+Date:   Wed Nov 23 20:25:46 2011 +0530
+
+    removed getAllResult function from BusinessDBAdapter and modified code to call fetchAll, to get list of businesses
+
+commit 4bdf74145be2f95fced3c664204df8018bc0edcf
+Author: Nilesh Jinde <nilesh@weboniselab.com>
+Date:   Wed Nov 23 20:25:46 2011 +0530
+
+    removed getAllResult function from BusinessDBAdapter and modified code to call fetchAll, to get list of businesses
+
+commit 08b023adfe6b82f314472918c018090a110a5d68
+Author: Nilesh Jinde <nilesh@weboniselab.com>
+Date:   Wed Nov 23 19:22:39 2011 +0530
+
+    code for checkin page added and done some database changes
+
+commit 235ba865af6cccabfe54867fa152fc7b0c11b546
+Author: Nilesh Jinde <nilesh@weboniselab.com>
+Date:   Wed Nov 23 19:22:39 2011 +0530
+
+    code for checkin page added and done some database changes
+
+commit 525c0bc9d4a002c20e1d531c4915109689b6bdc9
+Author: Nilesh Jinde <nilesh@weboniselab.com>
+Date:   Wed Nov 23 11:02:24 2011 +0530
+
+    files moved into packages
+
+commit c9f3a2c4c93f8c00ade6b99a19734f02da8a4221
+Author: Nilesh Jinde <nilesh@weboniselab.com>
+Date:   Wed Nov 23 11:02:24 2011 +0530
+
+    files moved into packages
+
+commit 86cf1e74885d526119c0198fe5d3d67e9a1337b0
+Author: Nilesh Jinde <nilesh@weboniselab.com>
+Date:   Wed Nov 23 11:01:52 2011 +0530
+
+    files moved into packages
+
+commit 807aefc091d0829376968a8258acdb9ae6816a78
+Author: Nilesh Jinde <nilesh@weboniselab.com>
+Date:   Wed Nov 23 11:01:52 2011 +0530
+
+    files moved into packages
+
+commit 650b599b53c30175c5082ee936f9ddf899f17ae6
+Merge: 6bea171 f8acb4d
+Author: Nilesh Jinde <nilesh@weboniselab.com>
+Date:   Wed Nov 23 10:39:52 2011 +0530
+
+    resolved conflict while merging develope
+
+commit df3470673b6c7ca258569b7e2776db388865dbce
+Merge: 2747012 ee7e644
+Author: Nilesh Jinde <nilesh@weboniselab.com>
+Date:   Wed Nov 23 10:39:52 2011 +0530
+
+    resolved conflict while merging develope
+
+commit f8acb4d3a5be64e52bde5e5e389ced72413155e3
+Author: Rich Davis <rich@prometheussports.com>
+Date:   Tue Nov 22 22:33:12 2011 -0500
+
+    checkin before moving files among packages
+
+commit ee7e644547406911c54c1cc8818906611b9e44f1
+Author: Rich Davis <rich@prometheussports.com>
+Date:   Tue Nov 22 22:33:12 2011 -0500
+
+    checkin before moving files among packages
+
+commit 6bea1718804f11975b1173785c69a08a61c40b4c
+Author: Nilesh Jinde <nilesh@weboniselab.com>
+Date:   Tue Nov 22 19:21:50 2011 +0530
+
+    code for showing common causes added
+
+commit 2747012cac708515fb0aa51f2eccb4c25c2be4f4
+Author: Nilesh Jinde <nilesh@weboniselab.com>
+Date:   Tue Nov 22 19:21:50 2011 +0530
+
+    code for showing common causes added
+
+commit b146f597877af328f3e56676f78decf7f5cab359
+Merge: faf5840 f59ad58
+Author: Nilesh Jinde <nilesh@weboniselab.com>
+Date:   Tue Nov 22 10:59:21 2011 +0530
+
+    Merge branch 'develope' into feature/businesses
+
+commit 1c7a7554516182e1acd2792346e919d6d45acf87
+Merge: 953e999 0fc9d5b
+Author: Nilesh Jinde <nilesh@weboniselab.com>
+Date:   Tue Nov 22 10:59:21 2011 +0530
+
+    Merge branch 'develope' into feature/businesses
+
+commit faf5840b7bda75333c5695d1347fd6df41576556
+Author: Nilesh Jinde <nilesh@weboniselab.com>
+Date:   Tue Nov 22 10:57:37 2011 +0530
+
+    added layouts and code for business second screen
+
+commit 953e999788f8164d553fcec059ea80e44fc3fb16
+Author: Nilesh Jinde <nilesh@weboniselab.com>
+Date:   Tue Nov 22 10:57:37 2011 +0530
+
+    added layouts and code for business second screen
+
+commit f59ad5811143522e49977c01907f60f16523c110
+Author: Rich Davis <rich@prometheussports.com>
+Date:   Mon Nov 21 19:36:10 2011 -0500
+
+    First pass serialization for businesses
+
+commit 0fc9d5b188d87119cef045080b879b00aa836908
+Author: Rich Davis <rich@prometheussports.com>
+Date:   Mon Nov 21 19:36:10 2011 -0500
+
+    First pass serialization for businesses
+
+commit 250e8422f5e1919d64de7c3247f05dfedbbe89b1
+Merge: cb339e5 4407001
+Author: Nilesh Jinde <nilesh@weboniselab.com>
+Date:   Mon Nov 21 12:20:52 2011 +0530
+
+    removed conflicts and solved error from updateSupport function,added extra parameter context to setSupported function
+
+commit fd73f9d4bd7cbf16556815ea05d70504225c5403
+Merge: b7d02d2 cc1f44a
+Author: Nilesh Jinde <nilesh@weboniselab.com>
+Date:   Mon Nov 21 12:20:52 2011 +0530
+
+    removed conflicts and solved error from updateSupport function,added extra parameter context to setSupported function
+
+commit 4407001057e7d3df298e4c6fa7c5454295d33149
+Author: Rich Davis <rich@prometheussports.com>
+Date:   Fri Nov 18 18:20:43 2011 -0500
+
+    First pass cache
+
+commit cc1f44a72dd37b36bc71f10041670f973f85cfaf
+Author: Rich Davis <rich@prometheussports.com>
+Date:   Fri Nov 18 18:20:43 2011 -0500
+
+    First pass cache
+
+commit d28f2cc97d7b4b0dbbd697844edb71ff0d7884bb
+Author: Rich Davis <rich@prometheussports.com>
+Date:   Fri Nov 18 18:13:04 2011 -0500
+
+    First pass at db cache for organizations.
+
+commit ce6134b2bb0704f140825a4b021fb2bd451e4aa8
+Author: Rich Davis <rich@prometheussports.com>
+Date:   Fri Nov 18 18:13:04 2011 -0500
+
+    First pass at db cache for organizations.
+
+commit cb339e588cfabc2817c9685d7b1c3f36964d412e
+Author: Nilesh Jinde <nilesh@weboniselab.com>
+Date:   Fri Nov 18 19:18:50 2011 +0530
+
+    resolved bugs
+
+commit b7d02d28c05050e84a54f0280d7fcca8cdff948a
+Author: Nilesh Jinde <nilesh@weboniselab.com>
+Date:   Fri Nov 18 19:18:50 2011 +0530
+
+    resolved bugs
+
+commit 1c8c9886868b196862a162dc8035087a2d63ac42
+Author: Nilesh Jinde <nilesh@weboniselab.com>
+Date:   Thu Nov 17 19:25:36 2011 +0530
+
+    code for back stack and other bugs fixed
+
+commit dee51aef7b9f5159cd726b60077ed064295a99f4
+Author: Nilesh Jinde <nilesh@weboniselab.com>
+Date:   Thu Nov 17 19:25:36 2011 +0530
+
+    code for back stack and other bugs fixed
+
+commit b5a76caade921bb094ac5c2b5fc2571150f47781
+Author: Rich Davis <rich@prometheussports.com>
+Date:   Wed Nov 16 18:08:46 2011 -0500
+
+    More fixes for bad emulator GPS timestamps.  Refactored BusinessListLayout.java, added address to Java object and Ruby API for get_businesses()
+
+commit 9855ba84a6ec00ede5a3e07b33755dc0586c717a
+Author: Rich Davis <rich@prometheussports.com>
+Date:   Wed Nov 16 18:08:46 2011 -0500
+
+    More fixes for bad emulator GPS timestamps.  Refactored BusinessListLayout.java, added address to Java object and Ruby API for get_businesses()
+
+commit 491959a197b71482d64dd4b3e12398204a75ba8c
+Author: Rich Davis <rich@prometheussports.com>
+Date:   Wed Nov 16 08:48:19 2011 -0500
+
+    fix imports
+
+commit 520ec1cb9f964d8826a48ef1b998d7c400573d90
+Author: Rich Davis <rich@prometheussports.com>
+Date:   Wed Nov 16 08:48:19 2011 -0500
+
+    fix imports
+
+commit bf40c45ab085a75eef4930a4bd82758dc7431de5
+Merge: b37459b 93aa9bc
+Author: Rich Davis <rich@prometheussports.com>
+Date:   Wed Nov 16 08:37:48 2011 -0500
+
+    merge
+
+commit ac79f469bb7e4a26c4f4d675f38a7267e6a7c750
+Merge: a454066 5c75afa
+Author: Rich Davis <rich@prometheussports.com>
+Date:   Wed Nov 16 08:37:48 2011 -0500
+
+    merge
+
+commit b37459bf05548805f630b1229aa458490249af17
+Author: Rich Davis <rich@prometheussports.com>
+Date:   Wed Nov 16 08:36:23 2011 -0500
+
+    commit before merge
+
+commit a45406601f227d1ebdbfcedc0061a973413ab547
+Author: Rich Davis <rich@prometheussports.com>
+Date:   Wed Nov 16 08:36:23 2011 -0500
+
+    commit before merge
+
+commit 93aa9bc3d154dc9cfaf0115d8916e950e7a431f3
+Merge: 45c246f 1f6ac93
+Author: Nilesh Jinde <nilesh@weboniselab.com>
+Date:   Wed Nov 16 19:04:08 2011 +0530
+
+    Merge branch 'develope' of able.unfuddle.com:able/checkinandroid into develope
+
+commit 5c75afa087777f3bbace1657a9d0701261eba2d2
+Merge: 987873e 1f89f2a
+Author: Nilesh Jinde <nilesh@weboniselab.com>
+Date:   Wed Nov 16 19:04:08 2011 +0530
+
+    Merge branch 'develope' of able.unfuddle.com:able/checkinandroid into develope
+
+commit 1f6ac935e336906f0253dd4c51e3b36cfff639af
+Merge: 34b0beb 896077c
+Author: Rich Davis <thurisaz@gmail.com>
+Date:   Wed Nov 16 08:01:21 2011 -0500
+
+    merge
+
+commit 1f89f2ab465fd1b32f19f5e3e29e29b1effb7691
+Merge: 70258fb 292a18f
+Author: Rich Davis <thurisaz@gmail.com>
+Date:   Wed Nov 16 08:01:21 2011 -0500
+
+    merge
+
+commit 34b0bebc6245214b65cdfeab3ba8f709ca211a8d
+Author: Rich Davis <thurisaz@gmail.com>
+Date:   Wed Nov 16 07:49:48 2011 -0500
+
+    Mods for gps timestamp with emulator.  Causes supporting
+
+commit 70258fbec3d57f25938aa0a23b678f0ac6615978
+Author: Rich Davis <thurisaz@gmail.com>
+Date:   Wed Nov 16 07:49:48 2011 -0500
+
+    Mods for gps timestamp with emulator.  Causes supporting
+
+commit 45c246fdd9af08ada288119cd835d9c227f3e052
+Author: Nilesh Jinde <nilesh@weboniselab.com>
+Date:   Wed Nov 16 16:41:33 2011 +0530
+
+    code for forgot password added, updated layout for business list and process dialog added
+
+commit 987873e521d037909b855f1b2f855bf7dec7f9da
+Author: Nilesh Jinde <nilesh@weboniselab.com>
+Date:   Wed Nov 16 16:41:33 2011 +0530
+
+    code for forgot password added, updated layout for business list and process dialog added
+
+commit df619d7da84cfc4b435142b79aaf5a24b4ac41f9
+Author: Nilesh Jinde <nilesh@weboniselab.com>
+Date:   Tue Nov 15 20:36:25 2011 +0530
+
+    twitter code and libs added
+
+commit ec06ecef9dc58f672c83303a162428cddfae3b19
+Author: Nilesh Jinde <nilesh@weboniselab.com>
+Date:   Tue Nov 15 20:36:25 2011 +0530
+
+    twitter code and libs added
+
+commit 22e9b659a637ca64e2ad7ee5a1d2a710e34ccef6
+Author: Nilesh Jinde <nilesh@weboniselab.com>
+Date:   Mon Nov 14 19:10:27 2011 +0530
+
+    images added
+
+commit d2868c612aa5a9d96af1649c31ce601da4d62aec
+Author: Nilesh Jinde <nilesh@weboniselab.com>
+Date:   Mon Nov 14 19:10:27 2011 +0530
+
+    images added
+
+commit de59e75742d0fa2870fd77e9defc4bbcd9b31f9a
+Author: Nilesh Jinde <nilesh@weboniselab.com>
+Date:   Mon Nov 14 19:08:38 2011 +0530
+
+    signin and createaccount layout modified with images
+
+commit 7b5d8f02dccc61f2c4c34706dc6d802d98a4abcc
+Author: Nilesh Jinde <nilesh@weboniselab.com>
+Date:   Mon Nov 14 19:08:38 2011 +0530
+
+    signin and createaccount layout modified with images
+
+commit efdbf9898a1da0cefb06bbb6a84f1fd81023869b
+Author: Nilesh Jinde <nilesh@weboniselab.com>
+Date:   Sat Nov 12 19:42:23 2011 +0530
+
+    Included code for terms of use, contact us and privacy policy
+
+commit 3298c0b5212ddde9dc9ee4503d300f11f3927cfe
+Author: Nilesh Jinde <nilesh@weboniselab.com>
+Date:   Sat Nov 12 19:42:23 2011 +0530
+
+    Included code for terms of use, contact us and privacy policy
+
+commit 4e8127f0cde54706361d1a3d6f4546604aaea471
+Merge: 896077c aaf83ad
+Author: Nilesh Jinde <nilesh@weboniselab.com>
+Date:   Sat Nov 12 16:58:39 2011 +0530
+
+    Merge branch 'feature/settings' of able.unfuddle.com:able/checkinandroid into feature/settings
+
+commit ab30a87884c79fd2436d2abdf6a878b32bb60255
+Merge: 292a18f ed9adcc
+Author: Nilesh Jinde <nilesh@weboniselab.com>
+Date:   Sat Nov 12 16:58:39 2011 +0530
+
+    Merge branch 'feature/settings' of able.unfuddle.com:able/checkinandroid into feature/settings
+
+commit 896077ca6132235884c44f6e76e4dfce4fee31ac
+Author: Nilesh Jinde <nilesh@weboniselab.com>
+Date:   Sat Nov 12 16:48:00 2011 +0530
+
+    Images and layouts added
+
+commit 292a18f7fde9baa60bbb63cb506b9ca3a4adda1c
+Author: Nilesh Jinde <nilesh@weboniselab.com>
+Date:   Sat Nov 12 16:48:00 2011 +0530
+
+    Images and layouts added
+
+commit d631ec955a5a96014eba7c584acf91f3b01678d2
+Author: Nilesh Jinde <nilesh@weboniselab.com>
+Date:   Sat Nov 12 16:47:16 2011 +0530
+
+    In settings tab, how it works code added
+
+commit 75f34c565581dc6ec0a70d913ef3c25105a2d995
+Author: Nilesh Jinde <nilesh@weboniselab.com>
+Date:   Sat Nov 12 16:47:16 2011 +0530
+
+    In settings tab, how it works code added
+
+commit aaf83adce52e8c5a01771afc8870e3d5c2f82338
+Merge: 73edf42 b9a4e5b
+Author: bhuvankhanna <bhuvan@weboniselab.com>
+Date:   Sat Nov 12 15:41:38 2011 +0530
+
+    Merge branch 'develope' of able.unfuddle.com:able/checkinandroid into feature/settings
+
+commit ed9adcc9c5dcf757b6106328c92c852c0b6d03da
+Merge: 4dadbd5 c828cda
+Author: bhuvankhanna <bhuvan@weboniselab.com>
+Date:   Sat Nov 12 15:41:38 2011 +0530
+
+    Merge branch 'develope' of able.unfuddle.com:able/checkinandroid into feature/settings
+
+commit 73edf42b64694c0b4cd61694909330b09f95b7fa
+Author: bhuvankhanna <bhuvan@weboniselab.com>
+Date:   Sat Nov 12 15:33:24 2011 +0530
+
+    creating feature branch for settings tab
+
+commit 4dadbd5c9f0c600bfcfc577dc6cdde42b2887d5f
+Author: bhuvankhanna <bhuvan@weboniselab.com>
+Date:   Sat Nov 12 15:33:24 2011 +0530
+
+    creating feature branch for settings tab
+
+commit b9a4e5b13b75e5d15b1410c480c083a438c3a3ed
+Author: Rich Davis <thurisaz@gmail.com>
+Date:   Thu Nov 10 15:50:53 2011 -0500
+
+    commit everything in master before merge
+
+commit c828cda8fba32109b247db45296002bc273ed130
+Author: Rich Davis <thurisaz@gmail.com>
+Date:   Thu Nov 10 15:50:53 2011 -0500
+
+    commit everything in master before merge
+
+commit 0b5a76e9e5011f16a0c81d91df479f2f69fe7a74
+Merge: 4ad6aab 41f8a17
+Author: Rich Davis <thurisaz@gmail.com>
+Date:   Thu Nov 10 15:50:04 2011 -0500
+
+    Merge branch 'develope' of able.unfuddle.com:able/checkinandroid
+
+commit 5902d9973214777e97330688d5ab30ee8a5f6a61
+Merge: b8cc4f3 32ab697
+Author: Rich Davis <thurisaz@gmail.com>
+Date:   Thu Nov 10 15:50:04 2011 -0500
+
+    Merge branch 'develope' of able.unfuddle.com:able/checkinandroid
+
+commit 4ad6aab022e33daf79afe4326863782694010343
+Author: Rich Davis <thurisaz@gmail.com>
+Date:   Thu Nov 10 07:54:47 2011 -0500
+
+    fix fragments not getting detached on tab switch when there is more than 1 fragment in a tab
+
+commit b8cc4f35e8b6840fdfc6e8f0009921d6345658ef
+Author: Rich Davis <thurisaz@gmail.com>
+Date:   Thu Nov 10 07:54:47 2011 -0500
+
+    fix fragments not getting detached on tab switch when there is more than 1 fragment in a tab
+
+commit 41f8a170bafe11cddd1ddc8de47472a1696327d3
+Author: Nilesh Jinde <nilesh@weboniselab.com>
+Date:   Thu Nov 10 18:20:57 2011 +0530
+
+    facebook android sdk added
+
+commit 32ab69782b618eb0f3214f3e909dc554169e45a7
+Author: Nilesh Jinde <nilesh@weboniselab.com>
+Date:   Thu Nov 10 18:20:57 2011 +0530
+
+    facebook android sdk added
+
+commit 4454d63673d2912fa8287dd1331fa6f1d10b9a7b
+Author: Nilesh Jinde <nilesh@weboniselab.com>
+Date:   Thu Nov 10 18:17:02 2011 +0530
+
+    code for togglebuttons on share settings added
+
+commit 7774ffe25434f078f459aa021f32d3f8ed43c0a7
+Author: Nilesh Jinde <nilesh@weboniselab.com>
+Date:   Thu Nov 10 18:17:02 2011 +0530
+
+    code for togglebuttons on share settings added
+
+commit 35cd14e27acdff17b83d04a97910150fabc53506
+Author: Nilesh Jinde <nilesh@weboniselab.com>
+Date:   Thu Nov 10 14:07:40 2011 +0530
+
+    added layouts for shareFragment
+
+commit 99c1454c1ca282855608be39f8339b1470c6e6f0
+Author: Nilesh Jinde <nilesh@weboniselab.com>
+Date:   Thu Nov 10 14:07:40 2011 +0530
+
+    added layouts for shareFragment
+
+commit c356589d5be7087433a84c70d160f27482e5243e
+Author: Nilesh Jinde <nilesh@weboniselab.com>
+Date:   Thu Nov 10 14:03:29 2011 +0530
+
+    Added settings tab contents and created new fragment for sharing settings
+
+commit b6fe8b2ccd5dfa80d754d080fd89c6da6d79e28a
+Author: Nilesh Jinde <nilesh@weboniselab.com>
+Date:   Thu Nov 10 14:03:29 2011 +0530
+
+    Added settings tab contents and created new fragment for sharing settings
+
+commit bf4d719cbbf67d332d16f948fc3158eeab7a9448
+Author: Rich Davis <thurisaz@gmail.com>
+Date:   Wed Nov 9 22:18:27 2011 -0500
+
+    fragment mgmt
+
+commit ea0508d7526161f8d5d62942481d53c85d80754c
+Author: Rich Davis <thurisaz@gmail.com>
+Date:   Wed Nov 9 22:18:27 2011 -0500
+
+    fragment mgmt
+
+commit 0e9804e754fa65a46177fdf5031fb29e0ede40f1
+Author: Rich Davis <thurisaz@gmail.com>
+Date:   Wed Nov 9 16:09:40 2011 -0500
+
+    all cause/my cause web services and list adapters
+
+commit 96981afe2235a497107c20ffbca6369e33360a7f
+Author: Rich Davis <thurisaz@gmail.com>
+Date:   Wed Nov 9 16:09:40 2011 -0500
+
+    all cause/my cause web services and list adapters
+
+commit abb35d28f9576637719530b70ac07d78d40bb32d
+Author: Rich Davis <thurisaz@gmail.com>
+Date:   Wed Nov 9 07:47:53 2011 -0500
+
+    missing file
+
+commit 6e6f9cb2ce19007d408f455875045d15a422a6b8
+Author: Rich Davis <thurisaz@gmail.com>
+Date:   Wed Nov 9 07:47:53 2011 -0500
+
+    missing file
+
+commit 625b9cc50aa9bc6555ee201ef1d4db4fdd69544b
+Author: Rich Davis <thurisaz@gmail.com>
+Date:   Wed Nov 9 07:01:59 2011 -0500
+
+    Tabs to 4 spaces
+
+commit 6fb3dae0261fd085b652f51a8add12100ed3a742
+Author: Rich Davis <thurisaz@gmail.com>
+Date:   Wed Nov 9 07:01:59 2011 -0500
+
+    Tabs to 4 spaces
+
+commit 10d01330a28118232edd2efa9eeaa3f95601a379
+Merge: 4aeaff3 865608f
+Author: bhuvankhanna <bhuvan@weboniselab.com>
+Date:   Wed Nov 9 11:54:19 2011 +0530
+
+    First commit,  classpath might break, Please use relative paths to avoid conflicts
+
+commit 46d5c9ea985e41abb19290441518899f7906548b
+Merge: 1f00f3c e643511
+Author: bhuvankhanna <bhuvan@weboniselab.com>
+Date:   Wed Nov 9 11:54:19 2011 +0530
+
+    First commit,  classpath might break, Please use relative paths to avoid conflicts
+
+commit 4aeaff3b5ecf55a41646b949cd84e07a1a0c75a4
+Author: bhuvankhanna <bhuvan@weboniselab.com>
+Date:   Wed Nov 9 11:52:02 2011 +0530
+
+    First commit,  classpath might break
+
+commit 1f00f3c776f8ffbace25ac95b7a43d6811f29ac4
+Author: bhuvankhanna <bhuvan@weboniselab.com>
+Date:   Wed Nov 9 11:52:02 2011 +0530
+
+    First commit,  classpath might break
+
+commit 865608f65988b81ea5a6355d8b3508515dfa5dfd
+Author: Rich Davis <thurisaz@gmail.com>
+Date:   Tue Nov 8 18:01:34 2011 -0500
+
+    Add observers to gpslocator for viewing location updates
+
+commit e64351173a21734f7fa3524cba044684b6629fd7
+Author: Rich Davis <thurisaz@gmail.com>
+Date:   Tue Nov 8 18:01:34 2011 -0500
+
+    Add observers to gpslocator for viewing location updates
+
+commit 27b899a6a5d8be3a63e6428c90a16b0aea95c4da
+Author: Rich Davis <thurisaz@gmail.com>
+Date:   Tue Nov 8 14:07:59 2011 -0500
+
+    Makes tabs work without action bar for Froyo
+
+commit b085128758f85ecbbcb01341ec143c8fabe03af1
+Author: Rich Davis <thurisaz@gmail.com>
+Date:   Tue Nov 8 14:07:59 2011 -0500
+
+    Makes tabs work without action bar for Froyo
+
+commit 118b480934b720de8be4c9251620ae2432ceda78
+Author: Rich Davis <thurisaz@gmail.com>
+Date:   Mon Nov 7 16:39:48 2011 -0500
+
+    Move stuff around some
+
+commit 752aecc89a6dc82532a407e7e8d5caa55b07e53f
+Author: Rich Davis <thurisaz@gmail.com>
+Date:   Mon Nov 7 16:39:48 2011 -0500
+
+    Move stuff around some
+
+commit 6687afdfc29531812bc38f08e620d7faea5ccbfb
+Author: Rich Davis <thurisaz@gmail.com>
+Date:   Fri Nov 4 23:09:56 2011 -0400
+
+    Set up fragment structure for causes subfragments.
+
+commit ea6f978f8a88fe3733506822389207489cafa9c7
+Author: Rich Davis <thurisaz@gmail.com>
+Date:   Fri Nov 4 23:09:56 2011 -0400
+
+    Set up fragment structure for causes subfragments.
+
+commit ea70e83bc8603fd19d0c469828ed25076948c6d8
+Author: Rich Davis <thurisaz@gmail.com>
+Date:   Wed Nov 2 18:57:39 2011 -0400
+
+    initial commit

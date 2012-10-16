@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	style="@style/listItem" 
+	android:id="@+id/relativeLayoutBusOrgItem">
+
+	<TextView style="@style/listText"  
+	    android:id="@+id/textViewOrgName"/>
+
+	<ImageView 
+	    android:id="@+id/imageViewArrow" 
+	 	android:layout_width="wrap_content"
+		android:layout_height="wrap_content" 
+		android:layout_alignParentRight="true"
+		android:layout_marginRight="10dp" 
+		android:gravity="center_vertical"
+		android:src="@drawable/nextarrow"
+		android:contentDescription="@string/desc_check" />
+</RelativeLayout>

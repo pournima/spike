@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/mainbg"
+    android:orientation="vertical"
+    android:weightSum="2.0" >
+
+    <TextView
+        android:id="@+id/textViewTopRaisedMoney"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/red_dark"
+        android:gravity="center_horizontal|center_vertical"
+        android:paddingBottom="2dp"
+        android:paddingTop="4dp"
+        android:text="@string/raised"
+        android:textColor="@color/white"
+        android:textSize="6.5pt"
+        android:visibility="gone" />
+   
+    <ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/scrollbarVideo"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1.9"
+        android:visibility="gone"
+         >
+
+        <LinearLayout
+            android:id="@+id/linearCheckin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingBottom="15dp" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/headsup_chkin_bggrey"
+                android:orientation="vertical"
+                android:paddingBottom="13dp" >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:background="@drawable/headsup_chkinbg"
+                    android:orientation="vertical" >
+
+                    <TextView
+                        android:id="@+id/textViewBusShare"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="10dp"
+                        android:text="@string/business_checkin_share"
+                        android:textColor="@color/black"
+                        android:textSize="7pt"
+                        android:textStyle="bold" />
+
+                    <LinearLayout
+                        xmlns:android="http://schemas.android.com/apk/res/android"
+                        android:id="@+id/linearPubOrPri"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:paddingBottom="5dp"
+                        android:paddingLeft="12dp"
+                        android:paddingRight="12dp"
+                        android:weightSum="1.0" >
+
+                        <Button
+                            android:id="@+id/btnBusPublic"
+                            style="@style/filterText"
+                            android:layout_width="fill_parent"
+                            android:layout_marginRight="7dp"
+                            android:layout_weight=".50"
+                            android:text="@string/business_checkin_private" />
+
+                        <Button
+                            android:id="@+id/btnBusPrivate"
+                            style="@style/filterText"
+                            android:layout_width="fill_parent"
+                            android:layout_marginLeft="7dp"
+                            android:layout_weight=".50"
+                            android:text="@string/business_checkin_public" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <Button
+                    android:id="@+id/btnBusCheckin"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_margin="12dp"
+                    android:background="@drawable/btn_checkin"
+                    android:paddingBottom="18dp"
+                    android:paddingTop="11dp"
+                    android:text="@string/business_checkin"
+                    android:textColor="@color/white"
+                    android:textSize="10pt"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <!--
+                 <TextView
+                android:id="@+id/divider_bottom2"
+                style="@style/listTextDivider" >
+            </TextView>
+            -->
+
+            <TextView
+                android:id="@+id/textViewBusOffer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="12dp"
+                android:text="@string/business_checkin_offer"
+                android:textColor="@color/blue_dark"
+                android:textSize="8pt"
+                android:textStyle="bold" />
+            
+            <TextView
+                android:id="@+id/txtReservatioURL"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="12dp"
+                android:textSize="8pt"
+                 android:autoLink="web"
+                 android:textColor="@color/black"/>
+
+            <TextView
+                android:id="@+id/divider_bottom2"
+                style="@style/listTextDivider" >
+            </TextView>
+
+            <TextView
+                android:id="@+id/divider_bottom1"
+                style="@style/listTextDivider" >
+            </TextView>
+
+            <RelativeLayout
+                android:id="@+id/relativelayoutBusLocation"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="12dp"
+                android:paddingRight="12dp"
+                android:paddingTop="12dp" >
+
+                <Button
+                    android:id="@+id/btnBusMap"
+                    style="@style/filterText"
+                    android:layout_width="70dp"
+                    android:layout_alignParentRight="true"
+                    android:text="@string/business_checkin_map" />
+
+                <LinearLayout
+                    android:id="@+id/linearLayoutBusInfo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="10dp"
+                    android:orientation="vertical" >
+
+                    <TextView
+                        android:id="@+id/textViewBusName"
+                        android:layout_width="220dp"
+                        android:layout_height="wrap_content"
+                        android:text="@string/business_checkin_name"
+                        android:textColor="@color/black"
+                        android:textSize="8pt"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/textViewBusAddress"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/business_checkin_address"
+                        android:textColor="@color/black"
+                        android:textSize="5.5pt" />
+                </LinearLayout>
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/textViewBusCheckinTimes"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="5dp"
+                android:paddingLeft="12dp"
+                android:paddingRight="12dp"
+                android:paddingTop="5dp"
+                android:text="@string/business_Offer_valid"
+                android:textColor="@color/black"
+                android:textSize="5pt" />
+        </LinearLayout>
+
+    </ScrollView>
+
+    <ScrollView
+        android:id="@+id/scrollbarSnap"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1.9"
+        android:visibility="visible" >
+
+        <RelativeLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/linearQRCodeSnap"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="10dp"
+            android:paddingTop="10dp" >
+
+            <ImageView
+                android:id="@+id/imgSnapnow"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/snap_text" />
+
+            <TextView
+                android:id="@+id/txtViewsnap"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/imgSnapnow"
+                android:layout_centerHorizontal="true"
+                android:layout_margin="12dp"
+                android:layout_marginTop="20dp"
+                android:gravity="center_horizontal"
+                android:text="@string/snapnow_page_text"
+                android:textColor="@color/black"
+                android:textSize="6pt" />
+
+            <TextView
+                android:id="@+id/txtViewsnap1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/txtViewsnap"
+                android:layout_centerHorizontal="true"
+                android:layout_marginLeft="12dp"
+                android:layout_marginRight="12dp"
+                android:layout_marginTop="20dp"
+                android:gravity="center_horizontal"
+                android:text="@string/snapnow_page_text1"
+                android:textColor="@color/black"
+                android:textSize="6pt" />
+
+            <TextView
+                android:id="@+id/txtViewsnap2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/imgSnapnow"
+                android:layout_centerHorizontal="true"
+                android:layout_margin="18dp"
+                android:gravity="left"
+                android:text="@string/snapnow_page_text2"
+                android:textColor="@color/black"
+                android:textSize="8pt"
+                android:textStyle="bold"
+                android:visibility="gone" />
+
+            <Button
+                android:id="@+id/btnSnap"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_alignParentBottom="true"
+                android:layout_below="@+id/txtViewsnap2"
+                android:layout_marginBottom="20dp"
+                android:layout_marginLeft="18dp"
+                android:layout_marginRight="18dp"
+                android:layout_marginTop="40dp"
+                android:background="@drawable/btn_snapnow"
+                android:gravity="center"
+                android:textColor="@color/white"
+                android:textSize="7pt"
+                android:textStyle="bold" />
+        </RelativeLayout>
+    </ScrollView>
+
+   <TextView
+        android:id="@+id/txtPoweredBy"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"        
+        android:layout_weight="0.1"
+        android:background="@color/black"
+        android:gravity="center_horizontal|center_vertical"
+        android:layout_marginTop="3dp"
+        android:layout_marginBottom="-2dp"
+        android:layout_gravity="bottom"
+        android:text="@string/powered_by"
+        android:textColor="@color/gray_powered"
+        android:textSize="5pt"
+        android:textStyle="bold"
+         />
+
+</LinearLayout>

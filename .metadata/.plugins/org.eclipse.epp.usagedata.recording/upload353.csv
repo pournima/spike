@@ -1,0 +1,251 @@
+what,kind,bundleId,bundleVersion,description,time
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1348727520439
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1348727535332
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1348727540634
+activated,view,org.eclipse.jdt.ui,3.7.2.v20120109-1427,"org.eclipse.jdt.ui.PackageExplorer",1348727555920
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1348727556154
+opened,editor,org.eclipse.jdt.ui,3.7.2.v20120109-1427,"org.eclipse.jdt.ui.CompilationUnitEditor",1348727561024
+activated,editor,org.eclipse.jdt.ui,3.7.2.v20120109-1427,"org.eclipse.jdt.ui.CompilationUnitEditor",1348727561114
+error,log,,,"rules.xml: Failed to find style 'scrollViewStyle' in current theme",1348727570254
+error,log,,,"rules.xml: Failed to find style 'scrollViewStyle' in current theme",1348727570255
+error,log,,,"rules.xml: Failed to find style 'scrollViewStyle' in current theme",1348727570255
+error,log,,,"rules.xml: Failed to find style 'textViewStyle' in current theme",1348727570258
+error,log,,,"rules.xml: Failed to find style 'textViewStyle' in current theme",1348727570259
+error,log,,,"rules.xml: Failed to find style 'textViewStyle' in current theme",1348727570260
+error,log,,,"rules.xml: Failed to find style 'listViewStyle' in current theme",1348727570261
+error,log,,,"rules.xml: Failed to find style 'listViewStyle' in current theme",1348727570263
+error,log,,,"rules.xml: Failed to find style 'listViewStyle' in current theme",1348727570263
+error,log,,,"rules.xml: Failed to find style 'imageButtonStyle' in current theme",1348727570266
+error,log,,,"rules.xml: Failed to find style 'imageButtonStyle' in current theme",1348727570288
+error,log,,,"rules.xml: Failed to find style 'textViewStyle' in current theme",1348727570291
+error,log,,,"rules.xml: Failed to find style 'textViewStyle' in current theme",1348727570292
+error,log,,,"rules.xml: Failed to find style 'textViewStyle' in current theme",1348727570293
+error,log,,,"rules.xml: Failed to find style 'textViewStyle' in current theme",1348727570294
+error,log,,,"rules.xml: Failed to find style 'textViewStyle' in current theme",1348727570294
+error,log,,,"rules.xml: Failed to find style 'textViewStyle' in current theme",1348727570296
+error,log,,,"rules.xml: Failed to find style 'textViewStyle' in current theme",1348727570320
+error,log,,,"rules.xml: Failed to find style 'textViewStyle' in current theme",1348727570322
+error,log,,,"rules.xml: Failed to find style 'textViewStyle' in current theme",1348727570323
+error,log,,,"rules.xml: Failed to find style 'textViewStyle' in current theme",1348727570338
+error,log,,,"rules.xml: Failed to find style 'textViewStyle' in current theme",1348727570339
+error,log,,,"rules.xml: Failed to find style 'textViewStyle' in current theme",1348727570341
+error,log,,,"rules.xml: Failed to find style 'textViewStyle' in current theme",1348727570343
+error,log,,,"rules.xml: Failed to find style 'textViewStyle' in current theme",1348727570344
+error,log,,,"rules.xml: Failed to find style 'textViewStyle' in current theme",1348727570345
+error,log,,,"rules.xml: Failed to find style 'textViewStyle' in current theme",1348727570346
+error,log,,,"rules.xml: Failed to find style 'textViewStyle' in current theme",1348727570346
+error,log,,,"rules.xml: Failed to find style 'textViewStyle' in current theme",1348727570347
+error,log,,,"rules.xml: Failed to find style 'textViewStyle' in current theme",1348727570349
+error,log,,,"rules.xml: Failed to find style 'textViewStyle' in current theme",1348727570350
+error,log,,,"rules.xml: Failed to find style 'textViewStyle' in current theme",1348727570351
+error,log,,,"rules.xml: Failed to find style 'textViewStyle' in current theme",1348727570352
+error,log,,,"rules.xml: Failed to find style 'textViewStyle' in current theme",1348727570352
+error,log,,,"rules.xml: Failed to find style 'textViewStyle' in current theme",1348727570353
+error,log,,,"rules.xml: Failed to find style 'textViewStyle' in current theme",1348727570355
+error,log,,,"rules.xml: Failed to find style 'textViewStyle' in current theme",1348727570355
+error,log,,,"rules.xml: Failed to find style 'textViewStyle' in current theme",1348727570357
+error,log,,,"rules.xml: Failed to find style 'textViewStyle' in current theme",1348727570357
+error,log,,,"rules.xml: Failed to find style 'textViewStyle' in current theme",1348727570358
+error,log,,,"rules.xml: Failed to find style 'textViewStyle' in current theme",1348727570359
+error,log,,,"rules.xml: Failed to find style 'textViewStyle' in current theme",1348727570361
+error,log,,,"rules.xml: Failed to find style 'textViewStyle' in current theme",1348727570362
+error,log,,,"rules.xml: Failed to find style 'textViewStyle' in current theme",1348727570363
+error,log,,,"rules.xml: Failed to find style 'textViewStyle' in current theme",1348727570364
+error,log,,,"rules.xml: Failed to find style 'textViewStyle' in current theme",1348727570365
+error,log,,,"rules.xml: Failed to find style 'textViewStyle' in current theme",1348727570366
+error,log,,,"rules.xml: Failed to find style 'textViewStyle' in current theme",1348727570405
+error,log,,,"rules.xml: Failed to find style 'textViewStyle' in current theme",1348727570406
+error,log,,,"rules.xml: Failed to find style 'textViewStyle' in current theme",1348727570407
+error,log,,,"rules.xml: Failed to find style 'textViewStyle' in current theme",1348727570408
+error,log,,,"rules.xml: Failed to find style 'textViewStyle' in current theme",1348727570409
+error,log,,,"rules.xml: Failed to find style 'textViewStyle' in current theme",1348727570410
+error,log,,,"rules.xml: Failed to find style 'textViewStyle' in current theme",1348727570415
+error,log,,,"rules.xml: Failed to find style 'textViewStyle' in current theme",1348727570416
+error,log,,,"rules.xml: Failed to find style 'textViewStyle' in current theme",1348727570418
+error,log,,,"rules.xml: Failed to find style 'textViewStyle' in current theme",1348727570418
+error,log,,,"rules.xml: Failed to find style 'textViewStyle' in current theme",1348727570419
+error,log,,,"rules.xml: Failed to find style 'textViewStyle' in current theme",1348727570420
+error,log,,,"rules.xml: Failed to find style 'textViewStyle' in current theme",1348727570422
+error,log,,,"rules.xml: Failed to find style 'textViewStyle' in current theme",1348727570422
+error,log,,,"rules.xml: Failed to find style 'textViewStyle' in current theme",1348727570423
+error,log,,,"rules.xml: Failed to find style 'textViewStyle' in current theme",1348727570424
+error,log,,,"rules.xml: Failed to find style 'textViewStyle' in current theme",1348727570424
+error,log,,,"rules.xml: Failed to find style 'textViewStyle' in current theme",1348727570425
+error,log,,,"rules.xml: Failed to find style 'textViewStyle' in current theme",1348727570427
+error,log,,,"rules.xml: Failed to find style 'textViewStyle' in current theme",1348727570428
+error,log,,,"rules.xml: Failed to find style 'textViewStyle' in current theme",1348727570428
+error,log,,,"rules.xml: Failed to find style 'textViewStyle' in current theme",1348727570430
+error,log,,,"rules.xml: Failed to find style 'textViewStyle' in current theme",1348727570430
+error,log,,,"rules.xml: Failed to find style 'textViewStyle' in current theme",1348727570431
+error,log,,,"rules.xml: Failed to find style 'textViewStyle' in current theme",1348727570433
+error,log,,,"rules.xml: Failed to find style 'textViewStyle' in current theme",1348727570435
+error,log,,,"rules.xml: Failed to find style 'textViewStyle' in current theme",1348727570436
+error,log,,,"rules.xml: Failed to find style 'textViewStyle' in current theme",1348727570437
+error,log,,,"rules.xml: Failed to find style 'textViewStyle' in current theme",1348727570437
+error,log,,,"rules.xml: Failed to find style 'textViewStyle' in current theme",1348727570438
+error,log,,,"rules.xml: Failed to find style 'textViewStyle' in current theme",1348727570444
+error,log,,,"rules.xml: Failed to find style 'textViewStyle' in current theme",1348727570445
+error,log,,,"rules.xml: Failed to find style 'textViewStyle' in current theme",1348727570446
+error,log,,,"rules.xml: Failed to find style 'textViewStyle' in current theme",1348727570446
+error,log,,,"rules.xml: Failed to find style 'textViewStyle' in current theme",1348727570447
+error,log,,,"rules.xml: Failed to find style 'textViewStyle' in current theme",1348727570448
+error,log,,,"rules.xml: Failed to find style 'textViewStyle' in current theme",1348727570450
+error,log,,,"rules.xml: Failed to find style 'textViewStyle' in current theme",1348727570450
+error,log,,,"rules.xml: Failed to find style 'textViewStyle' in current theme",1348727570451
+error,log,,,"rules.xml: Failed to find style 'textViewStyle' in current theme",1348727570452
+error,log,,,"rules.xml: Failed to find style 'textViewStyle' in current theme",1348727570452
+error,log,,,"rules.xml: Failed to find style 'textViewStyle' in current theme",1348727570453
+opened,editor,com.android.ide.eclipse.adt,20.0.3.v201208082019-427395,"com.android.ide.eclipse.editors.CommonXmlEditor",1348727570602
+activated,editor,com.android.ide.eclipse.adt,20.0.3.v201208082019-427395,"com.android.ide.eclipse.editors.CommonXmlEditor",1348727570805
+activated,editor,com.android.ide.eclipse.adt,20.0.3.v201208082019-427395,"com.android.ide.eclipse.editors.CommonXmlEditor",1348727582003
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1348727611229
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.findReplace",1348727611265
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1348727620624
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.copy",1348727623317
+activated,editor,com.android.ide.eclipse.adt,20.0.3.v201208082019-427395,"com.android.ide.eclipse.editors.CommonXmlEditor",1348727624347
+activated,editor,com.android.ide.eclipse.adt,20.0.3.v201208082019-427395,"com.android.ide.eclipse.editors.CommonXmlEditor",1348727625728
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.paste",1348727633508
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.file.save",1348727640075
+closed,editor,com.android.ide.eclipse.adt,20.0.3.v201208082019-427395,"com.android.ide.eclipse.editors.CommonXmlEditor",1348727642592
+closed,editor,org.eclipse.jdt.ui,3.7.2.v20120109-1427,"org.eclipse.jdt.ui.CompilationUnitEditor",1348727644197
+activated,view,org.eclipse.jdt.ui,3.7.2.v20120109-1427,"org.eclipse.jdt.ui.PackageExplorer",1348727667141
+opened,editor,org.eclipse.jdt.ui,3.7.2.v20120109-1427,"org.eclipse.jdt.ui.CompilationUnitEditor",1348727668049
+activated,editor,org.eclipse.jdt.ui,3.7.2.v20120109-1427,"org.eclipse.jdt.ui.CompilationUnitEditor",1348727668166
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1348727668729
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1348727670149
+opened,editor,com.android.ide.eclipse.adt,20.0.3.v201208082019-427395,"com.android.ide.eclipse.editors.CommonXmlEditor",1348727676218
+activated,editor,com.android.ide.eclipse.adt,20.0.3.v201208082019-427395,"com.android.ide.eclipse.editors.CommonXmlEditor",1348727676267
+opened,editor,com.android.ide.eclipse.adt,20.0.3.v201208082019-427395,"com.android.ide.eclipse.editors.CommonXmlEditor",1348727679216
+activated,editor,com.android.ide.eclipse.adt,20.0.3.v201208082019-427395,"com.android.ide.eclipse.editors.CommonXmlEditor",1348727679241
+activated,view,org.eclipse.ui.console,3.5.100.v20111007_r372,"org.eclipse.ui.console.ConsoleView",1348727683268
+activated,view,com.android.ide.eclipse.ddms,20.0.3.v201208082019-427395,"com.android.ide.eclipse.ddms.views.LogCatView",1348727685280
+activated,editor,com.android.ide.eclipse.adt,20.0.3.v201208082019-427395,"com.android.ide.eclipse.editors.CommonXmlEditor",1348727685522
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.file.save",1348727691785
+activated,editor,com.android.ide.eclipse.adt,20.0.3.v201208082019-427395,"com.android.ide.eclipse.editors.CommonXmlEditor",1348727692852
+opened,editor,com.android.ide.eclipse.adt,20.0.3.v201208082019-427395,"com.android.ide.eclipse.editors.CommonXmlEditor",1348727694209
+activated,editor,com.android.ide.eclipse.adt,20.0.3.v201208082019-427395,"com.android.ide.eclipse.editors.CommonXmlEditor",1348727694239
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.file.save",1348727699045
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1348727734146
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1348727736529
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1348727738286
+activated,view,org.eclipse.ui.console,3.5.100.v20111007_r372,"org.eclipse.ui.console.ConsoleView",1348727758571
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1348727760997
+activated,editor,com.android.ide.eclipse.adt,20.0.3.v201208082019-427395,"com.android.ide.eclipse.editors.CommonXmlEditor",1348727798627
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1348727801377
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1348727805618
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1348727811637
+activated,view,org.eclipse.ui.console,3.5.100.v20111007_r372,"org.eclipse.ui.console.ConsoleView",1348727814479
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1348727827506
+activated,editor,com.android.ide.eclipse.adt,20.0.3.v201208082019-427395,"com.android.ide.eclipse.editors.CommonXmlEditor",1348727828466
+activated,editor,com.android.ide.eclipse.adt,20.0.3.v201208082019-427395,"com.android.ide.eclipse.editors.CommonXmlEditor",1348727829488
+activated,editor,org.eclipse.jdt.ui,3.7.2.v20120109-1427,"org.eclipse.jdt.ui.CompilationUnitEditor",1348727845796
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1348727851640
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1348727882380
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1348727886476
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1348727887073
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1348727891492
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1348727902712
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1348727904146
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1348727907060
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.copy",1348727910392
+activated,editor,com.android.ide.eclipse.adt,20.0.3.v201208082019-427395,"com.android.ide.eclipse.editors.CommonXmlEditor",1348727912615
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1348727913953
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.findReplace",1348727913984
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.paste",1348727914288
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1348727915700
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1348727916807
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1348727918539
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1348727919807
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1348727923871
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1348727924851
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.findReplace",1348727924897
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1348727928862
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1348727944273
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.findReplace",1348727944306
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1348727981320
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1348727988429
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1348728048470
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1348728051287
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1348728055578
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1348728057046
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1348728060089
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1348728061787
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1348728067417
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1348728069418
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1348728106621
+activated,editor,org.eclipse.jdt.ui,3.7.2.v20120109-1427,"org.eclipse.jdt.ui.CompilationUnitEditor",1348728107529
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1348728115256
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1348728115476
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1348728147092
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1348728150731
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1348728151758
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1348728175445
+activated,view,org.eclipse.ui.console,3.5.100.v20111007_r372,"org.eclipse.ui.console.ConsoleView",1348728175750
+activated,editor,org.eclipse.jdt.ui,3.7.2.v20120109-1427,"org.eclipse.jdt.ui.CompilationUnitEditor",1348728177208
+activated,view,org.eclipse.ui.console,3.5.100.v20111007_r372,"org.eclipse.ui.console.ConsoleView",1348728181873
+activated,view,com.android.ide.eclipse.ddms,20.0.3.v201208082019-427395,"com.android.ide.eclipse.ddms.views.LogCatView",1348728187321
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1348728205362
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1348728218424
+activated,editor,org.eclipse.jdt.ui,3.7.2.v20120109-1427,"org.eclipse.jdt.ui.CompilationUnitEditor",1348728219891
+activated,editor,com.android.ide.eclipse.adt,20.0.3.v201208082019-427395,"com.android.ide.eclipse.editors.CommonXmlEditor",1348728219974
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.file.save",1348728225086
+activated,editor,com.android.ide.eclipse.adt,20.0.3.v201208082019-427395,"com.android.ide.eclipse.editors.CommonXmlEditor",1348728226325
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.file.save",1348728230887
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1348728235814
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1348728239819
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1348728242275
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1348728243905
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1348728247749
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1348728263619
+activated,editor,com.android.ide.eclipse.adt,20.0.3.v201208082019-427395,"com.android.ide.eclipse.editors.CommonXmlEditor",1348728264989
+activated,editor,com.android.ide.eclipse.adt,20.0.3.v201208082019-427395,"com.android.ide.eclipse.editors.CommonXmlEditor",1348728266795
+closed,editor,com.android.ide.eclipse.adt,20.0.3.v201208082019-427395,"com.android.ide.eclipse.editors.CommonXmlEditor",1348728266795
+activated,editor,com.android.ide.eclipse.adt,20.0.3.v201208082019-427395,"com.android.ide.eclipse.editors.CommonXmlEditor",1348728267657
+activated,view,org.eclipse.ui.console,3.5.100.v20111007_r372,"org.eclipse.ui.console.ConsoleView",1348728278583
+activated,view,com.android.ide.eclipse.ddms,20.0.3.v201208082019-427395,"com.android.ide.eclipse.ddms.views.LogCatView",1348728283432
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1348728293283
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1348728375868
+activated,editor,com.android.ide.eclipse.adt,20.0.3.v201208082019-427395,"com.android.ide.eclipse.editors.CommonXmlEditor",1348728376313
+activated,editor,com.android.ide.eclipse.adt,20.0.3.v201208082019-427395,"com.android.ide.eclipse.editors.CommonXmlEditor",1348728377961
+closed,editor,com.android.ide.eclipse.adt,20.0.3.v201208082019-427395,"com.android.ide.eclipse.editors.CommonXmlEditor",1348728377961
+activated,editor,com.android.ide.eclipse.adt,20.0.3.v201208082019-427395,"com.android.ide.eclipse.editors.CommonXmlEditor",1348728380665
+closed,editor,com.android.ide.eclipse.adt,20.0.3.v201208082019-427395,"com.android.ide.eclipse.editors.CommonXmlEditor",1348728380665
+activated,editor,org.eclipse.jdt.ui,3.7.2.v20120109-1427,"org.eclipse.jdt.ui.CompilationUnitEditor",1348728381404
+closed,editor,com.android.ide.eclipse.adt,20.0.3.v201208082019-427395,"com.android.ide.eclipse.editors.CommonXmlEditor",1348728381405
+activated,editor,com.android.ide.eclipse.adt,20.0.3.v201208082019-427395,"com.android.ide.eclipse.editors.CommonXmlEditor",1348728384783
+activated,editor,com.android.ide.eclipse.adt,20.0.3.v201208082019-427395,"com.android.ide.eclipse.editors.CommonXmlEditor",1348728386296
+activated,editor,org.eclipse.jdt.ui,3.7.2.v20120109-1427,"org.eclipse.jdt.ui.CompilationUnitEditor",1348728387172
+activated,editor,org.eclipse.jdt.ui,3.7.2.v20120109-1427,"org.eclipse.jdt.ui.CompilationUnitEditor",1348728388761
+activated,editor,org.eclipse.jdt.ui,3.7.2.v20120109-1427,"org.eclipse.jdt.ui.CompilationUnitEditor",1348728389628
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1348728390911
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1348728450593
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1348728488702
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1348728802233
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1348728807573
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1348728935399
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1348728940479
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1348728947386
+activated,view,org.eclipse.jdt.ui,3.7.2.v20120109-1427,"org.eclipse.jdt.ui.PackageExplorer",1348728956836
+activated,editor,org.eclipse.jdt.ui,3.7.2.v20120109-1427,"org.eclipse.jdt.ui.CompilationUnitEditor",1348729039490
+activated,view,org.eclipse.jdt.ui,3.7.2.v20120109-1427,"org.eclipse.jdt.ui.PackageExplorer",1348729053914
+activated,editor,org.eclipse.jdt.ui,3.7.2.v20120109-1427,"org.eclipse.jdt.ui.CompilationUnitEditor",1348729145541
+activated,view,org.eclipse.jdt.ui,3.7.2.v20120109-1427,"org.eclipse.jdt.ui.PackageExplorer",1348729150229
+opened,editor,com.android.ide.eclipse.adt,20.0.3.v201208082019-427395,"com.android.ide.eclipse.editors.CommonXmlEditor",1348729150786
+activated,editor,com.android.ide.eclipse.adt,20.0.3.v201208082019-427395,"com.android.ide.eclipse.editors.CommonXmlEditor",1348729150879
+activated,view,org.eclipse.jdt.ui,3.7.2.v20120109-1427,"org.eclipse.jdt.ui.PackageExplorer",1348729151321
+opened,editor,com.android.ide.eclipse.adt,20.0.3.v201208082019-427395,"com.android.ide.eclipse.editors.CommonXmlEditor",1348729151879
+activated,editor,com.android.ide.eclipse.adt,20.0.3.v201208082019-427395,"com.android.ide.eclipse.editors.CommonXmlEditor",1348729151949
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.copy",1348729170738
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.copy",1348729174288
+activated,editor,com.android.ide.eclipse.adt,20.0.3.v201208082019-427395,"com.android.ide.eclipse.editors.CommonXmlEditor",1348729176734
+closed,editor,com.android.ide.eclipse.adt,20.0.3.v201208082019-427395,"com.android.ide.eclipse.editors.CommonXmlEditor",1348729176735
+activated,editor,org.eclipse.jdt.ui,3.7.2.v20120109-1427,"org.eclipse.jdt.ui.CompilationUnitEditor",1348729178101
+closed,editor,com.android.ide.eclipse.adt,20.0.3.v201208082019-427395,"com.android.ide.eclipse.editors.CommonXmlEditor",1348729178101
+activated,view,org.eclipse.jdt.ui,3.7.2.v20120109-1427,"org.eclipse.jdt.ui.PackageExplorer",1348729181772
+opened,editor,com.android.ide.eclipse.adt,20.0.3.v201208082019-427395,"com.android.ide.eclipse.editors.CommonXmlEditor",1348729182363
+activated,editor,com.android.ide.eclipse.adt,20.0.3.v201208082019-427395,"com.android.ide.eclipse.editors.CommonXmlEditor",1348729182428
+error,log,,,"heat_preparedness.xml: Failed to find style 'scrollViewStyle' in current theme",1348729183892
+error,log,,,"heat_preparedness.xml: Failed to find style 'scrollViewStyle' in current theme",1348729183920
+error,log,,,"heat_preparedness.xml: Failed to find style 'scrollViewStyle' in current theme",1348729183923
+error,log,,,"heat_preparedness.xml: Failed to find style 'textViewStyle' in current theme",1348729184008
+error,log,,,"heat_preparedness.xml: Failed to find style 'textViewStyle' in current theme",1348729184009

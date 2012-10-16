@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/linearLayoutOrgList"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+	<ListView
+	    style="@style/list"
+        android:id="@android:id/list">
+    </ListView>
+    
+	<TextView 
+	    style="@style/listTextDivider"
+	    android:id="@+id/divider_bottom">
+    </TextView>
+
+    <TextView
+        android:id="@+id/textViewLink"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:paddingTop="14dp"
+        android:text="@string/cause_learn"
+        android:textAppearance="@style/medtext"
+        android:textSize="7.5pt" 
+        android:typeface="normal" >
+    </TextView>
+
+    <TextView
+        android:id="@android:id/empty"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingTop="10dp"
+        android:textColor="@color/red"
+        android:text="@string/cause_none" >
+    </TextView>
+
+</LinearLayout>

@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scrollbarShareFrg"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/txtVCampCongtTop"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/purple_transparent"
+            android:padding="10dp"
+            android:text="@string/top_msg_campaigns_congt_frag"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/black"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txtVCampCongtPubLink"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txtVCampCongtTop"
+            android:paddingLeft="10dp"
+            android:paddingTop="5dp"
+            android:text="@string/pubLink_campaigns_congt_frag"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="@color/black"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txtVCampCongtlink"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txtVCampCongtTop"
+            android:layout_toRightOf="@id/txtVCampCongtPubLink"
+            android:paddingTop="5dp"
+            android:text="@string/pubLink_campaigns_congt_frag_null"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="@color/blue" 
+            android:autoLink="web"
+            />
+
+        <RelativeLayout
+            android:id="@+id/rltLMyCmpgnCongtFragRaise"
+            android:layout_width="fill_parent"
+            android:layout_height="80dp"
+            android:layout_below="@id/txtVCampCongtlink"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="15dp"
+            android:background="@color/white" >
+
+            <TextView
+                android:id="@+id/txtVMyCmpgnGoal"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="15dp"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/black"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txtVMyCmpgnCongtRaisedSoFar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@id/txtVMyCmpgnGoal"
+                android:layout_alignLeft="@id/txtVMyCmpgnGoal"
+                android:gravity="left"
+                android:paddingLeft="10dp"
+                android:paddingTop="15dp"
+                android:text="$498 Raised so far"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="@color/gray" />
+
+            <ProgressBar
+                android:id="@+id/MyCmpgn_seekbar_raised_money"
+                style="?android:attr/progressBarStyleHorizontal"
+                android:layout_width="match_parent"
+                android:layout_height="8dp"
+                android:layout_below="@id/txtVMyCmpgnCongtRaisedSoFar"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="5dp"
+                android:indeterminate="false"
+                android:max="15"
+                android:progressDrawable="@drawable/greenprogress" />
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/txtVMyCmpgnCongtDaysRemain"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/rltLMyCmpgnCongtFragRaise"
+            android:layout_marginRight="10dp"
+            android:gravity="right"
+            android:paddingTop="5dp"
+            android:text="12 days remaining"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="@color/gray" />
+
+        <TextView
+            android:id="@+id/txtVMyCmpgnCampaignDescription"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txtVMyCmpgnCongtDaysRemain"
+            android:layout_marginTop="30dp"
+            android:paddingLeft="10dp"
+            android:text="Campaign Description"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/black"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txtVMyCmpgnCampaignDescrDtls"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txtVMyCmpgnCampaignDescription"
+            android:paddingLeft="10dp"
+            android:text="No description available."
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:id="@+id/txtVCampCongtAddPhotos"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txtVMyCmpgnCampaignDescrDtls"
+            android:paddingLeft="10dp"
+            android:paddingTop="15dp"
+            android:text="@string/Add_photos_campaigns_congt_frag"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/black"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:id="@+id/lnrCongtLAddPhoto"
+            android:layout_width="wrap_content"
+            android:layout_height="70dp"
+            android:layout_below="@id/txtVCampCongtAddPhotos"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal"
+            android:paddingBottom="5dp" >
+
+            <ImageView
+                android:id="@+id/imgVCongtAddPhoto"
+                android:layout_width="65dp"
+                android:layout_height="70dp"
+                android:src="@drawable/camera" />
+
+            <HorizontalScrollView
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                android:id="@+id/horScrollCongratsfrag"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"
+                android:scrollbars="none" >
+
+                <LinearLayout
+                    android:id="@+id/linearLCongratsPhotos"
+                    android:layout_width="wrap_content"
+                    android:layout_height="70dp"
+                    android:orientation="horizontal" >
+                </LinearLayout>
+            </HorizontalScrollView>
+        </LinearLayout>
+
+        <RelativeLayout
+            android:id="@+id/rltLCongtFragRaise"
+            android:layout_width="fill_parent"
+            android:layout_height="80dp"
+            android:layout_below="@id/lnrCongtLAddPhoto"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="15dp"
+            android:background="@color/white" >
+
+            <TextView
+                android:id="@+id/txtVCampCongtGoal"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="15dp"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/black"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txtVCampCongtRaisedSoFar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@id/txtVCampCongtGoal"
+                android:layout_alignLeft="@id/txtVCampCongtGoal"
+                android:gravity="left"
+                android:paddingLeft="10dp"
+                android:paddingTop="15dp"
+                android:text="$498 Raised so far"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="@color/gray" />
+
+            <!--
+                 <SeekBar
+                android:id="@+id/seekbar_raised_money"
+                style="@style/delayedCheckinSeekBar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/txtVCampCongtRaisedSoFar"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="5dp"
+                android:maxHeight="10dip"
+                android:minHeight="10dip"
+                android:thumb="@android:color/transparent" />
+            -->
+
+            <ProgressBar
+                android:id="@+id/seekbar_raised_money"
+                style="?android:attr/progressBarStyleHorizontal"
+                android:layout_width="match_parent"
+                android:layout_height="8dp"
+                android:layout_below="@id/txtVCampCongtRaisedSoFar"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="5dp"
+                android:indeterminate="false"
+                android:max="15"
+                android:progressDrawable="@drawable/greenprogress" />
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/txtVCampCongtDaysRemain"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/rltLCongtFragRaise"
+            android:layout_marginRight="10dp"
+            android:gravity="right"
+            android:paddingTop="5dp"
+            android:text="12 days remaining"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="@color/gray" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txtVCampCongtDaysRemain"
+            android:layout_marginTop="15dp"
+            android:gravity="center_horizontal" >
+
+            <Button
+                android:id="@+id/btnCampCongtSubmit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/btn_submit_campaigns"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+        </LinearLayout>
+    </RelativeLayout>
+
+</ScrollView>

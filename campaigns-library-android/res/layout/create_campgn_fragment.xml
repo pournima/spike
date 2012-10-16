@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/mainbg"
+        android:orientation="vertical"
+        android:paddingBottom="10dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp" >
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:paddingLeft="5dp"
+            android:text="@string/your_campaigns"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/black"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/edtCrtCampgnName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:hint="@string/hint1_campaigns"
+            android:textSize="14dp" >
+        </EditText>
+
+        <EditText
+            android:id="@+id/edtCrtCampgnDesc"
+            android:layout_width="fill_parent"
+            android:layout_height="90dp"
+            android:gravity="top"
+            android:hint="@string/hint2_campaigns"
+            android:inputType="textMultiLine"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+           />
+
+        <EditText
+            android:id="@+id/edtCrtCampgnCauseSprt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:editable="false"
+            android:gravity="center_vertical"
+            android:hint="@string/hint3_campaigns"
+            android:paddingLeft="10dp"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="@color/black"
+            android:focusable="false" />
+
+        <EditText
+            android:id="@+id/edtCrtCampgnCat"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:editable="false"
+            android:gravity="center_vertical"
+            android:hint="@string/hint4_campaigns"
+            android:paddingLeft="10dp"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="@color/black" 
+             android:focusable="false"/>
+
+        <EditText
+            android:id="@+id/edtCrtCampgnStrtDate"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:editable="false"
+            android:gravity="center_vertical"
+            android:hint="@string/hint5_campaigns"
+            android:inputType="none"
+            android:paddingLeft="10dp"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="@color/black" 
+             android:focusable="false"/>
+
+        <EditText
+            android:id="@+id/edtCrtCampgnEndDate"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:editable="false"
+            android:gravity="center_vertical"
+            android:hint="@string/hint6_campaigns"
+            android:paddingLeft="10dp"
+            android:textAppearance="?android:attr/textAppearanceSmall" 
+             android:focusable="false"/>
+
+        <EditText
+            android:id="@+id/edtCrtCampgnGoal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/hint7_campaigns"
+            android:inputType="number"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+
+        <EditText
+            android:id="@+id/edtCrtCampgnVideoLink"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/hint8_campaigns"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+
+        <EditText
+            android:id="@+id/edtCrtCampgnFbLink"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/hint9_campaigns"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+
+        <LinearLayout
+            android:id="@+id/lnrL_campgn_donation"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal"
+            android:weightSum="1" >
+
+            <Button
+                android:id="@+id/btn_campgn_donation"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.5"
+                android:text="@string/btn_askfordonation_campaigns" />
+
+            <Button
+                android:id="@+id/btn_campgn_pledges"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.5"
+                android:text="@string/btn_askforpledge_campaigns" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/txt_campgn_pledgePer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:paddingLeft="5dp"
+            android:text="@string/pledge_per_campaigns"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/black"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:id="@+id/lnrL_campgn_pledges"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal"
+            android:weightSum="2" >
+
+            <Button
+                android:id="@+id/btn_campgn_mile"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.5"
+                android:text="@string/btn_mile_campaigns" />
+
+            <Button
+                android:id="@+id/btn_campgn_day"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.5"
+                android:text="@string/btn_day_campaigns" />
+
+            <Button
+                android:id="@+id/btn_campgn_hour"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.5"
+                android:text="@string/btn_hour_campaigns" />
+
+            <Button
+                android:id="@+id/btn_campgn_min"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.5"
+                android:text="@string/btn_minute_campaigns" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:paddingLeft="5dp"
+            android:text="@string/photos_campaigns"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/black"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="70dp"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal"
+            android:paddingBottom="5dp" >
+
+            <ImageView
+                android:id="@+id/imgVCampgnAddPhoto"
+                android:layout_width="65dp"
+                android:layout_height="70dp"
+                android:src="@drawable/camera" />
+
+            <HorizontalScrollView
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp" 
+                 android:scrollbars="none">
+
+                <LinearLayout
+                    android:id="@+id/linearLCreateCampPhotos"
+                    android:layout_width="wrap_content"
+                    android:layout_height="70dp"
+                    android:orientation="horizontal" >
+                </LinearLayout>
+            </HorizontalScrollView>
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btn_submit_campgn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:text="@string/btn_submit_campaigns" />
+    </LinearLayout>
+
+</ScrollView>

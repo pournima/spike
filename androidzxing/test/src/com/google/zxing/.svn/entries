@@ -1,0 +1,86 @@
+10
+
+dir
+1827
+http://zxing.googlecode.com/svn/trunk/core/test/src/com/google/zxing
+http://zxing.googlecode.com/svn
+
+
+
+2011-06-07T15:24:31.962825Z
+1811
+dswitkin@google.com
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+59b500cc-1b3d-0410-9834-0bbf25fbcc57
+
+negative
+dir
+
+oned
+dir
+
+pdf417
+dir
+
+aztec
+dir
+
+common
+dir
+
+AllPositiveBlackBoxTester.java
+file
+
+
+
+
+2011-06-20T17:07:08.000000Z
+0a1a36cb6cfc9fc287a8821d4a1d8200
+2010-09-30T22:26:48.990361Z
+1611
+srowen
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+7084
+
+qrcode
+dir
+
+client
+dir
+
+datamatrix
+dir
+

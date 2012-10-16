@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/relativeLayoutBus"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/linearLayoutBusBtns"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingBottom="10dp"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:paddingTop="10dp"
+        android:weightSum="1.0" >
+
+        <Button
+            android:id="@+id/businessAllButton"
+            style="@style/filterText"
+            android:layout_width="wrap_content"
+            android:layout_weight=".25"
+            android:text="@string/business_all" />
+
+        <Button
+            android:id="@+id/businessSupportingButton"
+            style="@style/filterText"
+            android:layout_width="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_weight=".50"
+            android:text="@string/business_supporting" />
+
+        <ImageView
+            android:id="@+id/businessRefreshImage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_weight=".25"
+            android:background="@drawable/btn_filter"
+            android:paddingBottom="9dp"
+            android:paddingTop="5dp"
+            android:src="@drawable/gps_icon" />
+    </LinearLayout>
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/linearLayoutOfferRefreshBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingBottom="10dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingTop="10dp"
+        android:weightSum="1.0" >
+
+        <ImageView
+             android:id="@+id/businessOfferRefreshImage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/btn_filter"
+            android:src="@drawable/offers_refresh_btn" />
+        <!-- android:onClick="onOffersRefeshBtnClick" -->
+    </LinearLayout>
+    
+</RelativeLayout>

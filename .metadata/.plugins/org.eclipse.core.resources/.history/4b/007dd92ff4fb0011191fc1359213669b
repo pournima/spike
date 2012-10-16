@@ -1,0 +1,187 @@
+package com.headsup;
+
+import android.app.AlertDialog;
+import android.app.Dialog;
+import android.app.ProgressDialog;
+import android.content.DialogInterface;
+import android.content.res.Resources;
+import android.os.Bundle;
+import android.util.Log;
+import android.view.View;
+import android.widget.TabHost;
+import android.widget.TextView;
+
+import com.checkinlibrary.CheckinLibraryActivity;
+import com.checkinlibrary.R;
+import com.checkinlibrary.Searcher;
+import com.checkinlibrary.location.GpsLocator;
+import com.checkinlibrary.settings.HowItWorksFragment;
+import com.headsup.helpers.MyConstants;
+import com.headsup.offers.OffersHeadsUpFragment;
+import com.headsup.rules.RuleBookFragment;
+import com.headsup.safety.SafetyFragment;
+import com.headsup.settings.HowItWorks;
+import com.headsup.settings.SettingsFragment;
+
+
+public class HeadsUpNativeActivity extends CheckinLibraryActivity {
+
+
+	Bundle instanceState;
+	//public TabHost mTabHost;
+	//public static AppStatus appStatus;
+	//public GpsLocator gps;
+	//public TabManager mTabManager;
+	
+	public static String strProgressMessage="Loading....";
+	public ProgressDialog mProgressDialog;
+	public static String strExitMessage="Are you sure you want to leave USA Football?";
+
+	
+	@Override
+	public void onCreate(Bundle savedInstanceState) {
+		super.onCreate(savedInstanceState);
+
+		instanceState = savedInstanceState;
+		Log.i("###############", getString(R.string.app_name));
+		appStatus.saveSharedStringValue("APP_NAME", String.valueOf(R.string.app_name));
+		
+	}
+	
+	@Override
+	protected void onResume() {
+		super.onResume();
+		// This application is really all about GPS, so as long as it's active,
+		// we listen.
+
+		gps.destroyGpsDialog();
+		listenForLocation();
+		appStatus.saveSharedBoolValue(appStatus.IS_APP_RESUMED, true);
+	}
+	
+	@Override
+	protected void loginIfNeeded() {
+		setContentView(R.layout.main);
+		setupTabs(instanceState);
+		mAuthToken = appStatus.getSharedStringValue(appStatus.AUTH_KEY);
+		Log.v("auth_key", mAuthToken + " key");
+		APP_NAME=appStatus.getSharedStringValue(appStatus.APP_NAME);
+		HeadsUpNativeActivity.appStatus.setCheckinAmount();
+	}
+	
+	@Override
+	public void setupTabs(Bundle savedInstanceState) {
+		
+		mTabHost = (TabHost) findViewById(android.R.id.tabhost);
+		
+		mTabHost.setup();
+		mTabManager = new TabManager(this, mTabHost, R.id.linearLayout2);
+		stabHost=mTabHost;
+		Resources res = getResources();
+		textViewRaisedMoney = (TextView) findViewById(R.id.textViewTopRaisedMoney);
+		textViewRaisedMoney.setVisibility(View.GONE);
+		mTabManager.addTab(
+				mTabHost.newTabSpec(MyConstants.TAB_HEADSUP_1).setIndicator("Safety",
+						res.getDrawable(R.drawable.icon_hns)),
+						SafetyFragment.class, null);
+		mTabManager.addTab(
+				mTabHost.newTabSpec(MyConstants.TAB_HEADSUP_2).setIndicator("Rules",
+						res.getDrawable(R.drawable.icon_rule)),
+						RuleBookFragment.class, null);
+		mTabManager.addTab(
+				mTabHost.newTabSpec(MyConstants.TAB_HEADSUP_3).setIndicator("Offers",
+						res.getDrawable(R.drawable.icon_offers)),
+						OffersHeadsUpFragment.class, null);
+		
+		mTabManager.addTab(
+				mTabHost.newTabSpec(MyConstants.TAB_HEADSUP_4).setIndicator("Settings",
+						res.getDrawable(R.drawable.icon_setting)),
+						SettingsFragment.class, null);
+
+		if (savedInstanceState != null) {
+			mTabHost.setCurrentTabByTag(new Integer(savedInstanceState
+					.getInt("tab")).toString());
+		}
+	}
+		
+	@Override
+	protected void onSaveInstanceState(Bundle outState) {
+		super.onSaveInstanceState(outState);
+		outState.putInt("tab", mTabHost.getCurrentTab());
+	}
+	
+	@Override
+	protected Dialog onCreateDialog(int id, Bundle args) {
+		ProgressDialog dialog = new ProgressDialog(this);
+//		dialog = ProgressDialog.show(this,null,null);
+//		dialog.setContentView(R.layout.loader);
+		dialog.setTitle("Please Wait...");
+		dialog.setMessage(strProgressMessage);
+		dialog.setIndeterminate(true);
+		//dialog.setCancelable(false);
+		dialog.setOnCancelListener(new DialogInterface.OnCancelListener() {
+			@Override
+			public void onCancel(DialogInterface dialog) {
+				Log.i("CHECKINFORGOOD", "user cancelling authentication");
+
+			}
+		});
+		mProgressDialog = dialog;
+		return dialog;
+	}
+	
+	@Override
+	public void ShowMessageBox() {
+		AlertDialog exitAlert = new AlertDialog.Builder(this).create();
+		exitAlert.setTitle("Exit Application");
+		exitAlert.setMessage("Are you sure you want to leave USA Football?");
+
+		exitAlert.setButton("Yes", new DialogInterface.OnClickListener() {
+			@Override
+			public void onClick(DialogInterface dialog, int which) {
+				dialog.dismiss();
+				finish();
+			}
+		});
+		exitAlert.setButton2("No", new DialogInterface.OnClickListener() {
+
+			@Override
+			public void onClick(DialogInterface dialog, int which) {
+				dialog.dismiss();
+			}
+		});
+		exitAlert.show();
+	}
+	
+	@Override
+	protected void goToHowItWorksFragment() {
+		HowItWorks mHowItWorks = (HowItWorks) this
+				.addFragment(R.id.linearLayout2,
+						HowItWorks.class.getName(),
+						"how_it_works");
+
+	}
+/*
+	@Override
+	public boolean onSearchRequested() {
+		Bundle searchBundle = new Bundle();
+
+		gps = GpsLocator.getGpsLocator(this);
+		if(gps.isProviderEnabled()){
+			if (this.mTabHost.getCurrentTabTag() == MyConstants.TAB_HEADSUP_3) {
+				searchBundle.putInt("search_type",
+						Searcher.SearchType.BUSINESS.ordinal());
+				startSearch(null, false, searchBundle, false);
+			} else if (this.mTabHost.getCurrentTabTag() == "organization_tab") {
+				searchBundle.putInt("search_type",
+						Searcher.SearchType.CAUSE.ordinal());
+				startSearch(null, false, searchBundle, false);
+			}	
+		}else{
+			listenForLocation();
+		}
+		
+		return true;
+	}
+	*/
+}

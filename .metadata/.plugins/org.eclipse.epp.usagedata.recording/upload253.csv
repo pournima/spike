@@ -1,0 +1,251 @@
+what,kind,bundleId,bundleVersion,description,time
+error,log,,,"official_signal.xml: Failed to find style 'textViewStyle' in current theme",1348123940650
+error,log,,,"official_signal.xml: Failed to find style 'horizontalScrollViewStyle' in current theme",1348123940652
+error,log,,,"official_signal.xml: Failed to find style 'horizontalScrollViewStyle' in current theme",1348123940654
+error,log,,,"official_signal.xml: Failed to find style 'horizontalScrollViewStyle' in current theme",1348123940654
+error,log,,,"official_signal.xml: Failed to find style 'textViewStyle' in current theme",1348123940657
+error,log,,,"official_signal.xml: Failed to find style 'textViewStyle' in current theme",1348123940657
+error,log,,,"official_signal.xml: Failed to find style 'textViewStyle' in current theme",1348123940658
+error,log,,,"official_signal.xml: Failed to find style 'horizontalScrollViewStyle' in current theme",1348123940660
+error,log,,,"official_signal.xml: Failed to find style 'horizontalScrollViewStyle' in current theme",1348123940660
+error,log,,,"official_signal.xml: Failed to find style 'horizontalScrollViewStyle' in current theme",1348123940661
+error,log,,,"official_signal.xml: Failed to find style 'textViewStyle' in current theme",1348123940664
+error,log,,,"official_signal.xml: Failed to find style 'textViewStyle' in current theme",1348123940665
+error,log,,,"official_signal.xml: Failed to find style 'textViewStyle' in current theme",1348123940666
+error,log,,,"official_signal.xml: Failed to find style 'horizontalScrollViewStyle' in current theme",1348123940668
+error,log,,,"official_signal.xml: Failed to find style 'horizontalScrollViewStyle' in current theme",1348123940669
+error,log,,,"official_signal.xml: Failed to find style 'horizontalScrollViewStyle' in current theme",1348123940669
+error,log,,,"official_signal.xml: Failed to find style 'textViewStyle' in current theme",1348123940672
+error,log,,,"official_signal.xml: Failed to find style 'textViewStyle' in current theme",1348123940672
+error,log,,,"official_signal.xml: Failed to find style 'textViewStyle' in current theme",1348123940674
+error,log,,,"official_signal.xml: Failed to find style 'horizontalScrollViewStyle' in current theme",1348123940675
+error,log,,,"official_signal.xml: Failed to find style 'horizontalScrollViewStyle' in current theme",1348123940676
+error,log,,,"official_signal.xml: Failed to find style 'horizontalScrollViewStyle' in current theme",1348123940676
+activated,view,org.eclipse.ui.console,3.5.100.v20111007_r372,"org.eclipse.ui.console.ConsoleView",1348123951571
+activated,editor,com.android.ide.eclipse.adt,20.0.3.v201208082019-427395,"com.android.ide.eclipse.editors.CommonXmlEditor",1348123951862
+opened,editor,com.android.ide.eclipse.adt,20.0.3.v201208082019-427395,"com.android.ide.eclipse.editors.CommonXmlEditor",1348123953429
+activated,editor,com.android.ide.eclipse.adt,20.0.3.v201208082019-427395,"com.android.ide.eclipse.editors.CommonXmlEditor",1348123953470
+activated,editor,com.android.ide.eclipse.adt,20.0.3.v201208082019-427395,"com.android.ide.eclipse.editors.CommonXmlEditor",1348123956162
+closed,editor,com.android.ide.eclipse.adt,20.0.3.v201208082019-427395,"com.android.ide.eclipse.editors.CommonXmlEditor",1348123956162
+activated,view,com.android.ide.eclipse.ddms,20.0.3.v201208082019-427395,"com.android.ide.eclipse.ddms.views.LogCatView",1348123956982
+activated,editor,com.android.ide.eclipse.adt,20.0.3.v201208082019-427395,"com.android.ide.eclipse.editors.CommonXmlEditor",1348123958021
+activated,editor,com.android.ide.eclipse.adt,20.0.3.v201208082019-427395,"com.android.ide.eclipse.editors.CommonXmlEditor",1348123978075
+activated,editor,org.eclipse.jdt.ui,3.7.2.v20120109-1427,"org.eclipse.jdt.ui.CompilationUnitEditor",1348123997900
+activated,editor,org.eclipse.jdt.ui,3.7.2.v20120109-1427,"org.eclipse.jdt.ui.CompilationUnitEditor",1348123998727
+executed,command,org.eclipse.jdt.ui,3.7.2.v20120109-1427,"org.eclipse.jdt.ui.edit.text.java.toggle.comment",1348124002592
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.copy",1348124007686
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.paste",1348124009218
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.text.contentAssist.proposals",1348124013036
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.file.save",1348124015388
+activated,editor,com.android.ide.eclipse.adt,20.0.3.v201208082019-427395,"com.android.ide.eclipse.editors.CommonXmlEditor",1348124018797
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1348124032194
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1348124049525
+activated,editor,org.eclipse.jdt.ui,3.7.2.v20120109-1427,"org.eclipse.jdt.ui.CompilationUnitEditor",1348124053733
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1348124068937
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1348124073037
+executed,command,org.eclipse.jdt.ui,3.7.2.v20120109-1427,"org.eclipse.jdt.ui.edit.text.java.toggle.comment",1348124077542
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1348124080788
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1348124106085
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.file.save",1348124107144
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.copy",1348124112397
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.paste",1348124113895
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.text.contentAssist.proposals",1348124116461
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.file.save",1348124120971
+activated,view,org.eclipse.ui.console,3.5.100.v20111007_r372,"org.eclipse.ui.console.ConsoleView",1348124154185
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1348124155719
+activated,view,com.android.ide.eclipse.ddms,20.0.3.v201208082019-427395,"com.android.ide.eclipse.ddms.views.LogCatView",1348124159785
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1348124223266
+activated,editor,org.eclipse.jdt.ui,3.7.2.v20120109-1427,"org.eclipse.jdt.ui.CompilationUnitEditor",1348124223735
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1348124225219
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1348124247224
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.delete",1348124249871
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.file.save",1348124252520
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.text.contentAssist.proposals",1348124259611
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.file.save",1348124267944
+activated,editor,com.android.ide.eclipse.adt,20.0.3.v201208082019-427395,"com.android.ide.eclipse.editors.CommonXmlEditor",1348124276049
+activated,editor,org.eclipse.jdt.ui,3.7.2.v20120109-1427,"org.eclipse.jdt.ui.CompilationUnitEditor",1348124279322
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1348124286243
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1348124289768
+activated,editor,com.android.ide.eclipse.adt,20.0.3.v201208082019-427395,"com.android.ide.eclipse.editors.CommonXmlEditor",1348124291767
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.copy",1348124295454
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.copy",1348124302197
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.cut",1348124304225
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.paste",1348124307819
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.delete",1348124309997
+activated,view,org.eclipse.ui.console,3.5.100.v20111007_r372,"org.eclipse.ui.console.ConsoleView",1348124310194
+no handler,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.delete",1348124312452
+activated,editor,com.android.ide.eclipse.adt,20.0.3.v201208082019-427395,"com.android.ide.eclipse.editors.CommonXmlEditor",1348124314155
+activated,view,com.android.ide.eclipse.ddms,20.0.3.v201208082019-427395,"com.android.ide.eclipse.ddms.views.LogCatView",1348124315166
+activated,editor,com.android.ide.eclipse.adt,20.0.3.v201208082019-427395,"com.android.ide.eclipse.editors.CommonXmlEditor",1348124316196
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.delete",1348124318238
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.paste",1348124320901
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.undo",1348124322565
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.copy",1348124325868
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.paste",1348124327380
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.paste",1348124329515
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.paste",1348124331650
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.file.save",1348124332493
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1348124334754
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1348124357493
+started,bundle,org.eclipse.wst.xsl.debug.ui,1.0.200.v201101281837,"org.eclipse.wst.xsl.debug.ui",1348124359101
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1348124362754
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1348124368200
+opened,editor,com.android.ide.eclipse.adt,20.0.3.v201208082019-427395,"com.android.ide.eclipse.editors.CommonXmlEditor",1348124382882
+activated,editor,com.android.ide.eclipse.adt,20.0.3.v201208082019-427395,"com.android.ide.eclipse.editors.CommonXmlEditor",1348124382912
+activated,view,org.eclipse.ui.console,3.5.100.v20111007_r372,"org.eclipse.ui.console.ConsoleView",1348124386933
+activated,editor,com.android.ide.eclipse.adt,20.0.3.v201208082019-427395,"com.android.ide.eclipse.editors.CommonXmlEditor",1348124387378
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.copy",1348124388884
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.cut",1348124389232
+activated,view,com.android.ide.eclipse.ddms,20.0.3.v201208082019-427395,"com.android.ide.eclipse.ddms.views.LogCatView",1348124392466
+activated,editor,com.android.ide.eclipse.adt,20.0.3.v201208082019-427395,"com.android.ide.eclipse.editors.CommonXmlEditor",1348124394983
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.paste",1348124396496
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.file.save",1348124397261
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1348124399209
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1348124433620
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1348124434879
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1348125060362
+activated,editor,com.android.ide.eclipse.adt,20.0.3.v201208082019-427395,"com.android.ide.eclipse.editors.CommonXmlEditor",1348125065764
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.text.contentAssist.proposals",1348125070372
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.text.contentAssist.proposals",1348125073033
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.undo",1348125075284
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.undo",1348125075647
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.undo",1348125075947
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.undo",1348125076331
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.file.save",1348125081720
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1348125085133
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1348125169016
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1348125179736
+activated,view,org.eclipse.ui.console,3.5.100.v20111007_r372,"org.eclipse.ui.console.ConsoleView",1348125204536
+activated,view,com.android.ide.eclipse.ddms,20.0.3.v201208082019-427395,"com.android.ide.eclipse.ddms.views.LogCatView",1348125209982
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1348125252444
+activated,editor,com.android.ide.eclipse.adt,20.0.3.v201208082019-427395,"com.android.ide.eclipse.editors.CommonXmlEditor",1348125254319
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.undo",1348125254892
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.undo",1348125255264
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.file.save",1348125256397
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1348125259352
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1348125264923
+activated,editor,com.android.ide.eclipse.adt,20.0.3.v201208082019-427395,"com.android.ide.eclipse.editors.CommonXmlEditor",1348125266135
+activated,editor,com.android.ide.eclipse.adt,20.0.3.v201208082019-427395,"com.android.ide.eclipse.editors.CommonXmlEditor",1348125278054
+activated,editor,com.android.ide.eclipse.adt,20.0.3.v201208082019-427395,"com.android.ide.eclipse.editors.CommonXmlEditor",1348125279344
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1348125296031
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1348125306329
+activated,editor,org.eclipse.jdt.ui,3.7.2.v20120109-1427,"org.eclipse.jdt.ui.CompilationUnitEditor",1348125307918
+activated,editor,org.eclipse.jdt.ui,3.7.2.v20120109-1427,"org.eclipse.jdt.ui.CompilationUnitEditor",1348125308699
+activated,editor,org.eclipse.jdt.ui,3.7.2.v20120109-1427,"org.eclipse.jdt.ui.CompilationUnitEditor",1348125309890
+activated,editor,org.eclipse.jdt.ui,3.7.2.v20120109-1427,"org.eclipse.jdt.ui.CompilationUnitEditor",1348125314810
+activated,editor,org.eclipse.jdt.ui,3.7.2.v20120109-1427,"org.eclipse.jdt.ui.CompilationUnitEditor",1348125315762
+activated,editor,org.eclipse.jdt.ui,3.7.2.v20120109-1427,"org.eclipse.jdt.ui.CompilationUnitEditor",1348125317885
+closed,editor,org.eclipse.jdt.ui,3.7.2.v20120109-1427,"org.eclipse.jdt.ui.CompilationUnitEditor",1348125317886
+closed,editor,org.eclipse.jdt.ui,3.7.2.v20120109-1427,"org.eclipse.jdt.ui.CompilationUnitEditor",1348125319806
+activated,editor,org.eclipse.jdt.ui,3.7.2.v20120109-1427,"org.eclipse.jdt.ui.CompilationUnitEditor",1348125320844
+activated,editor,org.eclipse.jdt.ui,3.7.2.v20120109-1427,"org.eclipse.jdt.ui.CompilationUnitEditor",1348125322543
+closed,editor,org.eclipse.jdt.ui,3.7.2.v20120109-1427,"org.eclipse.jdt.ui.CompilationUnitEditor",1348125322543
+activated,editor,org.eclipse.jdt.ui,3.7.2.v20120109-1427,"org.eclipse.jdt.ui.CompilationUnitEditor",1348125324114
+activated,editor,org.eclipse.jdt.ui,3.7.2.v20120109-1427,"org.eclipse.jdt.ui.CompilationUnitEditor",1348125330447
+activated,editor,org.eclipse.jdt.ui,3.7.2.v20120109-1427,"org.eclipse.jdt.ui.CompilationUnitEditor",1348125333826
+activated,editor,org.eclipse.jdt.ui,3.7.2.v20120109-1427,"org.eclipse.jdt.ui.CompilationUnitEditor",1348125335027
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.text.contentAssist.proposals",1348125361122
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.copy",1348125374376
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.paste",1348125376008
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.paste",1348125380252
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.file.save",1348125383353
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.delete",1348125396085
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.undo",1348125400666
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.delete",1348125404706
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.file.save",1348125405803
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1348125407094
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1348125407926
+activated,editor,com.android.ide.eclipse.adt,20.0.3.v201208082019-427395,"com.android.ide.eclipse.editors.CommonXmlEditor",1348125409464
+activated,editor,com.android.ide.eclipse.adt,20.0.3.v201208082019-427395,"com.android.ide.eclipse.editors.CommonXmlEditor",1348125411624
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.text.contentAssist.proposals",1348125418441
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.file.save",1348125419450
+error,log,,,"official_signal.xml: Failed to find style 'scrollViewStyle' in current theme",1348125421003
+error,log,,,"official_signal.xml: Failed to find style 'scrollViewStyle' in current theme",1348125421004
+error,log,,,"official_signal.xml: Failed to find style 'scrollViewStyle' in current theme",1348125421004
+error,log,,,"official_signal.xml: Failed to find style 'textViewStyle' in current theme",1348125421005
+error,log,,,"official_signal.xml: Failed to find style 'textViewStyle' in current theme",1348125421006
+error,log,,,"official_signal.xml: Failed to find style 'textViewStyle' in current theme",1348125421007
+error,log,,,"official_signal.xml: Failed to find style 'textViewStyle' in current theme",1348125421009
+error,log,,,"official_signal.xml: Failed to find style 'textViewStyle' in current theme",1348125421010
+error,log,,,"official_signal.xml: Failed to find style 'textViewStyle' in current theme",1348125421011
+error,log,,,"official_signal.xml: Failed to find style 'imageButtonStyle' in current theme",1348125421012
+error,log,,,"official_signal.xml: Failed to find style 'imageButtonStyle' in current theme",1348125421014
+error,log,,,"official_signal.xml: Failed to find style 'textViewStyle' in current theme",1348125421018
+error,log,,,"official_signal.xml: Failed to find style 'textViewStyle' in current theme",1348125421019
+error,log,,,"official_signal.xml: Failed to find style 'textViewStyle' in current theme",1348125421020
+error,log,,,"official_signal.xml: Failed to find style 'buttonStyle' in current theme",1348125421021
+error,log,,,"official_signal.xml: Failed to find style 'buttonStyle' in current theme",1348125421022
+error,log,,,"official_signal.xml: Failed to find style 'buttonStyle' in current theme",1348125421025
+error,log,,,"official_signal.xml: Failed to find style 'textViewStyle' in current theme",1348125421026
+error,log,,,"official_signal.xml: Failed to find style 'textViewStyle' in current theme",1348125421027
+error,log,,,"official_signal.xml: Failed to find style 'textViewStyle' in current theme",1348125421028
+error,log,,,"official_signal.xml: Failed to find style 'buttonStyle' in current theme",1348125421029
+error,log,,,"official_signal.xml: Failed to find style 'buttonStyle' in current theme",1348125421030
+error,log,,,"official_signal.xml: Failed to find style 'buttonStyle' in current theme",1348125421031
+error,log,,,"official_signal.xml: Failed to find style 'textViewStyle' in current theme",1348125421032
+error,log,,,"official_signal.xml: Failed to find style 'textViewStyle' in current theme",1348125421033
+error,log,,,"official_signal.xml: Failed to find style 'textViewStyle' in current theme",1348125421034
+error,log,,,"official_signal.xml: Failed to find style 'buttonStyle' in current theme",1348125421035
+error,log,,,"official_signal.xml: Failed to find style 'buttonStyle' in current theme",1348125421036
+error,log,,,"official_signal.xml: Failed to find style 'buttonStyle' in current theme",1348125421037
+error,log,,,"official_signal.xml: Failed to find style 'textViewStyle' in current theme",1348125421038
+error,log,,,"official_signal.xml: Failed to find style 'textViewStyle' in current theme",1348125421039
+error,log,,,"official_signal.xml: Failed to find style 'textViewStyle' in current theme",1348125421040
+error,log,,,"official_signal.xml: Failed to find style 'buttonStyle' in current theme",1348125421040
+error,log,,,"official_signal.xml: Failed to find style 'buttonStyle' in current theme",1348125421041
+error,log,,,"official_signal.xml: Failed to find style 'buttonStyle' in current theme",1348125421057
+error,log,,,"official_signal.xml: Failed to find style 'textViewStyle' in current theme",1348125421061
+error,log,,,"official_signal.xml: Failed to find style 'textViewStyle' in current theme",1348125421061
+error,log,,,"official_signal.xml: Failed to find style 'textViewStyle' in current theme",1348125421062
+error,log,,,"official_signal.xml: Failed to find style 'horizontalScrollViewStyle' in current theme",1348125421064
+error,log,,,"official_signal.xml: Failed to find style 'horizontalScrollViewStyle' in current theme",1348125421064
+error,log,,,"official_signal.xml: Failed to find style 'horizontalScrollViewStyle' in current theme",1348125421065
+error,log,,,"official_signal.xml: Failed to find style 'textViewStyle' in current theme",1348125421067
+error,log,,,"official_signal.xml: Failed to find style 'textViewStyle' in current theme",1348125421068
+error,log,,,"official_signal.xml: Failed to find style 'textViewStyle' in current theme",1348125421069
+error,log,,,"official_signal.xml: Failed to find style 'horizontalScrollViewStyle' in current theme",1348125421070
+error,log,,,"official_signal.xml: Failed to find style 'horizontalScrollViewStyle' in current theme",1348125421072
+error,log,,,"official_signal.xml: Failed to find style 'horizontalScrollViewStyle' in current theme",1348125421072
+error,log,,,"official_signal.xml: Failed to find style 'textViewStyle' in current theme",1348125421130
+error,log,,,"official_signal.xml: Failed to find style 'textViewStyle' in current theme",1348125421131
+error,log,,,"official_signal.xml: Failed to find style 'textViewStyle' in current theme",1348125421132
+error,log,,,"official_signal.xml: Failed to find style 'horizontalScrollViewStyle' in current theme",1348125421133
+error,log,,,"official_signal.xml: Failed to find style 'horizontalScrollViewStyle' in current theme",1348125421134
+error,log,,,"official_signal.xml: Failed to find style 'horizontalScrollViewStyle' in current theme",1348125421147
+error,log,,,"official_signal.xml: Failed to find style 'textViewStyle' in current theme",1348125421150
+error,log,,,"official_signal.xml: Failed to find style 'textViewStyle' in current theme",1348125421150
+error,log,,,"official_signal.xml: Failed to find style 'textViewStyle' in current theme",1348125421151
+error,log,,,"official_signal.xml: Failed to find style 'horizontalScrollViewStyle' in current theme",1348125421152
+error,log,,,"official_signal.xml: Failed to find style 'horizontalScrollViewStyle' in current theme",1348125421153
+error,log,,,"official_signal.xml: Failed to find style 'horizontalScrollViewStyle' in current theme",1348125421154
+activated,view,org.eclipse.ui.console,3.5.100.v20111007_r372,"org.eclipse.ui.console.ConsoleView",1348125426175
+activated,editor,com.android.ide.eclipse.adt,20.0.3.v201208082019-427395,"com.android.ide.eclipse.editors.CommonXmlEditor",1348125428810
+error,log,,,"official_signal.xml: Failed to find style 'scrollViewStyle' in current theme",1348125429092
+error,log,,,"official_signal.xml: Failed to find style 'scrollViewStyle' in current theme",1348125429093
+error,log,,,"official_signal.xml: Failed to find style 'scrollViewStyle' in current theme",1348125429093
+error,log,,,"official_signal.xml: Failed to find style 'textViewStyle' in current theme",1348125429094
+error,log,,,"official_signal.xml: Failed to find style 'textViewStyle' in current theme",1348125429095
+error,log,,,"official_signal.xml: Failed to find style 'textViewStyle' in current theme",1348125429095
+error,log,,,"official_signal.xml: Failed to find style 'textViewStyle' in current theme",1348125429097
+error,log,,,"official_signal.xml: Failed to find style 'textViewStyle' in current theme",1348125429098
+error,log,,,"official_signal.xml: Failed to find style 'textViewStyle' in current theme",1348125429099
+error,log,,,"official_signal.xml: Failed to find style 'imageButtonStyle' in current theme",1348125429100
+error,log,,,"official_signal.xml: Failed to find style 'imageButtonStyle' in current theme",1348125429100
+error,log,,,"official_signal.xml: Failed to find style 'textViewStyle' in current theme",1348125429102
+error,log,,,"official_signal.xml: Failed to find style 'textViewStyle' in current theme",1348125429102
+error,log,,,"official_signal.xml: Failed to find style 'textViewStyle' in current theme",1348125429103
+error,log,,,"official_signal.xml: Failed to find style 'buttonStyle' in current theme",1348125429103
+error,log,,,"official_signal.xml: Failed to find style 'buttonStyle' in current theme",1348125429104
+error,log,,,"official_signal.xml: Failed to find style 'buttonStyle' in current theme",1348125429104
+error,log,,,"official_signal.xml: Failed to find style 'textViewStyle' in current theme",1348125429105
+error,log,,,"official_signal.xml: Failed to find style 'textViewStyle' in current theme",1348125429106
+error,log,,,"official_signal.xml: Failed to find style 'textViewStyle' in current theme",1348125429106
+error,log,,,"official_signal.xml: Failed to find style 'buttonStyle' in current theme",1348125429107
+error,log,,,"official_signal.xml: Failed to find style 'buttonStyle' in current theme",1348125429107
+error,log,,,"official_signal.xml: Failed to find style 'buttonStyle' in current theme",1348125429108
+error,log,,,"official_signal.xml: Failed to find style 'textViewStyle' in current theme",1348125429109
+error,log,,,"official_signal.xml: Failed to find style 'textViewStyle' in current theme",1348125429109
+error,log,,,"official_signal.xml: Failed to find style 'textViewStyle' in current theme",1348125429109
+error,log,,,"official_signal.xml: Failed to find style 'buttonStyle' in current theme",1348125429110
+error,log,,,"official_signal.xml: Failed to find style 'buttonStyle' in current theme",1348125429110
+error,log,,,"official_signal.xml: Failed to find style 'buttonStyle' in current theme",1348125429111

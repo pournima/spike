@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/relativeLayoutBus"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/mainbg" >
+
+    <TextView
+        android:id="@+id/textViewTopRaisedMoney"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/red_dark"
+        android:gravity="center_horizontal|center_vertical"
+       android:paddingBottom="2dp"
+        android:paddingTop="4dp"
+        android:text="@string/raised"
+        android:textColor="@color/white"
+        android:textSize="6.5pt" />
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/linearLayoutBusBtns"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewTopRaisedMoney"
+        android:orientation="horizontal"
+        android:paddingBottom="10dp"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:paddingTop="10dp"
+        android:visibility="gone"
+        android:weightSum="1.0" >
+
+        <Button
+            android:id="@+id/businessAllButton"
+            style="@style/filterText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight=".25"
+            android:text="@string/business_all" />
+
+        <Button
+            android:id="@+id/businessSupportingButton"
+            style="@style/filterText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_weight=".50"
+            android:text="@string/business_supporting" />
+
+        <ImageView
+            android:id="@+id/businessRefreshImage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_weight=".25"
+            android:background="@drawable/btn_filter"
+            android:paddingBottom="9dp"
+            android:paddingTop="5dp"
+            android:src="@drawable/gps_icon" />
+    </LinearLayout>
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/linearLayoutOfferRefreshBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/linearLayoutBusBtns"
+        android:orientation="vertical"
+        android:paddingBottom="10dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingTop="10dp" >
+
+        <!--
+             <TextView
+            android:id="@+id/txtOffersTopMsg"
+            style="@style/topMsg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:text="@string/headsupBusinessesViewMessage" />
+        -->
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/btn_filter"
+            android:onClick="onOffersRefeshBtnClick"
+            android:src="@drawable/offers_refresh_btn" />
+    </LinearLayout>
+
+    
+
+    <ListView
+        android:id="@android:id/list"
+        style="@style/list"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/linearLayoutOfferRefreshBtn"
+        android:layout_marginBottom="15dp"
+        android:paddingTop="0dp">
+    </ListView>
+
+    <TextView
+        android:id="@+id/divider_bottom"
+        style="@style/listTextDivider"
+        android:layout_below="@android:id/list">
+    </TextView>
+
+    <TextView
+        android:id="@+id/txtPoweredBy"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@color/black"
+        android:gravity="center_horizontal"
+        android:paddingTop="2dp"
+        android:text="@string/powered_by"
+        android:textColor="@color/gray_powered"
+        android:textSize="5pt"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@android:id/empty"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/txtPoweredBy"
+        android:layout_below="@id/divider_bottom"
+        android:padding="12dp"
+        android:text="@string/business_none"
+        android:textColor="@color/red" >
+    </TextView>
+
+</RelativeLayout>

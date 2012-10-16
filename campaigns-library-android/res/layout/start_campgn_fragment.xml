@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/scrollbarVideo"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/mainbg"
+    tools:ignore="Overdraw" >
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:gravity="center_horizontal"
+            android:text="@string/start_a_campaigns"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/black"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:id="@+id/linLCampgnOneDayEvent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/txtVCampgnOneETop"
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:background="@color/light_gray"
+                android:gravity="bottom"
+                android:paddingLeft="10dp"
+                android:text="@string/campgn_oneE_top"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="@color/black"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txtVCampgnOneEMid"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:background="@color/light_gray"
+                android:gravity="top"
+                android:paddingLeft="10dp"
+                android:text="@string/campgn_oneE_mid"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/blue"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txtVCampgnOneEBot"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@color/white"
+                android:gravity="top"
+                android:paddingLeft="10dp"
+                android:paddingTop="8dp"
+                android:text="@string/campgn_oneE_bot"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="@color/gray_shadow"
+                android:textStyle="bold" />
+
+            <ListView
+                android:id="@+id/lstCampgn_oneEve"
+                style="@style/list"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:footerDividersEnabled="false"
+                android:paddingTop="0dp"
+                android:visibility="gone"
+                tools:ignore="NestedScrolling" >
+
+            </ListView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linLCampgnOngoingActivity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/txtVCampgnOngoinTop"
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:background="@color/light_gray"
+                android:gravity="bottom"
+                android:paddingLeft="10dp"
+                android:text="@string/campgn_oneE_top"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="@color/black"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txtVCampgnOngoinMid"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:background="@color/light_gray"
+                android:gravity="top"
+                android:paddingLeft="10dp"
+                android:text="@string/campgn_onAct_mid"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/blue"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txtVCampgnOngoinBot"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@color/white"
+                android:gravity="top"
+                android:paddingLeft="10dp"
+                android:paddingTop="8dp"
+                android:text="@string/campgn_onAct_bot"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="@color/gray_shadow"
+                android:textStyle="bold" />
+            
+            <ListView
+                android:id="@+id/lstCampgn_OngoingAct"
+                style="@style/list"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:footerDividersEnabled="false"
+                android:paddingTop="0dp"
+                android:visibility="gone"
+                tools:ignore="NestedScrolling" >
+
+            </ListView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linLCampgnRaiseAwareness"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/txtVCampgnRaiseAMid"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:background="@color/light_gray"
+                android:gravity="top"
+                android:paddingLeft="10dp"
+                android:text="@string/campgn_raiseA_mid"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/blue"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txtVCampgnRaiseABot"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@color/white"
+                android:gravity="top"
+                android:paddingLeft="10dp"
+                android:paddingTop="8dp"
+                android:text="@string/campgn_raiseA_bot"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="@color/gray_shadow"
+                android:textStyle="bold" />
+            
+            <ListView
+                android:id="@+id/lstCampgn_RaiseAwa"
+                style="@style/list"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:footerDividersEnabled="false"
+                android:paddingTop="0dp"
+                android:visibility="gone"
+                tools:ignore="NestedScrolling" >
+
+            </ListView>
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>

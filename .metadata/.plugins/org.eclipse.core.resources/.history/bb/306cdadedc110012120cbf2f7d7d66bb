@@ -1,0 +1,31 @@
+package com.checkinlibrary.ws.tasks;
+
+import java.util.List;
+import android.os.AsyncTask;
+import android.util.Log;
+import android.widget.Toast;
+
+import com.checkinlibrary.CheckinLibraryActivity;
+import com.checkinlibrary.models.AppVersionResult;
+import com.checkinlibrary.ws.services.AppVersionWebService;
+
+public class AppVersionTask extends AsyncTask<String, Integer, AppVersionResult> {
+
+	private CheckinLibraryActivity context;
+	
+	@Override
+	protected AppVersionResult doInBackground(String... arg0) {
+		// TODO Auto-generated method stub
+		return AppVersionWebService.setAppVersion(context, arg0);
+	}
+
+	protected void onPostExecute(String result) {
+		if(result != null)
+			Log.e("app version call --", "success");
+		else {
+			Log.e("app version call --", "fail");
+		}
+		
+	}
+
+}

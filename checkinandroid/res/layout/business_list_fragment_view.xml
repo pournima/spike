@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/linearLayoutBusList"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/divider_top"
+        style="@style/listTextDivider" >
+    </TextView>
+
+    <ListView
+        android:id="@android:id/list"
+        style="@style/list"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="0dp" >
+    </ListView>
+
+    <TextView
+        android:id="@+id/divider_bottom"
+        style="@style/listTextDivider" >
+    </TextView>
+
+    <TextView
+        android:id="@android:id/empty"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="12dp"
+        android:text="@string/business_none"
+        android:textColor="@color/red" >
+    </TextView>
+
+    
+    
+
+</LinearLayout>

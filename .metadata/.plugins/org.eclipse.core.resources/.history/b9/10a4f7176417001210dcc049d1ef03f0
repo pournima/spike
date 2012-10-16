@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">HeadsUpNativeActivity!</string>
+    <string name="app_name">USA Football</string>
+    <string name="raised">You\'ve raised: $0.00</string>
+    <string name="equipment_fitting">Equipment\nFitting</string>
+    <string name="hns_heading">Health and Safety</string>
+    <string name="hns_sub_heading">Resources to make a better, safer game.</string>
+    <string name="concussion_awareness">Concussion Awareness</string>
+    <string name="game_rule_none">No game rules</string>
+    <string name="rules_games">Rules of Game</string>
+    <string name="game_element">Game Elements</string>
+    <string name="read_more">Read More</string>
+    <string name="rule_book">Rules &amp; Signals </string>
+    <string name="rule_book_nfl">NFL FLAG Rule Book</string>
+    <string name="rule_book_tackle">Tackle Football Rule Book</string>
+    <string name="concussion_signs">Concussion Signs\nand Symptoms</string>
+    <string name="how_to_tackle">How to Tackle</string>
+    <string name="safety_checklist">Safety Checklists</string>
+    <string name="injury_prevention">Injury Prevention</string>
+    <string name="conditioning">Conditioning</string>
+    <string name="heat_preparedness">Heat Preparedness</string>
+    <string name="hydration">Hydration</string>
+    <string name="nutrition">Nutrition</string>
+    <string name="safety_checklist_text1">Player Safety Recommended Standards </string>
+    <string name="safety_checklist_text2">\"The Comprehensive Solution\" </string>
+    <string name="parents">Parents</string>
+    <string name="coaches">Coaches</string>
+    <string name="commissioners">Commissioners</string>
+    <string name="no_text">No text</string>
+    <string name="heat_preparedness_imagelisttitle">Video</string>
+    <string name="heat_preparedness_listtitle">Articles</string>
+    <string name="about_headsup_football">About Heads Up Football</string>
+    <string name="heads_up_fb_"></string>
+    <string name="tackle_breakdown_position">Breakdown Position</string>
+    <string name="tackle_breakdown_position_desc">The foundational starting point for all \nmovements and drills.</string>
+    <string name="tackle_hit_position">Hit Position</string>
+    <string name="tackle_hit_position_desc">Correct body posture at moments of impact for proper tackles.</string>
+    <string name="tackle_buzz_to_hit_drill">Buzz to Hit Drill</string>
+    <string name="tackle_buzz_to_hit_drill_desc">Proper technique to get in the hit position\nfrom the buzz movement.</string>
+    <string name="tackle_air_buddy_drill">Air Buddy Drill</string>
+    <string name="tackle_air_buddy_drill_desc">How the hips and arms work together\nkeeping the head from initiating contact \nduring tackle.</string>
+    <string name="tackle_how_to_tackle">How To Tackle</string>
+    <string name="tackle_how_to_tackle_desc">Learn what it means to practice \nHeads Up Tackling.</string>
+    <string name="tackle_teaching_tackling">Teaching Tackling</string>
+    <string name="tackle_teaching_tackling_desc">Learn about coaching with Heads Up \nTackling techniques.</string>
+    <string name="tackle_rip_tackle_drill">Rip Tackle Drill</string>
+    <string name="tackle_rip_tackle_drill_desc">Proper rip technique to use in a tackle.</string>
+    <string name="tackle_how_to_tacklepage_desc">Heads Up Tackling was created with \ncontributions from USA Football\'s Tackle\nAdvisory Committee and Bobby Hosea.</string>
+    <string name="heads_up_football">Heads Up Football</string>
+    <string name="heads_up_football_video">Learn About Heads Up Football</string>
+    <string name="heads_up_football_desc">Heads Up Football is USA Football\'s player safety program. It is a comprehensive approach to player safety involving leagues, parents, players and coaches. The program, which includes a list of recommended standards for leagues, parents and coaches, is run in partnership with the National Football League and includes content on concussion courtesy of the Centers for Disease Control and Prevention.</string>
+    <string name="Checkin_desc">Support the game. Every time you check-in at a participating business, a donation is made\nto USA Football or a participating youth\nfootball league. Thanks for supporting\nbusinesses that support the game.</string>
+    <string name="Checkin_Heading">Check-in for Football</string>
+    <string name="cannot_connect">Cannot connect to\nUSA Football</string>
+    <string name="checkinLink">www.checkinforgood.com</string>
+    <string name="checkin_video_link">Watch a video on how it works.</string>
+    <string name="checkin_logo_poweredBy">Powered by</string>
+    <string name="check_icon">Check Icon</string>
+    <string name="watch_more">Watch More</string>
+    <string name="how_to_tackle_video">How to Tackle</string>
+    <string name="how_to_tackle_desc">Learn what it means to practice Heads Up Tackling.</string>
+    <string name="teaching_tackle">Teaching Tackling</string>
+    <string name="teaching_tackle_desc">Learn about coaching with Heads Up Tackling techniques.</string>
+    <string name="breaking_down_position">Breakdown Position</string>
+    <string name="breaking_down_position_desc">The foundational starting point for all movements and drills.</string>
+    <string name="hit_position">Breakdown Position</string>
+    <string name="hit_position_desc">Correct body posture at moments of impact for proper tackles.</string>
+    <string name="what_is_concussion">What is a concussion?</string>
+    <string name="what_are_symptoms">What are the symptoms of a concussion?</string>
+    <string name="what_do_you">What do you do if a concussion occurs?</string>
+    <string name="when_can_player">When can a player come back to play?</string>
+    <string name="minimizing_concussions">Minimizing Concussions</string>
+    <string name="proper_helmet_fit">Proper helmet fitting</string>
+
+    <string-array name="coaches_list">
+        <item>Complete a comprehensive football coaching education course annually.</item>
+        <item>Recognize and respond to suspected concussions.</item>
+        <item>Teach Heads Up Tackling.</item>
+        <item>Properly fit every helmet.</item>
+        <item>Use a daily practice plan.</item>
+    </string-array>
+    <string-array name="commissioners_list">
+        <item>Mandate coaches complete a comprehensive football coaching education course annually.</item>
+        <item>Require concussion awareness training for coaches.</item>
+        <item>Hold coaches accountable for knowing and teaching Heads Up Tackling.</item>
+        <item>Properly maintain and fit equipment for all players.</item>
+        <item>Background checks for all adult volunteers.</item>
+    </string-array>
+
+    <!-- For Headers in Parents Tab -->
+    <string name="parents_tab_header_1">Ask if your player\'s coach has completed a comprehensive football coaching education course this year.</string>
+    <string name="parents_tab_header_2">Recognize the signs and symptoms of a concussion.</string>
+    <string name="parents_tab_header_3">Know how to regularly check the fit of a helmet.</string>
+    <string name="parents_tab_header_4">Make sure your player\'s coach is teaching Heads Up Tackling.</string>
+    <string name="parents_tab_header_5">Ask if your league conducted background checks on all adult volunteers.</string>
+
+    <!-- For Detailed Content in Parents Tab -->
+    <string name="parents_tab_content_1">Appropriate answer from the coach: Yes, I have completed a coaching course that covers the fundamentals of football, Heads Up Tackling, CDC-approved concussion management, equipment fitting and positive coaching philosphy.</string>
+    <string name="parents_tab_content_2">USA Football is home to the only football coaching course certified by the National Council for Accreditation of Coaching Education.</string>
+    <string name="parents_tab_content_3">USA Football/National Center for Safety Initiatives Background Checks Program.</string>
+    <string name="parents_tab_content_4">USA Football teamed up with the National Center for Safety Initiatives to offer background check services to commissioners.</string>
+    <string name="parents_tab_content_5">The fully managed screening system is designed for youth-serving organizations with optimal safety in mind. The program is tailored to the needs of youth football organizations. Services include a fully managed and administered program featuring online applicant self-registration and "Red Light/Green Light" determinations for easy-to-read background check reports. The Check-it-Twice searches are the foundation for every program and include searches through two independently screened and selected and selected national database providers.</string>
+    <string name="parents_tab_content_desc">Current courses include: \n\tLevel 1 and Level 2 National \n\tCertifications \n\t9 Tackle Football Coaching Courses\n\t2 Flag Football Coaching Courses\n\t1 Parent Course\n\t5 Game Official Courses</string>
+
+    <!-- For Video Labels in Parents Tab -->
+    <string name="parents_tab_video_labels_1">&lt;u>Learn More&lt;/u></string>
+    <string name="parents_tab_video_labels_2">&lt;u>Watch the videos&lt;/u></string>
+    <string name="parents_tab_video_labels_3">&lt;u>Watch the Equipment Fitting video&lt;/u></string>
+    <string name="parents_tab_video_labels_4">&lt;u>Watch our How to Tackle videos&lt;/u></string>
+    <string name="parents_tab_video_labels_5">&lt;&lt;u>Learn about Subsidized Background Checks&lt;/u></string>
+    <string name="parents_tab_video_labels_close">&lt;u>Close&lt;/u></string>
+    
+    <!-- Signals Screen Text -->
+    <string name="signals_official_signal">Official Signals</string>
+    <string name="signals_scoring">Scoring &amp; Timing</string>
+    <string name="signals_dead_ball">Dead Ball</string>
+    <string name="signals_live_ball">Live Ball</string>
+    <string name="signals_conduct">Conduct</string>
+    <string name="signals_safety">Safety</string>
+
+    
+    <!-- Heads up Library -->
+    <!-- 
+    <string name="hello">Hello World, CheckinLibraryActivity!</string>
+    <string name="app_name">Checkin_library</string>
+     -->
+    <string name="article_none">No Article found.</string>
+    <string name="no_data">No data present!</string>
+    <string name="about_usa_football_header">About USA Football</string>
+    <string name="about_usa_football_text">Football\'s national governing body leads the game\'s developement, inspires participation and ensures a positive experience for all youth, high school and other amateur players.</string>
+    <string name="about_usa_football_text_detail">Endowed by the NFL and NFLPA in 2002, USA Football is the official youth football development partner of the NFL, its 32 teams and the NFL Player Association and manages&#160; U.S. national teams for international competition. USA Football is an independent 501-c-3 non-profit organization that leads the development of the game through educational programs and innovative resources. USA Football also annually awards \u00241 million in equipment grants and subsidizes league volunteer background checks.</string>
+    <string name="my_good">It\'s your good.</string>
+    <string name="you_raised_text">You\'ve raised a pledge amount of:</string>
+    <string name="your_checkin_text">Your Check-ins</string>
+    <string name="my_good_text">Thanks for doing good by supporting the businesses and causes that strengthen our communities.</string>
+    <string name="watch_video_overview">How to check-in to \nsupport player safety.</string>
+    <string name="watch_video_text">It\'s easy to do good.</string>
+    <string name="how_it_works">How it Works</string>
+    <string name="how_it_works_business_header_text">Raise money and save by supporting local businesses</string>
+    <string name="how_it_works_business_snap_checkin">SNAP Check-in\'s. They\'re quick and simple.</string>
+    <string name="how_it_works_cause_header_text">Help a cause, or two, or more. Do Good.</string>
+    <string name="how_it_works_rules">View the rules for tackle \nand flag football.</string>
+    <string name="how_it_works_business_tap">Tap the &lt;b>\'Check-in\'&lt;/b> tab to find businesses that support the USA Football Player Safety Initiative.</string>
+    <string name="how_it_works_business_find">Once you find a business, Check-in to redeem the offer and that business will make a donation to support the cause.</string>
+    <string name="how_it_works_sharing_settings">Link Your Facebook and/or Twitter accounts &amp; share your check-in\'s. You\'ll raise more &amp; share the good you\'re doing.</string>
+    <string name="how_it_works_sharing_settings_2">You can delay sharing, allowing your check-in to display hours after you\'ve checked-in.</string>
+    <string name="how_it_works_find_cause">Find Causes >></string>
+    <string name="how_it_works_find_business">Find businesses >></string>
+    <string name="how_it_works_overview">Watch the overview</string>
+    <string name="how_it_works_scan">Some businesses require customers to scan a code  when checking in.</string>
+    <string name="how_it_works_snap_top">Some Businesses require snap verification when you check-in.</string>
+    <string name="how_it_works_snap_bottom">Simply open your camera, point your phone at the SNAP code the business displays and your check-in will be complete.</string>
+    <string name="how_it_works_swipe">Swipe for the next tip >></string>
+    <string name="how_it_works_rules_tap">Tap the &lt;b>\'Rules\'&lt;/b> tab and choose from the list to view official rules and approved rulings on categories such as game elements, penalties, areas on the field and more. All the rules you need to know are there and understanding them is easier than ever with diagrams, tips, and graphics.</string>
+    <string name="how_it_works_safety_header">Stay Heads Up on \nplayer safety</string>
+    <string name="how_it_works_safety">Tap the &lt;b>\'Safety\'&lt;/b> tab to access USA Football\'s health and safety content. All the information you need to make a better, safer game is available at your fingertips. Read the latest articles, learn the signs and symptoms of concussions, watch videos on how to tackle and much more.</string>
+    <string name="label">Heads Up Football</string>
+    <string name="login_create">Create Account</string>
+    <string name="login_do_good">Do good</string>
+    <string name="login_text">Sign in</string>
+    <string name="login_email">Email Address</string>
+    <string name="login_forgot">Forgot Your Password?</string>
+    <string name="login_password">Password</string>
+    <string name="login_sign">Sign-in</string>
+    <string name="login_start">Start raising money</string>
+    <string name="social_signup_text">Sign up with</string>
+    <string name="social_signup_privacy_text">We will never post anything to your\nfacebook or twitter account without\nyour permission.</string>
+    <string name="social_signup_or">- OR -</string>
+    <string name="social_signin_text">Sign in with</string>
+    <string name="sharePrefProgressMessage">Fetching social credentials\..\. Please wait</string>
+    <string name="forgot_email">Enter Your Email Address</string>
+    <string name="forgot_notification">Send Notification</string>
+    <string name="create">Create</string>
+    <string name="create_account">Create Account</string>
+    <string name="create_first_name">First Name</string>
+    <string name="create_last_name">Last Name</string>
+    <string name="privacy_control">Privacy Controls</string>
+    <string name="privacy_control_details">Don\'t want people knowing where you are? \nDelay when your check-in appears on social networks.</string>
+   
+    <string name="waiting_for_twitter">Waiting for Twitter to respond!</string>
+    <string name="waiting_for_facebook">Waiting for Facebook to respond!</string>
+    <string name="business_none">No businesses found.</string>
+    <string name="powered_by">POWERED BY CHECK-IN FOR GOOD</string>
+    <string name="business_list_address">Address</string>
+    <string name="business_arrow">Arrow</string>
+    <string name="business_list_miles">mi</string>
+    <string name="business_list_distance">Distance</string>
+    <string name="search_hint">Search</string>
+    <string name="search_label">Search</string>
+    <string name="searched">You searched: </string>
+    <string name="business_checkin_address">Business Address\n</string>
+    <string name="business_checkin_map">MAP IT</string>
+    <string name="business_checkin_name">Business Name</string>
+    <string name="business_checkin_offer">Business offer</string>
+    <string name="business_checkin_private">Private Check-in\n you raise\n $2</string>
+    <string name="business_checkin_public">Public Check-in\n you raise\n $2</string>
+    <string name="business_checkin_share">Share your check-in with friends</string>
+    <string name="business_checkin">CHECK-IN FOR GOOD</string>
+    <string name="business_Offer_valid">Check-in times: </string>
+    <string name="snapnow_page_text">This business requires customers to SNAP their code to Check-in.</string>
+    <string name="snapnow_page_text1">Look for the Check-in for Good SNAP display and tap the button below</string>
+    <string name="snapnow_page_text2">This SNAP barcode isn\'t working. Please ask an employee for assistance or try snapping it again.</string>
+    <string name="thank_you">Thank you</string>
+    <string name="checkin_find">Tap the Business tab to find more Check-ins.</string>
+    <string name="delink_text">Logout and unlink account</string>
+    <string name="how_it_works_checkin">Raise money and save \nwhen you check-in.</string>
+    <string name="how_it_works_qr">SNAP Check-in\'s.\nThey\'re quick and simple.</string>
+    <string name="how_it_works_share">Sharing your check-in \nis like doing double good.</string>
+    <string name="social_share_header">Set up social sharing </string>
+    <string name="social_share_desc">Raise more when you share.</string>
+    <string name="social_share_icon">Offers and sharing are powered by\nCheck-in for Good.</string>
+    <string name="find_more_businesses">Find More Businesses</string>
+    <string name="how_it_works_sharing_btn_text">Set Up Sharing</string>
+
+    <style name="medtext">
+        <item name="android:text">Medium Text</item>
+        <item name="android:textAppearance">?android:attr/textAppearanceMedium</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">18dp</item>
+    </style>
+
+    <string name="businessProgressMessage">Finding participating businesses near you.</string>
+    <string name="causeProgressMessage">Finding causes near your area.</string>
+    <string name="signInProgressMessage">Signing in..\. Please wait</string>
+    <string name="checkinProgressMessage">Checking-in</string>
+    <string name="searchProgressMessage">"Searching.. Please wait</string>
+    <string name="signupProgressMessage">Signing up.. Please wait</string>
+    <string name="forgotPwdProgressMessage">Retrieving your password..\. Please wait</string>
+    <string name="supportusafootball">Support USA Football</string>
+    <string name="delinkProgressMessage">Unlink your account..\. Please wait</string>
+    <string name="supportusafootballdesc">by checking in at participating businesses</string>
+    <string name="supportusafootballmessage">Businesses and youth leagues interested in\n participating and reaching the football\n community can sign-up for free at</string>
+    <string name="headsupBusinessesViewMessage"> Support us by checking in at participating businesses. Every time you check-in a donation is made.</string>
+    <string name="business_all">All</string>
+    <string name="business_supporting">Supporting My Causes</string>
+    <string name="defaultProgressMessage">Loading..\.</string>
+    <string name="social_signin_or_signup_text">Sign in / Sign up with</string>
+    <string name="social_have_account"> &lt;u>Sign in with an email&lt;/u></string>
+    <string name="concussion_list_data">Concussion Data</string>
+    <string name="signup_with_email">Sign up with an email address</string>
+    <string name="does_your_league_need_money">Does your league need to raise money? Does your business need new customers?</string> 
+    <string name="youth_leagues_raise_money">Youth Leagues\nRaise money</string>
+    <string name="youth_leagues_raise_money_desc">Youth league can start raising money from local businesses that support football by signing up free at \nwww.checkinforgood.com. Remember to affiliate with USA Football so your supporting businesses appear in the USA Football Heads Up App.</string>
+    <string name="businesses_gain">Businesses gain new customers and support the game.</string>
+    <string name="businesses_gain_desc">Reach the football community! Businesses can now easily support youth football leagues, get recognition, gain new cutomers and appear in the USA Football Heads Up Football app. \nSign-up at www.checkinforgood.com.</string>   
+</resources>

@@ -1,0 +1,23 @@
+h1 {
+    background-image:url('search_box_bg@2x.png');
+}
+ul.list_rows li {
+    background-image:url('btncontactbg@2x.png');
+}
+/*ul.support_icons li {
+    background:transparent url('support_icons@2x.png') no-repeat left top;
+    -webkit-background-size: 20px 59px;
+}
+ul.support_icons li.twitter { background-position:0 -40px; } 
+ul.support_icons li.gplus { background-position:0 -78px; } 
+ul.support_icons li.youtube { background-position:0 -118px; }
+ul.support_icons li.pintrest { background-position:0 -158px; }*/
+
+
+ul.support_icons li {
+    background:transparent url('support_icons@2x.png') no-repeat left top;
+    -moz-background-size:20px 99px;
+    -o-background-size:20px 99px;
+    -webkit-background-size:20px 99px;
+    background-size:20px 99px;
+}

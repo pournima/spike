@@ -1,0 +1,251 @@
+what,kind,bundleId,bundleVersion,description,time
+error,log,,,"official_signal.xml: Failed to find style 'buttonStyle' in current theme",1348577511807
+error,log,,,"official_signal.xml: Failed to find style 'buttonStyle' in current theme",1348577511808
+error,log,,,"official_signal.xml: Failed to find style 'buttonStyle' in current theme",1348577511808
+error,log,,,"official_signal.xml: Failed to find style 'textViewStyle' in current theme",1348577511809
+error,log,,,"official_signal.xml: Failed to find style 'textViewStyle' in current theme",1348577511809
+error,log,,,"official_signal.xml: Failed to find style 'textViewStyle' in current theme",1348577511809
+error,log,,,"official_signal.xml: Failed to find style 'buttonStyle' in current theme",1348577511810
+error,log,,,"official_signal.xml: Failed to find style 'buttonStyle' in current theme",1348577511811
+error,log,,,"official_signal.xml: Failed to find style 'buttonStyle' in current theme",1348577511811
+error,log,,,"official_signal.xml: Failed to find style 'textViewStyle' in current theme",1348577511812
+error,log,,,"official_signal.xml: Failed to find style 'textViewStyle' in current theme",1348577511812
+error,log,,,"official_signal.xml: Failed to find style 'textViewStyle' in current theme",1348577511812
+error,log,,,"official_signal.xml: Failed to find style 'buttonStyle' in current theme",1348577511813
+error,log,,,"official_signal.xml: Failed to find style 'buttonStyle' in current theme",1348577511813
+error,log,,,"official_signal.xml: Failed to find style 'buttonStyle' in current theme",1348577511813
+error,log,,,"official_signal.xml: Failed to find style 'textViewStyle' in current theme",1348577511815
+error,log,,,"official_signal.xml: Failed to find style 'textViewStyle' in current theme",1348577511815
+error,log,,,"official_signal.xml: Failed to find style 'textViewStyle' in current theme",1348577511816
+error,log,,,"official_signal.xml: Failed to find style 'horizontalScrollViewStyle' in current theme",1348577511816
+error,log,,,"official_signal.xml: Failed to find style 'horizontalScrollViewStyle' in current theme",1348577511817
+error,log,,,"official_signal.xml: Failed to find style 'horizontalScrollViewStyle' in current theme",1348577511817
+error,log,,,"official_signal.xml: Failed to find style 'textViewStyle' in current theme",1348577511818
+error,log,,,"official_signal.xml: Failed to find style 'textViewStyle' in current theme",1348577511818
+error,log,,,"official_signal.xml: Failed to find style 'textViewStyle' in current theme",1348577511819
+error,log,,,"official_signal.xml: Failed to find style 'horizontalScrollViewStyle' in current theme",1348577511819
+error,log,,,"official_signal.xml: Failed to find style 'horizontalScrollViewStyle' in current theme",1348577511820
+error,log,,,"official_signal.xml: Failed to find style 'horizontalScrollViewStyle' in current theme",1348577511820
+error,log,,,"official_signal.xml: Failed to find style 'textViewStyle' in current theme",1348577511821
+error,log,,,"official_signal.xml: Failed to find style 'textViewStyle' in current theme",1348577511822
+error,log,,,"official_signal.xml: Failed to find style 'textViewStyle' in current theme",1348577511822
+error,log,,,"official_signal.xml: Failed to find style 'horizontalScrollViewStyle' in current theme",1348577511823
+error,log,,,"official_signal.xml: Failed to find style 'horizontalScrollViewStyle' in current theme",1348577511823
+error,log,,,"official_signal.xml: Failed to find style 'horizontalScrollViewStyle' in current theme",1348577511847
+error,log,,,"official_signal.xml: Failed to find style 'textViewStyle' in current theme",1348577511849
+error,log,,,"official_signal.xml: Failed to find style 'textViewStyle' in current theme",1348577511849
+error,log,,,"official_signal.xml: Failed to find style 'textViewStyle' in current theme",1348577511849
+error,log,,,"official_signal.xml: Failed to find style 'horizontalScrollViewStyle' in current theme",1348577511850
+error,log,,,"official_signal.xml: Failed to find style 'horizontalScrollViewStyle' in current theme",1348577511850
+error,log,,,"official_signal.xml: Failed to find style 'horizontalScrollViewStyle' in current theme",1348577511851
+activated,editor,com.android.ide.eclipse.adt,20.0.3.v201208082019-427395,"com.android.ide.eclipse.editors.CommonXmlEditor",1348577530656
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.file.save",1348577533620
+activated,editor,com.android.ide.eclipse.adt,20.0.3.v201208082019-427395,"com.android.ide.eclipse.editors.CommonXmlEditor",1348577533992
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.file.save",1348577537066
+activated,editor,com.android.ide.eclipse.adt,20.0.3.v201208082019-427395,"com.android.ide.eclipse.editors.CommonXmlEditor",1348577539755
+closed,editor,com.android.ide.eclipse.adt,20.0.3.v201208082019-427395,"com.android.ide.eclipse.editors.CommonXmlEditor",1348577539755
+activated,editor,com.android.ide.eclipse.adt,20.0.3.v201208082019-427395,"com.android.ide.eclipse.editors.CommonXmlEditor",1348577540634
+closed,editor,com.android.ide.eclipse.adt,20.0.3.v201208082019-427395,"com.android.ide.eclipse.editors.CommonXmlEditor",1348577540634
+activated,editor,com.android.ide.eclipse.adt,20.0.3.v201208082019-427395,"com.android.ide.eclipse.editors.CommonXmlEditor",1348577546106
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1348577550239
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1348577552127
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1348577564888
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1348577565780
+activated,view,org.eclipse.ui.console,3.5.100.v20111007_r372,"org.eclipse.ui.console.ConsoleView",1348577567590
+activated,view,com.android.ide.eclipse.ddms,20.0.3.v201208082019-427395,"com.android.ide.eclipse.ddms.views.LogCatView",1348577572743
+activated,editor,com.android.ide.eclipse.adt,20.0.3.v201208082019-427395,"com.android.ide.eclipse.editors.CommonXmlEditor",1348577574736
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1348577611895
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1348577614437
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1348577631068
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1348577635251
+activated,view,org.eclipse.ui.console,3.5.100.v20111007_r372,"org.eclipse.ui.console.ConsoleView",1348577635850
+activated,editor,com.android.ide.eclipse.adt,20.0.3.v201208082019-427395,"com.android.ide.eclipse.editors.CommonXmlEditor",1348577636663
+activated,view,com.android.ide.eclipse.ddms,20.0.3.v201208082019-427395,"com.android.ide.eclipse.ddms.views.LogCatView",1348577638542
+activated,editor,com.android.ide.eclipse.adt,20.0.3.v201208082019-427395,"com.android.ide.eclipse.editors.CommonXmlEditor",1348577639659
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1348577649359
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1348577715811
+error,log,,,"official_signal_grid_item.xml: Failed to find style 'textViewStyle' in current theme",1348577717877
+error,log,,,"official_signal_grid_item.xml: Failed to find style 'textViewStyle' in current theme",1348577717878
+error,log,,,"official_signal_grid_item.xml: Failed to find style 'textViewStyle' in current theme",1348577717879
+activated,editor,com.android.ide.eclipse.adt,20.0.3.v201208082019-427395,"com.android.ide.eclipse.editors.CommonXmlEditor",1348577733944
+error,log,,,"official_signal.xml: Failed to find style 'scrollViewStyle' in current theme",1348577735552
+error,log,,,"official_signal.xml: Failed to find style 'scrollViewStyle' in current theme",1348577735552
+error,log,,,"official_signal.xml: Failed to find style 'scrollViewStyle' in current theme",1348577735552
+error,log,,,"official_signal.xml: Failed to find style 'textViewStyle' in current theme",1348577735553
+error,log,,,"official_signal.xml: Failed to find style 'textViewStyle' in current theme",1348577735554
+error,log,,,"official_signal.xml: Failed to find style 'textViewStyle' in current theme",1348577735554
+error,log,,,"official_signal.xml: Failed to find style 'textViewStyle' in current theme",1348577735584
+error,log,,,"official_signal.xml: Failed to find style 'textViewStyle' in current theme",1348577735585
+error,log,,,"official_signal.xml: Failed to find style 'textViewStyle' in current theme",1348577735586
+error,log,,,"official_signal.xml: Failed to find style 'imageButtonStyle' in current theme",1348577735587
+error,log,,,"official_signal.xml: Failed to find style 'imageButtonStyle' in current theme",1348577735587
+error,log,,,"official_signal.xml: Failed to find style 'textViewStyle' in current theme",1348577735656
+error,log,,,"official_signal.xml: Failed to find style 'textViewStyle' in current theme",1348577735680
+error,log,,,"official_signal.xml: Failed to find style 'textViewStyle' in current theme",1348577735680
+error,log,,,"official_signal.xml: Failed to find style 'buttonStyle' in current theme",1348577735697
+error,log,,,"official_signal.xml: Failed to find style 'buttonStyle' in current theme",1348577735698
+error,log,,,"official_signal.xml: Failed to find style 'buttonStyle' in current theme",1348577735698
+error,log,,,"official_signal.xml: Failed to find style 'textViewStyle' in current theme",1348577735699
+error,log,,,"official_signal.xml: Failed to find style 'textViewStyle' in current theme",1348577735699
+error,log,,,"official_signal.xml: Failed to find style 'textViewStyle' in current theme",1348577735699
+error,log,,,"official_signal.xml: Failed to find style 'buttonStyle' in current theme",1348577735700
+error,log,,,"official_signal.xml: Failed to find style 'buttonStyle' in current theme",1348577735700
+error,log,,,"official_signal.xml: Failed to find style 'buttonStyle' in current theme",1348577735701
+error,log,,,"official_signal.xml: Failed to find style 'textViewStyle' in current theme",1348577735701
+error,log,,,"official_signal.xml: Failed to find style 'textViewStyle' in current theme",1348577735701
+error,log,,,"official_signal.xml: Failed to find style 'textViewStyle' in current theme",1348577735702
+error,log,,,"official_signal.xml: Failed to find style 'buttonStyle' in current theme",1348577735702
+error,log,,,"official_signal.xml: Failed to find style 'buttonStyle' in current theme",1348577735702
+error,log,,,"official_signal.xml: Failed to find style 'buttonStyle' in current theme",1348577735703
+error,log,,,"official_signal.xml: Failed to find style 'textViewStyle' in current theme",1348577735703
+error,log,,,"official_signal.xml: Failed to find style 'textViewStyle' in current theme",1348577735704
+error,log,,,"official_signal.xml: Failed to find style 'textViewStyle' in current theme",1348577735704
+error,log,,,"official_signal.xml: Failed to find style 'buttonStyle' in current theme",1348577735704
+error,log,,,"official_signal.xml: Failed to find style 'buttonStyle' in current theme",1348577735705
+error,log,,,"official_signal.xml: Failed to find style 'buttonStyle' in current theme",1348577735705
+error,log,,,"official_signal.xml: Failed to find style 'textViewStyle' in current theme",1348577735758
+error,log,,,"official_signal.xml: Failed to find style 'textViewStyle' in current theme",1348577735758
+error,log,,,"official_signal.xml: Failed to find style 'textViewStyle' in current theme",1348577735759
+error,log,,,"official_signal.xml: Failed to find style 'horizontalScrollViewStyle' in current theme",1348577735759
+error,log,,,"official_signal.xml: Failed to find style 'horizontalScrollViewStyle' in current theme",1348577735760
+error,log,,,"official_signal.xml: Failed to find style 'horizontalScrollViewStyle' in current theme",1348577735760
+error,log,,,"official_signal.xml: Failed to find style 'textViewStyle' in current theme",1348577735761
+error,log,,,"official_signal.xml: Failed to find style 'textViewStyle' in current theme",1348577735762
+error,log,,,"official_signal.xml: Failed to find style 'textViewStyle' in current theme",1348577735762
+error,log,,,"official_signal.xml: Failed to find style 'horizontalScrollViewStyle' in current theme",1348577735763
+error,log,,,"official_signal.xml: Failed to find style 'horizontalScrollViewStyle' in current theme",1348577735763
+error,log,,,"official_signal.xml: Failed to find style 'horizontalScrollViewStyle' in current theme",1348577735764
+error,log,,,"official_signal.xml: Failed to find style 'textViewStyle' in current theme",1348577735765
+error,log,,,"official_signal.xml: Failed to find style 'textViewStyle' in current theme",1348577735765
+error,log,,,"official_signal.xml: Failed to find style 'textViewStyle' in current theme",1348577735766
+error,log,,,"official_signal.xml: Failed to find style 'horizontalScrollViewStyle' in current theme",1348577735766
+error,log,,,"official_signal.xml: Failed to find style 'horizontalScrollViewStyle' in current theme",1348577735767
+error,log,,,"official_signal.xml: Failed to find style 'horizontalScrollViewStyle' in current theme",1348577735767
+error,log,,,"official_signal.xml: Failed to find style 'textViewStyle' in current theme",1348577735769
+error,log,,,"official_signal.xml: Failed to find style 'textViewStyle' in current theme",1348577735769
+error,log,,,"official_signal.xml: Failed to find style 'textViewStyle' in current theme",1348577735770
+error,log,,,"official_signal.xml: Failed to find style 'horizontalScrollViewStyle' in current theme",1348577735770
+error,log,,,"official_signal.xml: Failed to find style 'horizontalScrollViewStyle' in current theme",1348577735771
+error,log,,,"official_signal.xml: Failed to find style 'horizontalScrollViewStyle' in current theme",1348577735771
+activated,editor,org.eclipse.jdt.ui,3.7.2.v20120109-1427,"org.eclipse.jdt.ui.CompilationUnitEditor",1348577747205
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1348577754698
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1348577758303
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1348577763279
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1348577764976
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1348577775396
+activated,view,org.eclipse.ui.console,3.5.100.v20111007_r372,"org.eclipse.ui.console.ConsoleView",1348577797287
+activated,view,com.android.ide.eclipse.ddms,20.0.3.v201208082019-427395,"com.android.ide.eclipse.ddms.views.LogCatView",1348577804180
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1348577878230
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1348577880182
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1348580621740
+activated,editor,org.eclipse.jdt.ui,3.7.2.v20120109-1427,"org.eclipse.jdt.ui.CompilationUnitEditor",1348580621983
+activated,editor,com.android.ide.eclipse.adt,20.0.3.v201208082019-427395,"com.android.ide.eclipse.editors.CommonXmlEditor",1348580625278
+activated,editor,org.eclipse.jdt.ui,3.7.2.v20120109-1427,"org.eclipse.jdt.ui.CompilationUnitEditor",1348580627738
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.text.contentAssist.proposals",1348580656422
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.undo",1348580657815
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1348580673357
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1348580675855
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.file.save",1348580684734
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1348580715514
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1348580717693
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1348580721315
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1348580730177
+activated,view,org.eclipse.ui.console,3.5.100.v20111007_r372,"org.eclipse.ui.console.ConsoleView",1348580730820
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1348580738628
+activated,view,com.android.ide.eclipse.ddms,20.0.3.v201208082019-427395,"com.android.ide.eclipse.ddms.views.LogCatView",1348580740238
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1348580837757
+activated,editor,org.eclipse.jdt.ui,3.7.2.v20120109-1427,"org.eclipse.jdt.ui.CompilationUnitEditor",1348580838300
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1348580863752
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1348580883892
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1348580897961
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1348580905700
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.file.save",1348580914209
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1348580933915
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1348580936615
+activated,view,org.eclipse.ui.console,3.5.100.v20111007_r372,"org.eclipse.ui.console.ConsoleView",1348580956352
+activated,editor,org.eclipse.jdt.ui,3.7.2.v20120109-1427,"org.eclipse.jdt.ui.CompilationUnitEditor",1348580957570
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1348580963899
+activated,view,com.android.ide.eclipse.ddms,20.0.3.v201208082019-427395,"com.android.ide.eclipse.ddms.views.LogCatView",1348580965997
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1348581117977
+activated,editor,org.eclipse.jdt.ui,3.7.2.v20120109-1427,"org.eclipse.jdt.ui.CompilationUnitEditor",1348581118017
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.text.contentAssist.proposals",1348581119897
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.undo",1348581121243
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1348581174433
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1348581239253
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.undo",1348581240514
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.undo",1348581240694
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.undo",1348581240910
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.undo",1348581241309
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.undo",1348581241542
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.undo",1348581241886
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.undo",1348581242508
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.undo",1348581242878
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.file.save",1348581243995
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.file.save",1348581301722
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1348581306174
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1348581307035
+activated,editor,com.android.ide.eclipse.adt,20.0.3.v201208082019-427395,"com.android.ide.eclipse.editors.CommonXmlEditor",1348581307878
+activated,editor,com.android.ide.eclipse.adt,20.0.3.v201208082019-427395,"com.android.ide.eclipse.editors.CommonXmlEditor",1348581312850
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1348581316863
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1348581318661
+activated,editor,org.eclipse.jdt.ui,3.7.2.v20120109-1427,"org.eclipse.jdt.ui.CompilationUnitEditor",1348581322386
+activated,editor,com.android.ide.eclipse.adt,20.0.3.v201208082019-427395,"com.android.ide.eclipse.editors.CommonXmlEditor",1348581323444
+activated,view,org.eclipse.jdt.ui,3.7.2.v20120109-1427,"org.eclipse.jdt.ui.PackageExplorer",1348581324289
+opened,editor,org.eclipse.jdt.ui,3.7.2.v20120109-1427,"org.eclipse.jdt.ui.CompilationUnitEditor",1348581324587
+activated,editor,org.eclipse.jdt.ui,3.7.2.v20120109-1427,"org.eclipse.jdt.ui.CompilationUnitEditor",1348581324653
+error,log,,,"official_signal_type.xml: Failed to find style 'textViewStyle' in current theme",1348581327693
+error,log,,,"official_signal_type.xml: Failed to find style 'textViewStyle' in current theme",1348581327694
+error,log,,,"official_signal_type.xml: Failed to find style 'textViewStyle' in current theme",1348581327694
+error,log,,,"official_signal_type.xml: Failed to find style 'textViewStyle' in current theme",1348581327695
+error,log,,,"official_signal_type.xml: Failed to find style 'textViewStyle' in current theme",1348581327695
+error,log,,,"official_signal_type.xml: Failed to find style 'textViewStyle' in current theme",1348581327696
+error,log,,,"official_signal_type.xml: Failed to find style 'buttonStyle' in current theme",1348581327711
+error,log,,,"official_signal_type.xml: Failed to find style 'buttonStyle' in current theme",1348581327712
+error,log,,,"official_signal_type.xml: Failed to find style 'buttonStyle' in current theme",1348581327731
+error,log,,,"official_signal_type.xml: Failed to find style 'textViewStyle' in current theme",1348581327747
+error,log,,,"official_signal_type.xml: Failed to find style 'textViewStyle' in current theme",1348581327748
+error,log,,,"official_signal_type.xml: Failed to find style 'textViewStyle' in current theme",1348581327749
+error,log,,,"official_signal_type.xml: Failed to find style 'buttonStyle' in current theme",1348581327749
+error,log,,,"official_signal_type.xml: Failed to find style 'buttonStyle' in current theme",1348581327750
+error,log,,,"official_signal_type.xml: Failed to find style 'buttonStyle' in current theme",1348581327750
+error,log,,,"official_signal_type.xml: Failed to find style 'textViewStyle' in current theme",1348581327751
+error,log,,,"official_signal_type.xml: Failed to find style 'textViewStyle' in current theme",1348581327751
+error,log,,,"official_signal_type.xml: Failed to find style 'textViewStyle' in current theme",1348581327751
+error,log,,,"official_signal_type.xml: Failed to find style 'buttonStyle' in current theme",1348581327752
+error,log,,,"official_signal_type.xml: Failed to find style 'buttonStyle' in current theme",1348581327752
+error,log,,,"official_signal_type.xml: Failed to find style 'buttonStyle' in current theme",1348581327752
+error,log,,,"official_signal_type.xml: Failed to find style 'textViewStyle' in current theme",1348581327753
+error,log,,,"official_signal_type.xml: Failed to find style 'textViewStyle' in current theme",1348581327753
+error,log,,,"official_signal_type.xml: Failed to find style 'textViewStyle' in current theme",1348581327753
+error,log,,,"official_signal_type.xml: Failed to find style 'buttonStyle' in current theme",1348581327754
+error,log,,,"official_signal_type.xml: Failed to find style 'buttonStyle' in current theme",1348581327754
+error,log,,,"official_signal_type.xml: Failed to find style 'buttonStyle' in current theme",1348581327755
+error,log,,,"official_signal_type.xml: Failed to find style 'textViewStyle' in current theme",1348581327755
+error,log,,,"official_signal_type.xml: Failed to find style 'textViewStyle' in current theme",1348581327756
+error,log,,,"official_signal_type.xml: Failed to find style 'textViewStyle' in current theme",1348581327756
+error,log,,,"official_signal_type.xml: Failed to find style 'buttonStyle' in current theme",1348581327756
+error,log,,,"official_signal_type.xml: Failed to find style 'buttonStyle' in current theme",1348581327757
+error,log,,,"official_signal_type.xml: Failed to find style 'buttonStyle' in current theme",1348581327757
+error,log,,,"official_signal_type.xml: Failed to find style 'textViewStyle' in current theme",1348581327758
+error,log,,,"official_signal_type.xml: Failed to find style 'textViewStyle' in current theme",1348581327758
+error,log,,,"official_signal_type.xml: Failed to find style 'textViewStyle' in current theme",1348581327758
+error,log,,,"official_signal_type.xml: Failed to find style 'gridViewStyle' in current theme",1348581327759
+error,log,,,"official_signal_type.xml: Failed to find style 'gridViewStyle' in current theme",1348581327759
+error,log,,,"official_signal_type.xml: Failed to find style 'gridViewStyle' in current theme",1348581327760
+error,log,,,"official_signal_type.xml: Failed to find style 'textViewStyle' in current theme",1348581327903
+error,log,,,"official_signal_type.xml: Failed to find style 'textViewStyle' in current theme",1348581327903
+error,log,,,"official_signal_type.xml: Failed to find style 'textViewStyle' in current theme",1348581327905
+error,log,,,"official_signal_type.xml: Failed to find style 'textViewStyle' in current theme",1348581327905
+error,log,,,"official_signal_type.xml: Failed to find style 'textViewStyle' in current theme",1348581327905
+error,log,,,"official_signal_type.xml: Failed to find style 'textViewStyle' in current theme",1348581327906
+error,log,,,"official_signal_type.xml: Failed to find style 'textViewStyle' in current theme",1348581327908
+error,log,,,"official_signal_type.xml: Failed to find style 'textViewStyle' in current theme",1348581327908
+error,log,,,"official_signal_type.xml: Failed to find style 'textViewStyle' in current theme",1348581327909
+error,log,,,"official_signal_type.xml: Failed to find style 'textViewStyle' in current theme",1348581327910
+error,log,,,"official_signal_type.xml: Failed to find style 'textViewStyle' in current theme",1348581327910
+error,log,,,"official_signal_type.xml: Failed to find style 'textViewStyle' in current theme",1348581327911
+error,log,,,"official_signal_type.xml: Failed to find style 'textViewStyle' in current theme",1348581327913
+error,log,,,"official_signal_type.xml: Failed to find style 'textViewStyle' in current theme",1348581327913
+error,log,,,"official_signal_type.xml: Failed to find style 'textViewStyle' in current theme",1348581327914
+error,log,,,"official_signal_type.xml: Failed to find style 'textViewStyle' in current theme",1348581327914
+error,log,,,"official_signal_type.xml: Failed to find style 'textViewStyle' in current theme",1348581327915

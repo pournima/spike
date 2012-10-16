@@ -1,0 +1,154 @@
+@charset "utf-8";
+/* CSS Document */
+html, body {
+	height: 100%;
+}
+body {
+	margin:0;
+	padding:0;
+	font-family:Helvetica, Arial, sans-serif;
+	font-size: 82.5%;
+	color:#363636;
+	line-height:18px;
+}
+a {
+	color:#404699;
+	text-decoration:none;
+}
+ul, ul li {
+	margin:0;
+	padding:0;
+}
+b, strong {
+	font-weight: bold;
+}
+h1 {
+	margin:15px 0;
+	padding:10px;
+	font-size:16px;
+	color:#ca1f25;
+}
+
+h1.header_content {
+	margin:15px 0 0;
+	padding:10px;
+	font-size:16px;
+	color:#ca1f25;
+}
+
+
+h2 {
+	margin:15px 0;
+	padding:0;
+	font-size:12pt;
+	/*color:#47587e;*/
+        color: #334a85;
+}
+p{
+	font-size:14px;
+	padding:10px 0;
+	margin:0;
+}
+#content {
+	padding:0 20px;
+}
+ul.gameContent, ul.penaltiesContent {
+	padding:0 0px 0 20px;
+}
+ul.gameContent > li, ul.penaltiesContent li {
+	display:list-item;
+	list-style-type:decimal;
+	margin:0px 0;
+	padding:10px 0 10px 5px;
+	font-size:14px;
+}
+ul.timing_overtime li > ul, ul.timing_overtime li > ul > li > ul, ul.timing_overtime li > ul > li > ul > li > ul {
+	margin-left:20px;
+}
+ul.timing_overtime li > ul > li {
+	list-style-type:lower-alpha;
+	padding:10px 0 10px 0px;
+}
+ul.timing_overtime li > ul > li > ul > li {
+	list-style-type:lower-roman;
+	padding:10px 0 10px 0px;
+}
+ul.timing_overtime li > ul > li > ul > li > ul > li {
+	list-style-type:decimal;
+	padding:10px 0 10px 0px;
+}
+.note {
+	font-size:12px;
+	font-style:italic;
+	display:block;
+}
+ul.penaltiesContent li {
+	list-style-type:disc;
+}
+.smallText, .passText {
+	font-size:10px;
+}
+.passText {
+	display:block;
+}
+/*sign_symtoms_content---------*/
+.sign_symtoms_content {
+	font-size:14px;
+}
+.concussionSymptomsContent, .signsPlayerContent, .recognizeContent {
+	padding:0 20px;
+}
+.signsPlayerContent {
+	border-bottom:solid 1px #918d7d;
+	padding-bottom:10px;
+}
+.sign_symtoms_content p {
+	margin:0;
+}
+.sign_symtoms_content .content {
+	display:block;
+}
+ul.left_side {
+	width:auto;
+	margin:0 10px 0 20px;
+}
+ul.left_side li {	
+	display:list-item;
+	list-style-type:disc;
+	padding:5px 0;
+	font-size:14px;
+}
+.right-img {
+	float:right;
+	margin-left:10px;
+	margin-bottom:5px;
+	border:1px solid #b1c1d4;
+}
+ul.coachRula {
+	margin:0 10px 0 20px;
+}
+ul.coachRula li {
+	display:list-item;
+	list-style-type:decimal;
+	padding:5px 0;
+}
+.concusion-suspect-box {
+	box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+	-moz-box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+	-webkit-box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+	float:left;
+	width:auto;
+	padding:5px 20px 10px 20px;
+	border-radius:10px;
+	-moz-border-radius:10px;
+	-webkit-border-radius:10px;
+	margin:5px 20px 40px;
+}
+
+.clr {
+	clear:both;
+}
+.addressContent span {
+	display:block;
+}
+

@@ -1,0 +1,276 @@
+what,kind,bundleId,bundleVersion,description,time
+error,log,,,"Internal error logged from JDI Debug: ",1347521827063
+error,log,,,"Internal error logged from JDI Debug: ",1347521830064
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1347521833008
+error,log,,,"Internal error logged from JDI Debug: ",1347521833067
+error,log,,,"Internal error logged from JDI Debug: ",1347521836069
+activated,view,org.eclipse.jdt.ui,3.7.2.v20120109-1427,"org.eclipse.jdt.ui.PackageExplorer",1347521836297
+error,log,,,"Internal error logged from JDI Debug: ",1347521839071
+executed,command,,,"com.android.ide.eclipse.adt.debug.launching.LaunchShortcut.run",1347521839184
+activated,view,org.eclipse.ui.console,3.5.100.v20111007_r372,"org.eclipse.ui.console.ConsoleView",1347521841541
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1347521841721
+error,log,,,"Internal error logged from JDI Debug: ",1347521842073
+error,log,,,"Internal error logged from JDI Debug: ",1347521845076
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1347521846267
+activated,view,com.android.ide.eclipse.ddms,20.0.3.v201208082019-427395,"com.android.ide.eclipse.ddms.views.LogCatView",1347521847177
+error,log,,,"Internal error logged from JDI Debug: ",1347521848077
+error,log,,,"Internal error logged from JDI Debug: ",1347521851080
+error,log,,,"Internal error logged from JDI Debug: ",1347521854082
+error,log,,,"Internal error logged from JDI Debug: ",1347521857085
+error,log,,,"Internal error logged from JDI Debug: ",1347521860086
+error,log,,,"Internal error logged from JDI Debug: ",1347521863088
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1347521864827
+activated,view,org.eclipse.jdt.ui,3.7.2.v20120109-1427,"org.eclipse.jdt.ui.PackageExplorer",1347521865779
+activated,editor,org.eclipse.jdt.ui,3.7.2.v20120109-1427,"org.eclipse.jdt.ui.CompilationUnitEditor",1347521865820
+error,log,,,"Internal error logged from JDI Debug: ",1347521866090
+error,log,,,"Internal error logged from JDI Debug: ",1347521869093
+error,log,,,"Internal error logged from JDI Debug: ",1347521872094
+error,log,,,"Internal error logged from JDI Debug: ",1347521875096
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.file.save",1347521877319
+error,log,,,"Internal error logged from JDI Debug: ",1347521878099
+activated,view,org.eclipse.jdt.ui,3.7.2.v20120109-1427,"org.eclipse.jdt.ui.PackageExplorer",1347521878821
+error,log,,,"Internal error logged from JDI Debug: ",1347521881101
+executed,command,,,"com.android.ide.eclipse.adt.debug.launching.LaunchShortcut.run",1347521881216
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1347521882356
+error,log,,,"Internal error logged from JDI Debug: ",1347521884104
+error,log,,,"Internal error logged from JDI Debug: ",1347521887114
+error,log,,,"Internal error logged from JDI Debug: ",1347521890117
+error,log,,,"Internal error logged from JDI Debug: ",1347521893119
+error,log,,,"Internal error logged from JDI Debug: ",1347521896121
+error,log,,,"Internal error logged from JDI Debug: ",1347521899123
+error,log,,,"Internal error logged from JDI Debug: ",1347521902125
+error,log,,,"Internal error logged from JDI Debug: ",1347521905128
+error,log,,,"Internal error logged from JDI Debug: ",1347521908130
+error,log,,,"Internal error logged from JDI Debug: ",1347521911158
+error,log,,,"Internal error logged from JDI Debug: ",1347521914160
+error,log,,,"Internal error logged from JDI Debug: ",1347521917162
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1347521919107
+error,log,,,"Internal error logged from JDI Debug: ",1347521920164
+activated,view,org.eclipse.ui.console,3.5.100.v20111007_r372,"org.eclipse.ui.console.ConsoleView",1347521921776
+activated,view,org.eclipse.jdt.ui,3.7.2.v20120109-1427,"org.eclipse.jdt.ui.PackageExplorer",1347521922304
+error,log,,,"Internal error logged from JDI Debug: ",1347521923182
+activated,view,org.eclipse.ui.console,3.5.100.v20111007_r372,"org.eclipse.ui.console.ConsoleView",1347521923329
+activated,view,org.eclipse.jdt.ui,3.7.2.v20120109-1427,"org.eclipse.jdt.ui.PackageExplorer",1347521923639
+activated,view,org.eclipse.ui.console,3.5.100.v20111007_r372,"org.eclipse.ui.console.ConsoleView",1347521924369
+activated,editor,org.eclipse.jdt.ui,3.7.2.v20120109-1427,"org.eclipse.jdt.ui.CompilationUnitEditor",1347521925386
+error,log,,,"Internal error logged from JDI Debug: ",1347521926184
+activated,view,com.android.ide.eclipse.ddms,20.0.3.v201208082019-427395,"com.android.ide.eclipse.ddms.views.LogCatView",1347521927696
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1347521927871
+error,log,,,"Internal error logged from JDI Debug: ",1347521929186
+error,log,,,"Internal error logged from JDI Debug: ",1347521932189
+error,log,,,"Internal error logged from JDI Debug: ",1347521935191
+error,log,,,"Internal error logged from JDI Debug: ",1347521938193
+error,log,,,"Internal error logged from JDI Debug: ",1347521941194
+error,log,,,"Internal error logged from JDI Debug: ",1347521944196
+error,log,,,"Internal error logged from JDI Debug: ",1347521947198
+error,log,,,"Internal error logged from JDI Debug: ",1347521950201
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1347521950683
+activated,editor,org.eclipse.jdt.ui,3.7.2.v20120109-1427,"org.eclipse.jdt.ui.CompilationUnitEditor",1347521950716
+error,log,,,"Internal error logged from JDI Debug: ",1347521953203
+activated,editor,org.eclipse.jdt.ui,3.7.2.v20120109-1427,"org.eclipse.jdt.ui.CompilationUnitEditor",1347521955266
+error,log,,,"Internal error logged from JDI Debug: ",1347521956205
+error,log,,,"Internal error logged from JDI Debug: ",1347521959207
+error,log,,,"Internal error logged from JDI Debug: ",1347521962210
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1347521964492
+error,log,,,"Internal error logged from JDI Debug: ",1347521965212
+error,log,,,"Internal error logged from JDI Debug: ",1347521968214
+error,log,,,"Internal error logged from JDI Debug: ",1347521971216
+error,log,,,"Internal error logged from JDI Debug: ",1347521974218
+activated,view,org.eclipse.jdt.ui,3.7.2.v20120109-1427,"org.eclipse.jdt.ui.PackageExplorer",1347521975969
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1347521976145
+error,log,,,"Internal error logged from JDI Debug: ",1347521977220
+executed,command,,,"com.android.ide.eclipse.adt.debug.launching.LaunchShortcut.debug",1347521978671
+error,log,,,"Internal error logged from JDI Debug: ",1347521980230
+activated,view,org.eclipse.ui.console,3.5.100.v20111007_r372,"org.eclipse.ui.console.ConsoleView",1347521982388
+error,log,,,"Internal error logged from JDI Debug: ",1347521983232
+activated,view,com.android.ide.eclipse.ddms,20.0.3.v201208082019-427395,"com.android.ide.eclipse.ddms.views.LogCatView",1347521984329
+activated,view,org.eclipse.ui.console,3.5.100.v20111007_r372,"org.eclipse.ui.console.ConsoleView",1347521984591
+activated,editor,org.eclipse.jdt.ui,3.7.2.v20120109-1427,"org.eclipse.jdt.ui.CompilationUnitEditor",1347521985633
+error,log,,,"Internal error logged from JDI Debug: ",1347521986234
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1347521987769
+error,log,,,"Internal error logged from JDI Debug: ",1347521989236
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.debug.core"".",1347521992239
+error,log,,,"An exception occurred during launch change notification.",1347521992239
+error,log,,,"Internal error logged from JDI Debug: ",1347521995246
+error,log,,,"Internal error logged from JDI Debug: ",1347521998250
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1347522000863
+executed,command,,,"AUTOGEN:::org.eclipse.jdt.debug.CompilationUnitEditor.BreakpointRulerActions/org.eclipse.jdt.debug.ui.actions.ManageBreakpointRulerAction",1347522008782
+executed,command,,,"AUTOGEN:::org.eclipse.jdt.debug.CompilationUnitEditor.BreakpointRulerActions/org.eclipse.jdt.debug.ui.actions.ManageBreakpointRulerAction",1347522009892
+error,log,,,"Internal error logged from JDI Debug: ",1347522012895
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1347522013203
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1347522014416
+executed,command,,,"AUTOGEN:::org.eclipse.jdt.debug.CompilationUnitEditor.BreakpointRulerActions/org.eclipse.jdt.debug.ui.actions.ManageBreakpointRulerAction",1347522015981
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.delete",1347522029282
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.file.save",1347522031446
+activated,editor,com.android.ide.eclipse.adt,20.0.3.v201208082019-427395,"com.android.ide.eclipse.editors.manifest.ManifestEditor",1347522033139
+activated,editor,org.eclipse.jdt.ui,3.7.2.v20120109-1427,"org.eclipse.jdt.ui.CompilationUnitEditor",1347522039328
+activated,editor,org.eclipse.jdt.ui,3.7.2.v20120109-1427,"org.eclipse.jdt.ui.CompilationUnitEditor",1347522042978
+activated,editor,org.eclipse.jdt.ui,3.7.2.v20120109-1427,"org.eclipse.jdt.ui.CompilationUnitEditor",1347522044449
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1347522061609
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1347522069004
+executed,command,,,"AUTOGEN:::org.eclipse.jdt.debug.CompilationUnitEditor.BreakpointRulerActions/org.eclipse.jdt.debug.ui.actions.ManageBreakpointRulerAction",1347522069316
+executed,command,,,"AUTOGEN:::org.eclipse.jdt.debug.CompilationUnitEditor.BreakpointRulerActions/org.eclipse.jdt.debug.ui.actions.ManageBreakpointRulerAction",1347522070272
+executed,command,,,"AUTOGEN:::org.eclipse.jdt.debug.CompilationUnitEditor.BreakpointRulerActions/org.eclipse.jdt.debug.ui.actions.ManageBreakpointRulerAction",1347522072959
+error,log,,,"Internal error logged from JDI Debug: ",1347522073338
+error,log,,,"Error logged from Debug Core: ",1347522073354
+error,log,,,"Marker id 132501 not found.",1347522073355
+executed,command,,,"AUTOGEN:::org.eclipse.jdt.debug.CompilationUnitEditor.BreakpointRulerActions/org.eclipse.jdt.debug.ui.actions.ManageBreakpointRulerAction",1347522074297
+error,log,,,"Internal error logged from JDI Debug: ",1347522077300
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1347522086745
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1347522088854
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.delete",1347522091633
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.delete",1347522093127
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.file.save",1347522096727
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1347522101496
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1347522115235
+activated,editor,org.eclipse.jdt.ui,3.7.2.v20120109-1427,"org.eclipse.jdt.ui.CompilationUnitEditor",1347522121329
+activated,editor,org.eclipse.jdt.ui,3.7.2.v20120109-1427,"org.eclipse.jdt.ui.CompilationUnitEditor",1347522123502
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1347522124216
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1347522152649
+activated,editor,org.eclipse.jdt.ui,3.7.2.v20120109-1427,"org.eclipse.jdt.ui.CompilationUnitEditor",1347522161512
+activated,editor,org.eclipse.jdt.ui,3.7.2.v20120109-1427,"org.eclipse.jdt.ui.CompilationUnitEditor",1347522162851
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1347522163992
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1347522249282
+activated,view,org.eclipse.jdt.ui,3.7.2.v20120109-1427,"org.eclipse.jdt.ui.PackageExplorer",1347522250576
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.file.refresh",1347522251770
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1347522252082
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1347522265852
+activated,editor,org.eclipse.jdt.ui,3.7.2.v20120109-1427,"org.eclipse.jdt.ui.CompilationUnitEditor",1347522268595
+activated,editor,org.eclipse.jdt.ui,3.7.2.v20120109-1427,"org.eclipse.jdt.ui.CompilationUnitEditor",1347522282868
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.paste",1347522296509
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.undo",1347522298744
+activated,editor,org.eclipse.jdt.ui,3.7.2.v20120109-1427,"org.eclipse.jdt.ui.CompilationUnitEditor",1347522300988
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.undo",1347522302281
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.copy",1347522303652
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.cut",1347522304082
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.file.save",1347522305449
+activated,editor,org.eclipse.jdt.ui,3.7.2.v20120109-1427,"org.eclipse.jdt.ui.CompilationUnitEditor",1347522306437
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.paste",1347522308346
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.file.save",1347522310375
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.text.contentAssist.proposals",1347522316458
+executed,command,,,"AUTOGEN:::org.eclipse.jdt.internal.ui.CompilationUnitEditor.ruler.actions/org.eclipse.jdt.internal.ui.javaeditor.JavaSelectRulerAction",1347522320671
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.delete",1347522332447
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.file.save",1347522333504
+activated,view,org.eclipse.jdt.ui,3.7.2.v20120109-1427,"org.eclipse.jdt.ui.PackageExplorer",1347522337282
+opened,editor,org.eclipse.jdt.ui,3.7.2.v20120109-1427,"org.eclipse.jdt.ui.CompilationUnitEditor",1347522338982
+activated,editor,org.eclipse.jdt.ui,3.7.2.v20120109-1427,"org.eclipse.jdt.ui.CompilationUnitEditor",1347522339053
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.delete",1347522346585
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.delete",1347522346953
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.delete",1347522347290
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.delete",1347522349216
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.delete",1347522351425
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.delete",1347522354407
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.delete",1347522358337
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.delete",1347522361853
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.file.save",1347522363256
+activated,editor,org.eclipse.jdt.ui,3.7.2.v20120109-1427,"org.eclipse.jdt.ui.CompilationUnitEditor",1347522374146
+closed,editor,org.eclipse.jdt.ui,3.7.2.v20120109-1427,"org.eclipse.jdt.ui.CompilationUnitEditor",1347522374146
+activated,view,org.eclipse.jdt.ui,3.7.2.v20120109-1427,"org.eclipse.jdt.ui.PackageExplorer",1347522375342
+opened,editor,org.eclipse.jdt.ui,3.7.2.v20120109-1427,"org.eclipse.jdt.ui.CompilationUnitEditor",1347522377345
+activated,editor,org.eclipse.jdt.ui,3.7.2.v20120109-1427,"org.eclipse.jdt.ui.CompilationUnitEditor",1347522377387
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.delete",1347522382599
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.delete",1347522383621
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.file.save",1347522384854
+activated,editor,org.eclipse.jdt.ui,3.7.2.v20120109-1427,"org.eclipse.jdt.ui.CompilationUnitEditor",1347522390698
+closed,editor,org.eclipse.jdt.ui,3.7.2.v20120109-1427,"org.eclipse.jdt.ui.CompilationUnitEditor",1347522390698
+activated,view,org.eclipse.jdt.ui,3.7.2.v20120109-1427,"org.eclipse.jdt.ui.PackageExplorer",1347522393116
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1347522394648
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1347522397582
+executed,command,,,"com.android.ide.eclipse.adt.debug.launching.LaunchShortcut.debug",1347522400328
+activated,editor,org.eclipse.jdt.ui,3.7.2.v20120109-1427,"org.eclipse.jdt.ui.CompilationUnitEditor",1347522403927
+executed,command,,,"AUTOGEN:::org.eclipse.jdt.debug.CompilationUnitEditor.BreakpointRulerActions/org.eclipse.jdt.debug.ui.actions.ManageBreakpointRulerAction",1347522404723
+error,log,,,"Internal error logged from JDI Debug: ",1347522407736
+executed,command,,,"AUTOGEN:::org.eclipse.jdt.debug.CompilationUnitEditor.BreakpointRulerActions/org.eclipse.jdt.debug.ui.actions.ManageBreakpointRulerAction",1347522408248
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.delete",1347522411048
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.delete",1347522411214
+error,log,,,"Internal error logged from JDI Debug: ",1347522411280
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.undo",1347522413075
+activated,view,org.eclipse.ui.console,3.5.100.v20111007_r372,"org.eclipse.ui.console.ConsoleView",1347522423557
+activated,editor,org.eclipse.jdt.ui,3.7.2.v20120109-1427,"org.eclipse.jdt.ui.CompilationUnitEditor",1347522424464
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1347522435291
+activated,view,org.eclipse.ui.console,3.5.100.v20111007_r372,"org.eclipse.ui.console.ConsoleView",1347522438729
+activated,view,com.android.ide.eclipse.ddms,20.0.3.v201208082019-427395,"com.android.ide.eclipse.ddms.views.LogCatView",1347522440831
+activated,view,org.eclipse.ui.console,3.5.100.v20111007_r372,"org.eclipse.ui.console.ConsoleView",1347522441203
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1347522447753
+activated,view,org.eclipse.jdt.ui,3.7.2.v20120109-1427,"org.eclipse.jdt.ui.PackageExplorer",1347522448721
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1347522451270
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1347522458442
+executed,command,,,"com.android.ide.eclipse.adt.debug.launching.LaunchShortcut.debug",1347522462622
+activated,editor,org.eclipse.jdt.ui,3.7.2.v20120109-1427,"org.eclipse.jdt.ui.CompilationUnitEditor",1347522463458
+activated,view,org.eclipse.ui.console,3.5.100.v20111007_r372,"org.eclipse.ui.console.ConsoleView",1347522466399
+activated,view,com.android.ide.eclipse.ddms,20.0.3.v201208082019-427395,"com.android.ide.eclipse.ddms.views.LogCatView",1347522468209
+activated,view,org.eclipse.debug.ui,3.7.102.v20111129-1423_r372,"org.eclipse.debug.ui.DebugView",1347522477644
+activated,editor,org.eclipse.jdt.ui,3.7.2.v20120109-1427,"org.eclipse.jdt.ui.CompilationUnitEditor",1347522483008
+executed,command,,,"AUTOGEN:::org.eclipse.jdt.debug.CompilationUnitEditor.BreakpointRulerActions/org.eclipse.jdt.debug.ui.actions.ManageBreakpointRulerAction",1347522483251
+executed,command,org.eclipse.debug.ui,3.7.102.v20111129-1423_r372,"org.eclipse.debug.ui.commands.Resume",1347522484140
+activated,view,org.eclipse.debug.ui,3.7.102.v20111129-1423_r372,"org.eclipse.debug.ui.DebugView",1347522484313
+executed,command,org.eclipse.debug.ui,3.7.102.v20111129-1423_r372,"org.eclipse.debug.ui.commands.Resume",1347522487531
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1347522495940
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1347522498604
+opened,editor,org.eclipse.jdt.ui,3.7.2.v20120109-1427,"org.eclipse.jdt.ui.CompilationUnitEditor",1347522498942
+activated,editor,org.eclipse.jdt.ui,3.7.2.v20120109-1427,"org.eclipse.jdt.ui.CompilationUnitEditor",1347522501362
+executed,command,,,"AUTOGEN:::org.eclipse.jdt.debug.CompilationUnitEditor.BreakpointRulerActions/org.eclipse.jdt.debug.ui.actions.ManageBreakpointRulerAction",1347522501592
+executed,command,org.eclipse.debug.ui,3.7.102.v20111129-1423_r372,"org.eclipse.debug.ui.commands.Resume",1347522502348
+activated,editor,org.eclipse.jdt.ui,3.7.2.v20120109-1427,"org.eclipse.jdt.ui.CompilationUnitEditor",1347522507430
+closed,editor,org.eclipse.jdt.ui,3.7.2.v20120109-1427,"org.eclipse.jdt.ui.CompilationUnitEditor",1347522507430
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1347522509142
+activated,view,org.eclipse.debug.ui,3.7.102.v20111129-1423_r372,"org.eclipse.debug.ui.DebugView",1347522510359
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1347522510451
+executed,command,org.eclipse.debug.ui,3.7.102.v20111129-1423_r372,"org.eclipse.debug.ui.commands.Resume",1347522511861
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1347522513939
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1347522518213
+opened,editor,org.eclipse.jdt.ui,3.7.2.v20120109-1427,"org.eclipse.jdt.ui.ClassFileEditor",1347522518534
+executed,command,org.eclipse.debug.ui,3.7.102.v20111129-1423_r372,"org.eclipse.debug.ui.commands.Resume",1347522519870
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1347522523565
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1347522524727
+executed,command,org.eclipse.debug.ui,3.7.102.v20111129-1423_r372,"org.eclipse.debug.ui.commands.Resume",1347522526727
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1347522532028
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1347522536196
+activated,editor,org.eclipse.jdt.ui,3.7.2.v20120109-1427,"org.eclipse.jdt.ui.CompilationUnitEditor",1347522537720
+executed,command,org.eclipse.debug.ui,3.7.102.v20111129-1423_r372,"org.eclipse.debug.ui.commands.Resume",1347522541967
+closed,editor,org.eclipse.jdt.ui,3.7.2.v20120109-1427,"org.eclipse.jdt.ui.ClassFileEditor",1347522545565
+activated,editor,org.eclipse.jdt.ui,3.7.2.v20120109-1427,"org.eclipse.jdt.ui.CompilationUnitEditor",1347522546982
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.undo",1347522548440
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.undo",1347522549684
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.undo",1347522550139
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.undo",1347522550668
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.undo",1347522551268
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.undo",1347522553482
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.undo",1347522554179
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.delete",1347522556567
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.undo",1347522558609
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.file.save",1347522559413
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1347522563456
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1347522566486
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1347522567395
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1347522571678
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1347522611376
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1347522630606
+activated,view,org.eclipse.jdt.ui,3.7.2.v20120109-1427,"org.eclipse.jdt.ui.PackageExplorer",1347522635424
+activated,editor,org.eclipse.jdt.ui,3.7.2.v20120109-1427,"org.eclipse.jdt.ui.CompilationUnitEditor",1347522647982
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1347522661696
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1347522693815
+activated,editor,com.android.ide.eclipse.adt,20.0.3.v201208082019-427395,"com.android.ide.eclipse.editors.manifest.ManifestEditor",1347522694406
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1347522712474
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1347522952523
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1347522957747
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1347522958159
+activated,view,org.eclipse.jdt.ui,3.7.2.v20120109-1427,"org.eclipse.jdt.ui.PackageExplorer",1347522959120
+executed,command,,,"com.android.ide.eclipse.adt.debug.launching.LaunchShortcut.run",1347522961678
+activated,editor,com.android.ide.eclipse.adt,20.0.3.v201208082019-427395,"com.android.ide.eclipse.editors.manifest.ManifestEditor",1347522961821
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1347522963164
+activated,view,org.eclipse.ui.console,3.5.100.v20111007_r372,"org.eclipse.ui.console.ConsoleView",1347522992779
+activated,view,com.android.ide.eclipse.ddms,20.0.3.v201208082019-427395,"com.android.ide.eclipse.ddms.views.LogCatView",1347522997920
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1347523001431
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1347523002277
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1347523011251
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.copy",1347523024630
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1347523027752
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1347523048464
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1347523063858
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1347523065505
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.copy",1347523076544
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1347523077852
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1347523103260
+activated,editor,com.android.ide.eclipse.adt,20.0.3.v201208082019-427395,"com.android.ide.eclipse.editors.manifest.ManifestEditor",1347523106014
+activated,view,org.eclipse.jdt.ui,3.7.2.v20120109-1427,"org.eclipse.jdt.ui.PackageExplorer",1347523107915

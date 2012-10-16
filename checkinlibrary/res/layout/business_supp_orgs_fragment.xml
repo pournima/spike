@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/linearbusiSupOrg" 
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical">
+
+	<TextView
+	    style="@style/topMsg"
+		android:text="@string/business_support" />
+
+	<ListView
+	    style="@style/list" 
+	    android:id="@android:id/list" />
+	
+	<TextView 
+	    style="@style/listTextDivider"
+	    android:id="@+id/divider_bottom">
+    </TextView>
+</LinearLayout>

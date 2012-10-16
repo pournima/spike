@@ -1,0 +1,231 @@
+package com.headsup;
+
+import java.util.List;
+
+import android.app.AlertDialog;
+import android.app.Dialog;
+import android.app.ProgressDialog;
+import android.app.SearchManager;
+import android.content.DialogInterface;
+import android.content.Intent;
+import android.content.pm.PackageInfo;
+import android.content.pm.PackageManager;
+import android.content.res.Resources;
+import android.os.Bundle;
+import android.support.v4.app.Fragment;
+import android.util.Log;
+import android.view.View;
+import android.widget.TabHost;
+import android.widget.TextView;
+
+import com.checkinlibrary.CheckinLibraryActivity;
+import com.checkinlibrary.NoConnectivityScreen;
+import com.checkinlibrary.R;
+import com.checkinlibrary.business.BusinessSearchFragment;
+import com.checkinlibrary.location.GpsLocator;
+import com.checkinlibrary.models.AppVersionResult;
+import com.checkinlibrary.models.BusinessResult;
+import com.checkinlibrary.ws.tasks.AppVersionTask;
+import com.headsup.db.SignalsDbAdapter;
+import com.headsup.helpers.Constants;
+import com.headsup.models.SignalsResult.SignalCategory;
+import com.headsup.offers.OffersHeadsUpFragment;
+import com.headsup.rules.RuleBookFragment;
+import com.headsup.rules.signals.SignalSearchFragment;
+import com.headsup.safety.SafetyFragment;
+import com.headsup.settings.SettingsFragment;
+import com.headsup.task.HeadsupSearchTask;
+
+
+public class HeadsUpNativeActivity extends CheckinLibraryActivity {
+
+
+	Bundle instanceState;
+	public static String strProgressMessage="Loading....";
+	public ProgressDialog mProgressDialog;
+	public static String strExitMessage="Are you sure you want to leave USA Football?";
+	SignalsDbAdapter signalAdpt;
+	final String TAG=getClass().getName();
+	
+	@Override
+	public void onCreate(Bundle savedInstanceState) {
+		
+
+		instanceState = savedInstanceState;
+		super.onCreate(savedInstanceState);
+	}
+	
+	@Override
+	protected void onResume() {
+		super.onResume();
+		Log.i("###############", getString(R.string.app_name));
+		appStatus.saveSharedStringValue("APP_NAME", String.valueOf(R.string.app_name));		
+	}
+	
+	@Override
+	protected void loginIfNeeded() {
+		if (appStatus.isOnline()) {
+		setContentView(R.layout.main);
+		setupTabs(instanceState);
+		mAuthToken = appStatus.getSharedStringValue(appStatus.AUTH_KEY);
+		Log.v("auth_key", mAuthToken + " key");
+		APP_NAME=appStatus.getSharedStringValue(appStatus.APP_NAME);
+		onCheckAppVersion();
+		CheckinLibraryActivity.appStatus.setCheckinAmount();
+		} else {
+			Intent intent = new Intent(this, NoConnectivityScreen.class);
+			this.startActivity(intent);
+			finish();
+			Log.v(TAG, "You are not online!!!!");
+		}
+	}
+	
+	@Override
+	public void setupTabs(Bundle savedInstanceState) {
+		
+		mTabHost = (TabHost) findViewById(android.R.id.tabhost);
+		
+		mTabHost.setup();
+		mTabManager = new TabManager(this, mTabHost, R.id.linearLayout2);
+		stabHost=mTabHost;
+		Resources res = getResources();
+		textViewRaisedMoney = (TextView) findViewById(R.id.textViewTopRaisedMoney);
+		textViewRaisedMoney.setVisibility(View.GONE);
+		mTabManager.addTab(
+				mTabHost.newTabSpec(Constants.TAB_HEADSUP_1).setIndicator("Safety",
+						res.getDrawable(R.drawable.icon_hns)),
+						SafetyFragment.class, null);
+		mTabManager.addTab(
+				mTabHost.newTabSpec(Constants.TAB_HEADSUP_2).setIndicator("Rules",
+						res.getDrawable(R.drawable.icon_rule)),
+						RuleBookFragment.class, null);
+		mTabManager.addTab(
+				mTabHost.newTabSpec(Constants.TAB_HEADSUP_3).setIndicator("Check-in",
+						res.getDrawable(R.drawable.icon_offers)),
+						OffersHeadsUpFragment.class, null);
+		
+		mTabManager.addTab(
+				mTabHost.newTabSpec(Constants.TAB_HEADSUP_4).setIndicator("Settings",
+						res.getDrawable(R.drawable.icon_setting)),
+						SettingsFragment.class, null);
+
+		if (savedInstanceState != null) {
+			mTabHost.setCurrentTabByTag(new Integer(savedInstanceState
+					.getInt("tab")).toString());
+		}
+	}
+		
+	
+	@Override
+	protected Dialog onCreateDialog(int id, Bundle args) {
+		ProgressDialog dialog = new ProgressDialog(this);
+//		dialog = ProgressDialog.show(this,null,null);
+//		dialog.setContentView(R.layout.loader);
+		dialog.setTitle("Please Wait...");
+		dialog.setMessage(strProgressMessage);
+		dialog.setIndeterminate(true);
+		//dialog.setCancelable(false);
+		dialog.setOnCancelListener(new DialogInterface.OnCancelListener() {
+			@Override
+			public void onCancel(DialogInterface dialog) {
+				Log.i("CHECKINFORGOOD", "user cancelling authentication");
+
+			}
+		});
+		mProgressDialog = dialog;
+		return dialog;
+	}
+	
+	@Override
+	public void ShowMessageBox() {
+		AlertDialog exitAlert = new AlertDialog.Builder(this).create();
+		exitAlert.setTitle("Exit Application");
+		exitAlert.setMessage("Are you sure you want to leave USA Football?");
+
+		exitAlert.setButton("Yes", new DialogInterface.OnClickListener() {
+			@Override
+			public void onClick(DialogInterface dialog, int which) {
+				dialog.dismiss();
+				finish();
+			}
+		});
+		exitAlert.setButton2("No", new DialogInterface.OnClickListener() {
+
+			@Override
+			public void onClick(DialogInterface dialog, int which) {
+				dialog.dismiss();
+			}
+		});
+		exitAlert.show();
+	}
+	
+	
+	@Override
+	public boolean onSearchRequested() {
+		Bundle searchBundle = new Bundle();
+		Fragment fragment = getLastFragment();
+		Log.i(TAG, "Fragment = " + String.valueOf(getLastFragment().getTag()));
+		gps = GpsLocator.getGpsLocator(this);
+		
+		if (fragment.getTag() == "business_tab") {	
+			if(gps.isProviderEnabled()){
+				
+				searchBundle.putInt("search_type",
+							HeadsupSearcher.SearchType.BUSINESS.ordinal());
+					startSearch(null, false, searchBundle, false);
+				} 
+			else{
+				listenForLocation();
+			}
+		}else if (fragment.getTag() == "officail_signals_fragment" || fragment.getTag() =="selected_signal_type_fragmnet" || fragment.getTag() =="signal_search_fragment"){
+			searchBundle.putInt("search_type",
+					HeadsupSearcher.SearchType.SIGNALS.ordinal());
+			startSearch(null, false, searchBundle, false);
+		}	
+		
+	return true;
+	}
+
+	@Override
+	protected void onNewIntent(Intent intent) {
+		Intent oldIntent = this.getIntent();
+		setIntent(intent);
+		Log.i(TAG, "In onNewIntent");
+		if (Intent.ACTION_SEARCH.equals(intent.getAction())) {
+			String query = intent.getStringExtra(SearchManager.QUERY);
+			Bundle searchBundle = intent.getBundleExtra(SearchManager.APP_DATA);
+			if(searchBundle != null){
+				
+				HeadsupSearcher.SearchType type = HeadsupSearcher.SearchType.values()[searchBundle
+				                                                        .getInt("search_type")];
+				CheckinLibraryActivity.strProgressMessage=getString(R.string.searchProgressMessage);
+				this.showDialog(0);
+				new HeadsupSearchTask(this, type).execute(query);
+				
+			}
+		}
+
+		// Set our intent back once the search display is done
+		setIntent(oldIntent);
+	}
+
+	@SuppressWarnings("unchecked")
+	public void onSearchCompleted(List<? extends Object> result,
+			HeadsupSearcher.SearchType type, String query) {
+		if (type == HeadsupSearcher.SearchType.BUSINESS) {
+			BusinessSearchFragment.addBusinessFragment(this,
+					(List<BusinessResult>) result, query);
+		}else if (type == HeadsupSearcher.SearchType.SIGNALS) {	
+			
+			Fragment fragment = getLastFragment();
+			if(fragment.getTag() =="signal_search_fragment") {
+				this.popFragmentFromStack();
+			}
+			SignalSearchFragment.addSignalsList(this,
+					(List<SignalCategory>) result, query);
+		}
+
+		this.removeDialog(0);
+	}
+	
+}

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/relativeLayoutBus"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <TextView
+        android:id="@+id/txtRulesTopMsg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="15dp"
+        android:scrollHorizontally="true"
+        android:text="@string/rule_book"
+        android:textColor="@color/red_dark"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <ListView
+        android:id="@android:id/list"
+        style="@style/list"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtRulesTopMsg"
+        android:footerDividersEnabled="false" >
+    </ListView>
+
+    <ImageButton
+        android:id="@+id/imgBtnRuleBook"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@android:id/list"
+        android:layout_marginLeft="80dp"
+        android:background="@drawable/btn_rules_book"
+        android:clickable="true"
+        android:focusable="false"
+        android:onClick="onGetRuleBookClick"
+        android:layout_marginTop="-20dp" >
+    </ImageButton>
+
+</RelativeLayout>

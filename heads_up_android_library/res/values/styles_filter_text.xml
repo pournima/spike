@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="filterText">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">6.5pt</item>
+        <item name="android:textColor">@color/filter_text</item>
+        <item name="android:paddingTop">8dp</item>
+        <item name="android:paddingBottom">12dp</item>
+        <item name="android:background">@drawable/btn_filter</item>
+    </style>
+</resources>

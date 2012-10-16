@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scrollbarHowToTackle"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="0dp" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:orientation="vertical" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="12dp"
+            android:text="@string/how_to_tackle"
+            android:textColor="@color/red_dark"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/imgHowToTackle"
+            android:layout_width="fill_parent"
+            android:layout_height="170dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="12dp"
+            android:background="@drawable/how_to_tackle_video"
+            android:clickable="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="7dp"
+            android:layout_weight="0.33"
+            android:text="@string/tackle_how_to_tackle"
+            android:textColor="@color/black"
+            android:textSize="17dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="220dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="10dp"
+            android:gravity="center"
+            android:text="@string/tackle_how_to_tackle_desc"
+            android:textColor="@color/black"
+            android:textSize="12dp" />
+
+        <TextView style="@style/listTextDivider" />
+
+        <ImageView
+            android:id="@+id/imgTeachingTackling"
+            android:layout_width="fill_parent"
+            android:layout_height="170dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="12dp"
+            android:background="@drawable/teaching_tackling_video"
+            android:clickable="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="7dp"
+            android:layout_weight="0.33"
+            android:text="@string/tackle_teaching_tackling"
+            android:textColor="@color/black"
+            android:textSize="17dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="220dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="10dp"
+            android:gravity="center"
+            android:text="@string/tackle_teaching_tackling_desc"
+            android:textColor="@color/black"
+            android:textSize="12dp" />
+
+        <TextView style="@style/listTextDivider" />
+
+        <ImageView
+            android:id="@+id/imgBreakdownPosition"
+            android:layout_width="fill_parent"
+            android:layout_height="170dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="12dp"
+            android:background="@drawable/breakingdown_position_video"
+            android:clickable="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="7dp"
+            android:layout_weight="0.33"
+            android:text="@string/tackle_breakdown_position"
+            android:textColor="@color/black"
+            android:textSize="17dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="220dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="10dp"
+            android:gravity="center"
+            android:text="@string/tackle_breakdown_position_desc"
+            android:textColor="@color/black"
+            android:textSize="12dp" />
+
+        <TextView style="@style/listTextDivider" />
+
+        <ImageView
+            android:id="@+id/imgTackleHitPosition"
+            android:layout_width="fill_parent"
+            android:layout_height="170dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="12dp"
+            android:background="@drawable/tackle_hit_position_video"
+            android:clickable="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="7dp"
+            android:layout_weight="0.33"
+            android:text="@string/tackle_hit_position"
+            android:textColor="@color/black"
+            android:textSize="17dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="220dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="10dp"
+            android:gravity="center"
+            android:text="@string/tackle_hit_position_desc"
+            android:textColor="@color/black"
+            android:textSize="12dp" />
+
+        <TextView style="@style/listTextDivider" />
+
+        <ImageView
+            android:id="@+id/imgBuzzToHitDrill"
+            android:layout_width="fill_parent"
+            android:layout_height="170dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="12dp"
+            android:background="@drawable/tackle_buzz_to_hit_drill_video"
+            android:clickable="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="7dp"
+            android:layout_weight="0.33"
+            android:text="@string/tackle_buzz_to_hit_drill"
+            android:textColor="@color/black"
+            android:textSize="17dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="230dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="10dp"
+            android:gravity="center"
+            android:text="@string/tackle_buzz_to_hit_drill_desc"
+            android:textColor="@color/black"
+            android:textSize="12dp" />
+
+        <TextView style="@style/listTextDivider" />
+
+        <ImageView
+            android:id="@+id/imgAirBuddyDrill"
+            android:layout_width="fill_parent"
+            android:layout_height="170dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="12dp"
+            android:background="@drawable/air_buddy_drill"
+            android:clickable="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="7dp"
+            android:layout_weight="0.33"
+            android:text="@string/tackle_air_buddy_drill"
+            android:textColor="@color/black"
+            android:textSize="17dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="230dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="10dp"
+            android:gravity="center"
+            android:text="@string/tackle_air_buddy_drill_desc"
+            android:textColor="@color/black"
+            android:textSize="12dp" />
+
+        <TextView style="@style/listTextDivider" />
+
+        <ImageView
+            android:id="@+id/imgRipTackleDrill"
+            android:layout_width="fill_parent"
+            android:layout_height="170dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="12dp"
+            android:background="@drawable/rip_tackle_drill_video"
+            android:clickable="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="7dp"
+            android:layout_weight="0.33"
+            android:text="@string/tackle_rip_tackle_drill"
+            android:textColor="@color/black"
+            android:textSize="17dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="220dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="10dp"
+            android:gravity="center"
+            android:text="@string/tackle_rip_tackle_drill_desc"
+            android:textColor="@color/black"
+            android:textSize="12dp" />
+
+        <TextView style="@style/listTextDivider" />
+
+        <TextView
+            android:layout_width="240dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="12dp"
+            android:gravity="center"
+            android:text="@string/tackle_how_to_tacklepage_desc"
+            android:textColor="@color/black"
+            android:textSize="12dp" />
+
+        <TextView style="@style/listTextDivider" />
+    </LinearLayout>
+
+</ScrollView>

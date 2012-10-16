@@ -1,0 +1,32 @@
+package com.checkinlibrary.ws.services;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import org.apache.http.NameValuePair;
+import org.apache.http.message.BasicNameValuePair;
+
+import com.checkinlibrary.CheckinLibraryActivity;
+
+import android.content.Context;
+import android.util.Log;
+
+public class AppVersionWebService implements WebServiceIface {
+
+	public static String setAppVersion(CheckinLibraryActivity context,String[] appVersion) {
+		
+		
+		 WebService webService = new WebService(BASE_URL + "/mobile_user/app_versions.json?");
+		 List<NameValuePair> params = new ArrayList<NameValuePair>(1);
+	     params.add(new BasicNameValuePair("app_id",appVersion[0]));
+	     params.add(new BasicNameValuePair("api_key",CheckinLibraryActivity.mAuthToken));
+	     String response = webService.webPost("", params);
+	        if(response != null)
+	        {
+	        	 Log.e("CHECKINFORGOOD", ""+response);
+	        }
+		return response;
+		
+	}
+
+}

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/blue_bg"
+    android:orientation="vertical" >
+
+    <ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/scrollbarCreateAcc"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <LinearLayout
+            android:id="@+id/createAccountForm"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/ImageViewSignInLogo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/headsup_logo"
+                android:contentDescription="@string/label" />
+
+            <TextView
+                android:id="@+id/CreateNewTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="10dp"
+                android:text="@string/create_account"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="@color/white"
+                android:textSize="8pt" >
+            </TextView>
+
+            <TextView
+                android:id="@+id/createNewMessage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="5dp"
+                android:text=""
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="@color/white"
+                android:textSize="6pt" >
+            </TextView>
+
+            <EditText
+                android:id="@+id/EditLoginEmailCreate"
+                style="@style/inputText"
+                android:hint="@string/login_email"
+                android:inputType="textEmailAddress" >
+            </EditText>
+
+            <EditText
+                android:id="@+id/EditLoginPasswordCreate"
+                style="@style/inputText"
+                android:hint="@string/login_password"
+                android:inputType="textPassword" >
+            </EditText>
+
+            <EditText
+                android:id="@+id/EditLoginFirstnameCreate"
+                style="@style/inputText"
+                android:hint="@string/create_first_name"
+                android:inputType="text" >
+            </EditText>
+
+            <EditText
+                android:id="@+id/EditLoginLastnameCreate"
+                style="@style/inputText"
+                android:hint="@string/create_last_name"
+                android:inputType="text" >
+            </EditText>
+
+            <Button
+                android:id="@+id/CreateNew"
+                style="@style/loginText"
+                android:layout_marginLeft="33dp"
+                android:layout_marginRight="33dp"
+                android:background="@drawable/btn_green"
+                android:onClick="createNew"
+                android:text="@string/create" >
+            </Button>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

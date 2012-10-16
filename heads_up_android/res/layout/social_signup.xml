@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/splash_screen"
+    android:orientation="vertical">
+
+     <ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" 
+        android:layout_marginTop="20dp">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/signinlogo"
+            android:contentDescription="@string/label" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="10dp"
+            android:text="@string/login_do_good"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="@color/white"
+            android:textSize="8pt">
+        </TextView>
+        
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:text="@string/social_signup_text"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:textSize="6pt" >
+        </TextView>
+
+         <Button
+            style="@style/loginText"
+            android:id="@+id/btnSocialFacebook"
+            android:onClick="facebook_signup"
+            android:background="@drawable/social_fb"
+            android:layout_marginTop="10dp">
+        </Button>
+
+        <Button
+            style="@style/loginText"
+            android:id="@+id/btnSocialTwitter"
+            android:onClick="twitter_signup"
+            android:background="@drawable/social_tw">
+        </Button>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="13dp"
+            android:text="@string/social_signup_privacy_text"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="@color/white"
+            android:textSize="4.5pt" >
+        </TextView>
+        
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="15dp"
+            android:text="@string/social_signup_or"
+            android:textColor="@color/white"
+            android:textSize="7pt" 
+            android:textStyle="bold">
+        </TextView>
+
+        <Button
+            style="@style/loginText"
+            android:id="@+id/btnSocialNormalSignup"
+            android:onClick="createNewTemplate"
+            android:background="@drawable/social_signup"
+            android:layout_marginTop="15dp" >
+        </Button>
+        
+    </LinearLayout>
+     </ScrollView>
+</LinearLayout>

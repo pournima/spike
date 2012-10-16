@@ -1,0 +1,251 @@
+what,kind,bundleId,bundleVersion,description,time
+error,log,,,"official_signal.xml: Failed to find style 'horizontalScrollViewStyle' in current theme",1347946455899
+error,log,,,"official_signal.xml: Failed to find style 'textViewStyle' in current theme",1347946455903
+error,log,,,"official_signal.xml: Failed to find style 'textViewStyle' in current theme",1347946455904
+error,log,,,"official_signal.xml: Failed to find style 'textViewStyle' in current theme",1347946455905
+error,log,,,"official_signal.xml: Failed to find style 'horizontalScrollViewStyle' in current theme",1347946455907
+error,log,,,"official_signal.xml: Failed to find style 'horizontalScrollViewStyle' in current theme",1347946455907
+error,log,,,"official_signal.xml: Failed to find style 'horizontalScrollViewStyle' in current theme",1347946455908
+error,log,,,"official_signal.xml: Failed to find style 'textViewStyle' in current theme",1347946455912
+error,log,,,"official_signal.xml: Failed to find style 'textViewStyle' in current theme",1347946455912
+error,log,,,"official_signal.xml: Failed to find style 'textViewStyle' in current theme",1347946455914
+error,log,,,"official_signal.xml: Failed to find style 'horizontalScrollViewStyle' in current theme",1347946455916
+error,log,,,"official_signal.xml: Failed to find style 'horizontalScrollViewStyle' in current theme",1347946455919
+error,log,,,"official_signal.xml: Failed to find style 'horizontalScrollViewStyle' in current theme",1347946455920
+error,log,,,"official_signal.xml: Failed to find style 'textViewStyle' in current theme",1347946455923
+error,log,,,"official_signal.xml: Failed to find style 'textViewStyle' in current theme",1347946455924
+error,log,,,"official_signal.xml: Failed to find style 'textViewStyle' in current theme",1347946455925
+error,log,,,"official_signal.xml: Failed to find style 'horizontalScrollViewStyle' in current theme",1347946455927
+error,log,,,"official_signal.xml: Failed to find style 'horizontalScrollViewStyle' in current theme",1347946455928
+error,log,,,"official_signal.xml: Failed to find style 'horizontalScrollViewStyle' in current theme",1347946455929
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1347946457344
+started,bundle,org.eclipse.jst.jsp.ui,1.1.602.v201112071516,"org.eclipse.jst.jsp.ui",1347946468360
+started,bundle,org.eclipse.jst.jsp.core,1.2.402.v201112071853,"org.eclipse.jst.jsp.core",1347946468508
+activated,editor,org.eclipse.jdt.ui,3.7.2.v20120109-1427,"org.eclipse.jdt.ui.CompilationUnitEditor",1347946478834
+activated,view,org.eclipse.ui.console,3.5.100.v20111007_r372,"org.eclipse.ui.console.ConsoleView",1347946490074
+activated,editor,org.eclipse.jdt.ui,3.7.2.v20120109-1427,"org.eclipse.jdt.ui.CompilationUnitEditor",1347946491358
+activated,view,com.android.ide.eclipse.ddms,20.0.3.v201208082019-427395,"com.android.ide.eclipse.ddms.views.LogCatView",1347946493072
+activated,editor,org.eclipse.jdt.ui,3.7.2.v20120109-1427,"org.eclipse.jdt.ui.CompilationUnitEditor",1347946500115
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.file.save",1347946506995
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.file.save",1347946514346
+activated,view,org.eclipse.jdt.ui,3.7.2.v20120109-1427,"org.eclipse.jdt.ui.PackageExplorer",1347946518267
+executed,command,,,"com.android.ide.eclipse.adt.debug.launching.LaunchShortcut.run",1347946520514
+activated,editor,org.eclipse.jdt.ui,3.7.2.v20120109-1427,"org.eclipse.jdt.ui.CompilationUnitEditor",1347946521521
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1347946528792
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1347946530414
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.delete",1347946540673
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.text.contentAssist.proposals",1347946541125
+activated,view,org.eclipse.ui.console,3.5.100.v20111007_r372,"org.eclipse.ui.console.ConsoleView",1347946560084
+activated,view,com.android.ide.eclipse.ddms,20.0.3.v201208082019-427395,"com.android.ide.eclipse.ddms.views.LogCatView",1347946562794
+activated,editor,org.eclipse.jdt.ui,3.7.2.v20120109-1427,"org.eclipse.jdt.ui.CompilationUnitEditor",1347946574708
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1347946577928
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1347946580672
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.text.contentAssist.proposals",1347946581537
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.delete",1347946590033
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.file.save",1347946593734
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.file.save",1347946600292
+activated,view,org.eclipse.jdt.ui,3.7.2.v20120109-1427,"org.eclipse.jdt.ui.PackageExplorer",1347946605337
+executed,command,,,"com.android.ide.eclipse.adt.debug.launching.LaunchShortcut.run",1347946607485
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1347946615413
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1347946617135
+activated,editor,org.eclipse.jdt.ui,3.7.2.v20120109-1427,"org.eclipse.jdt.ui.CompilationUnitEditor",1347946618017
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1347946625672
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1347946632609
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1347946640327
+activated,view,org.eclipse.ui.console,3.5.100.v20111007_r372,"org.eclipse.ui.console.ConsoleView",1347946650132
+activated,view,com.android.ide.eclipse.ddms,20.0.3.v201208082019-427395,"com.android.ide.eclipse.ddms.views.LogCatView",1347946653142
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1347946760484
+activated,editor,org.eclipse.jdt.ui,3.7.2.v20120109-1427,"org.eclipse.jdt.ui.CompilationUnitEditor",1347946760891
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.file.save",1347946769315
+activated,view,org.eclipse.jdt.ui,3.7.2.v20120109-1427,"org.eclipse.jdt.ui.PackageExplorer",1347946778106
+executed,command,,,"com.android.ide.eclipse.adt.debug.launching.LaunchShortcut.run",1347946780335
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1347946788291
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1347946791705
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1347946820905
+activated,view,org.eclipse.ui.console,3.5.100.v20111007_r372,"org.eclipse.ui.console.ConsoleView",1347946821491
+activated,view,com.android.ide.eclipse.ddms,20.0.3.v201208082019-427395,"com.android.ide.eclipse.ddms.views.LogCatView",1347946824166
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1347946870788
+activated,editor,org.eclipse.jdt.ui,3.7.2.v20120109-1427,"org.eclipse.jdt.ui.CompilationUnitEditor",1347946871523
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.undo",1347946872841
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.undo",1347946873220
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.file.save",1347946874127
+activated,view,org.eclipse.jdt.ui,3.7.2.v20120109-1427,"org.eclipse.jdt.ui.PackageExplorer",1347946884270
+executed,command,,,"com.android.ide.eclipse.adt.debug.launching.LaunchShortcut.run",1347946887122
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1347946895010
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1347946898235
+activated,editor,org.eclipse.jdt.ui,3.7.2.v20120109-1427,"org.eclipse.jdt.ui.CompilationUnitEditor",1347946921990
+activated,view,org.eclipse.ui.console,3.5.100.v20111007_r372,"org.eclipse.ui.console.ConsoleView",1347946925002
+activated,view,com.android.ide.eclipse.ddms,20.0.3.v201208082019-427395,"com.android.ide.eclipse.ddms.views.LogCatView",1347946927883
+activated,editor,org.eclipse.jdt.ui,3.7.2.v20120109-1427,"org.eclipse.jdt.ui.CompilationUnitEditor",1347946971108
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.file.save",1347946989370
+activated,view,org.eclipse.jdt.ui,3.7.2.v20120109-1427,"org.eclipse.jdt.ui.PackageExplorer",1347946997514
+activated,editor,org.eclipse.jdt.ui,3.7.2.v20120109-1427,"org.eclipse.jdt.ui.CompilationUnitEditor",1347947008594
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.delete",1347947010078
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.text.contentAssist.proposals",1347947010472
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.file.save",1347947026570
+activated,view,org.eclipse.jdt.ui,3.7.2.v20120109-1427,"org.eclipse.jdt.ui.PackageExplorer",1347947028561
+executed,command,,,"com.android.ide.eclipse.adt.debug.launching.LaunchShortcut.run",1347947031385
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1347947039388
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1347947042166
+activated,view,org.eclipse.ui.console,3.5.100.v20111007_r372,"org.eclipse.ui.console.ConsoleView",1347947075290
+activated,view,com.android.ide.eclipse.ddms,20.0.3.v201208082019-427395,"com.android.ide.eclipse.ddms.views.LogCatView",1347947078159
+activated,editor,org.eclipse.jdt.ui,3.7.2.v20120109-1427,"org.eclipse.jdt.ui.CompilationUnitEditor",1347947167975
+opened,editor,com.android.ide.eclipse.adt,20.0.3.v201208082019-427395,"com.android.ide.eclipse.editors.CommonXmlEditor",1347947172140
+activated,editor,com.android.ide.eclipse.adt,20.0.3.v201208082019-427395,"com.android.ide.eclipse.editors.CommonXmlEditor",1347947172219
+closed,editor,com.android.ide.eclipse.adt,20.0.3.v201208082019-427395,"com.android.ide.eclipse.editors.CommonXmlEditor",1347947173780
+activated,editor,org.eclipse.jdt.ui,3.7.2.v20120109-1427,"org.eclipse.jdt.ui.CompilationUnitEditor",1347947189581
+activated,view,org.eclipse.jdt.ui,3.7.2.v20120109-1427,"org.eclipse.jdt.ui.PackageExplorer",1347947232955
+executed,command,,,"com.android.ide.eclipse.adt.debug.launching.LaunchShortcut.run",1347947235618
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1347947235940
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1347947238854
+activated,view,org.eclipse.ui.console,3.5.100.v20111007_r372,"org.eclipse.ui.console.ConsoleView",1347947239738
+activated,view,com.android.ide.eclipse.ddms,20.0.3.v201208082019-427395,"com.android.ide.eclipse.ddms.views.LogCatView",1347947242621
+activated,editor,org.eclipse.jdt.ui,3.7.2.v20120109-1427,"org.eclipse.jdt.ui.CompilationUnitEditor",1347947313141
+activated,view,com.android.ide.eclipse.ddms,20.0.3.v201208082019-427395,"com.android.ide.eclipse.ddms.views.LogCatView",1347947325433
+activated,editor,org.eclipse.jdt.ui,3.7.2.v20120109-1427,"org.eclipse.jdt.ui.CompilationUnitEditor",1347947331288
+activated,editor,com.android.ide.eclipse.adt,20.0.3.v201208082019-427395,"com.android.ide.eclipse.editors.CommonXmlEditor",1347947358234
+error,log,,,"image_popup_view.xml: Failed to find style 'buttonStyle' in current theme",1347947362067
+error,log,,,"image_popup_view.xml: Failed to find style 'buttonStyle' in current theme",1347947362141
+error,log,,,"image_popup_view.xml: Failed to find style 'buttonStyle' in current theme",1347947362142
+error,log,,,"image_popup_view.xml: Failed to find style 'textViewStyle' in current theme",1347947362202
+error,log,,,"image_popup_view.xml: Failed to find style 'textViewStyle' in current theme",1347947362203
+error,log,,,"image_popup_view.xml: Failed to find style 'textViewStyle' in current theme",1347947362204
+error,log,,,"image_popup_view.xml: Failed to find style 'textViewStyle' in current theme",1347947362206
+error,log,,,"image_popup_view.xml: Failed to find style 'textViewStyle' in current theme",1347947362206
+error,log,,,"image_popup_view.xml: Failed to find style 'textViewStyle' in current theme",1347947362207
+error,log,,,"image_popup_view.xml: Failed to find style 'buttonStyle' in current theme",1347947370938
+error,log,,,"image_popup_view.xml: Failed to find style 'buttonStyle' in current theme",1347947370938
+error,log,,,"image_popup_view.xml: Failed to find style 'buttonStyle' in current theme",1347947370939
+error,log,,,"image_popup_view.xml: Failed to find style 'textViewStyle' in current theme",1347947370943
+error,log,,,"image_popup_view.xml: Failed to find style 'textViewStyle' in current theme",1347947370945
+error,log,,,"image_popup_view.xml: Failed to find style 'textViewStyle' in current theme",1347947370946
+error,log,,,"image_popup_view.xml: Failed to find style 'textViewStyle' in current theme",1347947370948
+error,log,,,"image_popup_view.xml: Failed to find style 'textViewStyle' in current theme",1347947370949
+error,log,,,"image_popup_view.xml: Failed to find style 'textViewStyle' in current theme",1347947370950
+activated,editor,org.eclipse.jdt.ui,3.7.2.v20120109-1427,"org.eclipse.jdt.ui.CompilationUnitEditor",1347947376648
+activated,editor,com.android.ide.eclipse.adt,20.0.3.v201208082019-427395,"com.android.ide.eclipse.editors.CommonXmlEditor",1347947378601
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.text.contentAssist.proposals",1347947384757
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.text.contentAssist.proposals",1347947387341
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.file.save",1347947389574
+activated,view,org.eclipse.jdt.ui,3.7.2.v20120109-1427,"org.eclipse.jdt.ui.PackageExplorer",1347947391853
+executed,command,,,"com.android.ide.eclipse.adt.debug.launching.LaunchShortcut.run",1347947394783
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1347947399387
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1347947404456
+activated,editor,org.eclipse.jdt.ui,3.7.2.v20120109-1427,"org.eclipse.jdt.ui.CompilationUnitEditor",1347947417562
+activated,view,org.eclipse.ui.console,3.5.100.v20111007_r372,"org.eclipse.ui.console.ConsoleView",1347947431239
+activated,view,com.android.ide.eclipse.ddms,20.0.3.v201208082019-427395,"com.android.ide.eclipse.ddms.views.LogCatView",1347947433859
+activated,editor,org.eclipse.jdt.ui,3.7.2.v20120109-1427,"org.eclipse.jdt.ui.CompilationUnitEditor",1347947445701
+opened,editor,org.eclipse.jdt.ui,3.7.2.v20120109-1427,"org.eclipse.jdt.ui.CompilationUnitEditor",1347947470628
+activated,editor,org.eclipse.jdt.ui,3.7.2.v20120109-1427,"org.eclipse.jdt.ui.CompilationUnitEditor",1347947470659
+activated,editor,org.eclipse.jdt.ui,3.7.2.v20120109-1427,"org.eclipse.jdt.ui.CompilationUnitEditor",1347947475263
+closed,editor,org.eclipse.jdt.ui,3.7.2.v20120109-1427,"org.eclipse.jdt.ui.CompilationUnitEditor",1347947475264
+activated,view,com.android.ide.eclipse.ddms,20.0.3.v201208082019-427395,"com.android.ide.eclipse.ddms.views.LogCatView",1347947481564
+activated,editor,org.eclipse.jdt.ui,3.7.2.v20120109-1427,"org.eclipse.jdt.ui.CompilationUnitEditor",1347947511648
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1347947517069
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1347947544856
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.delete",1347947570049
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.file.save",1347947571075
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.copy",1347947585085
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1347947585612
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1347948000808
+executed,command,org.eclipse.ui.workbench.texteditor,3.7.0.v20110928-1504,"org.eclipse.ui.edit.text.select.textEnd",1347948006429
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1347948016378
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1347948020940
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.copy",1347948023081
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.paste",1347948024303
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.text.contentAssist.proposals",1347948026419
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.file.save",1347948029485
+activated,view,org.eclipse.jdt.ui,3.7.2.v20120109-1427,"org.eclipse.jdt.ui.PackageExplorer",1347948031492
+executed,command,,,"com.android.ide.eclipse.adt.debug.launching.LaunchShortcut.run",1347948033773
+activated,editor,org.eclipse.jdt.ui,3.7.2.v20120109-1427,"org.eclipse.jdt.ui.CompilationUnitEditor",1347948036846
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1347948044706
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1347948046123
+opened,editor,org.eclipse.jdt.ui,3.7.2.v20120109-1427,"org.eclipse.jdt.ui.CompilationUnitEditor",1347948058641
+activated,editor,org.eclipse.jdt.ui,3.7.2.v20120109-1427,"org.eclipse.jdt.ui.CompilationUnitEditor",1347948058691
+activated,editor,org.eclipse.jdt.ui,3.7.2.v20120109-1427,"org.eclipse.jdt.ui.CompilationUnitEditor",1347948062449
+activated,view,com.android.ide.eclipse.ddms,20.0.3.v201208082019-427395,"com.android.ide.eclipse.ddms.views.LogCatView",1347948068373
+activated,view,org.eclipse.ui.console,3.5.100.v20111007_r372,"org.eclipse.ui.console.ConsoleView",1347948078080
+activated,view,com.android.ide.eclipse.ddms,20.0.3.v201208082019-427395,"com.android.ide.eclipse.ddms.views.LogCatView",1347948080824
+activated,editor,org.eclipse.jdt.ui,3.7.2.v20120109-1427,"org.eclipse.jdt.ui.CompilationUnitEditor",1347948094950
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.text.contentAssist.proposals",1347948110395
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.file.save",1347948135649
+activated,view,org.eclipse.jdt.ui,3.7.2.v20120109-1427,"org.eclipse.jdt.ui.PackageExplorer",1347948137356
+executed,command,,,"com.android.ide.eclipse.adt.debug.launching.LaunchShortcut.run",1347948139272
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1347948147810
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1347948149955
+activated,editor,org.eclipse.jdt.ui,3.7.2.v20120109-1427,"org.eclipse.jdt.ui.CompilationUnitEditor",1347948161716
+activated,view,org.eclipse.ui.console,3.5.100.v20111007_r372,"org.eclipse.ui.console.ConsoleView",1347948183365
+activated,view,com.android.ide.eclipse.ddms,20.0.3.v201208082019-427395,"com.android.ide.eclipse.ddms.views.LogCatView",1347948186008
+activated,editor,org.eclipse.jdt.ui,3.7.2.v20120109-1427,"org.eclipse.jdt.ui.CompilationUnitEditor",1347948208946
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.text.contentAssist.proposals",1347948214157
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.file.save",1347948216839
+activated,view,org.eclipse.jdt.ui,3.7.2.v20120109-1427,"org.eclipse.jdt.ui.PackageExplorer",1347948218097
+executed,command,,,"com.android.ide.eclipse.adt.debug.launching.LaunchShortcut.run",1347948220412
+activated,editor,org.eclipse.jdt.ui,3.7.2.v20120109-1427,"org.eclipse.jdt.ui.CompilationUnitEditor",1347948221234
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1347948230833
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1347948233462
+activated,view,org.eclipse.ui.console,3.5.100.v20111007_r372,"org.eclipse.ui.console.ConsoleView",1347948265521
+activated,view,com.android.ide.eclipse.ddms,20.0.3.v201208082019-427395,"com.android.ide.eclipse.ddms.views.LogCatView",1347948268251
+activated,editor,org.eclipse.jdt.ui,3.7.2.v20120109-1427,"org.eclipse.jdt.ui.CompilationUnitEditor",1347948289104
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.text.contentAssist.proposals",1347948294874
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.text.contentAssist.proposals",1347948298718
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.file.save",1347948300429
+activated,view,org.eclipse.jdt.ui,3.7.2.v20120109-1427,"org.eclipse.jdt.ui.PackageExplorer",1347948302735
+executed,command,,,"com.android.ide.eclipse.adt.debug.launching.LaunchShortcut.run",1347948304725
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1347948313426
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1347948315771
+activated,view,org.eclipse.ui.console,3.5.100.v20111007_r372,"org.eclipse.ui.console.ConsoleView",1347948342800
+activated,view,com.android.ide.eclipse.ddms,20.0.3.v201208082019-427395,"com.android.ide.eclipse.ddms.views.LogCatView",1347948345760
+activated,editor,org.eclipse.jdt.ui,3.7.2.v20120109-1427,"org.eclipse.jdt.ui.CompilationUnitEditor",1347948379934
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.file.save",1347948390088
+activated,view,org.eclipse.jdt.ui,3.7.2.v20120109-1427,"org.eclipse.jdt.ui.PackageExplorer",1347948392468
+executed,command,,,"com.android.ide.eclipse.adt.debug.launching.LaunchShortcut.run",1347948395580
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1347948397187
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1347948398907
+activated,editor,org.eclipse.jdt.ui,3.7.2.v20120109-1427,"org.eclipse.jdt.ui.CompilationUnitEditor",1347948399493
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.text.contentAssist.proposals",1347948403387
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1347948405073
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1347948407695
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.text.contentAssist.proposals",1347948410925
+activated,view,org.eclipse.ui.console,3.5.100.v20111007_r372,"org.eclipse.ui.console.ConsoleView",1347948436709
+activated,view,com.android.ide.eclipse.ddms,20.0.3.v201208082019-427395,"com.android.ide.eclipse.ddms.views.LogCatView",1347948439605
+activated,editor,org.eclipse.jdt.ui,3.7.2.v20120109-1427,"org.eclipse.jdt.ui.CompilationUnitEditor",1347948544280
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.file.save",1347948546288
+activated,view,org.eclipse.jdt.ui,3.7.2.v20120109-1427,"org.eclipse.jdt.ui.PackageExplorer",1347948547600
+executed,command,,,"com.android.ide.eclipse.adt.debug.launching.LaunchShortcut.run",1347948549759
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1347948551023
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1347948586882
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1347948595000
+activated,view,org.eclipse.ui.console,3.5.100.v20111007_r372,"org.eclipse.ui.console.ConsoleView",1347948617039
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1347948617252
+activated,editor,org.eclipse.jdt.ui,3.7.2.v20120109-1427,"org.eclipse.jdt.ui.CompilationUnitEditor",1347948617903
+activated,view,com.android.ide.eclipse.ddms,20.0.3.v201208082019-427395,"com.android.ide.eclipse.ddms.views.LogCatView",1347948619896
+activated,editor,org.eclipse.jdt.ui,3.7.2.v20120109-1427,"org.eclipse.jdt.ui.CompilationUnitEditor",1347948635883
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.text.contentAssist.proposals",1347948644571
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.delete",1347948649951
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.delete",1347948650118
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.text.contentAssist.proposals",1347948651044
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.file.save",1347948651952
+activated,view,org.eclipse.jdt.ui,3.7.2.v20120109-1427,"org.eclipse.jdt.ui.PackageExplorer",1347948653429
+executed,command,,,"com.android.ide.eclipse.adt.debug.launching.LaunchShortcut.run",1347948655564
+activated,editor,org.eclipse.jdt.ui,3.7.2.v20120109-1427,"org.eclipse.jdt.ui.CompilationUnitEditor",1347948656794
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1347948658890
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1347948667039
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.delete",1347948678343
+activated,view,com.android.ide.eclipse.ddms,20.0.3.v201208082019-427395,"com.android.ide.eclipse.ddms.views.LogCatView",1347948680358
+activated,editor,org.eclipse.jdt.ui,3.7.2.v20120109-1427,"org.eclipse.jdt.ui.CompilationUnitEditor",1347948686635
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1347948695131
+activated,view,org.eclipse.ui.console,3.5.100.v20111007_r372,"org.eclipse.ui.console.ConsoleView",1347948695524
+activated,view,com.android.ide.eclipse.ddms,20.0.3.v201208082019-427395,"com.android.ide.eclipse.ddms.views.LogCatView",1347948698104
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1347948713506
+activated,editor,org.eclipse.jdt.ui,3.7.2.v20120109-1427,"org.eclipse.jdt.ui.CompilationUnitEditor",1347948713992
+activated,view,org.eclipse.jdt.ui,3.7.2.v20120109-1427,"org.eclipse.jdt.ui.PackageExplorer",1347948717796
+executed,command,,,"com.android.ide.eclipse.adt.debug.launching.LaunchShortcut.run",1347948722203
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1347948722631
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1347948724687
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1347948733190
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1347948747763
+activated,editor,org.eclipse.jdt.ui,3.7.2.v20120109-1427,"org.eclipse.jdt.ui.CompilationUnitEditor",1347948748684
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1347948758520
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1347948775033
+activated,view,org.eclipse.ui.console,3.5.100.v20111007_r372,"org.eclipse.ui.console.ConsoleView",1347948779142

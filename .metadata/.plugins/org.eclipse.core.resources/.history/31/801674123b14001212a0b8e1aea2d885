@@ -1,0 +1,816 @@
+package com.checkinlibrary;
+
+import java.util.ArrayList;
+import java.util.Calendar;
+import java.util.HashMap;
+import java.util.List;
+import android.app.AlertDialog;
+import android.app.Dialog;
+import android.app.ProgressDialog;
+import android.app.SearchManager;
+import android.content.Context;
+import android.content.DialogInterface;
+import android.content.Intent;
+import android.content.SharedPreferences;
+import android.content.pm.PackageInfo;
+import android.content.pm.PackageManager;
+import android.graphics.Color;
+import android.net.Uri;
+import android.os.Bundle;
+import android.os.Handler;
+import android.preference.PreferenceManager;
+import android.support.v4.app.Fragment;
+import android.support.v4.app.FragmentActivity;
+import android.support.v4.app.FragmentManager;
+import android.support.v4.app.FragmentTransaction;
+import android.util.Log;
+import android.view.KeyEvent;
+import android.view.View;
+import android.view.View.OnClickListener;
+import android.widget.TabHost;
+import android.widget.TextView;
+import android.widget.Toast;
+import com.checkinlibrary.business.BusinessSearchFragment;
+import com.checkinlibrary.db.BusinessDbAdapter;
+import com.checkinlibrary.db.DbAdapter;
+import com.checkinlibrary.facebook.android.FacebookShare;
+import com.checkinlibrary.helpers.AppStatus;
+import com.checkinlibrary.helpers.MyConstants;
+import com.checkinlibrary.location.GpsLocator;
+import com.checkinlibrary.models.AppVersionResult;
+import com.checkinlibrary.models.BusinessResult;
+import com.checkinlibrary.models.OrganizationResult;
+import com.checkinlibrary.org.CauseSearchFragment;
+import com.checkinlibrary.settings.HowItWorksFragment;
+import com.checkinlibrary.ws.services.WebServiceIface;
+import com.checkinlibrary.ws.tasks.AppVersionTask;
+import com.checkinlibrary.ws.tasks.FacebookExpiryTask;
+import com.checkinlibrary.ws.tasks.SearchTask;
+import com.nullwire.trace.ExceptionHandler;
+
+public class CheckinLibraryActivity extends FragmentActivity {
+	/** Called when the activity is first created. */
+	
+	public static String strProgressMessage="Loading....";
+	public static String mAuthToken = "";
+	public static String APP_NAME ="";
+	public GpsLocator gps;
+	public TabHost mTabHost;
+	public TabManager mTabManager;
+	public static TextView textViewRaisedMoney;
+	public ProgressDialog mProgressDialog;
+	public int LOCATION_STATUS = 0;
+	public static AppStatus appStatus;
+	Handler mhandler;
+	Bundle instanceState;
+	public Boolean isResuming;
+	protected Boolean isFromLogin;
+	public Boolean isOnPause;
+	private SharedPreferences appPreferences;
+	private java.util.Calendar exitTime;
+	public static boolean isFromRefresh = true;
+	public static boolean isFromHowItWorks = false;
+	public static boolean isFromCauseRefresh = true;
+	public static TabHost stabHost;
+	public Boolean bIsPoping=false;
+	final String TAG=getClass().getName();
+	
+	@Override
+	// Set up our tabs
+	public void onCreate(Bundle savedInstanceState) {
+		super.onCreate(savedInstanceState);
+		Log.d("Checkin library", "###############");		
+		ExceptionHandler.register(this, WebServiceIface.BASE_URL
+				+ "/exception/log");
+		instanceState = savedInstanceState;
+		appStatus = AppStatus.getInstance(this);
+		appStatus.mFromQrCode = false;
+		mhandler = new Handler();
+		appPreferences = PreferenceManager.getDefaultSharedPreferences(this);
+		isFromLogin = getIntent().getBooleanExtra("LOGIN_FLAG", false);
+		isOnPause = false;
+		APP_NAME=appStatus.getSharedStringValue(appStatus.APP_NAME);
+		loginIfNeeded();
+		listenForLocation();
+		checkFacebookTokenValidation();
+	}
+
+	private void checkFacebookTokenValidation() {
+		if(appStatus.getSharedStringValue(appStatus.FACEBOOK_TOKEN) != null){
+			if (appStatus.isOnline()) {
+				String strUrl="https://graph.facebook.com/oauth/access_token?" +
+						"fb_exchange_token="+appStatus.getSharedStringValue(appStatus.FACEBOOK_TOKEN)+
+						"&grant_type=fb_exchange_token" +
+						"&client_id="+FacebookShare.appId+
+						"&client_secret="+FacebookShare.appSecret;
+				new FacebookExpiryTask().execute(strUrl);
+			}else {
+				Intent intent = new Intent(this, NoConnectivityScreen.class);
+				this.startActivity(intent);
+				finish();
+				Log.v(TAG, "You are not online!!!!");
+			}
+		}
+	}
+
+	public void listenForLocation() {
+		Fragment fragment = getLastFragment();
+		if (fragment.getTag() == "business_tab" || fragment.getTag() =="tab_offers") {
+			gps = GpsLocator.getGpsLocator(this);
+			gps.listen();
+		}
+	}
+
+	@Override
+	protected void onResume() {
+		super.onResume();
+		// This application is really all about GPS, so as long as it's active,
+		// we listen.
+		if(gps != null){
+			gps.destroyGpsDialog();
+		}
+		
+		listenForLocation();
+		Log.v("CHECKINFORGOOD", "In onResume of CheckinLibraryActivity");
+		compareTimes();
+		isResuming = true;
+		isOnPause = false;
+		isFromRefresh=true;
+		appStatus.saveSharedIntValue(appStatus.ALL_BUS_CUR_PAGE, 2);
+		appStatus.saveSharedIntValue(appStatus.MY_BUS_CUR_PAGE, 2);
+	}
+
+	@Override
+	protected void onPause() {
+		super.onPause();
+		DbAdapter.close();
+		if(gps != null && gps.mlocListener !=null){
+			gps.stopListening();
+		}
+		isOnPause = true;
+		appExitTime();
+	}
+
+	public void setCheckinAmount() {
+		String checkin_amount = appStatus
+				.getSharedStringValue(appStatus.CHECKIN_AMOUNT);
+		String checkin_msg = null;
+		if (checkin_amount == null || checkin_amount.equals("null")) {
+			
+			checkin_msg = "You've raised: $0.00";
+		} else {
+			Log.v("CheckinActivity ****", "Checkin_Amount: " + checkin_amount);
+			checkin_msg = "You've raised: $" + checkin_amount;
+
+		}
+
+		if (textViewRaisedMoney != null) {
+
+			textViewRaisedMoney.setText(checkin_msg);
+		} else {
+
+			textViewRaisedMoney = (TextView) findViewById(R.id.textViewTopRaisedMoney);
+			textViewRaisedMoney.setText(checkin_msg);
+		}
+
+	}
+
+	
+	public void setupTabs(Bundle savedInstanceState) {
+	}
+
+	protected void loginIfNeeded() {
+		
+		if (appStatus.isOnline()) {
+			Log.v("CHECKIN_NATIVE_ACTIVITY", "App is online");
+			mAuthToken = appStatus.getSharedStringValue(appStatus.AUTH_KEY);
+			Log.v("auth_key", mAuthToken + " key");
+			setContentView(R.layout.main);
+			setupTabs(instanceState);
+			setCheckinAmount();
+			if (isFromLogin) {
+				CheckinLibraryActivity.this.mTabHost.setCurrentTab(2);
+				goToHowItWorksFragment();
+			}
+		} else {
+			Intent intent = new Intent(this, NoConnectivityScreen.class);
+			this.startActivity(intent);
+			finish();
+			Log.v("CHECKIN_NATIVE_ACTIVITY", "You are not online!!!!");
+			// message("Please check you internet connection!!");
+		}
+		
+	}
+
+	public static void setTextRaiseMoney(){
+		
+		if(APP_NAME.equals("heads_up")){
+
+			if (stabHost.getCurrentTab() == 2) {
+				textViewRaisedMoney.setVisibility(View.VISIBLE);
+			}else {
+				textViewRaisedMoney.setVisibility(View.GONE);
+			}
+			
+		}
+//		else{
+//			textViewRaisedMoney.setVisibility(View.VISIBLE);
+//		}
+	}
+	
+	@Override
+	protected void onSaveInstanceState(Bundle outState) {
+		super.onSaveInstanceState(outState);
+		outState.putInt("tab", mTabHost.getCurrentTab());
+	}
+
+	public Fragment addFragment(int viewId, String klass, String tag) {
+		FragmentTransaction ft = this.getSupportFragmentManager()
+				.beginTransaction();
+
+		if (mTabManager.mLastTab.fragment != null) {
+			Fragment oldFragment = mTabManager.mLastTab.fragment;
+			ft.detach(oldFragment);
+		}
+
+		Fragment fragment = Fragment.instantiate(this, klass);
+		ft.add(viewId, fragment, tag);
+		addFragToBackStack(fragment);
+		mTabManager.mLastTab.fragment = fragment;
+		ft.commit();
+
+		return fragment;
+	}
+
+	public Fragment addFragment(int viewId, String klass, String tag,
+			Bundle bundle) {
+		FragmentTransaction ft = this.getSupportFragmentManager()
+				.beginTransaction();
+
+		if (mTabManager.mLastTab.fragment != null) {
+			Fragment oldFragment = mTabManager.mLastTab.fragment;
+			ft.detach(oldFragment);
+		}
+
+		Fragment fragment = Fragment.instantiate(this, klass, bundle);
+		ft.add(viewId, fragment, tag);
+		mTabManager.mLastTab.fragment = fragment;
+		addFragToBackStack(fragment);
+		ft.commit();
+
+		return fragment;
+	}
+
+	public void attachFragment(Fragment fragment) {
+		FragmentTransaction ft = this.getSupportFragmentManager()
+				.beginTransaction();
+
+		if (mTabManager.mLastTab.fragment != null) {
+			Fragment oldFragment = mTabManager.mLastTab.fragment;
+			ft.detach(oldFragment);
+		}
+
+		ft.attach(fragment);
+		mTabManager.mLastTab.fragment = fragment;
+		ft.commit();
+	}
+
+	public void attachFragment(Fragment fragment,String tag) {
+		FragmentTransaction ft = this.getSupportFragmentManager()
+				.beginTransaction();
+
+		if (mTabManager.mLastTab.fragment != null) {
+			Fragment oldFragment = mTabManager.mLastTab.fragment;
+			ft.detach(oldFragment);
+		}
+
+		ft.attach(fragment);
+		addFragToBackStack(fragment);
+		mTabManager.mLastTab.fragment = fragment;
+		ft.commit();
+	}
+	
+	public Fragment getLastFragment() {
+		return mTabManager.mLastTab.fragment;
+	}
+
+	public void setLastFragment(Fragment f) {
+		mTabManager.mLastTab.fragment = f;
+	}
+
+	public void popFragmentFromStack(){
+		
+		int iFragCnt = this.getSupportFragmentManager()
+				.getBackStackEntryCount();
+
+		if (iFragCnt > 0) {
+			FragmentManager.BackStackEntry frg_last = this
+					.getSupportFragmentManager().getBackStackEntryAt(
+							iFragCnt - 1);
+
+			Fragment lastFragment = this.getSupportFragmentManager()
+					.findFragmentByTag(frg_last.getName());
+			this.getSupportFragmentManager().popBackStackImmediate();
+			iFragCnt = this.getSupportFragmentManager()
+					.getBackStackEntryCount();
+			FragmentManager.BackStackEntry frg = this
+					.getSupportFragmentManager().getBackStackEntryAt(
+							iFragCnt - 1);
+			Fragment currFrag = this.getSupportFragmentManager()
+					.findFragmentByTag(frg.getName());
+			FragmentTransaction ft = this.getSupportFragmentManager()
+					.beginTransaction();
+			this.attachFragment(currFrag);
+			ft.detach(lastFragment);
+			ft.commit();
+			
+		}
+	}
+	
+	@Override
+	public boolean onSearchRequested() {
+		Bundle searchBundle = new Bundle();
+		Fragment fragment = getLastFragment();
+		gps = GpsLocator.getGpsLocator(this);
+		if(gps.isProviderEnabled()){
+			if (fragment.getTag() == "business_tab") {
+				searchBundle.putInt("search_type",
+						Searcher.SearchType.BUSINESS.ordinal());
+				startSearch(null, false, searchBundle, false);
+			} else if (fragment.getTag() == "organization_tab") {
+				searchBundle.putInt("search_type",
+						Searcher.SearchType.CAUSE.ordinal());
+				startSearch(null, false, searchBundle, false);
+			}	else if (fragment.getTag() == "tab_offers") {
+				searchBundle.putInt("search_type",
+						Searcher.SearchType.BUSINESS.ordinal());
+				startSearch(null, false, searchBundle, false);
+			} else if (fragment.getTag() == "OfficailSignalsFragment") {
+				searchBundle.putInt("search_type",
+						Searcher.SearchType.SIGNALS.ordinal());
+				startSearch(null, false, searchBundle, false);
+			}	
+		}else{
+			listenForLocation();
+		}
+		
+		return true;
+	}
+
+	@Override
+	protected void onNewIntent(Intent intent) {
+		Intent oldIntent = this.getIntent();
+		setIntent(intent);
+
+		if (Intent.ACTION_SEARCH.equals(intent.getAction())) {
+			String query = intent.getStringExtra(SearchManager.QUERY);
+			Bundle searchBundle = intent.getBundleExtra(SearchManager.APP_DATA);
+			if(searchBundle != null){
+				
+				Searcher.SearchType type = Searcher.SearchType.values()[searchBundle
+				                                                        .getInt("search_type")];
+				CheckinLibraryActivity.strProgressMessage=getString(R.string.searchProgressMessage);
+				this.showDialog(0);
+				new SearchTask(this, type).execute(query);
+				
+			}
+		}
+
+		// Set our intent back once the search display is done
+		setIntent(oldIntent);
+	}
+
+	@SuppressWarnings("unchecked")
+	public void onSearchCompleted(List<? extends Object> result,
+			Searcher.SearchType type, String query) {
+		if (type == Searcher.SearchType.CAUSE) {
+			CauseSearchFragment.addSearchFragment(this,
+					(List<OrganizationResult>) result, query);
+		} else {
+			BusinessSearchFragment.addBusinessFragment(this,
+					(List<BusinessResult>) result, query);
+		}
+
+		this.removeDialog(0);
+	}
+
+	public static class TabManager implements TabHost.OnTabChangeListener {
+		private final FragmentActivity mActivity;
+		private final TabHost mTabHost;
+		private final int mContainerId;
+		private final HashMap<String, TabInfo> mTabs = new HashMap<String, TabInfo>();
+		TabInfo mLastTab;
+
+		static final class TabInfo {
+			private final String tag;
+			private final Class<?> clss;
+			private final Bundle args;
+			private Fragment fragment;
+
+			TabInfo(String _tag, Class<?> _class, Bundle _args) {
+				tag = _tag;
+				clss = _class;
+				args = _args;
+			}
+		}
+
+		static class DummyTabFactory implements TabHost.TabContentFactory {
+			private final Context mContext;
+
+			public DummyTabFactory(Context context) {
+				mContext = context;
+			}
+
+			@Override
+			public View createTabContent(String tag) {
+				View v = new View(mContext);
+				v.setMinimumWidth(0);
+				v.setMinimumHeight(0);
+				return v;
+			}
+		}
+
+		public TabManager(FragmentActivity activity, TabHost tabHost,
+				int containerId) {
+			mActivity = activity;
+			mTabHost = tabHost;
+			mContainerId = containerId;
+			mTabHost.setOnTabChangedListener(this);
+		}
+
+		public void addTab(TabHost.TabSpec tabSpec, Class<?> clss, Bundle args) {
+			tabSpec.setContent(new DummyTabFactory(mActivity));
+			String tag = tabSpec.getTag();
+
+			TabInfo info = new TabInfo(tag, clss, args);
+
+			// Check to see if we already have a fragment for this tab, probably
+			// from a previously saved state. If so, deactivate it, because our
+			// initial state is that a tab isn't shown.
+			info.fragment = mActivity.getSupportFragmentManager()
+					.findFragmentByTag(tag);
+			if (info.fragment != null && !info.fragment.isDetached()) {
+				FragmentTransaction ft = mActivity.getSupportFragmentManager()
+						.beginTransaction();
+				ft.detach(info.fragment);
+				ft.commit();
+			}
+
+			mTabs.put(tag, info);
+			mTabHost.addTab(tabSpec);
+			// Set tab background
+			mTabHost.getTabWidget().getChildAt((mTabs.size() - 1))
+					.setBackgroundResource(R.drawable.tab_bg);
+			// Set tab text color
+			TextView tv = (TextView) mTabHost.getTabWidget()
+					.getChildAt((mTabs.size() - 1))
+					.findViewById(android.R.id.title);
+			tv.setTextColor(Color.WHITE);
+			setClickHandler(tag);
+		}
+		
+		
+		public void setClickHandler(String tag) {
+			final String finalTag = tag;
+			final Integer finalTabIndex = mTabs.size() - 1;
+			
+			mTabHost.getTabWidget().getChildAt((mTabs.size() - 1))
+					.setOnClickListener((new OnClickListener() {
+						@Override
+						public void onClick(View v) {
+							if (mTabHost.getCurrentTabTag().equals(finalTag)) {
+								Integer altTabIndex;
+
+								altTabIndex = (finalTabIndex == 2) ? 1 : 2;
+								Log.v("CHECKINFORGOOD", "ALT INDEX: "
+										+ altTabIndex.toString() + " INDEX "
+										+ finalTabIndex.toString());
+								// Tab refresh hack. Meh. We could touch
+								// TabHost.mCurrentTab through reflection or
+								// even
+								// extend TabHost, since TabHost.mCurrentTab is
+								// protected, but both feel even hackier than
+								// this.
+								mTabHost.setCurrentTab(altTabIndex);
+								mTabHost.setCurrentTab(finalTabIndex);
+								
+							} else {
+								mTabHost.setCurrentTab(finalTabIndex);
+							}
+						}
+					}));
+			
+		
+		}
+
+		@Override
+		public void onTabChanged(String tabId) {
+			Log.v("CHECKINFORGOD", "All up in my tabchange");
+			TabInfo newTab = mTabs.get(tabId);
+			// if (mLastTab != newTab)
+			{
+				FragmentTransaction ft = mActivity.getSupportFragmentManager()
+						.beginTransaction();
+				if (mLastTab != null) {
+					if (mLastTab.fragment != null) {
+						Log.e("CHECKINFORGOOD", "Detaching tab for fragment.  "
+								+ mLastTab.fragment.getClass().getName());
+						ft.detach(mLastTab.fragment);
+					}
+				}
+				if (newTab != null) {
+					if (newTab.fragment == null) {
+						newTab.fragment = Fragment.instantiate(mActivity,
+								newTab.clss.getName(), newTab.args);
+						ft.add(mContainerId, newTab.fragment, newTab.tag);
+						Log.e("CHECKINFORGOOD", "Adding tab for fragment.  "
+								+ newTab.fragment.getClass().getName());
+					} else {
+						ft.detach(newTab.fragment);
+						newTab.fragment = Fragment.instantiate(mActivity,
+								newTab.clss.getName(), newTab.args);
+						ft.add(mContainerId, newTab.fragment, newTab.tag);
+						Log.e("CHECKINFORGOOD", "Attaching tab for fragment.  "
+								+ newTab.fragment.getClass().getName());
+					}
+				}
+				mLastTab = newTab;
+				ft.commit();
+				// clear backstatck on root fragment clicked
+				for (int i = 0; i < mActivity.getSupportFragmentManager()
+						.getBackStackEntryCount(); ++i) {
+					mActivity.getSupportFragmentManager().popBackStack();
+				}
+				mActivity.getSupportFragmentManager()
+						.executePendingTransactions();
+				
+			}
+			setTextRaiseMoney();
+		}
+		
+
+	}
+	
+	
+	@Override
+	public boolean onKeyDown(int keyCode, KeyEvent event) {
+		if (keyCode == KeyEvent.KEYCODE_BACK) {
+			int iFragCnt = this.getSupportFragmentManager().getBackStackEntryCount();
+
+			if (iFragCnt > 0) {
+				FragmentManager.BackStackEntry frg_last = this
+						.getSupportFragmentManager().getBackStackEntryAt(iFragCnt - 1);
+				Fragment lastFragment = this.getSupportFragmentManager()
+						.findFragmentByTag(frg_last.getName());
+				this.getSupportFragmentManager().popBackStackImmediate();
+				iFragCnt = this.getSupportFragmentManager().getBackStackEntryCount();
+
+				if (iFragCnt == 0) {
+					this.mTabManager.onTabChanged(this.mTabHost
+							.getCurrentTabTag());
+				} else {
+					FragmentManager.BackStackEntry frg = this
+							.getSupportFragmentManager().getBackStackEntryAt(
+									iFragCnt - 1);
+					Fragment currFrag = this.getSupportFragmentManager()
+							.findFragmentByTag(frg.getName());
+					FragmentTransaction ft = getSupportFragmentManager()
+							.beginTransaction();
+					this.attachFragment(currFrag);
+					ft.detach(lastFragment);
+					ft.commit();
+				}
+			} else {
+				ShowMessageBox();
+			}
+
+			return true;
+		}
+
+		return super.onKeyDown(keyCode, event);
+	}
+
+	public void ShowMessageBox() {
+		AlertDialog exitAlert = new AlertDialog.Builder(this).create();
+		exitAlert.setTitle("Exit Application");
+		exitAlert.setMessage("Are you sure you want to leave CheckinForGood?");
+
+		exitAlert.setButton("Yes", new DialogInterface.OnClickListener() {
+			@Override
+			public void onClick(DialogInterface dialog, int which) {
+				dialog.dismiss();
+				finish();
+			}
+		});
+		exitAlert.setButton2("No", new DialogInterface.OnClickListener() {
+
+			@Override
+			public void onClick(DialogInterface dialog, int which) {
+				dialog.dismiss();
+			}
+		});
+		exitAlert.show();
+	}
+
+	@Override
+	protected Dialog onCreateDialog(int id, Bundle args) {
+		ProgressDialog dialog = new ProgressDialog(this);
+		/*dialog = ProgressDialog.show(this,null,null);
+		dialog.setContentView(R.layout.loader);*/
+		dialog.setTitle("Please Wait...");
+		dialog.setMessage(strProgressMessage);
+		dialog.setIndeterminate(true);
+		dialog.setCancelable(false);
+		dialog.setOnCancelListener(new DialogInterface.OnCancelListener() {
+			@Override
+			public void onCancel(DialogInterface dialog) {
+				Log.i("CHECKINFORGOOD", "user cancelling authentication");
+
+			}
+		});
+		mProgressDialog = dialog;
+		return dialog;
+	}
+
+	// Add fragments to backstack
+	public void addFragToBackStack(Fragment fragment) {
+		FragmentTransaction ft = this.getSupportFragmentManager()
+				.beginTransaction();
+		ft.addToBackStack(fragment.getTag());
+		ft.commit();
+	}
+
+	protected void goToHowItWorksFragment() {
+		@SuppressWarnings("unused")
+		HowItWorksFragment mHowItWorksFragment = (HowItWorksFragment) this
+				.addFragment(R.id.linearLayout2,
+						HowItWorksFragment.class.getName(),
+						"how_it_works_fragment");
+
+	}
+
+	public void message(String msg) {
+		final String mesage = msg;
+		mhandler.post(new Runnable() {
+			@Override
+			public void run() {
+				Toast toast = Toast.makeText(CheckinLibraryActivity.this,
+						mesage, Toast.LENGTH_LONG);
+				toast.show();
+			}
+		});
+	}
+
+	@Override
+	public void onActivityResult(final int requestCode, final int resultCode,
+			final Intent data) {
+		super.onActivityResult(requestCode, resultCode, data);
+			
+		if (requestCode == 6186 && resultCode == 0) {
+			gps.destroyGpsDialog();
+			AppStatus.getInstance(this).GPS_STATUS_ON = true;
+			//startActivity(new Intent(this, CheckinLibraryActivity.class));
+		}
+		if (resultCode == appStatus.REQUEST_CODE) {
+			if (data != null) {
+				String scanResult = data.getStringExtra("SCAN_RESULT");
+				if (scanResult != null) {
+					appStatus.mFromQrCode = true;
+					appStatus.mQrCodeResult = scanResult;
+					// Toast toast = Toast.makeText(this,scanResult, 100000);
+					// toast.show();
+				} else {
+					appStatus.mFromQrCode = false;
+					// Toast toast = Toast.makeText(this, "Scanning Faild",
+					// 100000);
+					// toast.show();
+				}
+			}
+		} else {
+			appStatus.mFromQrCode = false;
+			// Toast toast = Toast.makeText(this, "Scanning Faild", 100000);
+			// toast.show();
+		}
+
+	}
+
+	// ///////////////////// Comparing Starting and exiting time of app
+
+	private void compareTimes() {
+		Log.v("CHECKINFORGOOD", "COMPARING TIME");
+		long currentTime = Calendar.getInstance().getTimeInMillis();
+		long testTime = currentTime - 43200000;
+
+		long lastExitTime = appPreferences.getLong("exitTime", 0);
+		Log.v("CHECKINFORGOOD", "Current Time: " + currentTime);
+		Log.v("CHECKINFORGOOD", "Last Exit Time: " + lastExitTime);
+		if (lastExitTime != 0) {
+			if (lastExitTime < testTime) {
+				Log.v("CHECKINFORGOOD", "Clear cache");
+
+				// ///// clearing cache
+				
+				List<BusinessResult> result = new ArrayList<BusinessResult>();
+				BusinessDbAdapter adpt = new BusinessDbAdapter(this,
+						MyConstants.TABLE_MY_ORGS_BUS,
+						MyConstants.TABLE_MY_BUS_ORGS,
+						MyConstants.TABLE_MY_ORGS_CHECKIN_TIMES);
+						
+				adpt.deleteAllAssociated();
+
+				try {
+					adpt.beginTransaction();
+
+					for (int i = 0; i < result.size(); i++) {
+						Log.i("CHECKINFORGOOD",
+								"Id for test res " + result.get(i).getName()
+										+ String.valueOf(result.get(i).getId()));
+						adpt.createAssociated(result.get(i));
+					}
+
+					adpt.succeedTransaction();
+				} finally {
+					adpt.endTransaction();
+				}
+			} else {
+				Log.v("Demo", "Do nothing");
+				// do nothing
+			}
+		}
+	}
+
+	// ////// Storing Exiting time of app in shared preferences //////
+
+	private void appExitTime() {
+		SharedPreferences.Editor editor = appPreferences.edit();
+		exitTime = Calendar.getInstance();
+		editor.putLong("exitTime", exitTime.getTimeInMillis());
+		editor.commit();
+		Long exitTime = appPreferences.getLong("exitTime", 0);
+		Log.v("Demo", "exit Time= " + exitTime);
+	}
+
+	public void onCheckAppVersion(){
+		if(appStatus.isOnline()) {
+			String[] args = new String[1];
+			args[0]=appStatus.getSharedStringValue(appStatus.APP_NAME);
+			new AppVersionTask(this).execute(args);
+			Log.e(TAG, "App version web call");
+		}
+		else {
+			Log.v(TAG, "App is not online!");
+			Intent intent= new Intent(this,NoConnectivityScreen.class);
+			startActivity(intent);
+			finish();
+		}
+	}
+	
+	public void getAppVersion(AppVersionResult result){
+		String current_version=result.getAndroid_current_version();
+		Log.e("app version call --", "success "+current_version);
+
+		String device_version = "";
+
+		try {
+			PackageManager manager = this.getPackageManager();
+			PackageInfo info = manager.getPackageInfo(
+					this.getPackageName(), 0);
+			device_version = info.versionName;
+			Log.i("Application.Version", device_version);
+
+		} catch (Exception e) {
+			Log.e(TAG, "Error getting version");
+		}
+
+		if(current_version.equals(device_version)){
+			Log.i("App Version and Device version are same ",current_version);
+		}else{
+
+			String msg="Update with new application version "+current_version;
+
+			AlertDialog appAlert = new AlertDialog.Builder(this).create();
+			appAlert.setTitle("Update Application");
+			appAlert.setMessage(msg);
+
+			appAlert.setButton("Update", new DialogInterface.OnClickListener() {
+				@Override
+				public void onClick(DialogInterface dialog, int which) {
+					dialog.dismiss();
+					gotoApplicationUpdate();
+				}
+			});
+			appAlert.setButton2("Cancel", new DialogInterface.OnClickListener() {
+				@Override
+				public void onClick(DialogInterface dialog, int which) {	
+					dialog.dismiss();  
+				}
+			});
+			appAlert.show();	
+		}
+	}
+	
+	public void gotoApplicationUpdate(){
+		Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://play.google.com/store/apps/details?id=com.headsup&feature=search_result#?t=W251bGwsMSwxLDEsImNvbS5oZWFkc3VwIl0."));
+		this.startActivity(browserIntent);
+	}
+}

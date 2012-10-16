@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/blue_bg" >
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <ImageView
+            android:id="@+id/ImageViewSignInLogo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/headsup_logo"
+            android:contentDescription="@string/app_name" />
+
+        <TextView
+            android:id="@+id/TextViewMainMsg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            android:layout_marginTop="40dp"
+            android:gravity="center_horizontal"
+            android:text="Please connect to cellular data or Wi-Fi to use this app."
+            android:textColor="@color/white"
+            android:textSize="9pt"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/TextViewMsg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            android:layout_marginTop="40dp"
+            android:gravity="center_horizontal"
+            android:text="@string/cannot_connect"
+            android:textColor="@color/white"
+            android:textSize="7pt"
+            android:layout_marginBottom="10dp" />
+    </LinearLayout>
+
+</ScrollView>

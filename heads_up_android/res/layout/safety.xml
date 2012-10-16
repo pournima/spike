@@ -1,0 +1,342 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/safetyScrollView"
+    android:scrollbars="none" >
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/mainbg"
+        android:orientation="vertical"
+        android:paddingBottom="10dp" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="10dp"
+            android:shadowDx="2"
+            android:shadowDy="3"
+            android:shadowRadius="2"
+            android:shadowColor="@color/white"
+            android:text="@string/hns_heading"
+            android:textColor="@color/red_dark"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:text="@string/hns_sub_heading"
+            android:textColor="@color/red_dark"
+            android:textSize="15dp" />
+
+        <LinearLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:paddingTop="10dp"
+            android:weightSum="2.0" >
+
+            <Button
+                android:id="@+id/btnAboutHeadsup"
+                android:layout_width="0dp"
+                android:layout_height="130dp"
+                android:layout_marginRight="15dp"
+                android:layout_weight="1.0"
+                android:background="@drawable/about_headsup"/>
+
+            <Button
+                android:id="@+id/btnConcussionSignsSymptoms"
+                android:layout_width="0dp"
+                android:layout_height="130dp"
+                android:layout_weight="1.0"
+                android:background="@drawable/signs_symptoms"/>
+        </LinearLayout>
+
+        <LinearLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:weightSum="2.0" >
+
+            <TextView
+                style="@style/safetyText"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.0"
+                android:text="@string/about_headsup_football" />
+
+            <TextView
+                style="@style/safetyText"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.0"
+                android:text="@string/concussion_signs" />
+        </LinearLayout>
+
+        <LinearLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:paddingTop="10dp"
+            android:weightSum="2.0" >
+
+            <Button
+                android:id="@+id/btnHowtoTackle"
+                android:layout_width="0dp"
+                android:layout_height="130dp"
+                android:layout_marginRight="15dp"
+                android:layout_weight="1.0"
+                android:background="@drawable/how_to_tackle"/>
+
+            <Button
+                android:id="@+id/btnSafetyCheckList"
+                android:layout_width="0dp"
+                android:layout_height="130dp"
+                android:layout_weight="1.0"
+                android:background="@drawable/safety_checklist"/>
+        </LinearLayout>
+
+        <LinearLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:weightSum="2.0" >
+
+            <TextView
+                style="@style/safetyText"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.0"
+                android:text="@string/how_to_tackle" />
+
+            <TextView
+                style="@style/safetyText"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.0"
+                android:text="@string/safety_checklist" />
+        </LinearLayout>
+
+        <LinearLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:paddingTop="10dp"
+            android:weightSum="2.0" >
+
+            <Button
+                android:id="@+id/btnConcussionAwareness"
+                android:layout_width="0dp"
+                android:layout_height="130dp"
+                android:layout_marginRight="15dp"
+                android:layout_weight="1.0"
+                android:background="@drawable/concussion_awareness"/>
+
+            <Button
+                android:id="@+id/btnEquipment"
+                android:layout_width="0dp"
+                android:layout_height="130dp"
+                android:layout_weight="1.0"
+                android:background="@drawable/equipment_fitting"/>
+        </LinearLayout>
+
+        <LinearLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:weightSum="2.0" >
+
+            <TextView
+                style="@style/safetyText"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.0"
+                android:text="@string/concussion_awareness" />
+
+            <TextView
+                style="@style/safetyText"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.0"
+                android:text="@string/equipment_fitting" />
+        </LinearLayout>
+
+        <LinearLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:paddingTop="10dp"
+            android:weightSum="2.0" >
+
+            <Button
+                android:id="@+id/btnConditioning"
+                android:layout_width="0dp"
+                android:layout_height="130dp"
+                android:layout_marginRight="15dp"
+                android:layout_weight="1.0"
+                android:background="@drawable/conditioning"/>
+
+            <Button
+                android:id="@+id/btnHeatPreparedness"
+                android:layout_width="0dp"
+                android:layout_height="130dp"
+                android:layout_weight="1.0"
+                android:background="@drawable/heat_preparedness"/>
+        </LinearLayout>
+
+        <LinearLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingBottom="5dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:weightSum="2.0" >
+
+            <TextView
+                style="@style/safetyText"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.0"
+                android:text="@string/conditioning" />
+
+            <TextView
+                style="@style/safetyText"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.0"
+                android:text="@string/heat_preparedness" />
+        </LinearLayout>
+
+        <LinearLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:paddingTop="5dp"
+            android:weightSum="2.0" >
+
+            <Button
+                android:id="@+id/btnHydration"
+                android:layout_width="0dp"
+                android:layout_height="130dp"
+                android:layout_marginRight="15dp"
+                android:layout_weight="1.0"
+                android:background="@drawable/hydration"/>
+
+            <Button
+                android:id="@+id/btnInjuryPrevention"
+                android:layout_width="0dp"
+                android:layout_height="130dp"
+                android:layout_weight="1.0"
+                android:background="@drawable/injury_prevention"/>
+        </LinearLayout>
+
+        <LinearLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingBottom="5dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:weightSum="2.0" >
+
+            <TextView
+                style="@style/safetyText"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.0"
+                android:text="@string/hydration" />
+
+            <TextView
+                style="@style/safetyText"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.0"
+                android:text="@string/injury_prevention" />
+        </LinearLayout>
+
+        <LinearLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:paddingTop="5dp"
+            android:weightSum="2.0" >
+
+            <Button
+                android:id="@+id/btnNutrition"
+                android:layout_width="0dp"
+                android:layout_height="130dp"
+                android:layout_marginRight="15dp"
+                android:layout_weight="1.0"
+                android:background="@drawable/nutrition"/>
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="130dp"
+                android:layout_weight="1.0"
+                android:background="@drawable/headsup_fb" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingBottom="10dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:weightSum="2.0" >
+
+            <TextView
+                style="@style/safetyText"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.0"
+                android:text="@string/nutrition" />
+
+            <TextView
+                style="@style/safetyText"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.0"
+                android:text="" />
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>

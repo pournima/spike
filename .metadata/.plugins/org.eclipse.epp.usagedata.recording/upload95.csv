@@ -1,0 +1,251 @@
+what,kind,bundleId,bundleVersion,description,time
+error,log,,,"checkin_fragment.xml: Failed to find style 'buttonStyle' in current theme",1346735526619
+error,log,,,"checkin_fragment.xml: Failed to find style 'textViewStyle' in current theme",1346735526625
+error,log,,,"checkin_fragment.xml: Failed to find style 'textViewStyle' in current theme",1346735526626
+error,log,,,"checkin_fragment.xml: Failed to find style 'textViewStyle' in current theme",1346735526628
+error,log,,,"checkin_fragment.xml: Failed to find style 'textViewStyle' in current theme",1346735526629
+error,log,,,"checkin_fragment.xml: Failed to find style 'textViewStyle' in current theme",1346735526630
+error,log,,,"checkin_fragment.xml: Failed to find style 'textViewStyle' in current theme",1346735526632
+error,log,,,"checkin_fragment.xml: Failed to find style 'textViewStyle' in current theme",1346735526634
+error,log,,,"checkin_fragment.xml: Failed to find style 'textViewStyle' in current theme",1346735526635
+error,log,,,"checkin_fragment.xml: Failed to find style 'textViewStyle' in current theme",1346735526636
+error,log,,,"checkin_fragment.xml: Failed to find style 'scrollViewStyle' in current theme",1346735526638
+error,log,,,"checkin_fragment.xml: Failed to find style 'scrollViewStyle' in current theme",1346735526640
+error,log,,,"checkin_fragment.xml: Failed to find style 'scrollViewStyle' in current theme",1346735526641
+error,log,,,"checkin_fragment.xml: Failed to find style 'textViewStyle' in current theme",1346735526747
+error,log,,,"checkin_fragment.xml: Failed to find style 'textViewStyle' in current theme",1346735526748
+error,log,,,"checkin_fragment.xml: Failed to find style 'textViewStyle' in current theme",1346735526750
+error,log,,,"checkin_fragment.xml: Failed to find style 'textViewStyle' in current theme",1346735526751
+error,log,,,"checkin_fragment.xml: Failed to find style 'textViewStyle' in current theme",1346735526752
+error,log,,,"checkin_fragment.xml: Failed to find style 'textViewStyle' in current theme",1346735526753
+error,log,,,"checkin_fragment.xml: Failed to find style 'textViewStyle' in current theme",1346735526754
+error,log,,,"checkin_fragment.xml: Failed to find style 'textViewStyle' in current theme",1346735526755
+error,log,,,"checkin_fragment.xml: Failed to find style 'textViewStyle' in current theme",1346735526758
+error,log,,,"checkin_fragment.xml: Failed to find style 'buttonStyle' in current theme",1346735526760
+error,log,,,"checkin_fragment.xml: Failed to find style 'buttonStyle' in current theme",1346735526773
+error,log,,,"checkin_fragment.xml: Failed to find style 'buttonStyle' in current theme",1346735526774
+error,log,,,"checkin_fragment.xml: Failed to find style 'textViewStyle' in current theme",1346735526800
+error,log,,,"checkin_fragment.xml: Failed to find style 'textViewStyle' in current theme",1346735526811
+error,log,,,"checkin_fragment.xml: Failed to find style 'textViewStyle' in current theme",1346735526816
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1346735641727
+activated,editor,com.android.ide.eclipse.adt,20.0.3.v201208082019-427395,"com.android.ide.eclipse.editors.CommonXmlEditor",1346735641750
+started,bundle,org.eclipse.jst.jsp.ui,1.1.602.v201112071516,"org.eclipse.jst.jsp.ui",1346735647304
+started,bundle,org.eclipse.jst.jsp.core,1.2.402.v201112071853,"org.eclipse.jst.jsp.core",1346735647444
+activated,view,org.eclipse.jdt.ui,3.7.2.v20120109-1427,"org.eclipse.jdt.ui.PackageExplorer",1346735693637
+activated,editor,com.android.ide.eclipse.adt,20.0.3.v201208082019-427395,"com.android.ide.eclipse.editors.CommonXmlEditor",1346735708058
+opened,editor,org.eclipse.jdt.ui,3.7.2.v20120109-1427,"org.eclipse.jdt.ui.CompilationUnitEditor",1346735730696
+started,bundle,org.eclipse.jdt.debug.ui,3.6.1.v20111006_r372,"org.eclipse.jdt.debug.ui",1346735731333
+activated,editor,org.eclipse.jdt.ui,3.7.2.v20120109-1427,"org.eclipse.jdt.ui.CompilationUnitEditor",1346735731601
+started,bundle,org.eclipse.core.variables,3.2.500.v20110928-1503,"org.eclipse.core.variables",1346735732868
+activated,editor,com.android.ide.eclipse.adt,20.0.3.v201208082019-427395,"com.android.ide.eclipse.editors.CommonXmlEditor",1346735739376
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.cut",1346735745819
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.paste",1346735749153
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.file.save",1346735750424
+error,log,,,"checkin_fragment.xml: Failed to find style 'textViewStyle' in current theme",1346735752117
+error,log,,,"checkin_fragment.xml: Failed to find style 'textViewStyle' in current theme",1346735752118
+error,log,,,"checkin_fragment.xml: Failed to find style 'textViewStyle' in current theme",1346735752119
+error,log,,,"checkin_fragment.xml: Failed to find style 'scrollViewStyle' in current theme",1346735752120
+error,log,,,"checkin_fragment.xml: Failed to find style 'scrollViewStyle' in current theme",1346735752121
+error,log,,,"checkin_fragment.xml: Failed to find style 'scrollViewStyle' in current theme",1346735752121
+error,log,,,"checkin_fragment.xml: Failed to find style 'textViewStyle' in current theme",1346735752151
+error,log,,,"checkin_fragment.xml: Failed to find style 'textViewStyle' in current theme",1346735752152
+error,log,,,"checkin_fragment.xml: Failed to find style 'textViewStyle' in current theme",1346735752153
+error,log,,,"checkin_fragment.xml: Failed to find style 'buttonStyle' in current theme",1346735752155
+error,log,,,"checkin_fragment.xml: Failed to find style 'buttonStyle' in current theme",1346735752159
+error,log,,,"checkin_fragment.xml: Failed to find style 'buttonStyle' in current theme",1346735752160
+error,log,,,"checkin_fragment.xml: Failed to find style 'buttonStyle' in current theme",1346735752161
+error,log,,,"checkin_fragment.xml: Failed to find style 'buttonStyle' in current theme",1346735752178
+error,log,,,"checkin_fragment.xml: Failed to find style 'buttonStyle' in current theme",1346735752180
+error,log,,,"checkin_fragment.xml: Failed to find style 'buttonStyle' in current theme",1346735752182
+error,log,,,"checkin_fragment.xml: Failed to find style 'buttonStyle' in current theme",1346735752185
+error,log,,,"checkin_fragment.xml: Failed to find style 'buttonStyle' in current theme",1346735752197
+error,log,,,"checkin_fragment.xml: Failed to find style 'textViewStyle' in current theme",1346735752212
+error,log,,,"checkin_fragment.xml: Failed to find style 'textViewStyle' in current theme",1346735752225
+error,log,,,"checkin_fragment.xml: Failed to find style 'textViewStyle' in current theme",1346735752239
+error,log,,,"checkin_fragment.xml: Failed to find style 'textViewStyle' in current theme",1346735752303
+error,log,,,"checkin_fragment.xml: Failed to find style 'textViewStyle' in current theme",1346735752304
+error,log,,,"checkin_fragment.xml: Failed to find style 'textViewStyle' in current theme",1346735752305
+error,log,,,"checkin_fragment.xml: Failed to find style 'textViewStyle' in current theme",1346735752311
+error,log,,,"checkin_fragment.xml: Failed to find style 'textViewStyle' in current theme",1346735752313
+error,log,,,"checkin_fragment.xml: Failed to find style 'textViewStyle' in current theme",1346735752313
+error,log,,,"checkin_fragment.xml: Failed to find style 'buttonStyle' in current theme",1346735752316
+error,log,,,"checkin_fragment.xml: Failed to find style 'buttonStyle' in current theme",1346735752535
+error,log,,,"checkin_fragment.xml: Failed to find style 'buttonStyle' in current theme",1346735752579
+error,log,,,"checkin_fragment.xml: Failed to find style 'textViewStyle' in current theme",1346735752600
+error,log,,,"checkin_fragment.xml: Failed to find style 'textViewStyle' in current theme",1346735752601
+error,log,,,"checkin_fragment.xml: Failed to find style 'textViewStyle' in current theme",1346735752622
+error,log,,,"checkin_fragment.xml: Failed to find style 'textViewStyle' in current theme",1346735752630
+error,log,,,"checkin_fragment.xml: Failed to find style 'textViewStyle' in current theme",1346735752650
+error,log,,,"checkin_fragment.xml: Failed to find style 'textViewStyle' in current theme",1346735752657
+error,log,,,"checkin_fragment.xml: Failed to find style 'textViewStyle' in current theme",1346735752658
+error,log,,,"checkin_fragment.xml: Failed to find style 'textViewStyle' in current theme",1346735752659
+error,log,,,"checkin_fragment.xml: Failed to find style 'textViewStyle' in current theme",1346735752660
+error,log,,,"checkin_fragment.xml: Failed to find style 'scrollViewStyle' in current theme",1346735752661
+error,log,,,"checkin_fragment.xml: Failed to find style 'scrollViewStyle' in current theme",1346735752662
+error,log,,,"checkin_fragment.xml: Failed to find style 'scrollViewStyle' in current theme",1346735752662
+error,log,,,"checkin_fragment.xml: Failed to find style 'textViewStyle' in current theme",1346735752669
+error,log,,,"checkin_fragment.xml: Failed to find style 'textViewStyle' in current theme",1346735752670
+error,log,,,"checkin_fragment.xml: Failed to find style 'textViewStyle' in current theme",1346735752671
+error,log,,,"checkin_fragment.xml: Failed to find style 'textViewStyle' in current theme",1346735752672
+error,log,,,"checkin_fragment.xml: Failed to find style 'textViewStyle' in current theme",1346735752673
+error,log,,,"checkin_fragment.xml: Failed to find style 'textViewStyle' in current theme",1346735752674
+error,log,,,"checkin_fragment.xml: Failed to find style 'textViewStyle' in current theme",1346735752675
+error,log,,,"checkin_fragment.xml: Failed to find style 'textViewStyle' in current theme",1346735752676
+error,log,,,"checkin_fragment.xml: Failed to find style 'textViewStyle' in current theme",1346735752677
+error,log,,,"checkin_fragment.xml: Failed to find style 'buttonStyle' in current theme",1346735752678
+error,log,,,"checkin_fragment.xml: Failed to find style 'buttonStyle' in current theme",1346735752682
+error,log,,,"checkin_fragment.xml: Failed to find style 'buttonStyle' in current theme",1346735752683
+error,log,,,"checkin_fragment.xml: Failed to find style 'textViewStyle' in current theme",1346735752684
+error,log,,,"checkin_fragment.xml: Failed to find style 'textViewStyle' in current theme",1346735752685
+error,log,,,"checkin_fragment.xml: Failed to find style 'textViewStyle' in current theme",1346735752686
+error,log,,,"checkin_fragment.xml: ScrollView can host only one direct child",1346735752689
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.copy",1346735778560
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.cut",1346735778993
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.paste",1346735787390
+started,bundle,org.eclipse.mylyn.java.tasks,3.6.0.v20110608-1400,"org.eclipse.mylyn.java.tasks",1346735789382
+started,bundle,org.eclipse.wst.html.ui,1.0.602.v201202091936,"org.eclipse.wst.html.ui",1346735789449
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.file.save",1346735789869
+error,log,,,"checkin_fragment.xml: Failed to find style 'textViewStyle' in current theme",1346735791057
+error,log,,,"checkin_fragment.xml: Failed to find style 'textViewStyle' in current theme",1346735791058
+error,log,,,"checkin_fragment.xml: Failed to find style 'textViewStyle' in current theme",1346735791059
+error,log,,,"checkin_fragment.xml: Failed to find style 'scrollViewStyle' in current theme",1346735791060
+error,log,,,"checkin_fragment.xml: Failed to find style 'scrollViewStyle' in current theme",1346735791060
+error,log,,,"checkin_fragment.xml: Failed to find style 'scrollViewStyle' in current theme",1346735791061
+error,log,,,"checkin_fragment.xml: Failed to find style 'textViewStyle' in current theme",1346735791069
+error,log,,,"checkin_fragment.xml: Failed to find style 'textViewStyle' in current theme",1346735791070
+error,log,,,"checkin_fragment.xml: Failed to find style 'textViewStyle' in current theme",1346735791072
+error,log,,,"checkin_fragment.xml: Failed to find style 'buttonStyle' in current theme",1346735791073
+error,log,,,"checkin_fragment.xml: Failed to find style 'buttonStyle' in current theme",1346735791078
+error,log,,,"checkin_fragment.xml: Failed to find style 'buttonStyle' in current theme",1346735791079
+error,log,,,"checkin_fragment.xml: Failed to find style 'buttonStyle' in current theme",1346735791080
+error,log,,,"checkin_fragment.xml: Failed to find style 'buttonStyle' in current theme",1346735791085
+error,log,,,"checkin_fragment.xml: Failed to find style 'buttonStyle' in current theme",1346735791086
+error,log,,,"checkin_fragment.xml: Failed to find style 'buttonStyle' in current theme",1346735791087
+error,log,,,"checkin_fragment.xml: Failed to find style 'buttonStyle' in current theme",1346735791092
+error,log,,,"checkin_fragment.xml: Failed to find style 'buttonStyle' in current theme",1346735791093
+error,log,,,"checkin_fragment.xml: Failed to find style 'textViewStyle' in current theme",1346735791095
+error,log,,,"checkin_fragment.xml: Failed to find style 'textViewStyle' in current theme",1346735791095
+error,log,,,"checkin_fragment.xml: Failed to find style 'textViewStyle' in current theme",1346735791097
+error,log,,,"checkin_fragment.xml: Failed to find style 'textViewStyle' in current theme",1346735791098
+error,log,,,"checkin_fragment.xml: Failed to find style 'textViewStyle' in current theme",1346735791098
+error,log,,,"checkin_fragment.xml: Failed to find style 'textViewStyle' in current theme",1346735791099
+error,log,,,"checkin_fragment.xml: Failed to find style 'textViewStyle' in current theme",1346735791100
+error,log,,,"checkin_fragment.xml: Failed to find style 'textViewStyle' in current theme",1346735791100
+error,log,,,"checkin_fragment.xml: Failed to find style 'textViewStyle' in current theme",1346735791101
+error,log,,,"checkin_fragment.xml: Failed to find style 'buttonStyle' in current theme",1346735791102
+error,log,,,"checkin_fragment.xml: Failed to find style 'buttonStyle' in current theme",1346735791108
+error,log,,,"checkin_fragment.xml: Failed to find style 'buttonStyle' in current theme",1346735791115
+error,log,,,"checkin_fragment.xml: Failed to find style 'textViewStyle' in current theme",1346735791123
+error,log,,,"checkin_fragment.xml: Failed to find style 'textViewStyle' in current theme",1346735791123
+error,log,,,"checkin_fragment.xml: Failed to find style 'textViewStyle' in current theme",1346735791124
+error,log,,,"checkin_fragment.xml: Failed to find style 'textViewStyle' in current theme",1346735791125
+error,log,,,"checkin_fragment.xml: Failed to find style 'textViewStyle' in current theme",1346735791126
+error,log,,,"checkin_fragment.xml: Failed to find style 'textViewStyle' in current theme",1346735791127
+error,log,,,"checkin_fragment.xml: Failed to find style 'textViewStyle' in current theme",1346735791128
+error,log,,,"checkin_fragment.xml: Failed to find style 'textViewStyle' in current theme",1346735791129
+error,log,,,"checkin_fragment.xml: Failed to find style 'textViewStyle' in current theme",1346735791130
+error,log,,,"checkin_fragment.xml: Failed to find style 'textViewStyle' in current theme",1346735791131
+error,log,,,"checkin_fragment.xml: Failed to find style 'textViewStyle' in current theme",1346735791132
+error,log,,,"checkin_fragment.xml: Failed to find style 'textViewStyle' in current theme",1346735791133
+error,log,,,"checkin_fragment.xml: Failed to find style 'scrollViewStyle' in current theme",1346735791134
+error,log,,,"checkin_fragment.xml: Failed to find style 'scrollViewStyle' in current theme",1346735791135
+error,log,,,"checkin_fragment.xml: Failed to find style 'scrollViewStyle' in current theme",1346735791135
+error,log,,,"checkin_fragment.xml: Failed to find style 'textViewStyle' in current theme",1346735791137
+error,log,,,"checkin_fragment.xml: Failed to find style 'textViewStyle' in current theme",1346735791138
+error,log,,,"checkin_fragment.xml: Failed to find style 'textViewStyle' in current theme",1346735791139
+error,log,,,"checkin_fragment.xml: Failed to find style 'textViewStyle' in current theme",1346735791139
+error,log,,,"checkin_fragment.xml: Failed to find style 'textViewStyle' in current theme",1346735791140
+error,log,,,"checkin_fragment.xml: Failed to find style 'textViewStyle' in current theme",1346735791141
+error,log,,,"checkin_fragment.xml: Failed to find style 'textViewStyle' in current theme",1346735791142
+error,log,,,"checkin_fragment.xml: Failed to find style 'textViewStyle' in current theme",1346735791143
+error,log,,,"checkin_fragment.xml: Failed to find style 'textViewStyle' in current theme",1346735791144
+error,log,,,"checkin_fragment.xml: Failed to find style 'buttonStyle' in current theme",1346735791145
+error,log,,,"checkin_fragment.xml: Failed to find style 'buttonStyle' in current theme",1346735791146
+error,log,,,"checkin_fragment.xml: Failed to find style 'buttonStyle' in current theme",1346735791147
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.delete",1346735796320
+opened,editor,com.android.ide.eclipse.adt,20.0.3.v201208082019-427395,"com.android.ide.eclipse.editors.CommonXmlEditor",1346735798071
+activated,editor,com.android.ide.eclipse.adt,20.0.3.v201208082019-427395,"com.android.ide.eclipse.editors.CommonXmlEditor",1346735798114
+activated,editor,com.android.ide.eclipse.adt,20.0.3.v201208082019-427395,"com.android.ide.eclipse.editors.CommonXmlEditor",1346735830815
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.undo",1346735833305
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.undo",1346735834288
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.undo",1346735834689
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.undo",1346735835225
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.undo",1346735835655
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.undo",1346735836081
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.undo",1346735836591
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.file.save",1346735837688
+error,log,,,"checkin_fragment.xml: Failed to find style 'textViewStyle' in current theme",1346735838617
+error,log,,,"checkin_fragment.xml: Failed to find style 'textViewStyle' in current theme",1346735838618
+error,log,,,"checkin_fragment.xml: Failed to find style 'textViewStyle' in current theme",1346735838618
+error,log,,,"checkin_fragment.xml: Failed to find style 'scrollViewStyle' in current theme",1346735838619
+error,log,,,"checkin_fragment.xml: Failed to find style 'scrollViewStyle' in current theme",1346735838619
+error,log,,,"checkin_fragment.xml: Failed to find style 'scrollViewStyle' in current theme",1346735838620
+error,log,,,"checkin_fragment.xml: Failed to find style 'textViewStyle' in current theme",1346735838632
+error,log,,,"checkin_fragment.xml: Failed to find style 'textViewStyle' in current theme",1346735838632
+error,log,,,"checkin_fragment.xml: Failed to find style 'textViewStyle' in current theme",1346735838633
+error,log,,,"checkin_fragment.xml: Failed to find style 'buttonStyle' in current theme",1346735838634
+error,log,,,"checkin_fragment.xml: Failed to find style 'buttonStyle' in current theme",1346735838637
+error,log,,,"checkin_fragment.xml: Failed to find style 'buttonStyle' in current theme",1346735838638
+error,log,,,"checkin_fragment.xml: Failed to find style 'buttonStyle' in current theme",1346735838639
+error,log,,,"checkin_fragment.xml: Failed to find style 'buttonStyle' in current theme",1346735838641
+error,log,,,"checkin_fragment.xml: Failed to find style 'buttonStyle' in current theme",1346735838642
+error,log,,,"checkin_fragment.xml: Failed to find style 'buttonStyle' in current theme",1346735838643
+error,log,,,"checkin_fragment.xml: Failed to find style 'buttonStyle' in current theme",1346735838645
+error,log,,,"checkin_fragment.xml: Failed to find style 'buttonStyle' in current theme",1346735838645
+error,log,,,"checkin_fragment.xml: Failed to find style 'textViewStyle' in current theme",1346735838646
+error,log,,,"checkin_fragment.xml: Failed to find style 'textViewStyle' in current theme",1346735838647
+error,log,,,"checkin_fragment.xml: Failed to find style 'textViewStyle' in current theme",1346735838647
+error,log,,,"checkin_fragment.xml: Failed to find style 'textViewStyle' in current theme",1346735838648
+error,log,,,"checkin_fragment.xml: Failed to find style 'textViewStyle' in current theme",1346735838648
+error,log,,,"checkin_fragment.xml: Failed to find style 'textViewStyle' in current theme",1346735838649
+error,log,,,"checkin_fragment.xml: Failed to find style 'textViewStyle' in current theme",1346735838649
+error,log,,,"checkin_fragment.xml: Failed to find style 'textViewStyle' in current theme",1346735838650
+error,log,,,"checkin_fragment.xml: Failed to find style 'textViewStyle' in current theme",1346735838650
+error,log,,,"checkin_fragment.xml: Failed to find style 'buttonStyle' in current theme",1346735838651
+error,log,,,"checkin_fragment.xml: Failed to find style 'buttonStyle' in current theme",1346735838654
+error,log,,,"checkin_fragment.xml: Failed to find style 'buttonStyle' in current theme",1346735838655
+error,log,,,"checkin_fragment.xml: Failed to find style 'textViewStyle' in current theme",1346735838656
+error,log,,,"checkin_fragment.xml: Failed to find style 'textViewStyle' in current theme",1346735838657
+error,log,,,"checkin_fragment.xml: Failed to find style 'textViewStyle' in current theme",1346735838657
+error,log,,,"checkin_fragment.xml: Failed to find style 'textViewStyle' in current theme",1346735838658
+error,log,,,"checkin_fragment.xml: Failed to find style 'textViewStyle' in current theme",1346735838658
+error,log,,,"checkin_fragment.xml: Failed to find style 'textViewStyle' in current theme",1346735838659
+error,log,,,"checkin_fragment.xml: Failed to find style 'textViewStyle' in current theme",1346735838660
+error,log,,,"checkin_fragment.xml: Failed to find style 'textViewStyle' in current theme",1346735838661
+error,log,,,"checkin_fragment.xml: Failed to find style 'textViewStyle' in current theme",1346735838661
+error,log,,,"checkin_fragment.xml: Failed to find style 'scrollViewStyle' in current theme",1346735838662
+error,log,,,"checkin_fragment.xml: Failed to find style 'scrollViewStyle' in current theme",1346735838662
+error,log,,,"checkin_fragment.xml: Failed to find style 'scrollViewStyle' in current theme",1346735838663
+error,log,,,"checkin_fragment.xml: Failed to find style 'textViewStyle' in current theme",1346735838668
+error,log,,,"checkin_fragment.xml: Failed to find style 'textViewStyle' in current theme",1346735838668
+error,log,,,"checkin_fragment.xml: Failed to find style 'textViewStyle' in current theme",1346735838669
+error,log,,,"checkin_fragment.xml: Failed to find style 'textViewStyle' in current theme",1346735838669
+error,log,,,"checkin_fragment.xml: Failed to find style 'textViewStyle' in current theme",1346735838670
+error,log,,,"checkin_fragment.xml: Failed to find style 'textViewStyle' in current theme",1346735838670
+error,log,,,"checkin_fragment.xml: Failed to find style 'textViewStyle' in current theme",1346735838679
+error,log,,,"checkin_fragment.xml: Failed to find style 'textViewStyle' in current theme",1346735838680
+error,log,,,"checkin_fragment.xml: Failed to find style 'textViewStyle' in current theme",1346735838681
+error,log,,,"checkin_fragment.xml: Failed to find style 'buttonStyle' in current theme",1346735838681
+error,log,,,"checkin_fragment.xml: Failed to find style 'buttonStyle' in current theme",1346735838684
+error,log,,,"checkin_fragment.xml: Failed to find style 'buttonStyle' in current theme",1346735838685
+error,log,,,"checkin_fragment.xml: Failed to find style 'textViewStyle' in current theme",1346735838686
+error,log,,,"checkin_fragment.xml: Failed to find style 'textViewStyle' in current theme",1346735838686
+error,log,,,"checkin_fragment.xml: Failed to find style 'textViewStyle' in current theme",1346735838687
+activated,editor,com.android.ide.eclipse.adt,20.0.3.v201208082019-427395,"com.android.ide.eclipse.editors.CommonXmlEditor",1346735843784
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.copy",1346735864533
+activated,editor,com.android.ide.eclipse.adt,20.0.3.v201208082019-427395,"com.android.ide.eclipse.editors.CommonXmlEditor",1346735865813
+activated,editor,com.android.ide.eclipse.adt,20.0.3.v201208082019-427395,"com.android.ide.eclipse.editors.CommonXmlEditor",1346735873663
+activated,editor,com.android.ide.eclipse.adt,20.0.3.v201208082019-427395,"com.android.ide.eclipse.editors.CommonXmlEditor",1346735877645
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.paste",1346735879577
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.file.save",1346735880400
+activated,editor,com.android.ide.eclipse.adt,20.0.3.v201208082019-427395,"com.android.ide.eclipse.editors.CommonXmlEditor",1346735889045
+activated,editor,com.android.ide.eclipse.adt,20.0.3.v201208082019-427395,"com.android.ide.eclipse.editors.CommonXmlEditor",1346735902829
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.delete",1346735907228
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.delete",1346735909959
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.file.save",1346735910943
+error,log,,,"checkin_fragment.xml: Failed to find style 'textViewStyle' in current theme",1346735912054
+error,log,,,"checkin_fragment.xml: Failed to find style 'textViewStyle' in current theme",1346735912055
+error,log,,,"checkin_fragment.xml: Failed to find style 'textViewStyle' in current theme",1346735912056
+error,log,,,"checkin_fragment.xml: Failed to find style 'scrollViewStyle' in current theme",1346735912057
+error,log,,,"checkin_fragment.xml: Failed to find style 'scrollViewStyle' in current theme",1346735912057
+error,log,,,"checkin_fragment.xml: Failed to find style 'scrollViewStyle' in current theme",1346735912057
